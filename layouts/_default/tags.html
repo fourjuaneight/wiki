@@ -1,0 +1,30 @@
+{{ define "heading" }}
+  {{ $tagName := .Name | replaceRE "-" " " }}
+  {{ $tagSplit := $tagName | countwords }}
+  {{ $tagLength := cond (eq $tagSplit 1) ($tagName | len) 0 }}
+  {{ $tagIsWide := gt ($tagName | strings.Count "o") 1 }}
+  {{ $tagIsLong := gt $tagLength 8 }}
+
+  <h1
+    class="font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
+    data-line="slim"
+    {{ if (and $tagIsWide $tagIsLong) }}
+    style="--max-vw: 80vw;"
+    {{ end }}
+  >
+    {{ $tagName }}
+  </h1>
+{{ end }}
+{{ define "main" }}
+  {{ range .Pages }}
+    {{ .Render "li" }}
+  {{ end }}
+  <section class="footer mt-auto w-full">
+    {{/*
+      For whatever reason, the image will not render without rendering the data as plain text in the html. It is hidden via CSS, because apparently using a class name (Tailwind) also breaks it.
+    */}}
+    <span>{{ $.Site.Data.illustrations.tags }}</span>
+    {{ partial "img.html" (dict "src" $.Site.Data.illustrations.tags.img "alt" $.Site.Data.illustrations.tags.alt "size" "1024") }}
+  </section>
+  {{ partial "party-mode.html" . }}
+{{ end }}

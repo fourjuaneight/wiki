@@ -1,0 +1,9 @@
+<article class="relative w-full">
+  <h2 class="mr-auto">
+    <a class="focus:underline hover:underline no-underline" href="{{ .Permalink }}">
+      {{ .Title }}
+    </a>
+  </h2>
+  {{ partial "meta.html" . }}
+  <p>{{ .Params.description }}</p>
+</article>

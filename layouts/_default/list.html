@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1
+    class="font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
+    data-line="slim"
+  >
+    Recent Entries
+  </h1>
+  {{ range .Data.Pages }}
+    {{ .Render "li"}}
+  {{ end }}
+  {{ partial "intro.html" . }}
+  {{ partial "party-mode.html" . }}
+{{ end }}

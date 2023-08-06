@@ -1,0 +1,50 @@
+{{ $navLinks := sub (len .Site.Data.nav.footer) 1 }}
+<footer class="bg-background-dark border-0 border-solid border-t-under border-meta grid mt-8 w-full">
+  <section
+    class="col-start-2 flex flex-wrap-reverse items-center justify-start row-start-2 w-full"
+  >
+    <ul
+      class="auto-cols-auto gap-x-1 grid grid-rows-1 items-center list-none ml-0 mr-auto my-0 pl-0 pr-4 py-0 xxs:gap-x-3"
+    >
+      <li class="m-0 row-start-1">
+        <p class="m-0 text-sm">
+          &copy; 2017-{{ time.Now.Format "2006" }} {{ .Site.Title }}
+        </p>
+      </li>
+      <li class="m-0 row-start-1">
+        <p class="m-0 text-meta text-sm" aria-hidden="true">~</p>
+      </li>
+      <li class="m-0 row-start-1">
+        <a
+          class="no-underline text-sm"
+          href="https://github.com/fourjuaneight/wiki"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source
+        </a>
+      </li>
+    </ul>
+    <nav class="w-auto">
+      <ul
+        class="auto-cols-min gap-x-1 grid grid-rows-1 items-center list-none m-0 p-0 xs:gap-x-3 xxs:gap-x-2"
+      >
+        {{ range $i, $item := .Site.Data.nav.footer }}
+          <li class="m-0 row-start-1" data-item="{{ $i }}">
+            <a
+              class="focus:underline hover:underline no-underline text-sm"
+              href="{{ $item.link | absURL }}"
+            >
+              {{ $item.label }}
+            </a>
+          </li>
+          {{ if ne $i $navLinks }}
+            <li class="m-0 row-start-1">
+              <p class="m-0 text-meta text-sm" aria-hidden="true">&#8226;</p>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    </nav>
+  </section>
+</footer>

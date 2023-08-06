@@ -1,0 +1,97 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "Everything I know",
+  "scripts": {
+    "build:chroma": "hugo gen chromastyles > assets/css/syntax.css",
+    "build:fallback": "npm run build:prod || npm run build:prod",
+    "build:local": "npm run tw && hugo --debug -e local -D --gc --log --minify -v --verboseLog",
+    "build:prod": "run-p tw partytown && hugo -e production --gc --minify --log --minify -v --verboseLog",
+    "clean:node": "rm -rf node_modules",
+    "clean": "rm -rf dist",
+    "dev": "concurrently -n \"DEV,TW\" -c \"#ff4088,#38bdf8\" \"hugo --debug -e local -D --disableFastRender --gc --log --minify -v --verboseLog serve\" \"npm run tw -- --watch\"",
+    "format": "prettier --write \"assets/**/*.{ts,js,css,scss}\"",
+    "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.{ts,js}\"",
+    "partytown": "partytown copylib static/~partytown",
+    "post": "go run scripts/postbuild.go",
+    "serve": "serve -l 2323 dist",
+    "start": "npm run dev",
+    "tsc": "tsc",
+    "tw": "tailwindcss --no-autoprefixer -i ./assets/css/tailwind.css -o ./assets/css/tw.css",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fourjuaneight/wiki.git"
+  },
+  "author": "Juan Villela <juan@villela.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fourjuaneight/wiki/issues"
+  },
+  "homepage": "https://github.com/fourjuaneight/wiki#readme",
+  "dependencies": {
+    "@builder.io/partytown": "^0.8.0",
+    "flamethrower-router": "0.0.0-meme.12"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@babel/register": "^7.18.9",
+    "babel-loader": "^8.3.0",
+    "browserslist": "^4.21.4",
+    "concurrently": "^6.5.1",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.14",
+    "esbuild": "^0.14.54",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "8.0.1",
+    "lint-staged": "^10.5.4",
+    "npm-run-all": "^4.1.5",
+    "pnpm": "^7.6.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.3",
+    "rome": "11.0.0",
+    "serve": "^12.0.1",
+    "tailwindcss": "^3.2.4",
+    "ts-node": "^9.1.1",
+    "tsup": "^5.12.9",
+    "typescript": "^4.9.4"
+  },
+  "browserslist": {
+    "production": [
+      ">3%",
+      "not dead",
+      "defaults",
+      "safari >= 12.4",
+      "ios >= 12.4",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "lint-staged": {
+    "*.+(ts|css|scss)": [
+      "npm run format"
+    ],
+    "*.ts": [
+      "npm run lint"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

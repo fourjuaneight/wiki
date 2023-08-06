@@ -1,0 +1,18 @@
+{{ define "main" }}
+<h1
+  class="font-medium mb-12 mt-24 mx-auto xs:mb-10 xs:mt-32 xs:text-8xl text-7xl text-center"
+>
+  404 - Not Found
+</h1>
+<section class="footer w-full">
+  {{ partial "img.html" (dict "src" "logo.png" "alt" "Snorlax laying on his back, typing on a laptop on his belly." "size" "1024") }}
+</section>
+{{ partial "party-mode.html" . }}
+{{ end }}
+{{ define "styles" }}
+<style>
+  div.noise {
+    animation: grain 0.4s steps(1) infinite;
+  }
+</style>
+{{ end }}

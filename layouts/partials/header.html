@@ -1,0 +1,24 @@
+<header class="bg-background-dark border-0 border-solid border-b-under border-meta grid mb-8 w-full">
+  <section
+    class="col-start-2 flex flex-col items-center justify-center row-start-2 sm:flex-row sm:justify-between w-full"
+  >
+    <a
+      href="{{ .Site.BaseURL }}"
+      class="site-name focus:no-underline focus:text-secondary font-bold font-mdNichrome hover:no-underline hover:text-secondary no-underline text-center text-foreground text-4xl uppercase"
+      data-line="slim"
+    >
+      {{ .Site.Title }}
+    </a>
+    <nav class="gap-x-2 grid grid-cols-3-min-content grid-rows-1 items-center mt-2 sm:m-0 w-auto xs:gap-x-4">
+      {{ range .Site.Data.nav.header }}
+      <a
+        href="{{ .link | absURL }}"
+        class="focus:no-underline focus:text-secondary font-bold font-mdNichrome hover:no-underline hover:text-secondary no-underline text-center text-4xl uppercase"
+        data-line="slim"
+      >
+        {{ .label }}
+      </a>
+      {{ end }}
+    </nav>
+  </section>
+</header>

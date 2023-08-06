@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /social-img/
+Disallow: /tags/
+Sitemap: https://wiki.villela.co/sitemap.xml
+Host: https://wiki.villela.co

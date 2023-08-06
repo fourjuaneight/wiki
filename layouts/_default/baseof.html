@@ -1,0 +1,47 @@
+{{ $bkTag := cond (eq .Section "bookmarks") .Title "none" }}
+
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+  {{ partial "head.html" . }}
+  <body data-table="{{ $bkTag }}" data-party="false">
+    {{ partial "header.html" . }}
+
+    <main class="grid relative w-full">
+      {{ block "heading" . }}{{ end }}
+      <div
+        class="col-start-2 flex flex-col items-start justify-start row-start-2 w-full"
+      >
+        {{ block "main" . }}{{ end }}
+      </div>
+    </main>
+
+    {{ partial "footer.html" . }}
+
+    {{ if hugo.Environment | ne "local" }}
+      {{ partial "sw.html" . }}
+    {{ end }}
+
+    {{ block "styles" . }}{{ end }}
+    {{ block "scripts" . }}{{ end }}
+
+    {{/*  Transpiled scripts  */}}
+    {{ $opts := dict "minified" true "compact" true }}
+
+    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | babel -}}
+    {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
+
+    {{- $noiseTS := resources.Get "scripts/noise.ts" | babel -}}
+    {{ $noise := slice $noiseTS | resources.Concat "noise.js" }}
+
+    {{ $scripts := slice $noise $partyMode | resources.Concat "scripts.js" | resources.Minify }}
+
+    {{- $noiseWWTS := resources.Get "scripts/noise.ww.ts" | babel -}}
+    {{ $noiseWW := slice $noiseWWTS | resources.Concat "noise.ww.js" | resources.Minify }}
+
+    <script
+      defer
+      src="{{ $scripts.Permalink }}"
+      data-worker="{{ $noiseWW.Permalink }}"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+{{ $pre := cond (eq .Kind "term") "#" (cond (eq .Section "bookmarks") (print (title .Section) ": ") "" ) }}
+{{ $check := cond (eq .Params.og nil) .Title .Params.og }}
+{{ $title := print $pre $check }}
+{{ partial "social-image.html" (dict "title" $title) }}

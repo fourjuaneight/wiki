@@ -1,0 +1,167 @@
+@font-face {
+  font-family: Dank Mono;
+  src: url(/fonts/Dank_Mono-Regular.woff2) format('woff2'),
+    url(/fonts/Dank_Mono-Regular.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dank Mono;
+  src: url(/fonts/Dank_Mono-Italic.woff2) format('woff2'),
+    url(/fonts/Dank_Mono-Italic.woff) format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* colors */
+  --background: #ffffff;
+  --background-dark: #dddddd;
+  --foreground: #333333;
+  --gradient: linear-gradient(
+    hsl(20, 4%, 96%),
+    hsl(22, 6%, 94%),
+    hsl(24, 6%, 92%),
+    hsl(26, 8%, 90%)
+  );
+  --meta: #595959;
+  --primary: #9333ea;
+  --primary-transparent: rgba(146, 51, 234, 0.5);
+  --selection: #999;
+  --secondary: #0a799d;
+  --secondary-transparent: rgba(10, 120, 157, 0.5);
+  --tertiary: #597480;
+  --tertiary-transparent: rgba(89, 116, 128, 0.5);
+  /* values */
+  --duration: 208ms;
+  --footer-height: calc(59.5px + 2rem);
+  --header-height: 90.5px;
+  --max-vw: 100vw;
+  --transition: cubic-bezier(0.155, 0.64, 0.24, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #333333;
+    --background-dark: #1a1a1a;
+    --foreground: #f5f4f2;
+    --gradient: linear-gradient(
+      hsl(0, 0%, 0%),
+      hsl(0, 0%, 2%),
+      hsl(0, 0%, 4%),
+      hsl(0, 0%, 6%),
+      hsl(0, 0%, 8%),
+      hsl(0, 0%, 10%),
+      hsl(0, 0%, 12%),
+      hsl(0, 0%, 14%),
+      hsl(0, 0%, 16%),
+      hsl(0, 0%, 18%),
+      hsl(0, 0%, 20%)
+    );
+    --meta: #c2c2c2;
+    --primary: #c390f3;
+    --primary-transparent: rgba(195, 144, 243, 0.5);
+    --secondary: #bdecfb;
+    --secondary-transparent: rgba(189, 235, 251, 0.5);
+    --tertiary: #859faa;
+    --tertiary-transparent: rgba(133, 159, 170, 0.5);
+  }
+}
+
+::-moz-selection {
+  background-color: var(--selection);
+}
+
+::selection {
+  background-color: var(--selection);
+}
+
+*:focus {
+  outline-color: var(--primary);
+}
+
+html,
+body {
+  background-color: var(--background);
+}
+
+html {
+  box-sizing: border-box;
+  font-feature-settings: 'liga' 1;
+  font-size: 16px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--gradient);
+  color: var(--foreground);
+  font-family: Nunito, sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Dank Mono, monospace !important;
+}
+
+main,
+footer {
+  grid-template-columns: minmax(1rem, 1fr) minmax(18rem, 60rem) minmax(
+      1rem,
+      1fr
+    );
+}
+
+header {
+  grid-template-columns: 1rem auto 1rem;
+  grid-template-rows: 1rem repeat(2, min-content) 1rem;
+}
+
+header > nav > ul {
+  padding-bottom: 0.0625rem;
+}
+
+main {
+  grid-template-rows: min-content auto 0.5rem;
+  min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
+}
+
+main > h1 {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --header-height: 83.3px;
+  }
+}
+
+footer {
+  grid-template-rows: minmax(1rem, 1fr) min-content minmax(1rem, 1fr);
+}
+
+.footer > span {
+  display: none;
+}
+
+.sr-visible {
+  border-width: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

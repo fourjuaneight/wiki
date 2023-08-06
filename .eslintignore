@@ -1,0 +1,9 @@
+.cache
+.netlify
+build
+coverage
+dist
+node_modules
+public
+assets/js/sw.js
+assets/js/partytown.js

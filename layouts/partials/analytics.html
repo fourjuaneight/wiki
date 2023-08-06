@@ -1,0 +1,15 @@
+{{ $site := replace .Site.BaseURL "https://" "" }}
+<!-- Partytown -->
+<script>
+  partytown = {
+    forward: ["dataLayer.push"]
+  }
+</script>
+<script type="text/javascript" src="/~partytown/partytown.js"></script>
+<!-- Plausible -->
+<script
+  type="text/partytown"
+  async
+  data-domain="{{ $site }}"
+  src="https://plausible.io/js/plausible.js"
+></script>

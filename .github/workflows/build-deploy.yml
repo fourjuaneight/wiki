@@ -1,0 +1,151 @@
+name: Build and Deploy
+
+# on: [push]
+
+permissions:
+  contents: read
+  deployments: write
+  id-token: write
+
+jobs:
+  build:
+    name: Build Site
+    runs-on: ubuntu-20.04
+    env:
+      HUGO_VERSION: 0.112.7
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Use Node 16.15.1
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.15.1
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+        id: pnpm-install
+        with:
+          version: 8
+          run_install: |
+            - args: [--no-frozen-lockfile]
+
+      - name: Get pnpm store directory
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store- --no-frozen-lockfile
+
+      - name: Install Dart Sass Embedded
+        run: sudo snap install dart-sass-embedded
+
+      - name: Use Go 1.20.6
+        uses: actions/setup-go@v4
+        with:
+          go-version: '>=1.20.6'
+
+      - name: Install Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Clean Output
+        run: npm run clean
+
+      - name: Build Site
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: npm run build:prod
+
+      - name: Upload Output
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: ./dist
+
+  social:
+    name: Generate Social Images
+    runs-on: ubuntu-20.04
+    needs: build
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Use Node 16.15.1
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.15.1
+
+      - name: Install serve
+        run: npm i -g serve@12.0.1
+
+      - name: Download Output
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          # this is done to match the expected output directory
+          path: ~/work/blog/blog/dist
+
+      - name: Use Go 1.20.6
+        uses: actions/setup-go@v4
+        with:
+          go-version: '>=1.20.6'
+
+      - name: Install Go Rod Dependencies
+        run: sudo apt-get install -y libgbm-dev
+
+      - name: Install Script Dependencies
+        run: go mod download
+
+      - name: Build binary
+        run: go build scripts/postbuild.go
+
+      - name: Run Social Images Script
+        run: npm run post
+
+      - name: Upload Output
+        uses: actions/upload-artifact@v3
+        with:
+          name: dist
+          path: ~/work/blog/blog/dist
+
+  deploy:
+    name: Deploy to Cloudflare Pages
+    runs-on: ubuntu-20.04
+    env:
+      CLOUDFLARE_API_TOKEN: ${{secrets.CLOUDFLARE_API_TOKEN}}
+      ACCOUNT_ID: ${{secrets.ACCOUNT_ID}}
+      PROJECT_NAME: ${{secrets.PROJECT_NAME}}
+      DIRECTORY: ${{secrets.DIRECTORY}}
+      GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+    needs: [build, social]
+    steps:
+      - name: Download Output
+        uses: actions/download-artifact@v3
+        with:
+          name: dist
+          # this is done to match the expected output directory
+          path: ~/work/blog/blog/dist
+
+      - name: Publish
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{secrets.CLOUDFLARE_API_TOKEN}}
+          accountId: ${{secrets.ACCOUNT_ID}}
+          projectName: ${{secrets.PROJECT_NAME}}
+          directory: ${{secrets.DIRECTORY}}
+          gitHubToken: ${{secrets.GITHUB_TOKEN}}

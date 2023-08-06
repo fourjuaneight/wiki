@@ -1,0 +1,26 @@
+---
+header:
+  - label: Bookmarks
+    link: 'bookmarks'
+    external: true
+  - label: About
+    link: 'about'
+footer:
+  - label: Bookmarks
+    link: 'bookmarks'
+  - label: Shelf
+    link: 'shelf'
+  - label: MTG
+    link: mtg
+  - label: Uses
+    link: uses
+social:
+  - label: Mastodon
+    link: https://mastodon.social/@fourjuaneight
+    linkback: true
+  - label: Twitter
+    link: https://twitter.com/fourjuaneight
+    external: true
+  - label: GitHub
+    link: https://github.com/fourjuaneight
+    external: true

@@ -1,0 +1,10 @@
+---
+home:
+  img: hero.png
+  imgAlt: hero-clean.png
+  alt: Illustration of Juan laying on a sofa, coding on a laptop. While being levitated by a wizard cat.
+  heading: Hi, I'm Juan
+  copy: Senior Full Stack Web Developer. This is where I ramble about automation, web development, data hoarding, and interesting stuff I find online.
+tags:
+  img: keyboard.png
+  alt: Illustration of a light purple mechanical keyboard.

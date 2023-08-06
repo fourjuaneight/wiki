@@ -1,0 +1,35 @@
+{{ define "heading" }}
+  <h1
+    class="post-title font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
+    data-line="slim"
+  >
+    {{ .Title }}
+  </h1>
+{{ end }}
+{{ define "main" }}
+  <article class="w-full">
+    <span itemprop="name" class="sr-visible">Juan Villela</span>
+    {{ partial "meta.html" . }}
+    {{ if ne .Params.hero nil }}
+      <section class="hero">
+        {{ partial "img.html" (dict "src" .Params.hero.img "alt" .Params.hero.alt "size" "1024") }}
+      </section>
+    {{ end }}
+    <section class="content">{{ .Content }}</section>
+    {{ if ne .Params.footer nil }}
+      <section class="footer">
+        {{ partial "img.html" (dict "src" .Params.footer.img "alt" .Params.footer.alt "size" "1024") }}
+      </section>
+    {{ end }}
+    {{ partial "party-mode.html" . }}
+  </article>
+{{ end }}
+{{ define "styles" }}
+{{ if eq .Title "Looks like you're offline." }}
+  <style>
+    div.noise {
+      animation: grain 0.4s steps(1) infinite;
+    }
+  </style>
+{{ end }}
+{{ end }}

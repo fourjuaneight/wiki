@@ -14,13 +14,15 @@ Here's how it works:
 
 ## Audio Quality
 
-1. **Sampling Rate**: CDs use a sampling rate of 44.1 kHz, meaning that the audio is sampled 44,100 times per second. This rate is chosen to capture all frequencies that can be heard by the human ear, ensuring a faithful reproduction of the original sound.
+1. **Sampling Rate**: CDs use a sampling rate of **44.1 kHz**, meaning that the audio is sampled 44,100 times per second. This rate is chosen to capture all frequencies that can be heard by the human ear, ensuring a faithful reproduction of the original sound.
 
-2. **Bit Depth**: CDs have a 16-bit depth, which means that each sample can represent 65,536 different levels of amplitude. This high bit depth allows for a very detailed representation of the sound wave, capturing subtle nuances and dynamics. It also provides a wide dynamic range, meaning that CDs can reproduce both very quiet and very loud sounds without distortion.
+2. **Bit Depth**: CDs have a **16-bit** depth, which means that each sample can represent 65,536 different levels of amplitude. This high bit depth allows for a very detailed representation of the sound wave, capturing subtle nuances and dynamics. It also provides a wide dynamic range, meaning that CDs can reproduce both very quiet and very loud sounds without distortion.
 
-3. **No Compression**: Unlike some digital formats that compress audio to save space, CD audio is uncompressed. This means that no information is lost, preserving the full quality of the original recording.
+3. **Bit Rate**: The bit rate of CDs is set at **1411 kbps** for **stereo audio**.
 
-4. **Error Correction**: CDs include error correction technology that can detect and correct small errors that might occur during playback. This ensures a consistent and high-quality listening experience.
+4. **No Compression**: Unlike some digital formats that compress audio to save space, CD audio is uncompressed. This means that no information is lost, preserving the full quality of the original recording.
+
+5. **Error Correction**: CDs include error correction technology that can detect and correct small errors that might occur during playback. This ensures a consistent and high-quality listening experience.
 
 ## Longevity
 

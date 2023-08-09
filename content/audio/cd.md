@@ -4,25 +4,25 @@ CDs are a digital storage medium that uses a thin, circular disc to store data s
 
 Here's how it works:
 
-1. **Data Encoding**: Information is stored on the CD as a series of tiny bumps and flat areas called "pits" and "lands". These microscopic bumps are impressed onto the plastic, forming a single, continuous, extremely long spiral track of data. These represent the binary code of 0s and 1s that computers understand.
+- **Data Encoding**: Information is stored on the CD as a series of tiny bumps and flat areas called "pits" and "lands". These microscopic bumps are impressed onto the plastic, forming a single, continuous, extremely long spiral track of data. These represent the binary code of 0s and 1s that computers understand.
 
-2. **Reading the CD**: A CD drive uses a laser to read the CD. The laser shines on the disc, and the way the light reflects off the pits and lands is detected by a sensor. This reflection is translated into binary code, which is then converted into the music you hear or the files you see.
+- **Reading the CD**: A CD drive uses a laser to read the CD. The laser shines on the disc, and the way the light reflects off the pits and lands is detected by a sensor. This reflection is translated into binary code, which is then converted into the music you hear or the files you see.
 
-3. **Writing to a CD**: In writable CDs, the reflective layer can be altered by a more powerful laser. This laser can change the reflective properties of specific areas, creating a pattern of pits and lands that corresponds to the data being stored.
+- **Writing to a CD**: In writable CDs, the reflective layer can be altered by a more powerful laser. This laser can change the reflective properties of specific areas, creating a pattern of pits and lands that corresponds to the data being stored.
 
-4. **Error Correction**: CDs include error correction technology to ensure that small scratches or dust don't interfere with playback. This helps in maintaining the quality of the data.
+- **Error Correction**: CDs include error correction technology to ensure that small scratches or dust don't interfere with playback. This helps in maintaining the quality of the data.
 
 ## Audio Quality
 
-1. **Sampling Rate**: CDs use a sampling rate of **44.1 kHz**, meaning that the audio is sampled 44,100 times per second. This rate is chosen to capture all frequencies that can be heard by the human ear, ensuring a faithful reproduction of the original sound.
+- **Sampling Rate**: CDs use a sampling rate of **44.1 kHz**, meaning that the audio is sampled 44,100 times per second. This rate is chosen to capture all frequencies that can be heard by the human ear, ensuring a faithful reproduction of the original sound.
 
-2. **Bit Depth**: CDs have a **16-bit** depth, which means that each sample can represent 65,536 different levels of amplitude. This high bit depth allows for a very detailed representation of the sound wave, capturing subtle nuances and dynamics. It also provides a wide dynamic range, meaning that CDs can reproduce both very quiet and very loud sounds without distortion.
+- **Bit Depth**: CDs have a **16-bit** depth, which means that each sample can represent 65,536 different levels of amplitude. This high bit depth allows for a very detailed representation of the sound wave, capturing subtle nuances and dynamics. It also provides a wide dynamic range, meaning that CDs can reproduce both very quiet and very loud sounds without distortion.
 
-3. **Bit Rate**: The bit rate of CDs is set at **1411 kbps** for **stereo audio**.
+- **Bit Rate**: The bit rate of CDs is set at **1411 kbps** for **stereo audio**.
 
-4. **No Compression**: Unlike some digital formats that compress audio to save space, CD audio is uncompressed. This means that no information is lost, preserving the full quality of the original recording.
+- **No Compression**: Unlike some digital formats that compress audio to save space, CD audio is uncompressed. This means that no information is lost, preserving the full quality of the original recording.
 
-5. **Error Correction**: CDs include error correction technology that can detect and correct small errors that might occur during playback. This ensures a consistent and high-quality listening experience.
+- **Error Correction**: CDs include error correction technology that can detect and correct small errors that might occur during playback. This ensures a consistent and high-quality listening experience.
 
 ## Longevity
 
@@ -34,8 +34,8 @@ CDs were once thought to be nearly indestructible, but research has shown that t
 
 Storing CDs properly is essential for preserving their quality and longevity. Here are the best practices for storing CDs based on the guidelines provided by the National Archives:
 
-1. **Environment**: Store CDs in an area with stably low temperatures, low humidity, and protection from flooding, air pollutants, and sunlight. The ideal temperature range is 55-70 degrees Fahrenheit, and humidity should be within 30-55%. Avoid places with unregulated climates like attics or garages. Basements can be suitable if humidity levels are regulated.
+- **Environment**: Store CDs in an area with stably low temperatures, low humidity, and protection from flooding, air pollutants, and sunlight. The ideal temperature range is 55-70 degrees Fahrenheit, and humidity should be within 30-55%. Avoid places with unregulated climates like attics or garages. Basements can be suitable if humidity levels are regulated.
 
-2. **Placement**: CDs should be stored vertically in their plastic cases. Avoid exposure to sunlight or other sources of UV light, as recordable optical media are especially sensitive to these. Do not store CDs on the floor, where they could be exposed to water damage, insects, or rodents.
+- **Placement**: CDs should be stored vertically in their plastic cases. Avoid exposure to sunlight or other sources of UV light, as recordable optical media are especially sensitive to these. Do not store CDs on the floor, where they could be exposed to water damage, insects, or rodents.
 
-3. **Handling**: Don't use adhesive labels or solvent-based permanent markers on the discs. Markers specifically made for archiving optical discs are available and should be used if labeling is necessary.
+- **Handling**: Don't use adhesive labels or solvent-based permanent markers on the discs. Markers specifically made for archiving optical discs are available and should be used if labeling is necessary.

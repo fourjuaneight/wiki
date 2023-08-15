@@ -1,1 +1,4 @@
-# Wi-Fi
+---
+title: Wi-Fi
+draft: false
+---

@@ -1,1 +1,4 @@
-# Digital Data
+---
+title: Digital Data
+draft: false
+---

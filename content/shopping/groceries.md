@@ -1,1 +1,4 @@
-# Groceries
+---
+title: Groceries
+draft: false
+---

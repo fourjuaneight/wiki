@@ -1,4 +1,7 @@
-# Audio Hardware
+---
+title: Audio Hardware
+draft: false
+---
 
 ## DAC
 

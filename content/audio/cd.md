@@ -1,4 +1,7 @@
-# CDs
+---
+title: CDs
+draft: false
+---
 
 CDs are a digital storage medium that uses a thin, circular disc to store data such as music, photos, or files. The disc is made of a shiny, reflective material, usually, polycarbonate plastic (about 1.2 mm thick), coated with a thin layer of aluminum. An acrylic layer is then sprayed over the aluminum to protect it, and the label is printed onto the acrylic.
 

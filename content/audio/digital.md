@@ -1,4 +1,7 @@
-# Digital Audio
+---
+title: Digital Audio
+draft: false
+---
 
 Lossy and lossless audio compression are two methods used to reduce the size of audio files, each with its own technical characteristics, pros and cons, and real-world differences in audio quality.
 

@@ -1,1 +1,4 @@
-# GPG
+---
+title: GPG
+draft: false
+---

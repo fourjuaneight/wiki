@@ -1,1 +1,4 @@
-# Clothes
+---
+title: Clothes
+draft: false
+---

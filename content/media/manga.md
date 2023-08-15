@@ -1,1 +1,4 @@
-# Manga
+---
+title: Manga
+draft: false
+---

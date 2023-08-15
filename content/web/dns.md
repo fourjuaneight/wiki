@@ -1,1 +1,4 @@
-# DNS
+---
+title: DNS
+draft: false
+---

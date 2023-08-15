@@ -1,1 +1,4 @@
-# EXIF Data
+---
+title: EXIF Data
+draft: false
+---

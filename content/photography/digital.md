@@ -1,1 +1,4 @@
-# Digital Photography
+---
+title: Digital Photography
+draft: false
+---

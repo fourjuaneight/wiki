@@ -1,1 +1,4 @@
-# Allergies
+---
+title: Allergies
+draft: false
+---

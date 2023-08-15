@@ -1,1 +1,4 @@
-# Go
+---
+title: Go
+draft: false
+---

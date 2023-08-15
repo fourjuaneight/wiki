@@ -1,1 +1,4 @@
-# Analogue Photography
+---
+title: Analogue Photography
+draft: false
+---

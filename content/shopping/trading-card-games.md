@@ -1,1 +1,4 @@
-# Trading Card Games
+---
+title: Trading Card Games
+draft: false
+---

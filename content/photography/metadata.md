@@ -17,4 +17,3 @@ This data serves as a digital fingerprint of a photograph, providing detailed in
 ## Privacy Considerations
 - **Personal Data**: Location and time stamps can reveal sensitive information.
 - **Web Usage**: Many choose to strip EXIF data before sharing images online for privacy.
-- 

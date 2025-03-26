@@ -13,32 +13,32 @@ Digital video encoding is a complex process that involves converting raw video f
 
 Video codecs (compressor-decompressor) are algorithms used to compress (encode) and decompress (decode) digital video files. They transform raw video data into a format that is more manageable for storage, transmission, and playback.
 
-1. **H.264 (AVC)**
+1. **[H.264](https://www.loc.gov/preservation/digital/formats/fdd/fdd000081.shtml) (AVC)**
   - Widely used and supported
   - Good quality at lower bit rates
   - Common in online streaming and Blu-ray discs
 
-2. **H.265 (HEVC)**
+2. **[H.265](https://www.loc.gov/preservation/digital/formats/fdd/fdd000530.shtml) (HEVC)**
   - Improved compression over H.264
   - Preserves quality while reducing file size
   - Suitable for 4K video and HDR content
 
-3. **AV1**
+3. **[AV1](https://www.loc.gov/preservation/digital/formats/fdd/fdd000541.shtml?loclr=blogsig)**
   - Newer, open-source, and royalty-free
   - Designed for better efficiency than H.265 and VP9
   - Supported by major tech companies and browsers
 
-5. **MPEG-2**
+5. **[MPEG-2](https://www.loc.gov/preservation/digital/formats/fdd/fdd000028.shtml)**
   - Older standard used in DVDs
   - Less efficient than modern codecs
   - Still used in some broadcasting
 
-6. **MPEG-4 Part 2**
+6. **[MPEG-4 Part 2](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml)**
   - Predecessor to H.264
   - Used in early online video and mobile devices
   - Largely replaced by newer codecs
 
-7. **ProRes**
+7. **[ProRes](https://www.loc.gov/preservation/digital/formats/fdd/fdd000389.shtml)**
   - Developed by Apple
   - Used for high-quality video editing
   - Supports various resolutions and quality levels
@@ -47,25 +47,25 @@ Video codecs (compressor-decompressor) are algorithms used to compress (encode) 
 
 HDR stands for "High Dynamic Range", and it's a technology that significantly enhances the quality of an image by increasing the contrast between the lightest and darkest areas. In simpler terms, HDR makes bright areas brighter, dark areas darker, and reveals more detail in both. This results in a more lifelike, vibrant, and dynamic picture that closely mimics how our eyes perceive the real world.
 
-### HDR10
+### [HDR10](https://www.loc.gov/preservation/digital/formats/fdd/fdd000579.shtml)
 - **Benefits**: Supported by almost all devices, better image quality than Standard Dynamic Range (SDR), free to use for manufacturers.
 - **Drawbacks**: Uses static metadata, meaning one HDR "look" for the entire content, which limits scene-by-scene optimization.
 - **Popularity**: Most common and popular; used by Netflix, Disney+, Apple TV+, etc.
 - **Compatibility**: Can be decoded by any HDR TV and streamed by any HDR streamer.
 
-### HDR10+
+### [HDR10+](https://www.loc.gov/preservation/digital/formats/fdd/fdd000579.shtml)
 - **Benefits**: Dynamic metadata allows for scene-by-scene optimization, potentially better image quality than HDR10.
 - **Drawbacks**: Not as widely supported, championed by Samsung which could limit its adoption.
 - **Popularity**: Growing but not as prevalent as HDR10 or Dolby Vision.
 - **Compatibility**: Many TV manufacturers support it, but content and other devices are not as prevalent.
 
-### Dolby Vision
+### [Dolby Vision](https://professional.dolby.com/siteassets/pdfs/dolby-vision-whitepaper_an-introduction-to-dolby-vision_0916.pdf)
 - **Benefits**: Offers the best image quality, supports 12-bit color, and a theoretical maximum brightness of 10,000 nits.
 - **Drawbacks**: Less content available than HDR10, licensing fees for manufacturers.
 - **Popularity**: Widely supported and making a big push in the HDR market.
 - **Compatibility**: Requires licensing, but many companies are willing to pay for the superior quality.
 
-### HLG (Hybrid Log-Gamma)
+### [HLG](https://en.wikipedia.org/wiki/Hybrid_log%E2%80%93gamma) (Hybrid Log-Gamma)
 - **Benefits**: Free to use, broadcast-friendly, backward-compatible with SDR TVs.
 - **Drawbacks**: Limited content, not as good at rendering black levels, less detail in shadows and night scenes.
 - **Popularity**: Still in its infancy.
@@ -77,43 +77,43 @@ Audio encoding in videos refers to the process of converting and compressing raw
 
 Surround sound audio codecs are designed to deliver a more immersive audio experience by using multiple channels to distribute sound across a room. Here are some common surround sound audio codecs used in video:
 
-**1. Dolby Digital (AC-3)**
+**1. [Dolby Digital](https://www.loc.gov/preservation/digital/formats/fdd/fdd000209.shtml) (AC-3)**
 - **Channels**: Up to 5.1 (Front Left, Front Center, Front Right, Rear Left, Rear Right, Subwoofer)
 - **Usage**: Widely used in DVDs, Blu-ray discs, and streaming services.
 
-**2. Dolby Digital Plus (E-AC-3)**
+**2. [Dolby Digital Plus](https://www.loc.gov/preservation/digital/formats/fdd/fdd000209.shtml) (E-AC-3)**
 - **Channels**: Up to 7.1
 - **Usage**: Enhanced version of Dolby Digital, used in streaming services and some Blu-ray discs.
 
-**3. Dolby TrueHD**
+**3. [Dolby TrueHD](https://professional.dolby.com/tv/dolby-truehd/)**
 - **Channels**: Up to 7.1
 - **Usage**: Lossless codec used in high-definition Blu-ray discs.
 
-**4. DTS (Digital Theater Systems)**
+**4. [DTS](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml) (Digital Theater Systems)**
 - **Channels**: Up to 5.1
 - **Usage**: Commonly found in DVDs and some streaming services.
 
-**5. DTS-HD Master Audio**
+**5. [DTS-HD](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml) Master Audio**
 - **Channels**: Up to 7.1
 - **Usage**: Lossless codec used in Blu-ray discs.
 
-**6. DTS:X**
+**6. [DTS:X](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml)**
 - **Channels**: Object-based, scalable up to 32 channels
 - **Usage**: Used in premium home theater systems, offers a 3D audio experience.
 
-**7. Auro-3D**
+**7. [Auro-3D](https://en.wikipedia.org/wiki/Auro-3D)**
 - **Channels**: Up to 13.1
 - **Usage**: Used in premium home theater systems and some Blu-ray releases.
 
-**8. MPEG-H 3D Audio**
+**8. [MPEG-H 3D Audio](https://en.wikipedia.org/wiki/MPEG-H_3D_Audio)**
 - **Channels**: Object-based, scalable
 - **Usage**: Emerging standard, used in some 4K UHD Blu-ray discs.
 
-**9. PCM (Pulse-Code Modulation)**
+**9. [PCM](https://www.loc.gov/preservation/digital/formats/fdd/fdd000016.shtml) (Pulse-Code Modulation)**
 - **Channels**: Up to 7.1
 - **Usage**: Uncompressed audio, often used in professional settings.
 
-**10. AAC (Advanced Audio Codec)**
+**10. [AAC](https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml) (Advanced Audio Codec)**
 - **Channels**: Up to 7.1
 - **Usage**: Common in streaming services, offers good quality at lower bit rates.
 
@@ -137,37 +137,37 @@ Video resolution refers to the number of distinct pixels that could be displayed
 
 A video container is a file format that houses one or more streams of video, audio, and other media types. It doesn't just store the media content but also manages how these different elements interact during playback.
 
-1. **MP4 (MPEG-4 Part 14)**
+1. **[MP4](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml) (MPEG-4 Part 14)**
   -**Formats**: Commonly holds H.264 video and AAC audio.
   -**Compression**: Lossy for both video and audio.
   -**Benefits**: Widely supported, good for streaming, and offers a balance between quality and file size.
 
-2. **MKV (Matroska)**
+2. **[MKV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml) (Matroska)**
   -**Formats**: Can hold almost any audio and video format.
   -**Compression**: Both lossy and lossless.
   -**Benefits**: Highly flexible, supports multiple audio tracks and subtitles, but less universally supported than MP4.
 
-3. **AVI (Audio Video Interleave)**
+3. **[AVI](https://www.loc.gov/preservation/digital/formats/fdd/fdd000059.shtml) (Audio Video Interleave)**
   -**Formats**: Often contains DivX or XviD video and MP3 or PCM audio.
   -**Compression**: Typically lossy.
   -**Benefits**: Older format, good compatibility but larger file sizes.
 
-4. **MOV (QuickTime File Format)**
+4. **[MOV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml) (QuickTime File Format)**
   -**Formats**: Often holds H.264 or H.265 video and AAC or MP3 audio.
   -**Compression**: Typically lossy.
   -**Benefits**: Developed by Apple, optimized for QuickTime Player, but widely supported.
 
-5. **WMV (Windows Media Video)**
+5. **[WMV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000091.shtml) (Windows Media Video)**
   -**Formats**: Contains WMV video and WMA audio.
   -**Compression**: Lossy.
   -**Benefits**: Optimized for Windows Media Player, not as universally supported.
 
-6. **FLV (Flash Video Format)**
+6. **[FLV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000131.shtml) (Flash Video Format)**
   -**Formats**: Contains Adobe Flash video and audio.
   -**Compression**: Lossy.
   -**Benefits**: Once popular for web video, but largely obsolete due to the decline of Adobe Flash.
 
-7. **WebM**
+7. **[WebM](https://www.loc.gov/preservation/digital/formats/fdd/fdd000518.shtml)**
   -**Formats**: Contains VP8 or VP9 video and Vorbis or Opus audio.
   -**Compression**: Both lossy and lossless for video, lossy for audio.
   -**Benefits**: Open standard, good for web use, supported by HTML5.

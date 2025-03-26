@@ -3,7 +3,7 @@ title: Metadata
 draft: false
 ---
 
-**Exchangeable Image File Format (EXIF)** is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras and other systems. EXIF data is embedded into the image file itself and typically includes a wealth of information about the photo.
+**Exchangeable Image File Format ([EXIF](https://en.wikipedia.org/wiki/Exif))** is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras and other systems. EXIF data is embedded into the image file itself and typically includes a wealth of information about the photo.
 
 This data serves as a digital fingerprint of a photograph, providing detailed insights into the conditions and equipment used to capture the image.
 

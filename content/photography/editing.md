@@ -67,12 +67,12 @@ Editing alters the original data of pixels. While it can enhance an image, it ma
 
 ## File Formats
 
-- **JPEG (JPG)**: Common, "lossy" compressed format, versatile for web and print.
-- **PNG**: Ideal for web use with transparent backgrounds, "lossless" but low resolution.
-- **TIFF**: High-quality, "lossless" format, suitable for print but not for web use.
-- **RAW**: Unprocessed image format, captures all details, used for extensive editing.
+- **[JPEG](https://www.loc.gov/preservation/digital/formats/fdd/fdd000017.shtml) (JPG)**: Common, "lossy" compressed format, versatile for web and print.
+- **[PNG](https://www.loc.gov/preservation/digital/formats/fdd/fdd000153.shtml)**: Ideal for web use with transparent backgrounds, "lossless" but low resolution.
+- **[TIFF](https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml)**: High-quality, "lossless" format, suitable for print but not for web use.
+- **[RAW](https://en.wikipedia.org/wiki/Raw_image_format)**: Unprocessed image format, captures all details, used for extensive editing.
 
-## Bit Depth
+## [Bit Depth](https://en.wikipedia.org/wiki/Color_depth)
 
 The differences between **8-bit **and **16-bit** images are significant, impacting the color depth, file size, and editing flexibility of the images.
 

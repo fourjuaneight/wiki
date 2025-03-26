@@ -11,27 +11,27 @@ Here's a list of common inputs and outputs you might find on a DAC:
 
 ### Inputs:
 
-- **USB**: For connecting to computers, smartphones, or other USB-enabled devices.
+- **[USB](https://en.wikipedia.org/wiki/USB#Audio_streaming)**: For connecting to computers, smartphones, or other USB-enabled devices.
 
-- **Optical (Toslink)**: A fiber-optic connection used with various digital audio devices.
+- **[Optical](https://en.wikipedia.org/wiki/TOSLINK) (Toslink)**: A fiber-optic connection used with various digital audio devices.
 
-- **Coaxial**: A digital connection using standard RCA jacks, common in CD and DVD players.
+- **[Coaxial](https://en.wikipedia.org/wiki/Coaxial_cable)**: A digital connection using standard RCA jacks, common in CD and DVD players.
 
-- **Bluetooth**: For wireless connection to compatible devices.
+- **[Bluetooth](https://en.wikipedia.org/wiki/Bluetooth)**: For wireless connection to compatible devices.
 
-- **HDMI**: Used in some DACs to handle audio from video sources.
+- **[HDMI](https://en.wikipedia.org/wiki/HDMI#HDMI_Ethernet_and_Audio_Return_Channel)**: Used in some DACs to handle audio from video sources.
 
-- **Ethernet**: For networked audio and streaming services.
+- **[Ethernet](https://en.wikipedia.org/wiki/Ethernet)**: For networked audio and streaming services.
 
 - **SD Card/Flash Drive**: Some DACs allow direct playback from memory cards or USB drives.
 
 ### Outputs:
 
-- **RCA**: Standard analog connection for most home audio equipment.
+- **[RCA](https://en.wikipedia.org/wiki/RCA_connector)**: Standard analog connection for most home audio equipment.
 
-- **XLR**: Balanced analog connection used in professional and high-end audio systems.
+- **[XLR](https://en.wikipedia.org/wiki/XLR_connector)**: Balanced analog connection used in professional and high-end audio systems.
 
-- **Headphone Jack (3.5mm or 1/4-inch)**: For connecting headphones directly to the DAC.
+- **[Headphone Jack](https://en.wikipedia.org/wiki/Phone_connector_(audio)) (3.5mm or 1/4-inch)**: For connecting headphones directly to the DAC.
 
 - **Preamp Output**: To connect to an external amplifier or powered speakers.
 
@@ -53,7 +53,7 @@ The diversity in amplification methods can affect sound quality and characterist
 
 Amplifiers also need to be matched with the speakers' ability to handle the power. Too much power can damage the speakers, while too little might not drive them effectively.
 
-### Types and Classes
+### [Types and Classes](https://en.wikipedia.org/wiki/Power_amplifier_classes)
 
 - **Class A Amplifiers**:
 
@@ -137,7 +137,7 @@ The choice between speakers and headphones often boils down to personal preferen
 
 - Noise-Canceling Headphones
 
-### Drivers
+### [Drivers](https://www.soundguys.com/driver-types-19347/)
 
 - **Dynamic Drivers (Moving Coil):** These are the most common and affordable drivers, known for their deeper bass and power efficiency. They work by using a voice coil inside a permanent magnet, vibrating the diaphragm to produce sound. They can be prone to distortion at high volumes.
 

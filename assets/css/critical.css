@@ -16,6 +16,10 @@
   font-display: swap;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 :root {
   /* colors */
   --background: #ffffff;
@@ -30,17 +34,21 @@
   --meta: #595959;
   --primary: #9333ea;
   --primary-transparent: rgba(146, 51, 234, 0.5);
-  --selection: #999;
+  --selection: #bdecfb;
   --secondary: #0a799d;
   --secondary-transparent: rgba(10, 120, 157, 0.5);
   --tertiary: #597480;
   --tertiary-transparent: rgba(89, 116, 128, 0.5);
   /* values */
   --duration: 208ms;
-  --footer-height: calc(59.5px + 2rem);
-  --header-height: 90.5px;
+  --footer-height: calc(63.5px + 2rem);
+  --header-height: calc(67.5px + 2rem);
   --max-vw: 100vw;
   --transition: cubic-bezier(0.155, 0.64, 0.24, 1);
+  /* glitch */
+  --red: #ff8080;
+  --green: #80ff80;
+  --blue: #8080ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,17 +74,33 @@
     --primary-transparent: rgba(195, 144, 243, 0.5);
     --secondary: #bdecfb;
     --secondary-transparent: rgba(189, 235, 251, 0.5);
-    --tertiary: #859faa;
+    --tertiary: #546d78;
     --tertiary-transparent: rgba(133, 159, 170, 0.5);
+    /* glitch */
+    --red: #ff0000;
+    --green: #00ff00;
+    --blue: #0000ff;
   }
+}
+
+/* Pagefind */
+:root #search {
+  --pagefind-ui-primary: var(--background);
+  --pagefind-ui-text: var(--foreground);
+  --pagefind-ui-background: var(--foreground);
+  --pagefind-ui-border: var(--meta);
+  --pagefind-ui-tag: var(--meta);
+  --pagefind-ui-font: Inter, sans-serif;
 }
 
 ::-moz-selection {
   background-color: var(--selection);
+  color: #1a1a1a;
 }
 
 ::selection {
   background-color: var(--selection);
+  color: #1a1a1a;
 }
 
 *:focus {
@@ -101,7 +125,7 @@ html {
 body {
   background: var(--gradient);
   color: var(--foreground);
-  font-family: Nunito, sans-serif;
+  font-family: Inter, sans-serif;
   overflow-x: hidden;
   position: relative;
 }
@@ -131,18 +155,13 @@ header > nav > ul {
 }
 
 main {
-  grid-template-rows: min-content auto 0.5rem;
+  grid-template-rows: repeat(2, min-content) auto 0.5rem;
   min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
-}
-
-main > h1 {
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
 }
 
 @media screen and (max-width: 768px) {
   :root {
-    --header-height: 83.3px;
+    --footer-height: calc(99.5px + 2rem);
   }
 }
 
@@ -152,6 +171,10 @@ footer {
 
 .footer > span {
   display: none;
+}
+
+.lowercase {
+  text-transform: lowercase;
 }
 
 .sr-visible {

@@ -39,6 +39,7 @@
   <meta property="og:image:height" content="630" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:url" content="{{ .Permalink }}" />
+  <meta property="fediverse:creator" content="@{{ .Site.Params.meta.social }}@500.social" />
   <meta property="twitter:site" content="{{ .Site.Params.meta.social }}" />
   <meta name="twitter:image" content="{{ $socialImg.Permalink }}" />
   <meta name="twitter:card" content="summary" />
@@ -111,7 +112,7 @@
   {{ partial "fonts-loading.html" . }}
 
   {{ $tailwind := resources.Get "css/tw.css" }}
-  {{ $main := resources.Get "css/main.css" }}
+  {{ $main := resources.Get "css/main.scss" | resources.ToCSS }}
   {{ $styles := slice $tailwind $main | resources.Concat "styles.css" | resources.PostCSS | resources.Minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" />
   {{ if hugo.Environment | eq "production" }}

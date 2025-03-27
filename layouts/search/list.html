@@ -1,0 +1,14 @@
+{{ define "heading" }}
+  <h1
+    class="col-start-2 font-bold font-mdNichrome mb-8 mt-0 text-5xl w-full sm:text-5xl"
+    data-line="slim"
+  >
+    Search
+  </h1>
+{{ end }}
+{{ define "main" }}
+  <div id="search" class="w-full"></div>
+{{ end }}
+{{ define "scripts" }}
+  {{ partial "pagefind.html" . }}
+{{ end }}

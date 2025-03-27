@@ -1,9 +1,7 @@
-{{ $bkTag := cond (eq .Section "bookmarks") .Title "none" }}
-
 <!DOCTYPE html>
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
   {{ partial "head.html" . }}
-  <body data-table="{{ $bkTag }}" data-party="false">
+  <body data-party="false">
     {{ partial "header.html" . }}
 
     <main class="grid relative w-full">
@@ -27,11 +25,11 @@
     {{/*  Transpiled scripts  */}}
     {{ $opts := dict "minified" true "compact" true }}
 
-    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | babel -}}
-    {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
-
     {{- $noiseTS := resources.Get "scripts/noise.ts" | babel -}}
     {{ $noise := slice $noiseTS | resources.Concat "noise.js" }}
+
+    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | babel -}}
+    {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
 
     {{ $scripts := slice $noise $partyMode | resources.Concat "scripts.js" | resources.Minify }}
 

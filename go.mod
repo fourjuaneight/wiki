@@ -1,6 +1,6 @@
 module github.com/fourjuaneight/wiki
 
-go 1.20
+go 1.13.1
 
 require (
 	github.com/disintegration/imaging v1.6.2

@@ -12,7 +12,7 @@ jobs:
     name: Build Site
     runs-on: ubuntu-20.04
     env:
-      HUGO_VERSION: 0.112.7
+      HUGO_VERSION: 0.145.0
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
@@ -20,39 +20,41 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Use Node 16.15.1
-        uses: actions/setup-node@v2
+      - name: Use Node v20
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.15.1
+          node-version: 20.9.0
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2.0.1
+        uses: pnpm/action-setup@v3
         id: pnpm-install
         with:
-          version: 8
-          run_install: |
-            - args: [--no-frozen-lockfile]
+          version: 9
+          run_install: false
 
       - name: Get pnpm store directory
-        id: pnpm-cache
+        shell: bash
         run: |
-          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
-      - name: Setup pnpm cache
-        uses: actions/cache@v3
+      - uses: actions/cache@v3
+        name: Setup pnpm cache
         with:
-          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('pnpm-lock.yaml') }}
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-store- --no-frozen-lockfile
+            ${{ runner.os }}-pnpm-store-
+
+      - name: Install dependencies
+        run: pnpm install
 
       - name: Install Dart Sass Embedded
         run: sudo snap install dart-sass-embedded
 
-      - name: Use Go 1.20.6
-        uses: actions/setup-go@v4
+      - name: Use Go
+        uses: actions/setup-go@v5
         with:
-          go-version: '>=1.20.6'
+          go-version: '^1.13.1'
 
       - name: Install Hugo
         run: |
@@ -68,11 +70,15 @@ jobs:
           HUGO_ENV: production
         run: npm run build:prod
 
+      - name: Index Pagefind
+        run: npx pagefind --source "dist"
+
       - name: Upload Output
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dist
           path: ./dist
+          overwrite: true
 
   social:
     name: Generate Social Images
@@ -85,25 +91,25 @@ jobs:
           ref: ${{ github.head_ref }}
           fetch-depth: 0
 
-      - name: Use Node 16.15.1
-        uses: actions/setup-node@v2
+      - name: Use Node v20
+        uses: actions/setup-node@v3
         with:
-          node-version: 16.15.1
+          node-version: 20.9.0
 
       - name: Install serve
-        run: npm i -g serve@12.0.1
+        run: npm i -g serve@14.2.4
 
       - name: Download Output
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: dist
           # this is done to match the expected output directory
-          path: ~/work/blog/blog/dist
+          path: ~/work/wiki/wiki/dist
 
-      - name: Use Go 1.20.6
-        uses: actions/setup-go@v4
+      - name: Use Go
+        uses: actions/setup-go@v5
         with:
-          go-version: '>=1.20.6'
+          go-version: '^1.13.1'
 
       - name: Install Go Rod Dependencies
         run: sudo apt-get install -y libgbm-dev
@@ -118,10 +124,11 @@ jobs:
         run: npm run post
 
       - name: Upload Output
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: dist
-          path: ~/work/blog/blog/dist
+          path: ~/work/wiki/wiki/dist
+          overwrite: true
 
   deploy:
     name: Deploy to Cloudflare Pages
@@ -135,11 +142,11 @@ jobs:
     needs: [build, social]
     steps:
       - name: Download Output
-        uses: actions/download-artifact@v4.1.7
+        uses: actions/download-artifact@v4
         with:
           name: dist
           # this is done to match the expected output directory
-          path: ~/work/blog/blog/dist
+          path: ~/work/wiki/wiki/dist
 
       - name: Publish
         uses: cloudflare/pages-action@v1

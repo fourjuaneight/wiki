@@ -33,7 +33,13 @@
           <li class="m-0 row-start-1" data-item="{{ $i }}">
             <a
               class="focus:underline hover:underline no-underline text-sm"
+              {{ if $item.external }}
+              href="{{ $item.link }}"
+              target="_blank"
+              rel="noopener noreferrer"
+              {{ else }}
               href="{{ $item.link | absURL }}"
+              {{ end }}
             >
               {{ $item.label }}
             </a>

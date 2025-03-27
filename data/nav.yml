@@ -1,26 +1,31 @@
 ---
 header:
-  - label: Bookmarks
-    link: 'bookmarks'
-    external: true
   - label: About
     link: 'about'
+  - label: Search
+    link: 'search'
+    icon: true
 footer:
-  - label: Bookmarks
-    link: 'bookmarks'
-  - label: Shelf
-    link: 'shelf'
-  - label: MTG
-    link: mtg
+  - label: Blog
+    link: 'https://cleverlaziness.com/'
+    external: true
+  - label: Reviews
+    link: 'https://cleverlaziness.com/reviews'
+    external: true
   - label: Uses
-    link: uses
+    link: 'https://cleverlaziness.com/uses'
+    external: true
+  - label: Following
+    link: 'https://cleverlaziness.com/following'
+    external: true
+  - label: Contact
+    link: mailto:contact@cleverlaziness.com
 social:
+  - label: Email
+    link: mailto:contact@cleverlaziness.com
   - label: Mastodon
     link: https://mastodon.social/@fourjuaneight
     linkback: true
-  - label: Twitter
-    link: https://twitter.com/fourjuaneight
-    external: true
   - label: GitHub
     link: https://github.com/fourjuaneight
     external: true

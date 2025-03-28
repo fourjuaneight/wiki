@@ -3,19 +3,19 @@ title: "Mayo"
 draft: false
 ---
 
-Servings: 2 cups  
-Total: 5 minutes  
+**Servings:** 2 cups
+**Total:** 5 minutes
 
+---
 
 ## Ingredients
 
-- 2 whole eggs
-- 1 teaspoon dijon mustard
-- 2 tablespoons lemon juice
-- 1 garlic clove, crushed
-- Pinch kosher salt
-- 2 cups vegetable oil
-
+- **2** whole eggs
+- **1 teaspoon** dijon mustard
+- **2 tablespoons** lemon juice
+- **1 clove** crushed garlic
+- **1 teaspoon** kosher salt
+- **2 cups** vegetable oil
 
 ## Instructions
 

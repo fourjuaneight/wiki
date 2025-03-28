@@ -3,23 +3,23 @@ title: "Karak Chai"
 draft: false
 ---
 
-Servings: 2 cup  
-Prep: 2 minutes  
-Cook: 5 minutes  
-Total: 7 minutes  
+**Servings:** 2 cup
+**Prep:** 2 minutes
+**Cook:** 5 minutes
+**Total:** 7 minutes
 
+---
 
 ## Ingredients
 
-- 1/2 teaspoon Cardamom
-- 3 Whole Cloves
-- 2 Cinnamon Stick
-- 3/4 teaspoon Ginger
-- 3 tablespoons Agave Syrup
-- 6 tablespoons Evaporated Milk
-- 2 cups Water
-- 6 Assam Tea bags
-
+- **1/2 teaspoon** cardamom
+- **3** whole cloves
+- **2** cinnamon stick
+- **3/4 teaspoon** ginger
+- **3 tablespoons** agave syrup
+- **6 tablespoons** evaporated milk
+- **2 cups** water
+- **6 tea bags** assam
 
 ## Instructions
 

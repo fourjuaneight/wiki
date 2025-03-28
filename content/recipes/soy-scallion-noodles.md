@@ -3,20 +3,20 @@ title: "Soy Scallion Noodles"
 draft: false
 ---
 
-Servings: 6 plates  
-Prep: 10 minutes  
-Cook: 15 minutes  
+**Servings:** 6 plates
+**Prep:** 10 minutes
+**Cook:** 15 minutes
 
+---
 
 ## Ingredients
 
-- 1/3 cup oil
-- 8 ounces scallions (225g, julienned)
-- 3 tablespoons dark soy sauce
-- 3 tablespoons light soy sauce
-- 4 teaspoons sugar
-- 1 pound Chinese white noodles (450g, cooked until al dente)
-
+- **1/3 cup** oil
+- **8 ounces** scallions (**225g**, julienned)
+- **3 tablespoons** dark soy sauce
+- **3 tablespoons** light soy sauce
+- **4 teaspoons** sugar
+- **1 pound** Chinese white noodles (**450g**, cooked until al dente)
 
 ## Instructions
 

@@ -3,26 +3,26 @@ title: "Sopa de Res"
 draft: false
 ---
 
-Servings: 4 cups  
-Prep: 30 minutes  
-Cook: 3.5 hours  
-Total: 4 hours  
+**Servings:** 4 cups
+**Prep:** 30 minutes
+**Cook:** 3.5 hours
+**Total:** 4 hours
 
+---
 
 ## Ingredients
 
-- 1  bunch cilantro, leaves and fine stems
-- 8  scallions
-- 1  yellow onion, skin removed, halved pole to pole
-- 1/2 cup carrots
-- 1 whole bell pepper
-- 6  medium cloves garlic, lightly smashed
-- 1  teaspoon whole cumin seeds
-- 2 bay leaves
-- 4  pounds beef short ribs
-- 1 tablespoon salt
-- 1  pound firm, nonstarchy potatoes, such as red bliss or Yukon Gold
-
+- **1 bunch** cilantro, leaves and fine stems
+- **8** scallions
+- **1** yellow onion, skin removed, halved pole to pole
+- **1/2 cup** carrots
+- **1** bell pepper
+- **6 cloves** garlic, lightly smashed
+- **1 teaspoon** whole cumin seeds
+- **2** bay leaves
+- **4 pounds** beef short ribs
+- **1 tablespoon** salt
+- **1 pound** firm, nonstarchy potatoes, such as red bliss or Yukon Gold
 
 ## Instructions
 

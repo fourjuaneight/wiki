@@ -3,24 +3,24 @@ title: "Pickled Onions with Jalapeños and Carrots"
 draft: false
 ---
 
-Servings: 32  
-Prep: 10 minutes  
-Cook: 10 minutes  
-Total: 20 minutes  
+**Servings:** 32
+**Prep:** 10 minutes
+**Cook:** 10 minutes
+**Total:** 20 minutes
 
+---
 
 ## Ingredients
 
-- 4 jalapeños
-- 1/2 large red onion
-- 1 medium carrot
-- 2 cup distilled white vinegar
-- 1 cup water
-- 1 tablespoons kosher salt
-- 2 tablespoons honey
-- 2 cloves garlic
-- 1 bay leaf
-
+- **4** jalapeños
+- **1/2** large red onion
+- **1** medium carrot
+- **2 cup** distilled white vinegar
+- **1 cup** water
+- **1 tablespoons** kosher salt
+- **2 tablespoons** honey
+- **2 cloves** garlic
+- **1** bay leaf
 
 ## Instructions
 

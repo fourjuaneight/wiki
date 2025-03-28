@@ -3,24 +3,24 @@ title: "Burger Sauce"
 draft: false
 ---
 
-Servings: 2 cups  
-Prep: 15 minutes  
-Cook: 45 minutes  
-Total: 1 hour  
+**Servings:** 2 cups
+**Prep:** 15 minutes
+**Cook:** 45 minutes
+**Total:** 1 hour
 
+---
 
 ## Ingredients
 
-- 1/2 Sweet Onion, diced
-- 2 tablespoons of butter
-- 1 teaspoon of salt
-- 3/4 cup Mayonnaise
-- 1/2 cup Ketchup
-- 2 tablespoons Dijon Mustard
-- 1 tablespoon Worcestershire sauce
-- 1 Dill pickle, diced
-- 1/2 cup shives, thinly chopped
-
+- **1/2** sweet onion, diced
+- **2 tablespoons** butter
+- **1 teaspoon** salt
+- **3/4 cup** mayonnaise
+- **1/2 cup** ketchup
+- **2 tablespoons** dijon mustard
+- **1 tablespoon** worcestershire sauce
+- **1** dill pickle, diced
+- **1/2 cup** shives, thinly chopped
 
 ## Instructions
 

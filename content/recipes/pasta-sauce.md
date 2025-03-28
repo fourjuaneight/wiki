@@ -3,26 +3,26 @@ title: "Pasta Sauce"
 draft: false
 ---
 
-Servings: 3.5 cups  
-Prep: 15 minutes  
-Cook: 1 hour  
-Total: 1:15 hour  
+**Servings:** 3.5 cups
+**Prep:** 15 minutes
+**Cook:** 1 hour
+**Total:** 1:15 hour
 
+---
 
 ## Ingredients
 
-- 3 cloves garlic
-- 1 medium yellow onion
-- 1 tablespoon olive oil
-- 1 teaspoon crushed red pepper flakes
-- 1 teaspoon dried oregano
-- 1 squeeze tube tomato paste
-- 28 ounce San Marzano tomatoes (2 cans)
-- 2 springs fresh basil
-- 1 tablespoon salt
-- 1/2 tablespoon freshly ground pepper
-- 2 tablespoons butter
-
+- **3 cloves** garlic
+- **1** medium yellow onion
+- **1 tablespoon** olive oil
+- **1 teaspoon** crushed red pepper flakes
+- **1 teaspoon** dried oregano
+- **1** squeeze tube tomato paste
+- **2 cans** San Marzano tomatoes (**28oz**)
+- **2** springs fresh basil
+- **1 tablespoon** salt
+- **1/2 tablespoon** freshly ground pepper
+- **2 tablespoons** butter
 
 ## Instructions
 

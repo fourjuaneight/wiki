@@ -3,23 +3,23 @@ title: "Hummus"
 draft: false
 ---
 
-Servings: 2 cups
-Prep: 8.5 hours
-Cook: 1.5 hours
-Total: 10 hours
+**Servings:** 2 cups
+**Prep:** 8.5 hours
+**Cook:** 1.5 hours
+**Total:** 10 hours
 
+---
 
 ## Ingredients
 
-- 2 cups chickpeas
-- 1 teaspoon baking soda
-- 4 tablespoons tahini
-- 2 lemons (juice)
-- 4 tablespoons ice water
-- 6 cloves of garlic
-- 3 tablespoons olive oil
-- 2 teaspoons salt
-
+- **2 cups** chickpeas
+- **1 teaspoon** baking soda
+- **4 tablespoons** tahini
+- **2** lemons (juice)
+- **4 tablespoons** ice water
+- **6 cloves** garlic
+- **3 tablespoons** olive oil
+- **2 teaspoons** salt
 
 ## Instructions
 

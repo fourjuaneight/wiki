@@ -3,21 +3,21 @@ title: "Kewpie Mayo"
 draft: false
 ---
 
-Servings: 2 cups  
-Total: 15 minutes  
+**Servings:** 2 cups
+**Prep:** 15 minutes
 
+---
 
 ## Ingredients
 
-- 1 cup canola oil
-- 1/3 cup warm Dashi stock
-- 2 egg yolks
-- 2 tablespoons rice vinegar
-- 2 tablespoons lemon juice
-- 1 teaspoon sea salt
-- 1/2 teaspoon mustard (Japanese karashi)
-- 1 tablespoon sugar
-
+- **1 cup** canola oil
+- **1/3 cup** warm Dashi stock
+- **2** egg yolks
+- **2 tablespoons** rice vinegar
+- **2 tablespoons** lemon juice
+- **1 teaspoon** sea salt
+- **1/2 teaspoon** mustard (Japanese karashi)
+- **1 tablespoon** sugar
 
 ## Instructions
 

@@ -3,27 +3,27 @@ title: "Chili Oil"
 draft: false
 ---
 
-Servings: 2 cups
-Prep: 10 minutes
-Cook: 2 hours
-Total: 2.15 hours  
+**Servings:** 2 cups
+**Prep:** 10 minutes
+**Cook:** 2 hours
+**Total:** 2:10 hours
 
+---
 
 ## Ingredients
 
-- 2 tablespoons coriander seeds
-- 4 pieces star anise
-- 2 small pieces cinnamon sticks
-- 1/3 cup Szechuan pepper corns
-- 5 cloves of garlic (crushed)
-- 1 quart canola oil
-- 1 cup Asian red pepper flakes
-- 1/4 cup dry onion mix
-- 1.5 teaspoons salt
-- 1 tablespoon black vinegar
-- 1 tablespoon sesame seeds
-- 1 tablespoon sesame oil
-
+- **2 tablespoons** coriander seeds
+- **4** pieces star anise
+- **2** small pieces cinnamon sticks
+- **1/3 cup** Szechuan pepper corns
+- **5 cloves** garlic (crushed)
+- **1 quart** canola oil
+- **1 cup** Asian red pepper flakes
+- **1/4 cup** dry onion mix
+- **1.5 teaspoons** salt
+- **1 tablespoon** black vinegar
+- **1 tablespoon** sesame seeds
+- **1 tablespoon** sesame oil
 
 ## Instructions
 

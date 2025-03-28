@@ -8,7 +8,7 @@ Powered by:
 - [Tailwind](https://tailwindcss.com)
 - [Typescript](https://www.typescriptlang.org)
 
-All illustrations were made by the amazing [Yonsoncb](https://www.yonsoncb.com/socials).
+All illustrations were made by the amazing [Yonsoncb](https://www.yonsoncb.com/yonsoncb-about).
 
 <img
     width="350"

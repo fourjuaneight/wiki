@@ -1,5 +1,7 @@
 # Personal Knowledge Wiki
 
+This is a work in progress. A living wiki. So a lot of the pages are blank, but have been created with the intent to serve as reminders for topics to complete.
+
 Powered by:
 
 - [Hugo](https://gohugo.io)

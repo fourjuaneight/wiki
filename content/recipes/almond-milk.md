@@ -18,7 +18,7 @@ draft: false
 - **1/4 teaspoon** vanilla
 - **1/4 teaspoon** salt
 - **2 tablespoons** agave syrup
-- **1 tablespoon** maple syrup
+- **1 tablespoon** honey
 
 ## Instructions
 

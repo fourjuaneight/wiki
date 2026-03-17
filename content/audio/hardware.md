@@ -1,6 +1,11 @@
 ---
 title: Audio Hardware
+date: 2023-08-09
+update: 2026-03-08
 draft: false
+tags:
+  - audio
+  - gear
 ---
 
 ## DAC

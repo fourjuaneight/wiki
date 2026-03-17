@@ -1,6 +1,11 @@
 ---
 title: Digital Audio
+date: 2023-08-09
+update: 2026-03-09
 draft: false
+tags:
+  - audio
+  - encoding
 ---
 
 [Lossy and lossless audio compression](https://www.izotope.com/en/learn/whats-the-difference-between-file-formats.html) are two methods used to reduce the size of audio files, each with distinct technical characteristics, tradeoffs, and real-world effects on audio quality (Herre & Dick, 2019).

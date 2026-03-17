@@ -1,6 +1,12 @@
 ---
 title: CDs
+date: 2023-08-07
+update: 2026-03-10
 draft: false
+tags:
+  - audio
+  - digital
+  - physical-media
 ---
 
 CDs are a digital storage medium that uses a thin, circular disc to store data such as music, photos, or files. The disc is made of a shiny, reflective material — typically polycarbonate plastic approximately 1.2 mm thick (within a tolerance of ±0.1 mm), coated with a thin layer of aluminum. A UV-cured lacquer layer is then applied over the aluminum to protect it, and the label is printed on top (ECMA International, 1996). The disc measures 120 mm in diameter with a 15 mm center hole, and the data track runs from the inside outward in a single continuous spiral approximately 5.4 km long with a track pitch of 1.6 µm.

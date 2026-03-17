@@ -3,11 +3,11 @@ title: "Neural Network (Artificial)"
 date: 2026-01-05
 draft: false
 tags:
-  - machine-learning
-  - deep-learning
-  - neural-networks
-  - computer-science
   - ai
+  - computer-science
+  - deep-learning
+  - machine-learning
+  - neural-networks
 ---
 
 An **artificial neural network** (ANN) — often called simply a **neural network** — is a type of computer program loosely modeled on the way the human brain processes information. Instead of following a fixed set of hand-coded rules, a neural network learns by example: it is shown large amounts of data, and it gradually adjusts its internal settings until it can make accurate predictions on its own. Neural networks are the engine behind modern **deep learning**, a branch of machine learning that has achieved breakthrough results in tasks like recognizing faces in photos, translating languages, and generating speech.

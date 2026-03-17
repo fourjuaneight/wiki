@@ -3,11 +3,11 @@ title: "Machine Learning"
 date: 2026-02-02
 draft: false
 tags:
-  - machine-learning
   - ai
-  - deep-learning
-  - statistics
   - algorithms
+  - deep-learning
+  - machine-learning
+  - statistics
 ---
 
 **Machine learning (ML)** is a subfield of artificial intelligence in which computer systems improve their performance on tasks through experience rather than explicit programming. Tom Mitchell provided the field's most widely cited formal definition: a computer program is said to learn from experience *E* with respect to some task *T* and performance measure *P*, if its performance on *T*, as measured by *P*, improves with experience *E* (Mitchell, 1997). In practice, this means a spam filter that grows more accurate after processing thousands of labeled emails, or a medical imaging system that becomes better at detecting tumors after reviewing many annotated scans, are both performing machine learning.

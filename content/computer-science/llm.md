@@ -3,9 +3,9 @@ title: "Large Language Models"
 date: 2026-03-06
 draft: false
 tags:
-  - machine-learning
-  - deep-learning
   - ai
+  - deep-learning
+  - machine-learning
   - transformers
 ---
 

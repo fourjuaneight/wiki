@@ -1,4 +1,0 @@
----
-title: Anime
-draft: false
----

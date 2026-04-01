@@ -67,21 +67,12 @@ Legal treatment of personal video ripping varies internationally. In the Europea
 After ripping and optional re-encoding, digital files can be burned back to recordable DVDs or Blu-rays for playback on traditional players. They may also be stored in cloud services or on local media servers for streaming to compatible devices across a home network.
 
 [^cornellnd]: Cornell Law School Legal Information Institute. (n.d.). [*17 U.S. Code § 1201 – Circumvention of copyright protection systems*](https://www.law.cornell.edu/uscode/text/17/1201). Cornell Law School.
-
 [^devx2023]: DevX. (2023). [*DMCA 1201*](https://www.devx.com/terms/dmca-1201/). DevX.
-
 [^eff2013]: Electronic Frontier Foundation. (2013). [*Unintended consequences: Fifteen years under the DMCA*](https://www.eff.org/pages/unintended-consequences-fifteen-years-under-dmca). EFF.
-
 [^lociso]: Library of Congress. (n.d.-a). [*ISO disk image file format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000079.shtml). Library of Congress.
-
 [^locmkv]: Library of Congress. (n.d.-b). [*Matroska file format with MPEG-4, H.264 (MKV)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml). Library of Congress.
-
 [^locmp4]: Library of Congress. (n.d.-c). [*MPEG-4 file format, version 2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml). Library of Congress.
-
 [^tamund]: Texas A&M University Libraries. (n.d.). [*The DMCA and digital locks*](https://tamu.libguides.com/c.php?g=401163&p=10833245). Texas A&M University.
-
 [^corley2001]: [*Universal City Studios, Inc. v. Corley*](https://law.justia.com/cases/federal/appellate-courts/F3/273/429/506315/), 273 F.3d 429 (2d Cir. 2001).
-
 [^umich2024]: University of Michigan Library. (2024). [*Anti-circumvention – Copyright and using video*](https://guides.lib.umich.edu/videocopyright/anticircumvention). University of Michigan Library.
-
 [^uscopyright2018]: U.S. Copyright Office. (2018). [*Section 1201 of title 17: Frequently asked questions*](https://www.copyright.gov/1201/2018/faqs.html). U.S. Copyright Office.

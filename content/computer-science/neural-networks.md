@@ -161,31 +161,17 @@ A recurring finding across all of these visualization studies is that the repres
 > — Yosinski et al. (2015)
 
 [^cybenko1989]: Cybenko, G. (1989). Approximation by superpositions of a sigmoidal function. *Mathematics of Control, Signals, and Systems, 2*(4), 303–314. https://doi.org/10.1007/BF02551274
-
 [^glorot2011]: Glorot, X., Bordes, A., & Bengio, Y. (2011). Deep sparse rectifier neural networks. *Proceedings of AISTATS, PMLR 15*, 315–323.
-
 [^goodfellow2016]: Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep learning.* MIT Press.
-
 [^hinton2012]: Hinton, G. E., Srivastava, N., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. R. (2012). Improving neural networks by preventing co-adaptation of feature detectors. *arXiv preprint arXiv:1207.0580*. https://arxiv.org/abs/1207.0580
-
 [^krizhevsky2012]: Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification with deep convolutional neural networks. In *Advances in Neural Information Processing Systems 25* (pp. 1097–1105). Curran Associates.
-
 [^kroghHertz1991]: Krogh, A., & Hertz, J. A. (1991). A simple weight decay can improve generalization. In *Advances in Neural Information Processing Systems 4* (pp. 950–957). Morgan Kaufmann.
-
 [^lecun1989]: LeCun, Y., Boser, B., Denker, J. S., Henderson, D., Howard, R. E., Hubbard, W., & Jackel, L. D. (1989). Backpropagation applied to handwritten zip code recognition. *Neural Computation, 1*(4), 541–551. https://doi.org/10.1162/neco.1989.1.4.541
-
 [^lecun1998]: LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE, 86*(11), 2278–2324. https://doi.org/10.1109/5.726791
-
 [^mccullochPitts1943]: McCulloch, W. S., & Pitts, W. (1943). A logical calculus of the ideas immanent in nervous activity. *Bulletin of Mathematical Biophysics, 5*(4), 115–133. https://doi.org/10.1007/BF02478259
-
 [^rosenblatt1958]: Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. *Psychological Review, 65*(6), 386–408. https://doi.org/10.1037/h0042519
-
 [^rumelhart1986]: Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature, 323*(6088), 533–536. https://doi.org/10.1038/323533a0
-
 [^simonyan2014]: Simonyan, K., Vedaldi, A., & Zisserman, A. (2014). Deep inside convolutional networks: Visualising image classification models and saliency maps. *ICLR 2014 Workshop.* arXiv:1312.6034.
-
 [^srivastava2014]: Srivastava, N., Hinton, G., Krizhevsky, A., Sutskever, I., & Salakhutdinov, R. (2014). Dropout: A simple way to prevent neural networks from overfitting. *Journal of Machine Learning Research, 15*(56), 1929–1958.
-
 [^yosinski2015]: Yosinski, J., Clune, J., Nguyen, A., Fuchs, T., & Lipson, H. (2015). Understanding neural networks through deep visualization. *Deep Learning Workshop, ICML 2015.* arXiv:1506.06579.
-
 [^zeilerFergus2014]: Zeiler, M. D., & Fergus, R. (2014). Visualizing and understanding convolutional networks. In *ECCV 2014, LNCS Vol. 8689* (pp. 818–833). Springer. https://doi.org/10.1007/978-3-319-10590-1_53

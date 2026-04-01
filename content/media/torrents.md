@@ -1,4 +1,4 @@
------
+---
 title: "Torrenting"
 date: 2026-03-28
 draft: false
@@ -6,7 +6,7 @@ tags:
 - file-sharing
 - networking
 - p2p
------
+---
 
 **Peer-to-peer file sharing** is a networking paradigm in which computers exchange data directly with one another rather than routing all transfers through a central server. Where traditional client-server architectures concentrate both storage and distribution at a single point, P2P systems distribute those responsibilities across all participating nodes — turning every downloader into an uploader. The approach scales naturally with demand: the more popular a resource becomes, the more nodes hold copies of it and can serve it to others, which is precisely the opposite of the congestion that overwhelms conventional servers at peak load.
 

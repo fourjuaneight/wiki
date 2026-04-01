@@ -103,77 +103,40 @@ A forward-looking question in the field is whether LLMs can acquire **world mode
 - AI Safety and Alignment
 
 [^ba2016]: Ba, J. L., Kiros, J. R., & Hinton, G. E. (2016). [*Layer normalization*](https://arxiv.org/abs/1607.06450). arXiv preprint.
-
 [^bahdanau2015]: Bahdanau, D., Cho, K., & Bengio, Y. (2015). Neural machine translation by jointly learning to align and translate. *Proceedings of ICLR 2015*. https://arxiv.org/abs/1409.0473
-
 [^bai2022]: Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., & Kaplan, J. (2022). [*Constitutional AI: Harmlessness from AI feedback*](https://arxiv.org/abs/2212.08073). arXiv preprint.
-
 [^bender2021]: Bender, E. M., Gebru, T., McMillan-Major, A., & Mitchell, M. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*, 610–623. https://doi.org/10.1145/3442188.3445922
-
 [^benderKoller2020]: Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of ACL 2020*, 5185–5198. https://doi.org/10.18653/v1/2020.acl-main.463
-
 [^blodgett2020]: Blodgett, S. L., Barocas, S., Daumé III, H., & Wallach, H. (2020). Language (Technology) is power: A critical survey of "bias" in NLP. *Proceedings of ACL 2020*, 5454–5476. https://doi.org/10.18653/v1/2020.acl-main.485
-
 [^brown2020]: Brown, T. B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., & Amodei, D. (2020). Language models are few-shot learners. *Advances in Neural Information Processing Systems, 33*, 1877–1901. https://arxiv.org/abs/2005.14165
-
 [^dai2022]: Dai, D., Dong, L., Hao, Y., Sui, Z., Chang, B., & Wei, F. (2022). Knowledge neurons in pretrained transformers. *Proceedings of ACL 2022*, 8493–8502. https://arxiv.org/abs/2104.08696
-
 [^dong2024]: Dong, Q., Li, L., Dai, D., Zheng, C., Ma, J., Li, R., & Sui, Z. (2024). A survey on in-context learning. *Proceedings of EMNLP 2024*, 1107–1128. https://doi.org/10.18653/v1/2024.emnlp-main.64
-
 [^du2024]: Du, M., He, F., Zou, N., Tao, D., & Hu, X. (2024). Shortcut learning of large language models in natural language understanding. *Communications of the ACM, 67*(1), 110–120. https://doi.org/10.1145/3596490
-
 [^dziri2023]: Dziri, N., Lu, X., Sclar, M., Li, X. L., Jiang, L., Lin, B. Y., & Choi, Y. (2023). Faith and fate: Limits of transformers on compositionality. *NeurIPS 2023*. https://arxiv.org/abs/2305.18654
-
 [^hoffmann2022]: Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, E., & Sifre, L. (2022). Training compute-optimal large language models. *NeurIPS 2022*. https://arxiv.org/abs/2203.15556
-
 [^ji2023]: Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., & Fung, P. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys, 55*(12), Article 248. https://doi.org/10.1145/3571730
-
 [^jury2024]: Jury, B., Lorusso, A., Leinonen, J., Denny, P., & Luxton-Reilly, A. (2024). Evaluating LLM-generated worked examples in an introductory programming course. *ACE 2024*, 77–86. https://doi.org/10.1145/3636243.3636252
-
 [^kaplan2020]: Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., & Amodei, D. (2020). [*Scaling laws for neural language models*](https://arxiv.org/abs/2001.08361). arXiv preprint.
-
 [^kojima2022]: Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., & Iwasawa, Y. (2022). Large language models are zero-shot reasoners. *NeurIPS 2022*, 22199–22213. https://arxiv.org/abs/2205.11916
-
 [^lin2022]: Lin, S., Hilton, J., & Evans, O. (2022). TruthfulQA: Measuring how models mimic human falsehoods. *Proceedings of ACL 2022*, 3214–3252. https://doi.org/10.18653/v1/2022.acl-long.229
-
 [^mahowald2024]: Mahowald, K., Ivanova, A. A., Blank, I. A., Kanwisher, N., Tenenbaum, J. B., & Fedorenko, E. (2024). Dissociating language and thought in large language models. *Trends in Cognitive Sciences, 28*(6), 517–540. https://doi.org/10.1016/j.tics.2024.01.011
-
 [^mccoy2019]: McCoy, R. T., Pavlick, E., & Linzen, T. (2019). Right for the wrong reasons: Diagnosing syntactic heuristics in natural language inference. *Proceedings of ACL 2019*, 3428–3448. https://doi.org/10.18653/v1/P19-1334
-
 [^meng2022]: Meng, K., Bau, D., Andonian, A., & Belinkov, Y. (2022). Locating and editing factual associations in GPT. *NeurIPS 2022*. https://arxiv.org/abs/2202.05262
-
 [^merrillSabharwal2023]: Merrill, W., & Sabharwal, A. (2023). The parallelism tradeoff: Limitations of log-precision transformers. *Transactions of the Association for Computational Linguistics, 11*, 531–545.
-
 [^merrillSabharwal2024]: Merrill, W., & Sabharwal, A. (2024). The expressive power of transformers with chain of thought. *ICLR 2024*. https://arxiv.org/abs/2310.07923
-
 [^nam2024]: Nam, D., Macvean, A., Hellendoorn, V., Vasilescu, B., & Myers, B. (2024). Using an LLM to help with code understanding. *ICSE 2024*. https://doi.org/10.1145/3597503.3639187
-
 [^ouyang2022]: Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., & Lowe, R. (2022). Training language models to follow instructions with human feedback. *NeurIPS 2022*. https://arxiv.org/abs/2203.02155
-
 [^petroni2019]: Petroni, F., Rocktäschel, T., Riedel, S., Lewis, P., Bakhtin, A., Wu, Y., & Miller, A. H. (2019). Language models as knowledge bases? *Proceedings of EMNLP-IJCNLP 2019*, 2463–2473. https://doi.org/10.18653/v1/D19-1250
-
 [^radford2019]: Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). [*Language models are unsupervised multitask learners*](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf). OpenAI Technical Report.
-
 [^rafailov2023]: Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., & Finn, C. (2023). Direct preference optimization: Your language model is secretly a reward model. *NeurIPS 2023*. https://arxiv.org/abs/2305.18290
-
 [^schaeffer2023]: Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? *NeurIPS 2023* (Outstanding Paper). https://arxiv.org/abs/2304.15004
-
 [^su2024]: Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., & Liu, Y. (2024). RoFormer: Enhanced transformer with rotary position embedding. *Neurocomputing*. https://doi.org/10.1016/j.neucom.2023.127063
-
 [^touvron2023a]: Touvron, H., Lavril, T., Izacard, G., Martinet, X., Lachaux, M.-A., Lacroix, T., & Lample, G. (2023a). [LLaMA: Open and efficient foundation language models](https://arxiv.org/abs/2302.13971). arXiv preprint.
-
 [^touvron2023b]: Touvron, H., Martin, L., Stone, K., Albert, P., Almahairi, A., Babaei, Y., & et al. (2023b). [Llama 2: Open foundation and fine-tuned chat models](https://arxiv.org/abs/2307.09288). arXiv preprint.
-
 [^vaswani2017]: Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008. https://arxiv.org/abs/1706.03762
-
 [^wang2023]: Wang, X., Wei, J., Schuurmans, D., Le, Q., Chi, E., Narang, S., Chowdhery, A., & Zhou, D. (2023). Self-consistency improves chain of thought reasoning in language models. *ICLR 2023*. https://arxiv.org/abs/2203.11171
-
 [^weiCoT2022]: Wei, J., Wang, X., Schuurmans, D., Bosma, M., Ichter, B., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. *NeurIPS 2022*, 24824–24837. https://arxiv.org/abs/2201.11903
-
 [^weiEmergent2022]: Wei, J., Tay, Y., Bommasani, R., Raffel, C., Zoph, B., Borgeaud, S., & Fedus, W. (2022). Emergent abilities of large language models. *Transactions on Machine Learning Research*. https://arxiv.org/abs/2206.07682
-
 [^weiFlan2022]: Wei, J., Bosma, M., Zhao, V. Y., Guu, K., Yu, A. W., Lester, B., & Le, Q. V. (2022). Finetuned language models are zero-shot learners. *ICLR 2022*. https://arxiv.org/abs/2109.01652
-
 [^yildirimPaul2024]: Yildirim, I., & Paul, L. A. (2024). From task structures to world models: What do LLMs know? *Trends in Cognitive Sciences*. https://doi.org/10.1016/j.tics.2024.01.009
-
 [^zhou2024]: Zhou, L., Schellaert, W., Martínez-Plumed, F., Moros-Daval, Y., Ferri, C., & Hernández-Orallo, J. (2024). Larger and more instructable language models become less reliable. *Nature*. https://doi.org/10.1038/s41586-024-07930-y

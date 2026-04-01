@@ -92,43 +92,23 @@ Proper storage is the primary determinant of film longevity. Both acetate (safet
 **Digitization** — scanning film to produce a high-resolution digital file — is the primary strategy for access preservation, ensuring that the image content remains usable even as the physical carrier ages. The Federal Agencies Digital Guidelines Initiative (FADGI) publishes the governing U.S. standard for this work, specifying a four-star quality rating system with metrics for spatial resolution, tonal reproduction, color accuracy (measured in Delta E), noise, and illumination uniformity.[^fadgi2023] For most 35mm negatives, a scan resolution between 2,000 and 4,000 pixels per inch captures the full information content of the film; medium- and large-format originals require proportionally less resolution to achieve the same result because they need less optical enlargement to fill the sensor.
 
 [^adelstein2009]: Adelstein, P. Z. (2009). [*IPI media storage quick reference*](https://s3.cad.rit.edu/ipi-assets/publications/msqr.pdf) (2nd ed.). Image Permanence Institute, Rochester Institute of Technology.
-
 [^alternativephoto]: Fabbri, M. (Ed.). (1999–present). [*Alternative photographic processes A–Z*](https://www.alternativephotography.com/processes/). AlternativePhotography.com.
-
 [^ansi2016]: Kelechava, B. (2016). [*ISO speed standard for film speed*](https://blog.ansi.org/ansi/iso-speed-standard-for-film-speed/). ANSI Blog, American National Standards Institute.
-
 [^coote1996]: Coote, J. H. (1996). *Ilford monochrome darkroom practice: A manual of black & white processing & printing* (3rd ed.). Focal Press.
-
 [^eastman2002b]: Eastman Kodak Company. (2002). [*Black-and-white tips and techniques for darkroom enthusiasts*](https://125px.com/docs/techpubs/kodak/o3-2002_02.pdf) (Publication No. O-3). Eastman Kodak Company.
-
 [^eastman2005]: Eastman Kodak Company. (2005). [*KODAK PROFESSIONAL chemicals, Process E-6*](https://125px.com/docs/techpubs/kodak/j83-2005_11.pdf) (Publication No. J-83). Eastman Kodak Company.
-
 [^eastman2006]: Eastman Kodak Company. (2006). [*Basic photographic sensitometry workbook*](https://www.kodak.com/content/products-brochures/Film/Basic-Photographic-Sensitometry-Workbook.pdf) (Publication No. H-740). Eastman Kodak Company.
-
 [^eastman2016]: Kodak Alaris Inc. (2016). [*How to process and print black-and-white film*](https://business.kodakmoments.com/sites/default/files/files/resources/AJ-3.pdf) (Publication No. AJ-3). Kodak Alaris.
-
 [^eastmanZ119]: Eastman Kodak Company. (n.d.). *Using KODAK chemicals, Process E-6* (Publication No. Z-119, 6th ed.). Eastman Kodak Company. Chapter PDFs available at [125px.com](https://125px.com/docs/techpubs/kodak/z119-11.pdf).
-
 [^eastmanZ131]: Eastman Kodak Company. (n.d.). [*Using KODAK FLEXICOLOR chemicals*](https://business.kodakmoments.com/sites/default/files/wysiwyg/pro/chemistry/z131.pdf) (Publication No. Z-131). Kodak Professional.
-
 [^fadgi2023]: FADGI Still Image Working Group. (2023). [*Technical guidelines for digitizing cultural heritage materials*](https://www.digitizationguidelines.gov/guidelines/digitize-technical.html) (3rd ed.). Federal Agencies Digital Guidelines Initiative / Library of Congress.
-
 [^fujifilm2020]: FUJIFILM Corporation. (2020). [*Processing manual: Fujicolor negative process CN-16Q, CN-16FA, CN-16L, CN-16S*](https://asset.fujifilm.com/www/nz/files/2020-11/7bc24ba0b5e224bc74a11f1cda56b78b/cn16lq_.pdf). FUJIFILM Corporation.
-
 [^ilford2003]: HARMAN technology Limited. (2003, rev. 2017). [*Processing your first black & white film*](https://www.ilfordphoto.com/wp/wp-content/uploads/2017/04/Processing-your-first-black-and-white-film.pdf). Ilford Photo.
-
 [^ilford2006]: HARMAN technology Limited. (2006). [*Push processing: Increasing apparent film speed by over-development*](https://www.darkroomdave.com/wp-content/uploads/2018/06/Push-Processing-Films-2006-2102012331472.pdf). Ilford Photo.
-
 [^ilford2017a]: HARMAN technology Limited. (2017). [*Making your first black & white print*](https://www.ilfordphoto.com/wp/wp-content/uploads/2017/04/Making-your-first-print.pdf). Ilford Photo.
-
 [^ilford2023]: HARMAN technology Limited. (2023). [*Film reciprocity failure compensation*](https://www.ilfordphoto.com/wp/wp-content/uploads/2024/05/Reciprocity-Failure-Compensation-v2.pdf) (v2). Ilford Photo.
-
 [^ilford2025]: HARMAN technology Limited. (2025). [*Film developing chart*](https://www.ilfordphoto.com/wp/wp-content/uploads/2025/05/18x24-film-developing-chart-Poster-colour-2025.pdf) [Poster]. Ilford Photo.
-
 [^iso1987]: International Organization for Standardization. (1987). [*Photography — Colour negative films for still photography — Determination of ISO speed*](https://www.iso.org/standard/11948.html) (ISO 5800:1987, 2nd ed.). ISO.
-
 [^lambrecht2011]: Lambrecht, R. W., & Woodhouse, C. (2011). *Way beyond monochrome: Advanced techniques for traditional black & white photography including digital negatives and hybrid printing* (2nd ed.). Focal Press / Routledge.
-
 [^loc]: Library of Congress Preservation Directorate. (n.d.). [*Care, handling and storage of photographs*](https://www.loc.gov/preservation/care/photo.html). Library of Congress.
-
 [^vitale2009]: Vitale, T. (2009). [*Estimating the resolution of historic film images: Using the resolving power equation (RPE) and estimates of lens quality*](https://cool.culturalheritage.org/videopreservation/library/estimating_historic_image_resolution_v9.pdf) (Version 9). Foundation for Advancement in Conservation / Conservation OnLine.

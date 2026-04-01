@@ -107,14 +107,8 @@ The trade-off is dependency and latency. AirPlay requires Wi-Fi infrastructure â
 
 AirPlay's encryption layers protect content in transit, but the protocol's attack surface has grown alongside its ecosystem. In 2025, security researchers at Oligo disclosed a family of vulnerabilities collectively called **Airborne**, affecting the AirPlay protocol implementation across millions of Apple and third-party devices. Apple patched its own products promptly, but many third-party AirPlay-enabled speakers and TVs remain unpatched due to inconsistent firmware update practices among manufacturers.[^macrumors] The episode highlights a structural tension in AirPlay's licensing model: Apple controls the protocol specification and patches its own devices quickly, but cannot force timely updates across the hundreds of third-party products that implement the protocol.
 
-## References
-
 [^apple]: Apple. (n.d.). [*AirPlay*](https://www.apple.com/airplay/). Apple.
-
 [^macrumors]: MacRumors. (n.d.). [*AirPlay: Everything you need to know*](https://www.macrumors.com/guide/airplay/). MacRumors.
-
 [^nto]: nto. (n.d.). [*Unofficial AirPlay protocol specification*](https://nto.github.io/AirPlay.html).
-
 [^openairplayDiscovery]: OpenAirplay Contributors. (n.d.). [*AirPlay specification: Service discovery*](https://openairplay.github.io/airplay-spec/service_discovery.html). OpenAirplay.
-
 [^openairplayIntro]: OpenAirplay Contributors. (n.d.). [*AirPlay specification: Introduction*](https://openairplay.github.io/airplay-spec/introduction.html). OpenAirplay.

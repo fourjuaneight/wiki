@@ -102,15 +102,9 @@ Routing protocols themselves are attack surfaces. Without authentication, a rogu
 NIST Special Publication 800-153 provides federal guidelines for securing wireless network infrastructure components, including access points and the routers they connect to, covering the full lifecycle from design through ongoing monitoring.[^souppaya2012]
 
 [^cisco-how]: Cisco. (n.d.). [*How does a router work?*](https://www.cisco.com/site/us/en/learn/topics/small-business/how-does-a-router-work.html). Cisco Systems.
-
 [^cisco-what]: Cisco. (n.d.). [*What is a router?*](https://www.cisco.com/site/us/en/learn/topics/small-business/what-is-a-router.html). Cisco Systems.
-
 [^malkin1998]: Malkin, G. S. (1998). [*RIP Version 2* (RFC 2453; STD 56)](https://datatracker.ietf.org/doc/html/rfc2453). Internet Engineering Task Force.
-
 [^moy1998]: Moy, J. (1998). [*OSPF Version 2* (RFC 2328; STD 54)](https://datatracker.ietf.org/doc/html/rfc2328). Internet Engineering Task Force.
-
 [^rekhter2006]: Rekhter, Y., Li, T., & Hares, S. (2006). [*A Border Gateway Protocol 4 (BGP-4)* (RFC 4271)](https://datatracker.ietf.org/doc/html/rfc4271). Internet Engineering Task Force.
-
 [^rfc7426]: Haleplidis, E., Pentikousis, K., Denazis, S., Salim, J. H., Meyer, D., & Koufopavlou, O. (2015). [*Software-Defined Networking (SDN): Layers and architecture terminology* (RFC 7426)](https://datatracker.ietf.org/doc/html/rfc7426). Internet Research Task Force.
-
 [^souppaya2012]: Souppaya, M. P., & Scarfone, K. (2012). [*Guidelines for securing wireless local area networks (WLANs)* (NIST Special Publication 800-153)](https://doi.org/10.6028/NIST.SP.800-153). National Institute of Standards and Technology.

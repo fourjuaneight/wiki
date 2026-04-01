@@ -34,8 +34,6 @@ Sitting too close to older TVs would reveal scan lines or pixelation, but with t
 
 Even if you sit farther away than the recommended distances, a 4K TV with High Dynamic Range (HDR) will still look sharp and offer improved contrast and color ranges (see [HDR section](#hdr-high-dynamic-range) below). Choosing the right size and distance can make a world of difference in your home theater setup.
 
----
-
 ## Audio Configurations
 
 When it comes to home theater audio, the term "[surround sound](https://en.wikipedia.org/wiki/Surround_sound)" refers to the use of multiple audio channels and an array of speakers to create a more realistic and immersive audio experience than a typical 2-channel stereo setup. The configurations are denoted by numbers such as 5.1, 7.1, or 9.1, where the first number indicates the number of full-range loudspeakers and the second number specifies the number of low-frequency subwoofer (LFE) channels. A third number, when present, refers to aerial or height speakers — particularly relevant for Dolby Atmos (see below).
@@ -58,23 +56,17 @@ The scientific justification for height channels is well-established: NHK resear
 
 At the standards level, the open-standard equivalent of Dolby Atmos's object metadata is the **Audio Definition Model (ADM)**, defined in ITU-R BS.2076. The ADM is an XML-based framework that encodes channel-based, object-based, and scene-based (Higher-Order Ambisonics) audio with full 3D positional metadata.[^itu2019] SMPTE's ST 2098 series specifies how immersive audio bitstreams — including both bed channels and audio objects — are packaged for cinema distribution.[^smpte2018a][^smpte2022] The Library of Congress recognizes the ADM as a key digital audio format for preservation purposes.[^loc_nd]
 
----
-
 ## AV Receivers: The Heart of the System
 
 An Audio-Visual (AV) receiver is essential for a surround sound setup. It receives, processes, and amplifies audio and visual signals to drive the speakers and display. AV receiver amplifier performance is formally governed by **ANSI/CTA-490-B**, which specifies test methods and measurement conditions for multi-channel power amplifiers and receivers,[^cta2019] and by **IEC 60268-3**, the international standard for amplifier performance including Class-D and multi-channel configurations.[^iec2018] Digital audio measurement — covering DAC performance, dynamic range, THD+N, and jitter — is addressed in **AES17-2020**.[^aes2020]
 
 Ensure your AV receiver is compatible with the audio decoders used by your media sources, such as Dolby Digital, Dolby TrueHD, or Dolby Digital Plus. Modern receivers increasingly include automatic room correction systems; the algorithmic foundations of widely used systems like Audyssey MultEQ trace to peer-reviewed IEEE and AES research on multi-position equalization developed at the University of Southern California.[^bharitkar2001][^bharitkar2005]
 
----
-
 ## Cables and Connections: The Nitty-Gritty
 
 Your AV receiver will have various inputs and outputs, including HDMI, digital coaxial and optical inputs, multi-channel analog connections, and speaker terminals. HDMI is crucial for modern setups, especially those involving HD and 4K sources. **HDMI 2.1** introduced the Enhanced Audio Return Channel (eARC), which supports up to 32 channels of uncompressed audio at 24-bit/192 kHz and enables lossless passthrough of formats including Dolby TrueHD and Dolby Atmos.[^hdmi2017] HDMI's HDR signaling — including SMPTE ST 2086 static metadata, MaxCLL, and MaxFALL values — is standardized in **CTA-861.3-A**.[^cta2016]
 
 Coaxial and optical inputs are used for transmitting digital audio signals (S/PDIF), while multi-channel analog connections are used for connecting DVD or Blu-ray players directly to your AV receiver.
-
----
 
 ## HDR: High Dynamic Range
 
@@ -84,8 +76,6 @@ The **Perceptual Quantizer (PQ)** — formally standardized in **SMPTE ST 2084**
 
 In practice, HDR10 static metadata (mastering display luminance and color primaries) is carried via SMPTE ST 2086 and exchanged over HDMI using CTA-861 InfoFrames.[^smpte2018b][^cta2016] Even if you sit farther away than the optimal viewing distance, a 4K display with HDR will still deliver improved contrast and color range relative to SDR — though a well-calibrated setup at the correct distance will yield the full benefit of both resolution and HDR together.
 
----
-
 ## Room Optimization: The Final Touch
 
 The room's acoustics play a significant role in the audio experience. Standards governing professional listening environments specify key parameters including reverberation time, early reflection suppression, background noise levels, and loudspeaker placement. **ITU-R BS.1116-3** — the primary international standard for reference listening rooms — requires early reflections to be attenuated by at least 10 dB in the 1–8 kHz range within 15 milliseconds and sets a background noise ceiling of NR 10–15.[^itu2015b] The **EBU Tech 3276** standard specifies that reverberation time in a monitoring environment should not markedly exceed 0.3 seconds.[^ebu1998]
@@ -94,68 +84,35 @@ For home theater environments, a mix of hard and soft surfaces is desirable: har
 
 Setting up a well-treated surround sound system is worth the effort. The immersive experience it offers is unparalleled, making every movie night a cinematic event.
 
----
-
 [^aes_nd]: Audio Engineering Society, Technical Council, Committee on Multichannel and Binaural Audio Technology. (n.d.). [*AESTD1001: Multichannel surround sound systems and operations*](https://www.aes.org/technical/documents/AESTD1001.pdf). AES.
-
 [^aes2020]: Audio Engineering Society. (2020). [*AES17-2020: AES standard method for digital audio engineering — Measurement of digital audio equipment*](https://www.aes.org/publications/standards/search.cfm?docID=21). AES.
-
 [^bharitkar2001]: Bharitkar, S., & Kyriakakis, C. (2001). A cluster centroid method for room response equalization at multiple locations. In *Proceedings of the 2001 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics* (pp. 55–58). IEEE.
-
 [^bharitkar2005]: Bharitkar, S., & Kyriakakis, C. (2005). [Objective function for automatic multi-position equalization and bass management filter selection](https://aes.org/publications/elibrary-page/?id=13309). *119th AES Convention*, Paper No. 6608.
-
 [^cta2016]: Consumer Technology Association. (2016). [*CTA-861.3-A: HDR static metadata extensions*](https://shop.cta.tech/products/cta-861-3). CTA.
-
 [^cta2019]: Consumer Technology Association. (2019). [*ANSI/CTA-490-B: Test methods of measurement for audio amplifiers*](https://shop.cta.tech/products/cta-490). CTA.
-
 [^dolby2014]: Dolby Laboratories. (2014). [*Dolby Atmos for the home theater*](https://professional.dolby.com/siteassets/tv/home/dolby-atmos/dolby-atmos-for-home-theater.pdf) [White paper]. Dolby Laboratories, Inc.
-
 [^ebu1998]: European Broadcasting Union. (1998). [*EBU Tech 3276 (2nd ed.): Listening conditions for the assessment of sound programme material: Monophonic and two-channel stereophonic*](https://tech.ebu.ch/docs/tech/tech3276.pdf). EBU.
-
 [^hamasaki2006]: Hamasaki, K., Nishiguchi, T., Hiyama, K., & Okumura, R. (2006). Effectiveness of height information for reproducing presence and reality in multichannel audio system. *Audio Engineering Society Convention 120*, Paper No. 6679.
-
 [^hamasaki2008]: Hamasaki, K., Nishiguchi, T., Okumura, R., Nakayama, Y., & Ando, A. (2008). [A 22.2 multichannel sound system for ultrahigh-definition TV (UHDTV)](https://journal.smpte.org/periodicals/SMPTE%20Motion%20Imaging%20Journal/117/3/17/). *SMPTE Motion Imaging Journal*, *117*(3), 40–49.
-
 [^hdmi2017]: HDMI Forum, Inc. (2017). [*HDMI specification version 2.1*](https://www.hdmi.org/spec2sub/enhancedaudioreturnchannel). HDMI Licensing Administrator, Inc.
-
 [^iec2018]: International Electrotechnical Commission. (2018). [*IEC 60268-3 Ed. 5.0: Sound system equipment — Part 3: Amplifiers*](https://webstore.iec.ch/en/publication/32788). IEC.
-
 [^itu2010]: International Telecommunication Union, Radiocommunication Sector. (2010). [*Recommendation ITU-R BT.1845-1: Guidelines on metrics to be used when tailoring television programmes to broadcasting applications at various image quality levels, display sizes and aspect ratios*](https://www.itu.int/rec/R-REC-BT.1845-1-201003-P/en). ITU.
-
 [^itu2015a]: International Telecommunication Union, Radiocommunication Sector. (2015). [*Recommendation ITU-R BT.2020-2: Parameter values for ultra-high definition television systems for production and international programme exchange*](https://www.itu.int/rec/R-REC-BT.2020-2-201510-I/en). ITU.
-
 [^itu2015b]: International Telecommunication Union, Radiocommunication Sector. (2015). [*Recommendation ITU-R BS.1116-3: Methods for the subjective assessment of small impairments in audio systems including multichannel sound systems*](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1116-3-201502-I!!PDF-E.pdf). ITU.
-
 [^itu2018]: International Telecommunication Union, Radiocommunication Sector. (2018). [*Recommendation ITU-R BS.2051-2: Advanced sound system for programme production*](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2051-2-201807-S!!PDF-E.pdf). ITU.
-
 [^itu2019]: International Telecommunication Union, Radiocommunication Sector. (2019). [*Recommendation ITU-R BS.2076-2: Audio definition model*](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.2076-2-201910-S!!PDF-E.pdf). ITU.
-
 [^itu2022a]: International Telecommunication Union, Radiocommunication Sector. (2022). [*Recommendation ITU-R BS.775-4: Multichannel stereophonic sound system with and without accompanying picture*](https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.775-4-202212-I!!PDF-E.pdf). ITU.
-
 [^itu2023]: International Telecommunication Union, Radiocommunication Sector. (2023). [*Report ITU-R BT.2246-8: The present state of ultra-high definition television*](https://www.itu.int/dms_pub/itu-r/opb/rep/R-REP-BT.2246-8-2023-PDF-E.pdf). ITU.
-
 [^itu2025]: International Telecommunication Union, Radiocommunication Sector. (2025). [*Recommendation ITU-R BT.2100-3: Image parameter values for high dynamic range television for use in production and international programme exchange*](https://www.itu.int/rec/R-REC-BT.2100/en). ITU.
-
 [^loc_nd]: Library of Congress. (n.d.). [*Audio definition model*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000607.shtml). Library of Congress Sustainability of Digital Formats.
-
 [^miller2013]: Miller, S., Nezamabadi, M., & Daly, S. (2013). Perceptual signal coding for more efficient usage of bit codes. *SMPTE Motion Imaging Journal*, *122*(4), 52–59. https://doi.org/10.5594/j18173
-
 [^noxon1985]: Noxon, A. M. (1985). [Listening room — Corner loaded bass trap](https://www.tubetrap.com/bass_traps_articles/listening-room.pdf). *79th AES Convention*.
-
 [^oramus2019]: Oramus, T., & Neubauer, P. (2019). [Comparison study of listeners' perception of 5.1 and Dolby Atmos](https://aes.org/publications/elibrary-page/?id=20651). *Audio Engineering Society Convention 147*, Paper No. 10278.
-
 [^smpte2014]: Society of Motion Picture and Television Engineers. (2014). [*SMPTE ST 2084:2014: High dynamic range electro-optical transfer function of mastering reference displays*](https://doi.org/10.5594/SMPTE.ST2084.2014). SMPTE.
-
 [^smpte2017]: Society of Motion Picture and Television Engineers. (2017). [*SMPTE ST 2080-3:2017: Reference viewing environment for evaluation of HDTV images*](https://doi.org/10.5594/SMPTE.ST2080-3.2017). SMPTE.
-
 [^smpte2018a]: Society of Motion Picture and Television Engineers. (2018). *SMPTE ST 2098-1:2018: Immersive audio metadata*. SMPTE.
-
 [^smpte2018b]: Society of Motion Picture and Television Engineers. (2018). [*SMPTE ST 2086:2018: Mastering display color volume metadata supporting high luminance and wide color gamut images*](https://doi.org/10.5594/SMPTE.ST2086.2018). SMPTE.
-
 [^smpte2022]: Society of Motion Picture and Television Engineers. (2022). *SMPTE ST 2098-2:2022: Immersive audio bitstream specification*. SMPTE.
-
 [^thx2006]: THX Ltd. (2006). *THX recommended viewing angle for home theater* [Technical recommendation, presented at CES 2006]. THX. https://www.thx.com
-
 [^toole2006]: Toole, F. E. (2006). Loudspeakers and rooms for sound reproduction — A scientific review. *Journal of the Audio Engineering Society*, *54*(6), 451–476.
-
 [^toole2018]: Toole, F. E. (2018). [*Sound reproduction: The acoustics and psychoacoustics of loudspeakers and rooms*](https://doi.org/10.4324/9781315086217) (3rd ed.). Routledge.

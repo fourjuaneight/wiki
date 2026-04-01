@@ -145,56 +145,29 @@ Validation follows the chain upward. A resolver verifies the A record signature 
 
 Despite its security value, DNSSEC adoption remains uneven. Roughly 48% of country-code TLDs are signed, but second-level domain adoption in `.com` sits at approximately 4%. Nordic countries lead: the Netherlands (`.nl`) exceeds 60% adoption, with Sweden, Norway, and Czech Republic above 50%. Global DNSSEC validation rates average approximately 35%, with the EU at about 49% as of late 2025[^euJRC2023]. Barriers include operational complexity, larger response sizes that worsen amplification attacks, and the absence of direct user-facing benefits until deployment reaches critical mass.
 
-## References
-
 [^andrews1998]: Andrews, M. (1998). *Negative caching of DNS queries* (RFC 2308). IETF. https://datatracker.ietf.org/doc/html/rfc2308
-
 [^arends2005]: Arends, R., Austein, R., Larson, M., Massey, D., & Rose, S. (2005). *DNS security introduction and requirements* (RFC 4033). IETF. https://datatracker.ietf.org/doc/html/rfc4033
-
 [^cbtNuggets]: CBT Nuggets. (n.d.). *What is DNS recursive lookup? How does it compare to iterative lookup?* https://www.cbtnuggets.com/blog/technology/networking/dns-recursive-vs-iterative-lookup
-
 [^cloudflareA]: Cloudflare. (n.d.). *What is DNS?* https://www.cloudflare.com/learning/dns/what-is-dns/
-
 [^cloudflareB]: Cloudflare. (n.d.). *What are DNS records?* https://www.cloudflare.com/learning/dns/dns-records/
-
 [^cloudflareC]: Cloudflare. (n.d.). *How does DNSSEC work?* https://www.cloudflare.com/learning/dns/dnssec/how-dnssec-works/
-
 [^cloudflare2020]: Cloudflare. (2020, November 12). *SAD DNS explained*. Cloudflare Blog. https://blog.cloudflare.com/sad-dns-explained/
-
 [^elzBush1997]: Elz, R., & Bush, R. (1997). *Clarifications to the DNS specification* (RFC 2181). IETF. https://datatracker.ietf.org/doc/html/rfc2181
-
 [^euJRC2023]: EU Joint Research Centre. (2023). *Internet standards: Domain Name System Security Extensions (DNSSEC) — an analysis of uptake in the EU*. European Commission. https://publications.jrc.ec.europa.eu/repository/handle/JRC143100
-
 [^historyOfDomains]: History of Domains. (n.d.). *Paul Mockapetris invented the Domain Name System*. https://www.historyofdomains.com/paul-mockapetris/
-
 [^hoffmanMcManus2018]: Hoffman, P., & McManus, P. (2018). *DNS queries over HTTPS (DoH)* (RFC 8484). IETF. https://datatracker.ietf.org/doc/html/rfc8484
-
 [^hu2016]: Hu, Z., Zhu, L., Heidemann, J., Mankin, A., Wessels, D., & Hoffman, P. (2016). *Specification for DNS over Transport Layer Security (TLS)* (RFC 7858). IETF. https://datatracker.ietf.org/doc/html/rfc7858
-
 [^iana]: IANA. (n.d.). *Root servers*. https://www.iana.org/domains/root/servers
-
 [^icannRootSystem]: ICANN. (n.d.). *The root server system*. https://www.icann.org/root-server-system-en
-
 [^icannKSK]: ICANN. (n.d.). *Root zone KSK rollover*. https://www.icann.org/resources/pages/ksk-rollover-2018-en
-
 [^icann2019]: ICANN. (2019, March 5). *DNSSEC — what is it and why is it important?* https://www.icann.org/resources/pages/dnssec-what-is-it-why-important-2019-03-05-en
-
 [^imperva]: Imperva. (n.d.). *What is DNS amplification?* https://www.imperva.com/learn/ddos/dns-amplification/
-
 [^infoblox]: Infoblox. (n.d.). *DNS data exfiltration*. https://www.infoblox.com/dns-security-resource-center/dns-security-issues-threats/dns-security-threats-data-exfiltration/
-
 [^internetSociety2013]: Internet Society. (2013, November). *Celebrating 30 years of the Domain Name System (DNS)*. https://www.internetsociety.org/blog/2013/11/celebrating-30-years-of-the-domain-name-system-dns-this-month/
-
 [^lawrenceKumari2020]: Lawrence, D., & Kumari, W. (2020). *Serving stale data to improve DNS resiliency* (RFC 8767). IETF. https://datatracker.ietf.org/doc/rfc8767/
-
 [^lucianSystems]: Lucian Systems. (n.d.). *Understanding glue records and dedicated DNS*. https://luciansystems.com/understanding-glue-records-and-dedicated-dns/
-
 [^mockapetris1987a]: Mockapetris, P. (1987a). *Domain names — concepts and facilities* (RFC 1034). IETF. https://datatracker.ietf.org/doc/html/rfc1034
-
 [^mockapetris1987b]: Mockapetris, P. (1987b). *Domain names — implementation and specification* (RFC 1035). IETF. https://datatracker.ietf.org/doc/html/rfc1035
-
 [^unixwiz]: Unixwiz. (n.d.). *An illustrated guide to the Kaminsky DNS vulnerability*. http://unixwiz.net/techtips/iguide-kaminsky-dns-vuln.html
-
 [^wikipediaSOA]: Wikipedia. (n.d.). *SOA record*. https://en.wikipedia.org/wiki/SOA_record
-
 [^wikipediaDNSSEC]: Wikipedia. (n.d.). *Domain Name System Security Extensions*. https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions

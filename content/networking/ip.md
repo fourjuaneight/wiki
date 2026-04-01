@@ -105,31 +105,17 @@ This system reached a decisive turning point on February 3, 2011, when IANA allo
 For IPv6, IANA allocates large blocks to RIRs, which assign minimum `/32` prefixes to LIRs. ISPs typically assign `/48` prefixes to subscriber sites, allowing 65,536 subnets per customer. Individual LAN segments standardly receive `/64` prefixes, providing each subnet more host addresses than all of IPv4 combined. Address scarcity is not a foreseeable concern for IPv6; the challenge is adoption velocity[^ripeNCC].
 
 [^baker1995]: Baker, F. (1995). *Requirements for IP version 4 routers* (RFC 1812). IETF. https://datatracker.ietf.org/doc/html/rfc1812
-
 [^deeringHinden2017]: Deering, S., & Hinden, R. (2017). *Internet Protocol, version 6 (IPv6) specification* (RFC 8200). IETF. https://datatracker.ietf.org/doc/html/rfc8200
-
 [^droms1997]: Droms, R. (1997). *Dynamic Host Configuration Protocol* (RFC 2131). IETF. https://datatracker.ietf.org/doc/html/rfc2131
-
 [^fortinet]: Fortinet. (n.d.). *What is an IP address? How it works, how to locate it.* https://www.fortinet.com/resources/cyberglossary/what-is-ip-address
-
 [^fullerLi2006]: Fuller, V., & Li, T. (2006). *Classless inter-domain routing (CIDR): The internet address assignment and aggregation plan* (RFC 4632). IETF. https://datatracker.ietf.org/doc/html/rfc4632
-
 [^google]: Google. (n.d.). *IPv6 adoption statistics.* Google. https://www.google.com/intl/en/ipv6/statistics.html
-
 [^hindenDeering2006]: Hinden, R., & Deering, S. (2006). *IP version 6 addressing architecture* (RFC 4291). IETF. https://datatracker.ietf.org/doc/html/rfc4291
-
 [^hindenHaberman2005]: Hinden, R., & Haberman, B. (2005). *Unique local IPv6 unicast addresses* (RFC 4193). IETF. https://datatracker.ietf.org/doc/html/rfc4193
-
 [^iana]: Internet Assigned Numbers Authority. (n.d.). *Number resources.* https://www.iana.org/numbers
-
 [^nro]: Number Resource Organization. (n.d.). *IPv4 exhaustion FAQs.* https://www.nro.net/about/rirs/internet-number-resources/ipv6/ipv4-exhaustion-faqs/
-
 [^postel1981]: Postel, J. (1981). *Internet Protocol* (RFC 791). IETF. https://datatracker.ietf.org/doc/html/rfc791
-
 [^rekhter2006]: Rekhter, Y., Li, T., & Hares, S. (2006). *A border gateway protocol 4 (BGP-4)* (RFC 4271). IETF. https://datatracker.ietf.org/doc/html/rfc4271
-
 [^rekhter1996]: Rekhter, Y., Moskowitz, B., Karrenberg, D., de Groot, G. J., & Lear, E. (1996). *Address allocation for private internets* (RFC 1918). IETF. https://datatracker.ietf.org/doc/html/rfc1918
-
 [^ripeNCC]: RIPE Network Coordination Centre. (n.d.). *Understanding IP addressing and CIDR charts.* https://www.ripe.net/about-us/press-centre/understanding-ip-addressing/
-
 [^srisureshEgevang2001]: Srisuresh, P., & Egevang, K. (2001). *Traditional IP network address translator (Traditional NAT)* (RFC 3022). IETF. https://datatracker.ietf.org/doc/html/rfc3022

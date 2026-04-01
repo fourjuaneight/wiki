@@ -18,8 +18,6 @@ Chroma subsampling exploits the human visual system's lower sensitivity to color
 
 Standard frame rates include 24 fps (film), 25 fps (PAL/SECAM), 29.97/30 fps (NTSC), and 60 fps.[^itu-bt709] Frame rates up to 120 fps for UHD content are specified in SMPTE ST 2036-1:2014 and ITU-R BT.2020.[^smpte-st2036][^itu-bt2020]
 
----
-
 ## Codecs
 
 Video **codecs** (compressor-decompressor) are algorithms used to compress (encode) and decompress (decode) digital video files. They transform raw video data into a format that is more manageable for storage, transmission, and playback.
@@ -63,8 +61,6 @@ Video **codecs** (compressor-decompressor) are algorithms used to compress (enco
 - Formally documented in SMPTE RDD 36:2015[^loc-prores][^smpte-rdd36]
 - Supports various resolutions and quality levels; variants include ProRes 422, ProRes 4444, and ProRes RAW
 
----
-
 ## HDR
 
 **HDR** (High Dynamic Range) is a technology that enhances image quality by increasing the contrast between the lightest and darkest areas. HDR makes bright areas brighter, dark areas darker, and reveals more detail in both, producing a more lifelike picture. HDR10 is the mandatory baseline format on Ultra HD Blu-ray, with all other formats building upon it. All major HDR formats use the Rec. 2020 (ITU-R BT.2020) wide color gamut[^itu-bt2020] and the Perceptual Quantizer (PQ)[^smpte-st2084] or Hybrid Log-Gamma (HLG) transfer functions defined in ITU-R BT.2100.[^itu-bt2100]
@@ -96,8 +92,6 @@ Video **codecs** (compressor-decompressor) are algorithms used to compress (enco
 - **Drawbacks:** Limited content; not as strong at rendering black levels; less detail in shadows and night scenes.
 - **Popularity:** Still in its infancy.
 - **Compatibility:** Jointly developed by BBC and NHK; first published as ARIB STD-B67 in July 2015 and incorporated into ITU-R BT.2100 in July 2016.[^arib2015][^itu-bt2100]
-
----
 
 ## Audio
 
@@ -155,15 +149,11 @@ Surround sound audio codecs are designed to deliver a more immersive audio exper
 - **Channels:** Up to 48 full-bandwidth audio channels per ISO/IEC 14496-3 specification;[^loc-aac][^iso-14496-3] commonly implemented in stereo, 5.1, and 7.1 configurations for consumer streaming
 - **Usage:** Common in streaming services; offers good quality at lower bit rates.
 
----
-
 ## Bitrate
 
 **Bitrate** refers to the amount of data processed per unit of time in the video file. Higher bitrates generally mean higher quality but lead to larger file sizes. Codecs can be used to adjust the bitrate to balance quality and size.
 
 Modern rate-control methods such as CRF (Constant Rate Factor) allocate bits based on scene complexity rather than enforcing a fixed rate, achieving better perceptual quality per byte than traditional constant bitrate (CBR) encoding. This approach is fundamental to adaptive bitrate streaming (ABR) protocols such as HLS and DASH.[^iso-13818-1]
-
----
 
 ## Resolution
 
@@ -176,8 +166,6 @@ Video **resolution** refers to the number of distinct pixels that could be displ
 | Full HD | 1920×1080 | SMPTE 274M-2008 / ITU-R BT.709-6[^smpte-274m][^itu-bt709] |
 | 4K UHD (Ultra High Definition) | 3840×2160 | ITU-R BT.2020 / SMPTE ST 2036-1[^itu-bt2020][^smpte-st2036] |
 | 8K UHD | 7680×4320 | ITU-R BT.2020 / SMPTE ST 2036-1[^itu-bt2020][^smpte-st2036] |
-
----
 
 ## Containers
 
@@ -225,102 +213,52 @@ A video **container** is a file format that houses one or more streams of video,
 - **Compression:** Both lossy and lossless for video; lossy for audio.
 - **Benefits:** Open, non-proprietary, royalty-free format developed by Google; based on the Matroska container structure. Supported by HTML5.[^loc-webm]
 
----
-
 [^akyazi2018]: Akyazi, P., & Ebrahimi, T. (2018). Comparison of compression efficiency between HEVC/H.265, VP9 and AV1 based on subjective quality assessments. *2018 Tenth International Conference on Quality of Multimedia Experience (QoMEX)*, 1–6. https://ieeexplore.ieee.org/document/8463294
-
 [^aom2019]: Alliance for Open Media. (2019). [*AV1 Bitstream & Decoding Process Specification v1.0.0-errata1*](https://aomediacodec.github.io/av1-spec/av1-spec.pdf). AOM.
-
 [^arib2015]: Association of Radio Industries and Businesses. (2015). *ARIB STD-B67: Essential parameter values for the extended image dynamic range television (EIDRTV) system for programme production*. ARIB.
-
 [^atsc2018]: Advanced Television Systems Committee. (2018). *ATSC A/52:2018: Digital audio compression (AC-3) (E-AC-3) standard*. ATSC.
-
 [^cta2015]: Consumer Technology Association. (2015). *CTA-861.3: HDR static metadata extensions*. CTA.
-
 [^etsi-ts102-114]: European Telecommunications Standards Institute. (n.d.). *ETSI TS 102 114: DTS Coherent Acoustics; Core and extensions*. ETSI.
-
 [^etsi-ts102-366]: European Telecommunications Standards Institute. (2017). *ETSI TS 102 366 V1.4.1: Digital audio compression (AC-3, Enhanced AC-3) standard*. ETSI.
-
 [^etsi-ts103-491]: European Telecommunications Standards Institute. (n.d.). *ETSI TS 103 491: DTS-UHD Audio Format*. ETSI.
-
 [^han2021]: Han, J., Li, B., Mukherjee, D., et al. (2021). A technical overview of AV1. *Proceedings of the IEEE, 109*(9), 1435–1462. https://doi.org/10.1109/JPROC.2021.3058technical
-
 [^ietf2024]: Internet Engineering Task Force. (2024). [*RFC 9559: Matroska Media Container Format Specification*](https://datatracker.ietf.org/doc/rfc9559/). IETF.
-
 [^iso-11172-2]: International Organization for Standardization. (1993). *ISO/IEC 11172-2: Coding of moving pictures and associated audio for digital storage media at up to about 1.5 Mbit/s — Part 2: Video*. ISO.
-
 [^iso-13818-1]: International Organization for Standardization. (2023). *ISO/IEC 13818-1: Generic coding of moving pictures and associated audio information — Part 1: Systems*. ISO.
-
 [^iso-13818-2]: International Organization for Standardization. (2013). *ISO/IEC 13818-2: Generic coding of moving pictures and associated audio information — Part 2: Video*. ISO.
-
 [^iso-14496-2]: International Organization for Standardization. (2004). *ISO/IEC 14496-2: Coding of audio-visual objects — Part 2: Visual*. ISO.
-
 [^iso-14496-3]: International Organization for Standardization. (2019). *ISO/IEC 14496-3: Information technology — Coding of audio-visual objects — Part 3: Audio*. ISO.
-
 [^iso-14496-10]: International Organization for Standardization. (2014). *ISO/IEC 14496-10: Advanced video coding*. ISO.
-
 [^iso-14496-14]: International Organization for Standardization. (2020). *ISO/IEC 14496-14:2020: MP4 file format*. ISO.
-
 [^iso-23008-2]: International Organization for Standardization. (2020). *ISO/IEC 23008-2:2020: High efficiency video coding*. ISO.
-
 [^itu-bt601]: International Telecommunication Union. (2011). *Recommendation ITU-R BT.601-7: Studio encoding parameters of digital television for standard 4:3 and wide screen 16:9 aspect ratios*. ITU.
-
 [^itu-bt709]: International Telecommunication Union. (2015). *Recommendation ITU-R BT.709-6: Parameter values for the HDTV standards for production and international programme exchange*. ITU.
-
 [^itu-bt2020]: International Telecommunication Union. (2015). *Recommendation ITU-R BT.2020-2: Parameter values for ultra-high definition television systems for production and international programme exchange*. ITU.
-
 [^itu-bt2100]: International Telecommunication Union. (2016). *Recommendation ITU-R BT.2100: Image parameter values for high dynamic range television for use in production and international programme exchange*. ITU.
-
 [^itu-h264]: International Telecommunication Union. (2017). *Recommendation ITU-T H.264: Advanced video coding for generic audiovisual services* (V12). ITU.
-
 [^itu-h265]: International Telecommunication Union. (2019). *Recommendation ITU-T H.265: High efficiency video coding* (V7). ITU.
-
 [^loc-aac]: Library of Congress. (2022). [*Advanced Audio Coding (MPEG-4)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml) (FDD fdd000114). Library of Congress.
-
 [^loc-ac3]: Library of Congress. (2011). [*AC-3 Compressed Audio (Dolby Digital), Revision A*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000209.shtml) (FDD fdd000209). Library of Congress.
-
 [^loc-av1]: Library of Congress. (n.d.). [*AV1 Video Encoding (AOMedia Video 1)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000541.shtml) (FDD fdd000541). Library of Congress.
-
 [^loc-avi]: Library of Congress. (2016). [*AVI (Audio Video Interleaved) File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000059.shtml) (FDD fdd000059). Library of Congress.
-
 [^loc-dts]: Library of Congress. (2011). [*Digital Theater Systems Audio Formats*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml) (FDD fdd000232). Library of Congress.
-
 [^loc-h264]: Library of Congress. (2011). [*MPEG-4, Advanced Video Coding (Part 10) (H.264)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000081.shtml) (FDD fdd000081). Library of Congress.
-
 [^loc-h265]: Library of Congress. (2020). [*High Efficiency Video Coding (HEVC) Family, H.265, MPEG-H Part 2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000530.shtml) (FDD fdd000530). Library of Congress.
-
 [^loc-mkv]: Library of Congress. (2025). [*Matroska Multimedia Container*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml) (FDD fdd000342). Library of Congress.
-
 [^loc-mov]: Library of Congress. (2024). [*QuickTime File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml) (FDD fdd000052). Library of Congress.
-
 [^loc-mp4]: Library of Congress. (2025). [*MPEG-4 File Format, Version 2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml) (FDD fdd000155). Library of Congress.
-
 [^loc-mpeg2]: Library of Congress. (2011). [*MPEG-2 Video Encoding (H.262)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000028.shtml) (FDD fdd000028). Library of Congress.
-
 [^loc-mpeg4p2]: Library of Congress. (2011). [*MPEG-4, Visual Coding (Part 2)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000080.shtml) (FDD fdd000080). Library of Congress.
-
 [^loc-pcm]: Library of Congress. (n.d.). [*Linear Pulse Code Modulated Audio (LPCM)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000011.shtml) (FDD fdd000011). Library of Congress.
-
 [^loc-prores]: Library of Congress. (2024). [*Apple ProRes 422 Codec Family*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000389.shtml) (FDD fdd000389). Library of Congress.
-
 [^loc-webm]: Library of Congress. (2023). [*WebM*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000518.shtml) (FDD fdd000518). Library of Congress.
-
 [^loc-wmv]: Library of Congress. (2023). [*WMV (Windows Media Video) File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000091.shtml) (FDD fdd000091). Library of Congress.
-
 [^poynton2012]: Poynton, C. (2012). *Digital video and HD: Algorithms and interfaces* (2nd ed.). Morgan Kaufmann.
-
 [^smpte-274m]: Society of Motion Picture and Television Engineers. (2008). *SMPTE 274M-2008: 1920 × 1080 image sample structure*. SMPTE.
-
 [^smpte-296m]: Society of Motion Picture and Television Engineers. (2001). *SMPTE 296M-2001: 1280 × 720 progressive image sample structure*. SMPTE.
-
 [^smpte-rdd36]: Society of Motion Picture and Television Engineers. (2015). *SMPTE RDD 36:2015: Apple ProRes Bitstream Syntax and Decoding Process*. SMPTE.
-
 [^smpte-st2036]: Society of Motion Picture and Television Engineers. (2014). *SMPTE ST 2036-1:2014: Ultra high definition television — Image parameter values for program production*. SMPTE.
-
 [^smpte-st2084]: Society of Motion Picture and Television Engineers. (2014). *SMPTE ST 2084: High dynamic range electro-optical transfer function of mastering reference displays*. SMPTE.
-
 [^smpte-st2086]: Society of Motion Picture and Television Engineers. (2014). *SMPTE ST 2086: Mastering display color volume metadata supporting high luminance and wide color gamut images*. SMPTE.
-
 [^smpte-st2094-10]: Society of Motion Picture and Television Engineers. (2016). *SMPTE ST 2094-10: Dynamic metadata for color volume transform — Application #1*. SMPTE.
-
 [^smpte-st2094-40]: Society of Motion Picture and Television Engineers. (2016). *SMPTE ST 2094-40: Dynamic metadata for color volume transform — Application #4*. SMPTE.

@@ -81,51 +81,27 @@ Regardless of the source file's quality, all standard Bluetooth audio codecs —
 Apple's AirPlay protocol uses ALAC for audio transmission and technically supports lossless delivery at up to 24-bit/48 kHz. In practice, however, behaviour varies significantly by context. AirPlay 1 streams as ALAC at 16-bit/44.1 kHz and is genuinely lossless. AirPlay 2, when used to cast Apple Music from an iPhone, typically transcodes the stream to AAC at 256 kbps before transmission, even when the source is flagged as lossless. HomePods connected to Apple Music via their own Wi-Fi connection can stream losslessly without this transcoding step. Local ALAC or FLAC files sent via AirPlay generally maintain lossless quality throughout.[^appleMusic2021][^darko2023] As with Bluetooth, if the original source file is in a lossy format, the transmitted quality is limited to that original format regardless of how it is transmitted.
 
 [^amazonNd]: Amazon. (n.d.). [*Amazon Music HD FAQs*](https://www.amazon.com/b?ie=UTF8&node=14070322011). Amazon.
-
 [^appleAlac]: Apple Inc. (2011). [*Apple Lossless Audio Codec*](https://macosforge.github.io/alac/) [Open-source project].
-
 [^appleMusic2021]: Apple Inc. (2021). [*About lossless audio in Apple Music*](https://support.apple.com/en-us/118295). Apple Support.
-
 [^bluetoothSig2020]: Bluetooth Special Interest Group. (2020). [*Low Complexity Communication Codec 1.0*](https://www.bluetooth.com/specifications/specs/low-complexity-communication-codec-1-0/) [Specification].
-
 [^brandenburg1999]: Brandenburg, K. (1999). MP3 and AAC explained. In *Proceedings of the 17th AES International Conference: High-Quality Audio Coding*. Audio Engineering Society. https://www.iis.fraunhofer.de/content/dam/iis/de/doc/ame/conference/AES-17-Conference_mp3-and-AAC-explained_AES17.pdf
-
 [^darko2023]: Darko, J. (2023, October). [*Apple AirPlay isn't always lossless. Sometimes it's lossy — but why?*](https://darko.audio/2023/10/apple-airplay-isnt-always-lossless-sometimes-its-lossy/). Darko Audio.
-
 [^deezerNd]: Deezer Support. (n.d.). [*High Fidelity (HiFi) on Deezer*](https://support.deezer.com/hc/en-gb/articles/115004588345-High-Fidelity-HiFi-on-Deezer).
-
 [^herreDick2019]: Herre, J., & Dick, S. (2019). Psychoacoustic models for perceptual audio coding — A tutorial review. *Applied Sciences*, *9*(14), Article 2854. https://doi.org/10.3390/app9142854
-
 [^iasaNd]: International Association of Sound and Audiovisual Archives. (n.d.). [*Key digital principles*](https://www.iasa-web.org/tc04/key-digital-principles). IASA-TC 04: Guidelines on the production and preservation of digital audio objects.
-
 [^iso2006]: International Organization for Standardization. (2006). [*Information technology — Generic coding of moving pictures and associated audio information — Part 7: Advanced Audio Coding (AAC)*](https://www.iso.org/standard/43345.html) (ISO/IEC 13818-7:2006).
-
 [^johnston1988]: Johnston, J. D. (1988). Transform coding of audio signals using perceptual noise criteria. *IEEE Journal on Selected Areas in Communications*, *6*(2), 314–323. https://doi.org/10.1109/49.608
-
 [^locAac]: Library of Congress. (2022). [*Advanced Audio Coding (MPEG-4)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml) (Format Description fdd000114). Sustainability of Digital Formats.
-
 [^locFlac]: Library of Congress. (2015). [*FLAC (Free Lossless Audio Codec), Version 1.1.2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000198.shtml) (Format Description fdd000198). Sustainability of Digital Formats.
-
 [^locMp3]: Library of Congress. (2023). [*MP3 (MPEG Layer III Audio Encoding)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000012.shtml) (Format Description fdd000012). Sustainability of Digital Formats.
-
 [^locWav1]: Library of Congress. (2024a). [*WAVE Audio File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000001.shtml) (Format Description fdd000001). Sustainability of Digital Formats.
-
 [^locWav2]: Library of Congress. (2024b). [*WAVE Audio File Format with LPCM audio*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000002.shtml) (Format Description fdd000002). Sustainability of Digital Formats.
-
 [^meyerMoran2007]: Meyer, E. B., & Moran, D. R. (2007). Audibility of a CD-standard A/DA/A loop inserted into high-resolution audio playback. *Journal of the Audio Engineering Society*, *55*(9), 775–779. https://www.aes.org/e-lib/browse.cfm?elib=14195
-
 [^painterSpanias2000]: Painter, T., & Spanias, A. (2000). Perceptual coding of digital audio. *Proceedings of the IEEE*, *88*(4), 451–515. https://doi.org/10.1109/5.842996
-
 [^reiss2016]: Reiss, J. D. (2016). A meta-analysis of high resolution audio perceptual evaluation. *Journal of the Audio Engineering Society*, *64*(6), 364–379. https://doi.org/10.17743/jaes.2016.0015
-
 [^shannon1949]: Shannon, C. E. (1949). Communication in the presence of noise. *Proceedings of the IRE*, *37*(1), 10–21. https://doi.org/10.1109/JRPROC.1949.232969
-
 [^tidalSupport2024]: Tidal Support. (2024). [*Audio format updates*](https://support.tidal.com/hc/en-us/articles/25876825185425-Audio-Format-Updates).
-
 [^valin2012]: Valin, J.-M., Vos, K., & Terriberry, T. B. (2012). [*Definition of the Opus audio codec*](https://datatracker.ietf.org/doc/html/rfc6716) (RFC 6716). Internet Engineering Task Force.
-
 [^vanBeurden2024]: van Beurden, M. Q. C., & Weaver, A. (2024, December). [*Free Lossless Audio Codec (FLAC)*](https://datatracker.ietf.org/doc/rfc9639/) (RFC 9639). Internet Engineering Task Force.
-
 [^xiphFlac]: Xiph.Org Foundation. (n.d.). [*FLAC — Format overview*](https://xiph.org/flac/documentation_format_overview.html).
-
 [^xiphOpus]: Xiph.Org Foundation. (2012, September 11). [*Opus audio codec is now RFC6716*](https://xiph.org/press/2012/rfc-6716/) [Press release].

@@ -118,43 +118,23 @@ Ethernet (IEEE 802.3) and Wi-Fi (IEEE 802.11) are often positioned as rivals, bu
 For latency-sensitive workloads — financial trading, industrial controls, competitive gaming — and for high-throughput infrastructure — data center fabrics at 400–800 Gbps, NAS storage, video production — Ethernet has no wireless equivalent. Wi-Fi dominates where mobility matters: smartphones, tablets, IoT sensors, and laptops depend on wireless connectivity. The key architectural insight is that every Wi-Fi access point connects back to the network via an Ethernet cable, making wired infrastructure the invisible backbone of the wireless world[^ciscoB][^tachus2023].
 
 [^acm2023]: ACM. (2023). *Robert Melancton Metcalfe — ACM A.M. Turing Award laureate*. Association for Computing Machinery. https://awards.acm.org/award-recipients/metcalfe_3968158
-
 [^broadcom]: Broadcom. (n.d.). *Why duplex conflicts occur*. CA Technologies / AppNeta documentation. https://techdocs.broadcom.com/us/en/ca-enterprise-software/it-operations-management/appneta/GA/analyze-results/network-performance-monitoring-delivery/delivery-results/delivery-diagnostics-messages/why-duplex-conflicts-occur.html
-
 [^ciscoA]: Cisco. (n.d.). *What is an Ethernet switch?* Cisco Learning Network. https://www.cisco.com/site/us/en/learn/topics/networking/what-is-an-ethernet-switch.html
-
 [^ciscoB]: Cisco. (n.d.). *What is Ethernet?* Cisco Learning Network. https://www.cisco.com/site/us/en/learn/topics/networking/what-is-ethernet.html
-
 [^eaton]: Eaton. (n.d.). *Ethernet cables explained*. Eaton Tripp Lite Series. https://www.eaton.com/us/en-us/products/backup-power-ups-surge-it-power-distribution/network-connectivity/ethernet-cables-explained.html
-
 [^forouzan2022]: Forouzan, B. A. (2022). *Data communications and networking* (6th ed.). McGraw-Hill.
-
 [^fsCom2022]: FS.com. (2022). *Power over Ethernet (PoE) explained: PoE standards and wattage*. FS Community. https://www.fs.com/blog/understanding-poe-standards-and-wattage-21.html
-
 [^ieeeCS2024]: IEEE Computer Society. (2024). *The journey to 800GbE and 1.6TbE*. IEEE Computer Society Tech News. https://www.computer.org/publications/tech-news/insider-membership-news/the-journey-to-800gbe-and-more
-
 [^ieeeStdAssoc2023]: IEEE Standards Association. (2023). *Ethernet through the years: Celebrating the technology's 50th year of innovation*. IEEE SA. https://standards.ieee.org/beyond-standards/ethernet-50th-anniversary/
-
 [^metcalfeBoggs1976]: Metcalfe, R. M., & Boggs, D. R. (1976). Ethernet: Distributed packet switching for local computer networks. *Communications of the ACM, 19*(7), 395–404. https://doi.org/10.1145/360248.360253
-
 [^netgear]: NETGEAR. (n.d.). *What is Ethernet?* NETGEAR Knowledge Base (KB064600). https://kb.netgear.com/000064600/What-is-Ethernet
-
 [^networkInstallers2025]: The Network Installers. (2025). *Cat ratings for Ethernet cables: Complete guide*. The Network Installers Blog. https://thenetworkinstallers.com/blog/cat-ratings-for-ethernet/
-
 [^scienceDirect]: ScienceDirect. (n.d.). *Autonegotiation — an overview*. ScienceDirect Topics. https://www.sciencedirect.com/topics/computer-science/autonegotiation
-
 [^tachus2023]: Tachus. (2023). *What is Ethernet?* Tachus Learning Center. https://tachus.com/what-is-ethernet/
-
 [^tanenbaum2011]: Tanenbaum, A. S., & Wetherall, D. J. (2011). *Computer networks* (5th ed.). Prentice Hall.
-
 [^techtarget2023]: TechTarget. (2023). *What is 1000BASE-T (Gigabit Ethernet)?* TechTarget SearchNetworking. https://www.techtarget.com/searchnetworking/definition/1000BASE-T
-
 [^unhIOL]: University of New Hampshire InterOperability Laboratory. (n.d.). *The Ethernet evolution: From 10 Meg to 10 Gig — how it all works*. UNH-IOL. https://www.iol.unh.edu/sites/default/files/knowledgebase/ethernet/ethernet_evolution.pdf
-
 [^wikipedia2024a]: Wikipedia. (2024). *Carrier-sense multiple access with collision detection*. Wikimedia Foundation. https://en.wikipedia.org/wiki/Carrier-sense_multiple_access_with_collision_detection
-
 [^wikipedia2024b]: Wikipedia. (2024). *Ethernet over twisted pair*. Wikimedia Foundation. https://en.wikipedia.org/wiki/Ethernet_over_twisted_pair
-
 [^wikipedia2024c]: Wikipedia. (2024). *IEEE 802.3*. Wikimedia Foundation. https://en.wikipedia.org/wiki/IEEE_802.3
-
 [^wikipedia2024d]: Wikipedia. (2024). *Power over Ethernet*. Wikimedia Foundation. https://en.wikipedia.org/wiki/Power_over_Ethernet

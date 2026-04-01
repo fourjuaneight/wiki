@@ -105,12 +105,8 @@ CISA and NIST recommend several defensive measures for Bluetooth users.[^cisa] [
 6. Remove stale pairings for devices no longer in use.
 
 [^bluetoothsig]: Bluetooth Special Interest Group. (n.d.). [*Bluetooth technology overview*](https://www.bluetooth.com/learn-about-bluetooth/tech-overview/). Bluetooth.com.
-
 [^cisa]: Cybersecurity and Infrastructure Security Agency. (2023). [*Understanding Bluetooth technology*](https://www.cisa.gov/news-events/news/understanding-bluetooth-technology). CISA.
-
 [^intel]: Intel Corporation. (n.d.). [*What is Bluetooth?*](https://www.intel.com/content/www/us/en/products/docs/wireless/what-is-bluetooth.html). Intel.
-
 [^padgette2017]: Padgette, J., Bahr, J., Batra, M., Holtmann, M., Smithbey, R., Chen, L., & Scarfone, K. (2017).
     [*Guide to Bluetooth security*](https://doi.org/10.6028/NIST.SP.800-121r2) (NIST Special Publication 800-121 Rev. 2). National Institute of Standards and Technology.
-
 [^samsung]: Samsung Electronics. (n.d.). [*What is Bluetooth?*](https://www.samsung.com/uk/support/mobile-devices/what-is-bluetooth/). Samsung UK Support.

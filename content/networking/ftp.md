@@ -140,23 +140,13 @@ FTP nonetheless persists in legacy systems across healthcare, finance, manufactu
 Regulatory pressure accelerates the transition away from unencrypted FTP. Compliance frameworks including PCI DSS, HIPAA, and NIST SP 800-171 prohibit the unencrypted transmission of sensitive data, effectively ruling out plain FTP for any regulated use case.
 
 [^allmanOstermann1999]: Allman, M., & Ostermann, S. (1999). *FTP security considerations* (RFC 2577). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc2577
-
 [^businessResearchInsights2025]: Business Research Insights. (2025). *FTP (File Transfer Protocol) solution market size, growth 2032*. https://www.businessresearchinsights.com/market-reports/ftp-file-transfer-protocol-solution-market-113656
-
 [^domantasG2025]: Domantas G. (2025, August 8). What is FTP: File Transfer Protocol explained for beginners. *Hostinger Tutorials*. https://www.hostinger.com/tutorials/what-is-ftp
-
 [^dropbox2024]: Dropbox. (2024, October 27). *What is File Transfer Protocol (FTP)?* Dropbox Resources. https://www.dropbox.com/resources/what-is-ftp
-
 [^fordHutchinson2005]: Ford-Hutchinson, P. (2005). *Securing FTP with TLS* (RFC 4217). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc4217
-
 [^fortinet]: Fortinet. (n.d.). *What is FTP (File Transfer Protocol)?* Fortinet CyberGlossary. https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning
-
 [^horowitzLunt1997]: Horowitz, M., & Lunt, S. (1997). *FTP security extensions* (RFC 2228). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc2228
-
 [^kuroseRoss2017]: Kurose, J. F., & Ross, K. W. (2017). *Computer networking: A top-down approach* (7th ed.). Pearson.
-
 [^postelReynolds1985]: Postel, J., & Reynolds, J. (1985). *File Transfer Protocol (FTP)* (RFC 959). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc959
-
 [^rfc2428]: RFC 2428. (1998). *FTP extensions for IPv6 and NATs*. Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc2428
-
 [^ylonenLonvick2006]: Ylonen, T., & Lonvick, C. (2006). *The Secure Shell (SSH) transport layer protocol* (RFC 4253). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc4253

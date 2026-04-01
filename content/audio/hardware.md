@@ -34,8 +34,6 @@ Here is a list of common inputs and outputs you might find on a DAC:
 - **[Headphone Jack](https://en.wikipedia.org/wiki/Phone_connector_(audio)) (3.5 mm or 1/4-inch)**: For connecting headphones directly to the DAC.
 - **Preamp Output**: To connect to an external amplifier or powered speakers.
 
------
-
 ## Pre-Amp
 
 Preamplifiers are signal-conditioning components that sit between a source (or DAC) and a power amplifier. Their primary functions are **source selection** (switching between inputs), **voltage gain**, and **impedance matching** — ensuring that a high-impedance source drives a low-impedance power amplifier input without signal loss. An ideal preamplifier presents high input impedance and low output impedance, functioning as an impedance transformer. The practical standard is the "10:1 rule": load impedance should be at least 10 times the source impedance for clean voltage-mode signal transfer. Typical line-level preamp output impedance is 25–100 Ω, feeding power amplifier inputs of 10–47 kΩ.
@@ -45,8 +43,6 @@ The quality of a preamplifier is critical for maintaining a pure, minimally alte
 **Phono preamplifiers** are a specialized category that apply RIAA equalization — a standardized frequency curve using three time constants (75 µs, 318 µs, and 3,180 µs) that provides approximately +20 dB at 20 Hz and −20 dB at 20 kHz relative to 1 kHz. Lipshitz[^lipshitz1979] demonstrated that many disc preamplifiers of the era had audibly inaccurate RIAA equalization due to incorrect design equations, establishing the precise mathematical framework now used universally.
 
 In complex home theater setups, **AV preamplifiers** (also called preamp/processors) extend beyond simple gain and switching to decode multichannel surround formats (Dolby Atmos, DTS:X, Auro-3D) and distribute audio signals to multiple amplifier channels. These are distinct from stereo preamplifiers in function and signal routing architecture.
-
------
 
 ## Amplifier
 
@@ -79,8 +75,6 @@ Amplifiers are broadly divided into **tube (valve) amplifiers** and **solid-stat
 - **Monoblock Amplifiers**
   - *Benefits*: Dedicated amplifier for each channel; eliminates crosstalk, and can allow shorter speaker cable runs.
   - *Drawbacks*: Requires more space; higher cost.
-
------
 
 ## Speakers
 
@@ -136,8 +130,6 @@ The choice between speakers and headphones often comes down to personal preferen
 
 The overall integration, tuning, and enclosure design of headphones are as important as driver type in determining final sound character.
 
------
-
 ## Cables
 
 High-end audio cables are frequently marketed as essential upgrades for the ultimate listening experience. The scientific literature, however, consistently demonstrates that cable construction has no audible effect on sound quality when cables are of adequate gauge and connector quality for the application.
@@ -153,71 +145,37 @@ There are **valid reasons to purchase better cables**: durability, flexible jack
 > **Note on balanced vs. unbalanced topology:** Kunchur[^kunchur2021] published research in JAES suggesting that cable pathways can affect perceived sound quality, but this work compared fundamentally different connection architectures (balanced XLR vs. unbalanced RCA), not expensive vs. inexpensive cables of the same type. The balanced topology's common-mode noise rejection, not the cable itself, is the operative factor.
 
 [^aes3_2009]: Audio Engineering Society. (2009, reaffirmed 2014). *AES3-2009 (r2014): AES standard for digital audio engineering — Serial transmission format for two-channel linearly represented digital audio data*. AES.
-
 [^aes17_2020]: Audio Engineering Society. (2020). *AES17-2020: AES standard method for digital audio engineering — Measurement of digital audio equipment*. AES.
-
 [^aes67_2018]: Audio Engineering Society. (2018). *AES67-2018: AES standard for audio applications of networks — High-performance streaming audio-over-IP interoperability*. AES.
-
 [^allison1974]: Allison, R. F. (1974). The influence of room boundaries on loudspeaker power output. *Journal of the Audio Engineering Society*, *22*(5), 314–320.
-
 [^ashleyKaminsky1971]: Ashley, J. R., & Kaminsky, A. L. (1971). Active and passive filters as loudspeaker crossover networks. *Journal of the Audio Engineering Society*, *19*(6), 494–502.
-
 [^attwood1982]: Attwood, B. E. (1982). Design parameters important for optimization of very high fidelity PWM (Class D) audio amplifiers [Convention paper 1867]. *71st AES Convention*.
-
 [^barbour1998]: Barbour, E. (1998). The cool sound of tubes. *IEEE Spectrum*, *35*(8), 24–35.
-
 [^benjaminGannon1998]: Benjamin, E., & Gannon, B. (1998). Theoretical and audible effects of jitter on digital audio quality [Convention paper 4826]. *105th AES Convention*, San Francisco, CA.
-
 [^clark1991]: Clark, D. L. (1991). Ten years of A/B/X testing [Convention paper 3167]. *91st AES Convention*, New York, NY.
-
 [^davis1991]: Davis, F. E. (1991). Effects of cable, loudspeaker, and amplifier interactions. *Journal of the Audio Engineering Society*, *39*(6), 461–468.
-
 [^dunn1992]: Dunn, J. (1992). Jitter: Specification and assessment in digital audio equipment [Convention paper 3361]. *93rd AES Convention*, San Francisco, CA.
-
 [^gaalaas2006]: Gaalaas, E. (2006). Class D audio amplifiers: What, why, and how. *Analog Dialogue*, *40*(2), 1–7.
-
 [^hamm1973]: Hamm, R. O. (1973). Tubes versus transistors — Is there an audible difference? *Journal of the Audio Engineering Society*, *21*(4), 267–273.
-
 [^hdmiForumNd]: HDMI Forum. (n.d.). *HDMI 2.1 specification*. https://www.hdmi.org/spec21sub/EAR
-
 [^iec60268_5]: International Electrotechnical Commission. (2003). *IEC 60268-5: Sound system equipment — Part 5: Loudspeakers* (3rd ed.). IEC.
-
 [^iec60268_21]: International Electrotechnical Commission. (2018). *IEC 60268-21: Sound system equipment — Part 21: Acoustical (non-electrical) performance specifications*. IEC.
-
 [^iec60268_7]: International Electrotechnical Commission. (2010). *IEC 60268-7: Sound system equipment — Part 7: Headphones and earphones*. IEC.
-
 [^iec60958_2006]: International Electrotechnical Commission. (2006). *IEC 60958-3:2006 digital audio interface — Part 3: Consumer applications*. IEC.
-
 [^ieee1658_2023]: IEEE. (2024). *IEEE standard for terminology and test methods of digital-to-analog converter devices* (IEEE Std 1658-2023). IEEE.
-
 [^knowles2025]: Knowles Corporation. (2025). *Balanced armature driver assemblies*. Knowles Corporation. https://www.knowles.com/
-
 [^kunchur2021]: Kunchur, M. N. (2021). Cable pathways between audio components can affect perceived sound quality. *Journal of the Audio Engineering Society*, *69*(6), 398–409.
-
 [^lee2023]: Lee, J., et al. (2023). Contralateral bone conducted sound wave propagation on the skull bones in fresh frozen cadaver. *Scientific Reports*, *13*, 1–11.
-
 [^linkwitz1976]: Linkwitz, S. H. (1976). Active crossover networks for noncoincident drivers. *Journal of the Audio Engineering Society*, *24*(1), 2–8.
-
 [^lipshitz1979]: Lipshitz, S. P. (1979). On RIAA equalization networks. *Journal of the Audio Engineering Society*, *27*(6), 458–481.
-
 [^mannchen2018]: Männchen, A., Stoppel, F., Beer, D., Niekiel, F., & Wagner, B. (2018). In-ear headphone system with piezoelectric MEMS driver [Engineering Brief 469]. *145th AES Convention*.
-
 [^millsHawksford1989]: Mills, P. G., & Hawksford, M. J. (1989). Distortion reduction in moving-coil loudspeaker systems using current-drive technology. *Journal of the Audio Engineering Society*, *37*(3), 129–148.
-
 [^monteithFlowers1977]: Monteith, D. O., & Flowers, R. R. (1977). Transistors sound better than tubes. *Journal of the Audio Engineering Society*, *25*(3), 116–119.
-
 [^nielsen1997]: Nielsen, K. (1997). A review and comparison of pulse-width modulation (PWM) methods for analog and digital input switching power amplifiers [Convention paper]. *102nd AES Convention*, Munich.
-
 [^russell Nd]: Russell, R. (n.d.). [*Speaker wire: A history*](http://www.roger-russell.com/wire/wire.htm).
-
 [^self2013]: Self, D. (2013). *Audio power amplifier design* (6th ed.). Focal Press.
-
 [^small1971]: Small, R. H. (1971). Constant-voltage crossover network design. *Journal of the Audio Engineering Society*, *19*(1), 12–19.
-
 [^toole2006]: Toole, F. E. (2006). Loudspeakers and rooms for sound reproduction — A scientific review. *Journal of the Audio Engineering Society*, *54*(6), 451–476.
-
 [^usbForum]: USB Implementers Forum. (n.d.). *USB audio device class definition*. https://www.usb.org/document-library/audio-device-class-definition
-
 [^waterhouse1955]: Waterhouse, R. V. (1955). Interference patterns in reverberant sound fields. *Journal of the Acoustical Society of America*, *27*(2), 247–258.
-
 [^weltiDevantier2006]: Welti, T., & Devantier, A. (2006). Low-frequency optimization using multiple subwoofers. *Journal of the Audio Engineering Society*, *54*(5), 347–364.

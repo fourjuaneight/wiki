@@ -1,4 +1,4 @@
------
+---
 title: "Emulation"
 date: 2026-03-28
 draft: false
@@ -6,7 +6,7 @@ tags:
 - gaming
 - hardware
 - preservation
------
+---
 
 **Emulation** is the practice of using software to replicate the behavior of one computing system on another, allowing unmodified programs designed for a specific machine to run as though they were executing on the original hardware.[^imaginationND] The emulating machine is referred to as the *host*, and the system being reproduced is called the *guest*. By reconstructing a guest’s processor logic, memory architecture, and peripheral behavior entirely in software, an emulator achieves byte-level compatibility — executing the same binary code, in the same sequence, producing the same outputs as the original hardware would. This distinguishes emulation from *simulation*, which models only the functional responses of a system rather than reproducing its internal behavior.[^lenovoND]
 

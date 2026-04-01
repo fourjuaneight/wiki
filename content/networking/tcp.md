@@ -98,27 +98,15 @@ These differences drive clear selection criteria. TCP is the right choice when d
 TCP underpins the majority of Internet traffic that demands guaranteed delivery. Web browsing relies on TCP (via HTTP/1.1, HTTP/2, and HTTPS) to ensure every resource — HTML, CSS, JavaScript, images — arrives intact; HTTP/2 multiplexes multiple streams over a single TCP connection to reduce overhead. Email delivery via SMTP, retrieval via POP3 and IMAP, and secure remote access via SSH all depend on TCP's byte-stream guarantees. Database connections between applications and systems such as PostgreSQL or MySQL use TCP to ensure query results and transaction confirmations are received accurately — a requirement for maintaining ACID guarantees. Financial systems and online banking rely on TCP because partial or corrupted data could cause monetary errors with no recovery path. Even video-on-demand platforms deliver content over TCP/HTTPS using adaptive bitrate streaming, compensating for TCP's latency overhead through client-side buffering[^linkedIn].
 
 [^allman2009]: Allman, M., Paxson, V., & Blanton, E. (2009). *TCP congestion control* (RFC 5681). Internet Engineering Task Force. https://datatracker.ietf.org/doc/html/rfc5681
-
 [^borman2014]: Borman, D., Braden, B., Jacobson, V., & Scheffenegger, R. (2014). *TCP extensions for high performance* (RFC 7323). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc7323
-
 [^cardwell2016]: Cardwell, N., Cheng, Y., Gunn, C. S., Yeganeh, S. H., & Jacobson, V. (2016). BBR: Congestion-based congestion control. *ACM Queue, 14*(5). https://queue.acm.org/detail.cfm?id=3022184
-
 [^cerf1974]: Cerf, V. G., & Kahn, R. E. (1974). A protocol for packet network intercommunication. *IEEE Transactions on Communications, COM-22*(5), 637–648. https://doi.org/10.1109/TCOM.1974.1092259
-
 [^cloudflare]: Cloudflare. (n.d.). *What is TCP/IP?* Cloudflare Learning Center. https://www.cloudflare.com/learning/ddos/glossary/tcp-ip/
-
 [^eddy2022]: Eddy, W. (Ed.). (2022). *Transmission Control Protocol (TCP)* (RFC 9293). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9293.html
-
 [^fortinet]: Fortinet. (n.d.). *What is TCP/IP in networking?* Fortinet CyberGlossary. https://www.fortinet.com/resources/cyberglossary/tcp-ip
-
 [^henderson2012]: Henderson, T., Floyd, S., Gurtov, A., & Nishida, Y. (2012). *The NewReno modification to TCP's fast recovery algorithm* (RFC 6582). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc6582.html
-
 [^ibm]: IBM. (n.d.). *Transmission control protocol.* IBM Documentation: AIX 7.2.0. https://www.ibm.com/docs/en/aix/7.2.0?topic=protocols-transmission-control-protocol
-
 [^jacobson1988]: Jacobson, V. (1988). Congestion avoidance and control. In *Proceedings of the ACM SIGCOMM '88 Symposium* (pp. 314–329). ACM. https://doi.org/10.1145/52324.52356
-
 [^linkedIn]: LinkedIn. (n.d.). *What are some common use cases and examples of TCP and UDP protocols?* LinkedIn Collaborative Articles. https://www.linkedin.com/advice/3/what-some-common-use-cases-examples
-
 [^mathis1996]: Mathis, M., Mahdavi, J., Floyd, S., & Romanow, A. (1996). *TCP selective acknowledgment options* (RFC 2018). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc2018
-
 [^postel1981]: Postel, J. (Ed.). (1981). *Transmission Control Protocol* (RFC 793). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc793.html

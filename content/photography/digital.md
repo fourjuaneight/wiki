@@ -110,50 +110,26 @@ When an image is captured, the camera must decide how to encode and store the ra
 
 **RAW** files contain minimally processed sensor data — linear 12- or 14-bit values that preserve the full dynamic range and colour information captured by the sensor before any in-camera processing is applied.[^adobe_raw] Each manufacturer uses a proprietary RAW format (Canon `.CR3`, Nikon `.NEF`, Sony `.ARW`, etc.), which has driven adoption of Adobe's open **DNG** (Digital Negative) format as an interoperability standard; DNG files are approximately 20% smaller than their proprietary equivalents at identical quality.[^adobe_dng] RAW files require dedicated processing software — such as Adobe Lightroom, Capture One, or DxO PhotoLab — to convert to a viewable format, but they afford significantly more latitude for recovering shadows, highlights, and colour balance in post-production.
 
----
-
 [^adobe_dng]: Adobe. (n.d.). [*DNG files: What they are and how to open them*](https://www.adobe.com/creativecloud/file-types/image/raw/dng-file.html). Adobe Creative Cloud.
-
 [^adobe_raw]: Adobe. (n.d.). [*DNG vs. RAW: Which is better and why?*](https://www.adobe.com/creativecloud/file-types/image/comparison/dng-vs-raw.html). Adobe Creative Cloud.
-
 [^amateurphotographer2025]: Amateur Photographer staff. (2025, September 3). [Worldwide mirrorless camera shipments up by 10% with one clear winner growing fastest](https://amateurphotographer.com/latest/photo-news/worldwide-mirrorless-camera-shipments-up-by-10-with-one-clear-winner-growing-fastest/). *Amateur Photographer*.
-
 [^bauer_wideangle]: Bauer, M. (n.d.). [How to use a wide-angle lens for landscape photography](https://www.naturettl.com/wide-angle-lens-for-landscape-photography/). *Nature TTL*.
-
 [^burnhill_prime]: Burnhill, M. (n.d.). [Prime vs zoom lenses](https://www.canon-europe.com/pro/stories/expert-view-prime-vs-zoom-lenses/). Canon Europe.
-
 [^canon_apsc]: Canon Europe. (n.d.). [*APS-C vs full-frame – the difference explained*](https://www.canon-europe.com/get-inspired/tips-and-techniques/aps-c-vs-full-frame/). Canon.
-
 [^canon_autofocus]: Canon Europe. (2024). [*All about autofocus*](https://www.canon-europe.com/pro/infobank/autofocus/). Canon Professional Network Infobank.
-
 [^canon_ibis]: Canon Europe. (2024). [*8-stops image stabilisation*](https://www.canon-europe.com/pro/stories/8-stops-image-stabilization/). Canon Professional Network.
-
 [^cooke_apsc2026]: Cooke, A. (2026, March 7). [Why APS-C cameras and lenses are having their best year ever](https://fstoppers.com/gear/why-aps-c-cameras-and-lenses-are-having-their-best-year-ever-900236). *Fstoppers*.
-
 [^cooke_compact2026]: Cooke, A. (2026, January 1). [The compact camera comeback is real: Why people want dedicated cameras again](https://fstoppers.com/gear/compact-camera-comeback-real-why-people-want-dedicated-cameras-again-719421). *Fstoppers*.
-
 [^delbracio2021]: Delbracio, M., Kelly, D., Brown, M. S., & Milanfar, P. (2021). Mobile computational photography: A tour. *Annual Review of Vision Science, 7*, 571–604. https://doi.org/10.1146/annurev-vision-093019-115521
-
 [^dupuis2024]: Dupuis, L. (2024, December 25). [Why Gen Z is sparking a digital camera renaissance](https://www.cbc.ca/news/canada/calgary/gen-z-youth-culture-digital-camera-renaissance-trends-1.7416893). *CBC News*.
-
 [^graham2024]: Graham, M. (2024, December 11). [Why 2025 could be a make-or-break year for Micro Four Thirds](https://petapixel.com/2024/12/11/why-2025-could-be-a-make-or-break-year-for-micro-four-thirds/). *PetaPixel*.
-
 [^gray2025]: Gray, J. (2025, September 3). [Canon sold more DSLRs in 2024 than Fujifilm sold total digital cameras](https://petapixel.com/2025/09/03/canon-sold-more-dslrs-in-2024-than-fujifilm-sold-total-digital-cameras/). *PetaPixel*.
-
 [^grigonis2025]: Grigonis, H. K. (2025, February 14). [Trends revived the point-and-shoot from the dead. But what about the superzoom bridge camera?](https://www.digitalcameraworld.com/cameras/bridge-cameras/trends-revived-the-point-and-shoot-from-the-dead-but-what-about-the-superzoom-bridge-camera) *Digital Camera World*.
-
 [^jpeg_org]: Joint Photographic Experts Group. (n.d.). [*Overview of JPEG 1*](https://jpeg.org/jpeg/). JPEG.
-
 [^loc_tiff]: Library of Congress. (2024, May 6). [*TIFF, Revision 6.0*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml). Sustainability of Digital Formats: Planning for Library of Congress Collections.
-
 [^mansurov_mirrorless]: Mansurov, N. (2024, September 28). [Mirrorless vs DSLR cameras: Which one is better and why](https://photographylife.com/mirrorless-vs-dslr). *Photography Life*.
-
 [^mansurov_zoom]: Mansurov, N. (2024, October 31). [Prime vs zoom lenses: Everything you need to know](https://photographylife.com/prime-vs-zoom-lenses). *Photography Life*.
-
 [^nikon_dx]: Nikon USA. (n.d.). [*The DX and FX formats*](https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/the-dx-and-fx-formats). Nikon Learn & Explore.
-
 [^nikon_focal]: Nikon USA. (2025, December). [*Understanding focal length*](https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/understanding-focal-length). Nikon Learn & Explore.
-
 [^tamron_telephoto]: Tamron. (2024, September 30). [What is a telephoto lens? Introducing key tips on how to use a telephoto and how to choose the right lens](https://www.tamron.com/global/consumer/sp/impression/detail/article-what-is-telephoto-lense.html). *Tamron Photo Site: Impression*.
-
 [^wikipedia_mft]: Wikipedia contributors. (2025, November). [Micro Four Thirds system](https://en.wikipedia.org/wiki/Micro_Four_Thirds_system). In *Wikipedia, The Free Encyclopedia*.

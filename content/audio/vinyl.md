@@ -134,52 +134,28 @@ The theoretical maximum dynamic range is approximately 70 dB, derived from the r
 - **Channel separation**: typically 20–30 dB at 1 kHz (vs. 90–115 dB on CD).
 - **Total harmonic distortion**: 0.4–3% on vinyl (vs. <0.01% for a competent DAC).
 - **Wow and flutter**: 0.01–0.25% depending on turntable quality (vs. effectively zero on digital).
-- **Pre-echo**: groove-wall deformation from adjacent loud passages creates a faint ghost signal approximately 1.8 seconds before the intended sound (one revolution at 33⅓ RPM); digital formats are immune.
-
-[^hydrogenaudio][^wikipediaPR]
+- **Pre-echo**: groove-wall deformation from adjacent loud passages creates a faint ghost signal approximately 1.8 seconds before the intended sound (one revolution at 33⅓ RPM); digital formats are immune.[^hydrogenaudio][^wikipediaPR]
 
 [^analogmagik]: AnalogMagik. (n.d.). [*Anti-skate*](https://www.analogmagik.com/antiskate).
-
 [^audioTechnicaStylus]: Audio-Technica. (n.d.). [*Understanding the different stylus shapes*](https://www.audio-technica.com/en-eu/support/understanding-the-different-stylus-shapes).
-
 [^audioTechnicaAntiskate]: Audio-Technica. (n.d.). [*Anti-skate feature on turntable*](https://www.audio-technica.com/en-us/support/audio-solutions-question-week-anti-skate-feature-turntable-need-set/).
-
 [^cambridgeAudio]: Cambridge Audio. (n.d.). [*What is the difference between a moving magnet cartridge and a moving coil cartridge?*](https://manuals.cambridgeaudio.com/en/alva-duo/what-difference-between-moving-magnet-cartridge-and-moving-coil-cartridge).
-
 [^hagerman]: Hagerman Technology. (n.d.). [*Cartridge loading*](https://www.hagtech.com/loading.html).
-
 [^howardRIAA]: Howard, K. (n.d.). [Cut and thrust: RIAA LP equalization](https://www.stereophile.com/features/cut_and_thrust_riaa_lp_equalization/index.html). *Stereophile*.
-
 [^hydrogenaudio]: Hydrogenaudio. (n.d.). [Myths (vinyl)](https://wiki.hydrogenaudio.org/index.php?title=Myths_(Vinyl)). *Hydrogenaudio Knowledgebase*.
-
 [^iec60098_1987]: International Electrotechnical Commission. (1987). *IEC 60098: Analogue audio disk records and reproducing equipment*. IEC.
-
 [^jovanovic2023]: Jovanovic, V. (2023). Tracing distortion on vinyl LPs. *Journal of the Audio Engineering Society*, *71*(10). https://www.aes.org/tmpFiles/elib/20251204/22236.pdf
-
 [^nelsonStafford1964]: Nelson, C. S., & Stafford, J. W. (1964). The Westrex 3D StereoDisk system. *Journal of the Audio Engineering Society*, *12*(3).
-
 [^psAudio2020]: PS Audio. (2020, February 21). [Secrets of the phono cartridge, part two](https://www.psaudio.com/blogs/copper/secrets-of-the-phono-cartridge-part-two). *Copper Magazine*.
-
 [^pspatialDims]: Pspatial Audio. (n.d.). [*Gramophone styli and groove dimensions*](http://pspatialaudio.com/stylus_grooves.htm).
-
 [^pspatialVelocity]: Pspatial Audio. (n.d.). [*Maximum recorded velocities*](https://pspatialaudio.com/max_velo.htm).
-
 [^pspatialLathes]: Pspatial Audio. (n.d.). [*Disc-cutting lathes*](https://pspatialaudio.com/lathes.htm).
-
 [^pureAnalogue]: Pure-analogue.com. (n.d.). [*The cutting lathe*](https://pure-analogue.com/the-cutting-lathe/).
-
 [^riaaE4]: RIAA. (n.d.). [Bulletin E4: Dimensional standards for disc phonograph records](http://www.aardvarkmastering.com/riaa.htm).
-
 [^riaaE3]: RIAA. (1963). [Bulletin E3: Standards for stereophonic disc records](http://www.aardvarkmastering.com/riaa.htm).
-
 [^soundsmith]: Soundsmith. (n.d.). [*Stylus shape information*](https://www.sound-smith.com/articles/stylus-shape-information).
-
 [^sumiko]: Sumiko. (n.d.). [*Tonearm resonance*](https://sumikophonocartridges.com/tonearm-resonance/).
-
 [^vinylClear]: Vinyl Clear. (n.d.). [Tonearm and cartridge resonance: A guide to better vinyl sound](https://vinylclear.com/blogs/all-things-vinyl/tonearm-and-cartridge-resonance-a-guide-to-better-vinyl-sound). *Vinyl Clear*.
-
 [^wikipediaPR]: Wikipedia. (n.d.). [Phonograph record](https://en.wikipedia.org/wiki/Phonograph_record). *Wikipedia*.
-
 [^wikipediaVC]: Wikipedia. (n.d.). [Vertical cut recording](https://en.wikipedia.org/wiki/Vertical_cut_recording). *Wikipedia*.
-
 [^wikipediaRIAA]: Wikipedia. (n.d.). [RIAA equalization](https://en.wikipedia.org/wiki/RIAA_equalization). *Wikipedia*.

@@ -88,23 +88,13 @@ A subtler tension has emerged as QUIC has scaled: countermeasures that block unr
 NAT traversal adds a further operational complexity. NAT devices maintain stateful UDP mappings that expire quickly — sometimes within 30 seconds without keepalive traffic. Symmetric NATs assign distinct public ports per destination, defeating simple address-discovery mechanisms. The WebRTC stack addresses this through a layered framework: STUN (RFC 8489) for public address discovery, TURN (RFC 8656) as a relay of last resort, and ICE (RFC 8445) coordinating between them. UDP hole-punching succeeds in 82–95% of NAT configurations; the remainder require TURN relays.
 
 [^alDhief2018]: Al-Dhief, F. T., Sabri, N., Fouad, S., Latiff, N. M. A., & Albader, M. A. A. (2018). Performance comparison between TCP and UDP protocols in different simulation scenarios. *International Journal of Engineering & Technology*, *7*(4.36), 172–176.
-
 [^boro2016]: Boro, D., Basumatary, H., Goswami, T., & Bhattacharyya, D. K. (2016). UDP flooding attack detection using information metric measure. In *Proceedings of International Conference on ICT for Sustainable Development* (pp. 147–157). Springer. https://doi.org/10.1007/978-981-10-0129-1_16
-
 [^cloudflare]: Cloudflare. (n.d.). *What is the User Datagram Protocol (UDP/IP)?* https://www.cloudflare.com/learning/ddos/glossary/user-datagram-protocol-udp/
-
 [^eggert2017]: Eggert, L., Fairhurst, G., & Shepherd, G. (2017). *UDP usage guidelines* (RFC 8085). IETF. https://doi.org/10.17487/RFC8085
-
 [^fortinet]: Fortinet. (n.d.). *What is User Datagram Protocol (UDP)?* https://www.fortinet.com/resources/cyberglossary/user-datagram-protocol-udp
-
 [^ieee2003]: IEEE. (2003). Performance of TCP/UDP under ad hoc IEEE 802.11. *IEEE Conference Publication*. https://doi.org/10.1109/ISWCS.2003.1191496
-
 [^langley2017]: Langley, A., Riddoch, A., Wilk, A., Vicente, A., Krasic, C., Zhang, D., & Swett, I. (2017). The QUIC transport protocol: Design and Internet-scale deployment. In *Proceedings of the ACM SIGCOMM Conference* (pp. 183–196). https://doi.org/10.1145/3098822.3098842
-
 [^majkowski2021]: Majkowski, M. (2021, November 25). *Everything you ever wanted to know about UDP sockets but were afraid to ask, part 1*. Cloudflare Blog. https://blog.cloudflare.com/everything-you-ever-wanted-to-know-about-udp-sockets-but-were-afraid-to-ask-part-1/
-
 [^muthurajkumar2023]: Muthurajkumar, S., Geetha, A., Aravind, S., & Meharajnisa, H. B. (2023). UDP flooding attack detection using entropy in software-defined networking. In *Proceedings of International Conference on Communication and Computational Technologies* (pp. 555–564). Springer. https://doi.org/10.1007/978-981-19-3951-8_42
-
 [^partridgePink1993]: Partridge, C., & Pink, S. (1993). A faster UDP. *IEEE/ACM Transactions on Networking*, *1*(4), 429–440. https://doi.org/10.1109/90.251895
-
 [^postel1980]: Postel, J. (1980). *User Datagram Protocol* (RFC 768). IETF. https://doi.org/10.17487/RFC0768

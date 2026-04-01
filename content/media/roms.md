@@ -1,4 +1,4 @@
------
+---
 title: "ROMs"
 date: 2026-03-28
 draft: false
@@ -7,7 +7,7 @@ tags:
 - gaming
 - hardware
 - preservation
------
+---
 
 A **ROM** — Read-Only Memory — is simultaneously a physical semiconductor chip and, in modern usage, a binary file containing an exact copy of that chip’s data. In the context of video games, ROM chips are the medium on which all cartridge-based game data lives: program code, graphics tiles, sound samples, and lookup tables are all burned into ROM chips soldered to the cartridge’s circuit board. When players or preservation communities speak of “a ROM,” they almost always mean the digital file — a byte-for-byte dump of one of those chips — but understanding what it contains, and why it matters, requires understanding the hardware it came from.[^wikiaROM]
 

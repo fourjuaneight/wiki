@@ -102,21 +102,12 @@ MAC addressing rests on a layered foundation of IEEE and IETF standards. The IEE
 On the IETF side, **RFC 826** (1982) defines ARP; **RFC 4861** (2007) defines IPv6 Neighbor Discovery; **RFC 5227** (2008) covers IPv4 address conflict detection via ARP; and **RFC 9542** (2024) is the current Best Current Practice document governing IANA considerations for IEEE 802 parameters, obsoleting RFC 7042[^eastlakeAbley2024]. For privacy, **IEEE 802E-2020** establishes a privacy threat model for 802 technologies, and active projects **IEEE P802.11bh** and **P802.11bi** address the operational implications of MAC randomization in Wi-Fi networks. **IEEE 802.1AEdk-2023** extends MACsec with MAC Privacy Protection, reducing external observers' ability to correlate encrypted traffic with specific devices at the hardware level.
 
 [^catchpoint]: Catchpoint. (n.d.). *How EUI-64 works in IPv6*. https://www.catchpoint.com/benefits-of-ipv6/eui-64
-
 [^cisco]: Cisco. (n.d.). *Configuring MAC address tables*. https://www.cisco.com/c/en/us/td/docs/switches/datacenter/nexus3548/sw/layer_2_switching/60x/b_Cisco_N3548_Layer_2_Switching_Config_602_A1_1/b_Cisco_N3548_Layer_2_Switching_Config_602_A1_1_chapter_01001.pdf
-
 [^eastlakeAbley2024]: Eastlake, D., & Abley, J. (2024). *IANA considerations and IETF protocol and documentation usage for IEEE 802 parameters* (RFC 9542). IETF. https://datatracker.ietf.org/doc/rfc9542/
-
 [^huitema2025]: Huitema, C., Bernardos, C. J., Voyer, D., Krishnan, S., & Arkko, J. (2025). *State of affairs for randomized and changing media access control (MAC) addresses* (RFC 9724). IETF. https://datatracker.ietf.org/doc/rfc9724/
-
 [^ieeeRA]: IEEE Registration Authority. (n.d.). *IEEE RA guidelines for use of EUI, OUI, and CID*. IEEE. https://standards.ieee.org/wp-content/uploads/import/documents/tutorials/eui.pdf
-
 [^narten2007]: Narten, T., Nordmark, E., Simpson, W., & Soliman, H. (2007). *Neighbor discovery for IP version 6 (IPv6)* (RFC 4861). IETF. https://datatracker.ietf.org/doc/html/rfc4861
-
 [^netgear]: NETGEAR. (n.d.). *MAC address guide: How to identify devices on your network*. https://www.netgear.com/hub/network/what-is-mac-address/
-
 [^netgearDocs]: Netgear Documentation. (n.d.). *Media Access Control (MAC) addresses and Address Resolution Protocol*. http://documentation.netgear.com/reference/esp/tcpip/TCPIPBasics-3-11.html
-
 [^pittIT]: University of Pittsburgh IT. (n.d.). *Understanding MAC addresses: A beginner's guide*. University of Pittsburgh. https://services.pitt.edu/TDClient/33/Portal/KB/ArticleDet?ID=1773
-
 [^plummer1982]: Plummer, D. C. (1982). *An Ethernet address resolution protocol: Or converting network protocol addresses to 48.bit Ethernet address for transmission on Ethernet hardware* (RFC 826). IETF. https://datatracker.ietf.org/doc/html/rfc826

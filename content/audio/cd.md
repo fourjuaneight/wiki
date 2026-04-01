@@ -43,29 +43,16 @@ Storing CDs properly is essential for preserving their quality and longevity. Th
 - **Handling**: Do not apply adhesive labels or use solvent-based markers on discs. Adhesive labels can cause imbalance during playback and may chemically interact with the disc surface; solvents can dissolve the polycarbonate substrate.[^byers2003] Markers specifically designed for archiving optical discs are available and should be used if labeling is necessary.
 
 [^byers2003]: Byers, F. R. (2003). [*Care and handling of CDs and DVDs: A guide for librarians and archivists*](https://www.clir.org/pubs/reports/pub121/) (NIST Special Publication 500-252). National Institute of Standards and Technology & Council on Library and Information Resources.
-
 [^cci2020]: Canadian Conservation Institute. (2020). [*Longevity of recordable CDs, DVDs and Blu-rays*](https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/longevity-recordable-cds-dvds.html) (CCI Notes 19/1). Government of Canada.
-
 [^doi1978]: Doi, T., Tsuchiya, Y., & Iga, A. (1978). On several standards for converting PCM signals into video signals. *Journal of the Audio Engineering Society*, *26*, 641–649.
-
 [^ecma1996]: ECMA International. (1996). [*Standard ECMA-130: Data interchange on read-only 120 mm optical data discs (CD-ROM)*](https://ecma-international.org/publications-and-standards/standards/ecma-130/) (2nd ed.).
-
 [^hoeve1982]: Hoeve, H., Timmermans, J., & Vries, L. B. (1982). Error correction and concealment in the compact disc system. *Philips Technical Review*, *40*, 166–172.
-
 [^iec1999]: International Electrotechnical Commission. (1999). *IEC 60908: Audio recording — Compact disc digital audio system* (2nd ed.). IEC.
-
 [^immink1998]: Immink, K. A. S. (1998). Compact disc story. *Journal of the Audio Engineering Society*, *46*(5), 458–460.
-
 [^iso2013]: International Organization for Standardization. (2013). *Imaging materials — Optical disc media — Storage practices* (ISO 18925:2013). ISO.
-
 [^locNd]: Library of Congress. (n.d.). [*CD-ROM longevity research*](https://www.loc.gov/preservation/scientists/projects/cd_longevity.html). Preservation Science Research.
-
 [^nara2023]: National Archives and Records Administration. (2023, November 30). [*Audio guidance: Condition of materials and storage*](https://www.archives.gov/preservation/formats/audio-storage.html).
-
 [^shahaniNd]: Shahani, C. J., Youket, M. H., Weberg, N., & Murray, W. P. (n.d.). [*Compact disc service life*](https://www.loc.gov/preservation/resources/rt/CDservicelife_rev.pdf) (Preservation Research and Testing Series No. 10). Library of Congress.
-
 [^slattery2004]: Slattery, O., Lu, R., Zheng, J., Byers, F., & Tang, X. (2004). Stability comparison of recordable optical discs — A study of error rates in harsh conditions. *Journal of Research of the National Institute of Standards and Technology*, *109*(5), 517–524. https://doi.org/10.6028/jres.109.038
-
 [^vriesOdaka1982]: Vries, L. B., & Odaka, K. (1982). CIRC — The error-correcting code for the compact disc digital audio system. In *Digital audio: Collected papers from the AES Premiere Conference* (pp. 178–186). Audio Engineering Society.
-
 [^watkinson1994]: Watkinson, J. (1994). *The art of digital audio* (2nd ed.). Focal Press.

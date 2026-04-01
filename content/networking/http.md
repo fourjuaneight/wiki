@@ -113,27 +113,15 @@ Cache **validation** allows a cache to confirm its stored copy is still current 
 Effective caching strategy follows from the volatility and sensitivity of the content. Static assets with content-hashed filenames — common in modern build pipelines — can be served with `Cache-Control: public, max-age=31536000, immutable`, caching aggressively for one year since any content change produces a new URL. HTML documents, which change without a URL change, should use `no-cache` with `ETag` and `Last-Modified` so clients always validate but receive a cheap `304` when nothing has changed. API responses containing sensitive data should use `no-store`. The `Vary` header is essential wherever content negotiation produces different representations for the same URL — `Vary: Accept-Encoding` ensures compressed and uncompressed variants are cached independently.
 
 [^akamai]: Akamai. (n.d.). *What is HTTP?* https://www.akamai.com/glossary/what-is-http
-
 [^bernesLee1996]: Berners-Lee, T., Fielding, R., & Frystyk Nielsen, H. (1996). *Hypertext Transfer Protocol — HTTP/1.0* (RFC 1945). Internet Engineering Task Force. https://datatracker.ietf.org/doc/html/rfc1945
-
 [^bishop2022a]: Bishop, M. (Ed.). (2022). *HTTP/2* (RFC 9113). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9113.html
-
 [^bishop2022b]: Bishop, M. (Ed.). (2022). *HTTP/3* (RFC 9114). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9114.html
-
 [^cloudflareA]: Cloudflare. (n.d.). *What is HTTP?* https://www.cloudflare.com/learning/ddos/glossary/hypertext-transfer-protocol-http/
-
 [^cloudflareB]: Cloudflare. (n.d.). *What is HTTPS?* https://www.cloudflare.com/learning/ssl/what-is-https/
-
 [^fielding9110]: Fielding, R., Nottingham, M., & Reschke, J. (Eds.). (2022). *HTTP semantics* (RFC 9110). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9110.html
-
 [^fielding9111]: Fielding, R., Nottingham, M., & Reschke, J. (Eds.). (2022). *HTTP caching* (RFC 9111). Internet Engineering Task Force. https://www.rfc-editor.org/rfc/rfc9111.html
-
 [^fieldingReschke2014]: Fielding, R., & Reschke, J. (Eds.). (2014). *Hypertext Transfer Protocol (HTTP/1.1): Message syntax and routing* (RFC 7230). Internet Engineering Task Force. https://datatracker.ietf.org/doc/html/rfc7230
-
 [^mdnA]: MDN Web Docs. (n.d.). *Overview of HTTP*. Mozilla. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
-
 [^mdnB]: MDN Web Docs. (n.d.). *HTTP request methods*. Mozilla. https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods
-
 [^mdnC]: MDN Web Docs. (n.d.). *HTTP headers*. Mozilla. https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers
-
 [^mdnD]: MDN Web Docs. (n.d.). *HTTP caching*. Mozilla. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching

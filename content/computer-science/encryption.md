@@ -91,33 +91,18 @@ On the certificate side, NIST requires a minimum RSA key length of 2048 bits, wi
 Configuration drift is an ongoing risk. Tools such as Qualys SSL Labs Server Test, Mozilla Observatory, and the open-source `testssl.sh` provide comprehensive automated assessments that flag weak ciphers, missing security headers, certificate chain issues, and known vulnerabilities[^owasp].
 
 [^adrian2015]: Adrian, D., Bhargavan, K., Durumeric, Z., Gaudry, P., Green, M., Halderman, J. A., Heninger, N., Springall, D., Thomé, E., Valenta, L., VanderSloot, B., Wustrow, E., Zanella-Béguelin, S., & Zimmermann, P. (2015). Imperfect forward secrecy: How Diffie-Hellman fails in practice. In *Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security* (pp. 5–17). ACM. https://weakdh.org/
-
 [^awsA]: Amazon Web Services. (n.d.). *What is an SSL certificate?* AWS. https://aws.amazon.com/what-is/ssl-certificate/
-
 [^awsB]: Amazon Web Services. (n.d.). *The difference between SSL and TLS*. AWS. https://aws.amazon.com/compare/the-difference-between-ssl-and-tls/
-
 [^cloudflareA]: Cloudflare. (n.d.). *What is SSL?* Cloudflare Learning Center. https://www.cloudflare.com/learning/ssl/what-is-ssl/
-
 [^cloudflareB]: Cloudflare. (n.d.). *What is Transport Layer Security (TLS)?* Cloudflare Learning Center. https://www.cloudflare.com/learning/ssl/transport-layer-security-tls/
-
 [^cloudflare2018]: Cloudflare. (2018, August 10). RFC 8446 (a.k.a. TLS 1.3). *The Cloudflare Blog*. https://blog.cloudflare.com/rfc-8446-aka-tls-1-3/
-
 [^drownAttack2016]: DROWN Attack. (2016). *DROWN: Decrypting RSA with obsolete and weakened eNcryption*. https://drownattack.com/
-
 [^internetSociety]: Internet Society. (n.d.). *TLS basics*. Deploy360. https://www.internetsociety.org/deploy360/tls/basics/
-
 [^mcKayCooper2019]: McKay, K. A., & Cooper, D. A. (2019). *Guidelines for the selection, configuration, and use of Transport Layer Security (TLS) implementations* (NIST Special Publication 800-52 Rev. 2). National Institute of Standards and Technology. https://doi.org/10.6028/NIST.SP.800-52r2
-
 [^mdn]: Mozilla Developer Network. (n.d.). *Transport Layer Security (TLS)*. MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/Security/Transport_Layer_Security
-
 [^mozilla]: Mozilla. (n.d.). *Security/Server side TLS*. Mozilla Wiki. https://wiki.mozilla.org/Security/Server_Side_TLS
-
 [^nvd2014]: National Vulnerability Database. (2014). *CVE-2014-0160 detail*. NIST. https://nvd.nist.gov/vuln/detail/CVE-2014-0160
-
 [^owasp]: OWASP. (n.d.). *Transport Layer Security cheat sheet*. OWASP Cheat Sheet Series. https://cheatsheetseries.owasp.org/cheatsheets/Transport_Layer_Security_Cheat_Sheet.html
-
 [^rescorla2018]: Rescorla, E. (2018). *The Transport Layer Security (TLS) protocol version 1.3* (RFC 8446). Internet Engineering Task Force. https://datatracker.ietf.org/doc/html/rfc8446
-
 [^sheffer2015]: Sheffer, Y., Holz, R., & Saint-Andre, P. (2015). *Summarizing known attacks on Transport Layer Security (TLS) and Datagram TLS (DTLS)* (RFC 7457). Internet Engineering Task Force. https://datatracker.ietf.org/doc/html/rfc7457
-
 [^sslcomB]: SSL.com. (n.d.). *TLS 1.3 is here to stay*. https://www.ssl.com/article/tls-1-3-is-here-to-stay/

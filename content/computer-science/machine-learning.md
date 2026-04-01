@@ -62,79 +62,41 @@ Machine learning is applied across nearly every major domain. In healthcare, Est
 Despite its impact, machine learning faces significant limitations. Many high-performing models are opaque; Rudin[^rudin2019] argued that post-hoc explanations of black-box models are fundamentally unreliable, particularly in high-stakes settings such as medicine and criminal justice. Algorithmic bias is a systemic concern: Buolamwini and Gebru[^buolamwini2018] found error rates for darker-skinned women up to 34.7% in commercial facial recognition systems, compared to 0.8% for lighter-skinned men. Adversarial vulnerability is another concern — Goodfellow, Shlens, and Szegedy[^goodfellow2015] showed that imperceptible perturbations to inputs can cause neural networks to misclassify with high confidence. The environmental cost of training large models is also substantial: Strubell, Ganesh, and McCallum[^strubell2019] estimated that training a large Transformer with neural architecture search produces roughly 626,155 pounds of CO₂ equivalent. Finally, reproducibility remains an open challenge: Kapoor and Narayanan[^kapoorNarayanan2023] identified pervasive data leakage across ML-based research papers, signaling a systematic quality problem in the field.
 
 [^bishop2006]: Bishop, C. M. (2006). *Pattern recognition and machine learning*. Springer.
-
 [^breiman1984]: Breiman, L., Friedman, J., Olshen, R., & Stone, C. (1984). *Classification and regression trees*. Wadsworth.
-
 [^breiman2001]: Breiman, L. (2001). Random forests. *Machine Learning, 45*(1), 5–32.
-
 [^brown2020]: Brown, T. B., et al. (2020). Language models are few-shot learners. *Advances in Neural Information Processing Systems, 33*, 1877–1901.
-
 [^buolamwini2018]: Buolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. *Proceedings of the 1st Conference on Fairness, Accountability and Transparency*, 77–91.
-
 [^chapelle2006]: Chapelle, O., Schölkopf, B., & Zien, A. (Eds.). (2006). *Semi-supervised learning*. MIT Press.
-
 [^cortesVapnik1995]: Cortes, C., & Vapnik, V. (1995). Support-vector networks. *Machine Learning, 20*(3), 273–297.
-
 [^devlin2019]: Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2019). BERT: Pre-training of deep bidirectional transformers for language understanding. *Proceedings of NAACL-HLT 2019*, 4171–4186.
-
 [^esteva2017]: Esteva, A., et al. (2017). Dermatologist-level classification of skin cancer with deep neural networks. *Nature, 542*(7639), 115–118.
-
 [^fawcett2006]: Fawcett, T. (2006). An introduction to ROC analysis. *Pattern Recognition Letters, 27*(8), 861–874.
-
 [^freundSchapire1997]: Freund, Y., & Schapire, R. E. (1997). A decision-theoretic generalization of on-line learning and an application to boosting. *Journal of Computer and System Sciences, 55*(1), 119–139.
-
 [^friedman2001]: Friedman, J. H. (2001). Greedy function approximation: A gradient boosting machine. *Annals of Statistics, 29*(5), 1189–1232.
-
 [^geman1992]: Geman, S., Bienenstock, E., & Doursat, R. (1992). Neural networks and the bias/variance dilemma. *Neural Computation, 4*(1), 1–58.
-
 [^goodfellow2015]: Goodfellow, I. J., Shlens, J., & Szegedy, C. (2015). Explaining and harnessing adversarial examples. *International Conference on Learning Representations (ICLR).*
-
 [^guyonElisseeff2003]: Guyon, I., & Elisseeff, A. (2003). An introduction to variable and feature selection. *Journal of Machine Learning Research, 3*, 1157–1182.
-
 [^hastieTibshirani2009]: Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The elements of statistical learning* (2nd ed.). Springer.
-
 [^he2016]: He, K., Zhang, X., Ren, S., & Sun, J. (2016). Deep residual learning for image recognition. *Proceedings of IEEE CVPR*, 770–778.
-
 [^hochreiter1997]: Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. *Neural Computation, 9*(8), 1735–1780.
-
 [^jain2010]: Jain, A. K. (2010). Data clustering: 50 years beyond K-means. *Pattern Recognition Letters, 31*(8), 651–666.
-
 [^jaiswal2021]: Jaiswal, A., Babu, A. R., Zadeh, M. Z., Banerjee, D., & Makedon, F. (2021). A survey on contrastive self-supervised learning. *Technologies, 9*(1), 2.
-
 [^jumper2021]: Jumper, J., et al. (2021). Highly accurate protein structure prediction with AlphaFold. *Nature, 596*(7873), 583–589.
-
 [^kapoorNarayanan2023]: Kapoor, S., & Narayanan, A. (2023). Leakage and the reproducibility crisis in machine-learning-based science. *Patterns, 4*(9), 100804.
-
 [^kohavi1995]: Kohavi, R. (1995). A study of cross-validation and bootstrap for accuracy estimation and model selection. *Proceedings of the 14th IJCAI*, 2, 1137–1145.
-
 [^kotsiantis2006]: Kotsiantis, S. B., Kanellopoulos, D., & Pintelas, P. E. (2006). Data preprocessing for supervised learning. *International Journal of Computer Science, 1*(2), 111–117.
-
 [^krizhevsky2012]: Krizhevsky, A., Sutskever, I., & Hinton, G. E. (2012). ImageNet classification with deep convolutional neural networks. *Advances in Neural Information Processing Systems, 25*, 1097–1105.
-
 [^lecun1998]: LeCun, Y., Bottou, L., Bengio, Y., & Haffner, P. (1998). Gradient-based learning applied to document recognition. *Proceedings of the IEEE, 86*(11), 2278–2324.
-
 [^mitchell1997]: Mitchell, T. M. (1997). *Machine learning*. McGraw-Hill.
-
 [^panYang2010]: Pan, S. J., & Yang, Q. (2010). A survey on transfer learning. *IEEE Transactions on Knowledge and Data Engineering, 22*(10), 1345–1359.
-
 [^quinlan1986]: Quinlan, J. R. (1986). Induction of decision trees. *Machine Learning, 1*(1), 81–106.
-
 [^robbinsMonro1951]: Robbins, H., & Monro, S. (1951). A stochastic approximation method. *Annals of Mathematical Statistics, 22*(3), 400–407.
-
 [^rosenblatt1958]: Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. *Psychological Review, 65*(6), 386–408.
-
 [^rudin2019]: Rudin, C. (2019). Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead. *Nature Machine Intelligence, 1*(5), 206–215.
-
 [^rumelhart1986]: Rumelhart, D. E., Hinton, G. E., & Williams, R. J. (1986). Learning representations by back-propagating errors. *Nature, 323*(6088), 533–536.
-
 [^samuel1959]: Samuel, A. L. (1959). Some studies in machine learning using the game of checkers. *IBM Journal of Research and Development, 3*(3), 210–229.
-
 [^strubell2019]: Strubell, E., Ganesh, A., & McCallum, A. (2019). Energy and policy considerations for deep learning in NLP. *Proceedings of ACL 2019*, 3645–3650.
-
 [^suttonBarto2018]: Sutton, R. S., & Barto, A. G. (2018). *Reinforcement learning: An introduction* (2nd ed.). MIT Press.
-
 [^topol2019]: Topol, E. J. (2019). High-performance medicine: The convergence of human and artificial intelligence. *Nature Medicine, 25*(1), 44–56.
-
 [^vapnik1995]: Vapnik, V. N. (1995). *The nature of statistical learning theory*. Springer.
-
 [^vaswani2017]: Vaswani, A., et al. (2017). Attention is all you need. *Advances in Neural Information Processing Systems, 30*, 5998–6008.

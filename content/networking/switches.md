@@ -69,9 +69,6 @@ In any loop-free topology, a single switch failure can sever network segments. N
 In hierarchical enterprise design, switches are arranged in three tiers: *access* switches where end devices connect, *distribution* switches that aggregate access-layer uplinks and enforce policy, and *core* switches that provide high-speed backbone interconnect. In smaller environments this collapses to two tiers or even a single flat layer. Data center networks increasingly use **spine-leaf** topologies, where every leaf switch has a direct link to every spine switch, providing predictable latency and east-west traffic scalability that three-tier hierarchies cannot easily offer.
 
 [^cisco_nd]: Cisco. (n.d.). [*How does a network switch work?*](https://www.cisco.com/site/us/en/learn/topics/small-business/network-switch-how.html) Cisco Systems, Inc.
-
 [^cloudflare_nd]: Cloudflare. (n.d.). [*What is a network switch?*](https://www.cloudflare.com/learning/network-layer/what-is-a-network-switch/) Cloudflare, Inc.
-
 [^forouzan2012]: Forouzan, B. A. (2012). *Data communications and networking* (5th ed.). McGraw-Hill.
-
 [^tanenbaum2011]: Tanenbaum, A. S., & Wetherall, D. J. (2011). *Computer networks* (5th ed.). Pearson Education.

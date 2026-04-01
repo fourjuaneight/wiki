@@ -59,25 +59,14 @@ The angle and quality of a light source relative to the subject produces markedl
 Lighting sets the tone of a photograph: the same subject reads entirely differently under warm, raking side-light versus cool, diffused overcast. Three variables govern how a source interacts with a subject. *Direction* — the angle of light relative to the subject — has the most immediate visual impact, determining where shadows fall and how texture reads. *Quality* describes the hardness or softness of the source and determines the sharpness of shadow edges. *Color temperature*, measured in Kelvin (K), sets the warmth or coolness of the scene: tungsten and incandescent sources sit around 2,400–3,200 K (warm/amber), standard daylight falls between 5,500–6,500 K, and an overcast sky pushes to 6,500–9,500 K (cool/blue).[^oseman2022] Cinematographers typically lock in a manual white balance rather than relying on auto white balance, which would neutralize the very color mood they are working to establish.[^oseman2022]
 
 [^brown2021]: Brown, B. (2021). [*Cinematography: Theory and practice: For cinematographers and directors*](https://www.routledge.com/Cinematography-Theory-and-Practice-For-Cinematographers-and-Directors/Brown/p/book/9780367373450) (4th ed.). Routledge.
-
 [^cartoni]: Cartoni. (n.d.). [*Pedestal P90 HP*](https://www.cartoni.com/products/pedestals/pedestal/pedestal-p90hp-p092/). Cartoni.
-
 [^chapman]: Chapman/Leonard Studio Equipment. (n.d.). [*About us*](https://www.chapman-leonard.com/about/). Chapman/Leonard Studio Equipment.
-
 [^dji2019]: DJI. (2019, July 2). [The chase: Gimbal technology and the endless push for innovation](https://viewpoints.dji.com/blog/the-chase-gimbal-technology-and-the-endless-push-for-innovation). *DJI ViewPoints*.
-
 [^dykstra1977]: Dykstra, J. (1977, July). Miniature and mechanical special effects for *Star Wars*. *American Cinematographer*, *58*(7). https://theasc.com/articles/star-wars-miniature-effects-dykstra
-
 [^leitner2021]: Leitner, N. (2021). [MRMC Bolt Mini Model Mover released](https://www.cined.com/mrmc-bolt-mini-model-mover-released/). *CineD*.
-
 [^mrmc]: Mark Roberts Motion Control. (n.d.). [*Bolt: High-speed cinema robot*](https://www.mrmoco.com/motion-control/bolt/). MRMC.
-
 [^nihf]: National Inventors Hall of Fame. (n.d.). [*Garrett Brown*](https://www.invent.org/inductees/garrett-w-brown). National Inventors Hall of Fame.
-
 [^oseman2022]: Oseman, N. (2022, April 16). [Replay: Everything you ever need to know about white balance but were afraid to ask](https://www.redsharknews.com/everything-you-ever-need-to-know-about-white-balance). *RedShark News*.
-
 [^ovchar2021]: Ovchar, I. (2021, July 3). [The ultimate guide to softboxes: The anatomy of light shaping tools](https://petapixel.com/softboxes/). *PetaPixel*.
-
 [^shotoku]: Shotoku Broadcast Systems. (n.d.). [*SmartPed*](https://www.shotoku.co.uk/products/smartped/). Shotoku Broadcast Systems.
-
 [^tiffen]: The Tiffen Company. (n.d.). [*History of Steadicam*](https://tiffen.com/pages/history-of-steadicam). The Tiffen Company.

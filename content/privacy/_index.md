@@ -1,4 +1,0 @@
----
-title: Privacy
-draft: false
----

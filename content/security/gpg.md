@@ -1,4 +1,0 @@
----
-title: GPG
-draft: false
----

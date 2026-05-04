@@ -1,4 +1,0 @@
----
-title: Hardware
-draft: false
----

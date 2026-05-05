@@ -6,23 +6,18 @@ languageCode: en-us
 enableRobotsTXT: true
 publishdir: dist
 metaDataFormat: yaml
-disableKinds: ["taxonomyTerm"]
+disableKinds: ['taxonomyTerm']
 footnoteReturnLinkContents: ↩
 summarylength: 40
 enableEmoji: true
 canonifyURLs: true
-ignoreErrors: ["error-remote-getjson"]
-timeout: "300s"
+ignoreErrors: ['error-remote-getjson']
+timeout: '300s'
 
 security:
   enableInlineShortcodes: false
   exec:
-    allow: ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^babel$"]
-
-caches:
-  getjson:
-    dir: ":cacheDir/:project"
-    maxAge: "10s"
+    allow: ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^babel$']
 
 markup:
   highlight:
@@ -41,29 +36,23 @@ mediaTypes:
 
 outputFormats:
   manifest:
-    baseName: "manifest"
+    baseName: 'manifest'
     isPlainText: true
     mediaType: application/feed+json
-    name: "manifest"
-    suffix: "json"
-  social:
-    baseName: "social"
-    isPlainText: true
-    mediaType: image/svg+xml
-    name: "social"
-    suffix: "svg"
+    name: 'manifest'
+    suffix: 'json'
 
 taxonomies:
-  tags: "tags"
+  tags: 'tags'
 
 permalinks:
-  section: "/:filename/"
-  tags: "/tags/:slug/"
+  section: '/:filename/'
+  tags: '/tags/:slug/'
 
 outputs:
-  home: ["html", "manifest"]
-  page: ["html", "social"]
-  section: ["html", "social"]
+  home: ['html']
+  page: ['html']
+  section: ['html']
 
 sitemap:
   changefreq: monthly
@@ -75,5 +64,5 @@ params:
     description: Personal knowledge wiki.
     author: Juan Villela
     social: fourjuaneight
-    background: "#1a1a1a"
-    theme: "#c390f3"
+    background: '#1a1a1a'
+    theme: '#c390f3'

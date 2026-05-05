@@ -69,7 +69,3 @@ COPY --from=builder /app/node_modules /app/node_modules
 
 # Install go dependencies
 WORKDIR /app
-COPY go.mod /app/
-COPY go.sum /app/
-RUN go mod download
-RUN go mod tidy

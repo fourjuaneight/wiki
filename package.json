@@ -13,7 +13,6 @@
     "format": "prettier --write \"assets/**/*.{ts,js,css,scss}\"",
     "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.{ts,js}\"",
     "partytown": "partytown copylib static/~partytown",
-    "post": "go run scripts/postbuild.go",
     "serve": "serve -l 2323 dist",
     "start": "npm run dev",
     "tsc": "tsc",

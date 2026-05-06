@@ -1009,20 +1009,6 @@ a.footnote-backref {
   }
 }
 
-div.noise {
-  background-size: calc(0.125em * 64);
-  bottom: 0;
-  left: 0;
-  mix-blend-mode: soft-light;
-  opacity: 0.0375;
-  pointer-events: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 20;
-}
-
 @media screen and (max-width: 500px) {
   footer {
     nav {
@@ -1196,7 +1182,7 @@ div.noise {
   display: flex;
   align-items: center;
   gap: 8px;
-  margin-left: auto;
+  margin: 0 0 0 auto;
   width: 320px;
   height: 32px;
   padding: 0 12px;
@@ -1248,6 +1234,8 @@ div.noise {
   cursor: pointer;
   transition: color var(--duration) ease, background var(--duration) ease;
   flex-shrink: 0;
+  padding: 0.25rem 0.5rem;
+  margin: 0;
 
   &:hover {
     color: var(--primary);
@@ -1492,7 +1480,7 @@ div.noise {
     font-size: 22px;
     font-weight: 600;
     letter-spacing: -0.01em;
-    margin: 40px 0 12px;
+    margin: 0 0 12px;
     scroll-margin-top: calc(var(--header-h) + 16px);
   }
 
@@ -1500,7 +1488,7 @@ div.noise {
     font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
     font-size: 17px;
     font-weight: 600;
-    margin: 28px 0 8px;
+    margin: 12px 0 8px;
     scroll-margin-top: calc(var(--header-h) + 16px);
   }
 
@@ -1560,7 +1548,6 @@ div.noise {
   color: var(--ink-muted);
   border-bottom: 1px solid var(--line);
   padding-bottom: 24px;
-  margin-bottom: 32px;
 }
 
 .doc-footer {

@@ -1297,7 +1297,7 @@ div.noise {
   display: none;
 }
 
-[data-theme="dark"] {
+@mixin dark-icons {
   .icon-moon {
     display: none;
   }
@@ -1306,14 +1306,13 @@ div.noise {
   }
 }
 
+[data-theme="dark"] {
+  @include dark-icons;
+}
+
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    .icon-moon {
-      display: none;
-    }
-    .icon-sun {
-      display: block;
-    }
+    @include dark-icons;
   }
 }
 

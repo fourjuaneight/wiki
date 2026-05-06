@@ -18,6 +18,16 @@ type PagefindModule = {
 };
 
 let pagefind: PagefindModule | null = null;
+let searchVersion = 0;
+let debounceTimer: ReturnType<typeof setTimeout> | null = null;
+
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+}
 
 async function loadPagefind(): Promise<void> {
   if (pagefind) return;
@@ -44,6 +54,7 @@ function closeModal(): void {
   document.body.classList.remove('no-scroll');
   if (input) input.value = '';
   if (resultsList) resultsList.innerHTML = '';
+  if (debounceTimer) clearTimeout(debounceTimer);
 }
 
 async function handleSearch(query: string): Promise<void> {
@@ -51,19 +62,24 @@ async function handleSearch(query: string): Promise<void> {
     if (resultsList) resultsList.innerHTML = '';
     return;
   }
+  const version = ++searchVersion;
   const search = await pagefind.search(query);
+  if (version !== searchVersion) return; // stale — newer query in flight
   const results = await Promise.all(
     search.results.slice(0, 8).map((r) => r.data())
   );
+  if (version !== searchVersion) return; // stale after data fetch
   resultsList.innerHTML = results
     .map((r) => {
       const crumb = r.url
         .replace(/\/$/, '')
         .split('/')
         .filter(Boolean)
+        .map(escapeHtml)
         .join(' / ');
-      return `<a class="search-result" href="${r.url}">
-      <span class="search-result-title">${r.meta.title || r.url}</span>
+      const safeUrl = r.url.startsWith('/') || r.url.startsWith('http') ? r.url : '/';
+      return `<a class="search-result" href="${escapeHtml(safeUrl)}">
+      <span class="search-result-title">${escapeHtml(r.meta.title || r.url)}</span>
       <span class="search-result-crumb">${crumb}</span>
     </a>`;
     })
@@ -73,6 +89,11 @@ async function handleSearch(query: string): Promise<void> {
     .forEach((el) => {
       el.addEventListener('click', closeModal);
     });
+}
+
+function scheduleSearch(query: string): void {
+  if (debounceTimer) clearTimeout(debounceTimer);
+  debounceTimer = setTimeout(() => handleSearch(query), 300);
 }
 
 trigger?.addEventListener('click', openModal);
@@ -89,5 +110,5 @@ document.addEventListener('keydown', (e: KeyboardEvent) => {
 });
 
 input?.addEventListener('input', () => {
-  if (input) handleSearch(input.value);
+  if (input) scheduleSearch(input.value);
 });

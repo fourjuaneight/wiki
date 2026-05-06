@@ -51,8 +51,6 @@
 
     {{/* Transpiled scripts — esbuild (built-in, no external Babel process) */}}
     {{- $jsOpts := dict "format" "iife" -}}
-    {{- $noiseTS := resources.Get "scripts/noise.ts" | js.Build $jsOpts -}}
-    {{ $noise := slice $noiseTS | resources.Concat "noise.js" }}
 
     {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | js.Build $jsOpts -}}
     {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
@@ -62,15 +60,6 @@
     {{- $drawerTS := resources.Get "scripts/drawer.ts" | js.Build $jsOpts -}}
     {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | js.Build $jsOpts -}}
 
-    {{ $scripts := slice $noise $partyMode $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
-
-    {{- $noiseWWTS := resources.Get "scripts/noise.ww.ts" | js.Build $jsOpts -}}
-    {{ $noiseWW := slice $noiseWWTS | resources.Concat "noise.ww.js" | resources.Minify }}
-
-    <script
-      defer
-      src="{{ $scripts.Permalink }}"
-      data-worker="{{ $noiseWW.Permalink }}"
-    ></script>
+    {{ $scripts := slice $partyMode $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
   </body>
 </html>

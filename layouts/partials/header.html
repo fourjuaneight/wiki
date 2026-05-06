@@ -1,24 +1,60 @@
-<header class="bg-background-dark border-0 border-solid border-b-under border-meta grid mb-8 w-full">
-  <section
-    class="col-start-2 flex flex-col items-center justify-center row-start-2 sm:flex-row sm:justify-between w-full"
-  >
-    <a
-      href="{{ .Site.BaseURL }}"
-      class="site-name focus:no-underline focus:text-secondary font-bold font-mdNichrome hover:no-underline hover:text-secondary no-underline text-center text-foreground text-4xl uppercase"
-      data-line="slim"
-    >
-      {{ .Site.Title }}
+<header class="site-header">
+  <div class="header-inner">
+    <!-- Hamburger (visible ≤720px) -->
+    <button class="icon-btn" id="menu-btn" aria-label="Open navigation">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <line x1="2" y1="4" x2="14" y2="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="2" y1="8" x2="14" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="2" y1="12" x2="14" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+
+    <!-- Logo -->
+    <a href="{{ .Site.BaseURL }}" class="logo" aria-label="{{ .Site.Title }}">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span class="logo-word">Wiki</span>
     </a>
-    <nav class="gap-x-2 grid grid-cols-3-min-content grid-rows-1 items-center mt-2 sm:m-0 w-auto xs:gap-x-4">
-      {{ range .Site.Data.nav.header }}
-      <a
-        href="{{ .link | absURL }}"
-        class="focus:no-underline focus:text-secondary font-bold font-mdNichrome hover:no-underline hover:text-secondary no-underline text-center text-4xl uppercase"
-        data-line="slim"
-      >
-        {{ .label }}
-      </a>
-      {{ end }}
-    </nav>
-  </section>
+
+    <!-- Search trigger -->
+    <button class="search-trigger" id="search-trigger" aria-label="Search documentation">
+      <svg class="search-trigger-icon" width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <circle cx="5.5" cy="5.5" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+        <line x1="9" y1="9" x2="13" y2="13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span class="search-trigger-text">Search</span>
+      <kbd class="search-kbd">⌘K</kbd>
+    </button>
+
+    <!-- Header actions -->
+    <div class="header-actions">
+      <!-- TOC button (visible ≤1100px) -->
+      <button class="icon-btn" id="toc-btn" aria-label="Table of contents">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <line x1="2" y1="4" x2="6" y2="4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="2" y1="8" x2="14" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="2" y1="12" x2="10" y2="12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <!-- Theme toggle -->
+      <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode">
+        <!-- Moon (shown in light mode) -->
+        <svg class="icon-moon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M13.5 10A6 6 0 016 2.5a6 6 0 100 11 6 6 0 007.5-3.5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+        </svg>
+        <!-- Sun (shown in dark mode) -->
+        <svg class="icon-sun" width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <circle cx="8" cy="8" r="3" stroke="currentColor" stroke-width="1.5"/>
+          <line x1="8" y1="1" x2="8" y2="3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="8" y1="13" x2="8" y2="15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="1" y1="8" x2="3" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="13" y1="8" x2="15" y2="8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="3.05" y1="3.05" x2="4.46" y2="4.46" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="11.54" y1="11.54" x2="12.95" y2="12.95" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="3.05" y1="12.95" x2="4.46" y2="11.54" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <line x1="11.54" y1="4.46" x2="12.95" y2="3.05" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
 </header>

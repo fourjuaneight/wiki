@@ -39,6 +39,21 @@
   --secondary-transparent: rgba(10, 120, 157, 0.5);
   --tertiary: #597480;
   --tertiary-transparent: rgba(89, 116, 128, 0.5);
+  /* role tokens */
+  --bg: hsl(22, 6%, 94%);
+  --surface: var(--background);
+  --ink: var(--foreground);
+  --ink-muted: var(--meta);
+  --ink-faint: var(--tertiary);
+  --line: var(--background-dark);
+  --line-soft: hsl(20, 4%, 92%);
+  --hover: hsl(20, 4%, 96%);
+  --active-bg: rgba(146, 51, 234, 0.08);
+  /* sizing */
+  --radius: 4px;
+  --sidebar-w: 260px;
+  --toc-w: 240px;
+  --header-h: 52px;
   /* values */
   --duration: 208ms;
   --footer-height: calc(63.5px + 2rem);
@@ -51,32 +66,62 @@
   --blue: #8080ff;
 }
 
+/* Dark palette — explicit toggle */
+[data-theme="dark"] {
+  --background: #333333;
+  --background-dark: #1a1a1a;
+  --foreground: #f5f4f2;
+  --gradient: linear-gradient(
+    hsl(20, 4%, 18%),
+    hsl(22, 6%, 16%),
+    hsl(24, 6%, 14%),
+    hsl(26, 8%, 12%)
+  );
+  --meta: #c2c2c2;
+  --primary: #c390f3;
+  --primary-transparent: rgba(195, 144, 243, 0.45);
+  --selection: #bdecfb;
+  --secondary: #bdecfb;
+  --secondary-transparent: rgba(189, 236, 251, 0.4);
+  --tertiary: #546d78;
+  --tertiary-transparent: rgba(84, 109, 120, 0.5);
+  /* role token overrides */
+  --bg: hsl(20, 4%, 22%);
+  --line: hsl(20, 4%, 26%);
+  --line-soft: hsl(20, 4%, 22%);
+  --hover: hsl(20, 4%, 26%);
+  --active-bg: rgba(195, 144, 243, 0.14);
+  /* glitch */
+  --red: #ff0000;
+  --green: #00ff00;
+  --blue: #0000ff;
+}
+
+/* Dark palette — system preference fallback (no JS / no explicit choice) */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --background: #333333;
     --background-dark: #1a1a1a;
     --foreground: #f5f4f2;
     --gradient: linear-gradient(
-      hsl(0, 0%, 0%),
-      hsl(0, 0%, 2%),
-      hsl(0, 0%, 4%),
-      hsl(0, 0%, 6%),
-      hsl(0, 0%, 8%),
-      hsl(0, 0%, 10%),
-      hsl(0, 0%, 12%),
-      hsl(0, 0%, 14%),
-      hsl(0, 0%, 16%),
-      hsl(0, 0%, 18%),
-      hsl(0, 0%, 20%)
+      hsl(20, 4%, 18%),
+      hsl(22, 6%, 16%),
+      hsl(24, 6%, 14%),
+      hsl(26, 8%, 12%)
     );
     --meta: #c2c2c2;
     --primary: #c390f3;
-    --primary-transparent: rgba(195, 144, 243, 0.5);
+    --primary-transparent: rgba(195, 144, 243, 0.45);
+    --selection: #bdecfb;
     --secondary: #bdecfb;
-    --secondary-transparent: rgba(189, 235, 251, 0.5);
+    --secondary-transparent: rgba(189, 236, 251, 0.4);
     --tertiary: #546d78;
-    --tertiary-transparent: rgba(133, 159, 170, 0.5);
-    /* glitch */
+    --tertiary-transparent: rgba(84, 109, 120, 0.5);
+    --bg: hsl(20, 4%, 22%);
+    --line: hsl(20, 4%, 26%);
+    --line-soft: hsl(20, 4%, 22%);
+    --hover: hsl(20, 4%, 26%);
+    --active-bg: rgba(195, 144, 243, 0.14);
     --red: #ff0000;
     --green: #00ff00;
     --blue: #0000ff;

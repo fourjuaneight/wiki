@@ -10,6 +10,16 @@ const pallete = {
   'secondary-transparent': 'var(--secondary-transparent)',
   tertiary: 'var(--tertiary)',
   'tertiary-transparent': 'var(--tertiary-transparent)',
+  // role tokens
+  bg: 'var(--bg)',
+  surface: 'var(--surface)',
+  ink: 'var(--ink)',
+  'ink-muted': 'var(--ink-muted)',
+  'ink-faint': 'var(--ink-faint)',
+  line: 'var(--line)',
+  'line-soft': 'var(--line-soft)',
+  hover: 'var(--hover)',
+  'active-bg': 'var(--active-bg)',
 };
 
 const templateGrid = size =>

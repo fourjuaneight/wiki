@@ -1,32 +1,58 @@
 {{ define "toc" }}
   {{ partial "toc.html" . }}
 {{ end }}
-{{ define "heading" }}
-  <h1
-    class="post-title font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
-    data-line="slim"
-  >
-    {{ .Title }}
-  </h1>
-{{ end }}
+
 {{ define "main" }}
-  <article class="w-full">
-    <span itemprop="name" class="sr-visible">Juan Villela</span>
-    {{ partial "meta.html" . }}
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="/">Docs</a>
+    {{ with .Parent }}
+      <span class="breadcrumb-sep">/</span>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+    <span class="breadcrumb-sep">/</span>
+    <span class="breadcrumb-current">{{ .Title }}</span>
+  </nav>
+
+  <article class="doc">
+    <h1>{{ .Title }}</h1>
+    <div class="doc-meta">
+      Last updated {{ .Date.Format "January 2, 2006" }}
+      {{ with .ReadingTime }}· {{ . }} min read{{ end }}
+    </div>
+
     {{ if ne .Params.hero nil }}
       <section class="hero">
         {{ partial "img.html" (dict "src" .Params.hero.img "alt" .Params.hero.alt "size" "1024") }}
       </section>
     {{ end }}
+
     <section class="content">{{ .Content }}</section>
+
     {{ if ne .Params.footer nil }}
       <section class="footer">
         {{ partial "img.html" (dict "src" .Params.footer.img "alt" .Params.footer.alt "size" "1024") }}
       </section>
     {{ end }}
+
     {{ partial "party-mode.html" . }}
   </article>
+
+  <nav class="doc-footer" aria-label="Page navigation">
+    {{ with .PrevInSection }}
+    <a href="{{ .RelPermalink }}" class="doc-nav-card">
+      <span class="doc-nav-eyebrow">Previous</span>
+      <span class="doc-nav-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a href="{{ .RelPermalink }}" class="doc-nav-card doc-nav-next">
+      <span class="doc-nav-eyebrow">Next</span>
+      <span class="doc-nav-title">{{ .Title }}</span>
+    </a>
+    {{ end }}
+  </nav>
 {{ end }}
+
 {{ define "styles" }}
 {{ if eq .Title "Looks like you're offline." }}
   <style>

@@ -2,7 +2,7 @@
 {{ $opts := dict "minified" true "compact" true }}
 
 {{ $swTemp := resources.Get "scripts/sw.ts" | resources.ExecuteAsTemplate "swTemp.ts" . }}
-{{ $swTS := $swTemp | babel }}
+{{ $swTS := $swTemp | js.Build }}
 {{ $swJS := slice $swTS | resources.Concat "sw.js" }}
 {{ $sw := $swJS | resources.Minify }}
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<html lang="{{ with .Site.Language.Locale }}{{ . }}{{ else }}en-US{{ end }}">
   {{ partial "head.html" . }}
   <body data-party="false">
     {{ partial "header.html" . }}
@@ -49,21 +49,22 @@
     {{ block "styles" . }}{{ end }}
     {{ block "scripts" . }}{{ end }}
 
-    {{/* Transpiled scripts */}}
-    {{- $noiseTS := resources.Get "scripts/noise.ts" | babel -}}
+    {{/* Transpiled scripts — esbuild (built-in, no external Babel process) */}}
+    {{- $jsOpts := dict "format" "iife" -}}
+    {{- $noiseTS := resources.Get "scripts/noise.ts" | js.Build $jsOpts -}}
     {{ $noise := slice $noiseTS | resources.Concat "noise.js" }}
 
-    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | babel -}}
+    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | js.Build $jsOpts -}}
     {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
 
-    {{- $themeTS := resources.Get "scripts/theme.ts" | babel -}}
-    {{- $searchTS := resources.Get "scripts/search.ts" | babel -}}
-    {{- $drawerTS := resources.Get "scripts/drawer.ts" | babel -}}
-    {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | babel -}}
+    {{- $themeTS := resources.Get "scripts/theme.ts" | js.Build $jsOpts -}}
+    {{- $searchTS := resources.Get "scripts/search.ts" | js.Build $jsOpts -}}
+    {{- $drawerTS := resources.Get "scripts/drawer.ts" | js.Build $jsOpts -}}
+    {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | js.Build $jsOpts -}}
 
     {{ $scripts := slice $noise $partyMode $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
 
-    {{- $noiseWWTS := resources.Get "scripts/noise.ww.ts" | babel -}}
+    {{- $noiseWWTS := resources.Get "scripts/noise.ww.ts" | js.Build $jsOpts -}}
     {{ $noiseWW := slice $noiseWWTS | resources.Concat "noise.ww.js" | resources.Minify }}
 
     <script

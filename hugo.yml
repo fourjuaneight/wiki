@@ -2,7 +2,7 @@
 baseURL: https://wiki.villela.co
 title: Knowledge Wiki
 # content
-languageCode: en-us
+locale: en-us
 enableRobotsTXT: true
 publishdir: dist
 metaDataFormat: yaml
@@ -50,7 +50,7 @@ taxonomies:
   tags: 'tags'
 
 permalinks:
-  section: '/:filename/'
+  section: '/:contentbasename/'
   tags: '/tags/:slug/'
 
 outputs:

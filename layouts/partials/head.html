@@ -1,6 +1,6 @@
 {{ $title := cond (ne .Params.seo_title nil) .Params.seo_title .Title }}
 {{ $description := cond (eq .IsHome true) .Site.Params.meta.description .Params.description }}
-{{ $socialImg := resources.Get "img/social.jpeg" }}
+{{ $socialImg := resources.Get "img/social.jpeg" | default (resources.Get "img/about.png") }}
 
 <head>
   <base href="{{ .Permalink }}" />
@@ -113,9 +113,9 @@
 
   {{ partial "fonts.html" . }}
 
-  {{ $reset := resources.Get "css/reset.css" | resources.PostCSS }}
+  {{ $reset := resources.Get "css/reset.css" }}
   {{ $fonts := resources.Get "css/fonts.css" | resources.ExecuteAsTemplate "fonts.css" . }}
-  {{ $critical := resources.Get "css/critical.css" | resources.PostCSS }}
+  {{ $critical := resources.Get "css/critical.css" }}
   {{ $aboveFold := slice $reset $fonts $critical | resources.Concat "css/atf.css" | resources.Minify }}
   {{ $rawCSS := $aboveFold.Content | safeCSS }}
   <style>{{ $rawCSS }}</style>
@@ -123,8 +123,8 @@
   {{ partial "fonts-loading.html" . }}
 
   {{ $tailwind := resources.Get "css/tw.css" }}
-  {{ $main := resources.Get "css/main.scss" | resources.ToCSS }}
-  {{ $styles := slice $tailwind $main | resources.Concat "styles.css" | resources.PostCSS | resources.Minify }}
+  {{ $main := resources.Get "css/main.scss" | toCSS }}
+  {{ $styles := slice $tailwind $main | resources.Concat "styles.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" />
   {{ if hugo.Environment | eq "production" }}
     {{ partial "analytics.html" . }}

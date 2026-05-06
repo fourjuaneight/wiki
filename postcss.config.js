@@ -1,6 +1,9 @@
 const cssnano = require('cssnano');
 const postcssPresetEnv = require('postcss-preset-env');
-const tailwind = require('tailwindcss');
+
+// Tailwind is pre-compiled via `pnpm run tw` — do not include here.
+// Including it as a PostCSS plugin causes the PostCSS process to stay alive
+// (JIT file watchers) and hang Hugo's build pipeline.
 
 module.exports = () => ({
   plugins: [
@@ -28,6 +31,5 @@ module.exports = () => ({
         },
       ],
     }),
-    tailwind,
   ],
 });

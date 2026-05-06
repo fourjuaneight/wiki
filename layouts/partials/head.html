@@ -100,6 +100,17 @@
   <link rel="manifest" href="{{ .Site.BaseURL }}/manifest.json" />
   <meta name="theme-color" content="{{ .Site.Params.meta.background }}" />
 
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('wiki-theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   {{ partial "fonts.html" . }}
 
   {{ $reset := resources.Get "css/reset.css" | resources.PostCSS }}

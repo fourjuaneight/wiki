@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ with .Site.Language.Locale }}{{ . }}{{ else }}en-US{{ end }}">
   {{ partial "head.html" . }}
-  <body data-party="false">
+  <body>
     {{ partial "header.html" . }}
 
     <div class="layout">
@@ -52,14 +52,11 @@
     {{/* Transpiled scripts — esbuild (built-in, no external Babel process) */}}
     {{- $jsOpts := dict "format" "iife" -}}
 
-    {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | js.Build $jsOpts -}}
-    {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
-
     {{- $themeTS := resources.Get "scripts/theme.ts" | js.Build $jsOpts -}}
     {{- $searchTS := resources.Get "scripts/search.ts" | js.Build $jsOpts -}}
     {{- $drawerTS := resources.Get "scripts/drawer.ts" | js.Build $jsOpts -}}
     {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | js.Build $jsOpts -}}
 
-    {{ $scripts := slice $partyMode $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
+    {{ $scripts := slice $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
   </body>
 </html>

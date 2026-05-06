@@ -93,27 +93,68 @@ a {
   &:focus {
     color: var(--foreground);
     outline: none;
+    text-decoration-color: var(--primary);
   }
 
   &:hover {
     color: var(--foreground);
     outline: none;
+    text-decoration-color: var(--primary);
+  }
+
+  &[rel='noopener noreferrer'] {
+    &:focus {
+      color: var(--primary);
+      text-decoration-color: var(--primary);
+    }
+
+    &:hover {
+      color: var(--primary);
+      text-decoration-color: var(--primary);
+    }
   }
 
   &[data-type='social'] {
     &:focus {
       color: var(--background) !important;
       text-decoration-color: var(--background) !important;
+
+      svg {
+        &[data-color="fill"] {
+          fill: var(--primary);
+        }
+        &[data-color="stroke"] {
+          stroke: var(--primary);
+        }
+      }
     }
 
     &:focus-visible {
       color: var(--background) !important;
       text-decoration-color: var(--background) !important;
+
+      svg {
+        &[data-color="fill"] {
+          fill: var(--primary);
+        }
+        &[data-color="stroke"] {
+          stroke: var(--primary);
+        }
+      }
     }
 
     &:hover {
       color: var(--background) !important;
       text-decoration-color: var(--background) !important;
+
+      svg {
+        &[data-color="fill"] {
+          fill: var(--primary);
+        }
+        &[data-color="stroke"] {
+          stroke: var(--primary);
+        }
+      }
     }
   }
 
@@ -165,10 +206,20 @@ a {
 
     &:focus {
       text-decoration: underline;
+
+      span {
+        color: var(--primary);
+        text-decoration-color: var(--primary);
+      }
     }
 
     &:focus-visible {
       text-decoration: underline;
+
+      span {
+        color: var(--primary);
+        text-decoration-color: var(--primary);
+      }
     }
 
     &:hover {
@@ -273,7 +324,16 @@ button {
   width: 12rem;
 
   &:disabled {
+    background-color: var(--secondary);
     cursor: not-allowed;
+  }
+
+  &:focus {
+    background-color: var(--secondary);
+  }
+
+  &:hover {
+    background-color: var(--secondary);
   }
 }
 
@@ -326,6 +386,14 @@ input {
   padding: 0.25rem;
   transition: border-color var(--duration) ease;
 
+  &:active {
+    border-color: var(--secondary);
+  }
+
+  &:focus {
+    border-color: var(--secondary);
+  }
+
   &:required {
     &:invalid {
       border-color: var(--meta);
@@ -365,6 +433,14 @@ textarea {
   transition: border-color var(--duration) ease;
   height: 6.75rem;
   resize: none;
+
+  &:active {
+    border-color: var(--secondary);
+  }
+
+  &:focus {
+    border-color: var(--secondary);
+  }
 
   &:required {
     &:invalid {
@@ -631,352 +707,6 @@ section.post-footer {
   }
 }
 
-button.party-mode {
-  background-color: transparent !important;
-
-  &:hover {
-    background-color: transparent !important;
-
-    img {
-      opacity: 1;
-    }
-  }
-
-  &:focus-visible {
-    img {
-      opacity: 1;
-    }
-  }
-}
-
-button.party-mode[data-active='true'] {
-  img {
-    opacity: 1;
-  }
-}
-
-body {
-  &[data-party='false'] {
-    a {
-      &:focus {
-        text-decoration-color: var(--primary);
-      }
-
-      &:hover {
-        text-decoration-color: var(--primary);
-      }
-
-      &[rel='noopener noreferrer'] {
-        &:focus {
-          color: var(--primary);
-          text-decoration-color: var(--primary);
-        }
-
-        &:hover {
-          color: var(--primary);
-          text-decoration-color: var(--primary);
-        }
-      }
-
-      &.footnote-ref {
-        &:focus {
-          &::before {
-            color: var(--primary);
-          }
-
-          &::after {
-            color: var(--primary);
-          }
-        }
-
-        &:hover {
-          &::before {
-            color: var(--primary);
-          }
-
-          &::after {
-            color: var(--primary);
-          }
-        }
-      }
-
-      &.footnote-backref {
-        &:focus {
-          color: var(--primary);
-        }
-
-        &:focus-visible {
-          color: var(--primary);
-        }
-
-        &:hover {
-          color: var(--primary);
-        }
-      }
-
-      &.tags {
-        &:focus {
-          span {
-            color: var(--primary);
-            text-decoration-color: var(--primary);
-          }
-        }
-
-        &:focus-visible {
-          span {
-            color: var(--primary);
-            text-decoration-color: var(--primary);
-          }
-        }
-
-        &:hover {
-          span {
-            color: var(--primary);
-          }
-        }
-      }
-
-      &[data-type='social'] {
-        &:focus {
-          svg {
-            &[data-color="fill"] {
-              fill: var(--primary);
-            }
-            &[data-color="stroke"] {
-              stroke: var(--primary);
-            }
-          }
-        }
-
-        &:focus-visible {
-          svg {
-            &[data-color="fill"] {
-              fill: var(--primary);
-            }
-            &[data-color="stroke"] {
-              stroke: var(--primary);
-            }
-          }
-        }
-
-        &:hover {
-          svg {
-            &[data-color="fill"] {
-              fill: var(--primary);
-            }
-            &[data-color="stroke"] {
-              stroke: var(--primary);
-            }
-          }
-        }
-      }
-    }
-
-    button {
-      &:disabled {
-        background-color: var(--secondary);
-      }
-
-      &:focus {
-        background-color: var(--secondary);
-      }
-
-      &:hover {
-        background-color: var(--secondary);
-      }
-    }
-
-    input {
-      &:active {
-        border-color: var(--secondary);
-      }
-
-      &:focus {
-        border-color: var(--secondary);
-      }
-    }
-
-    textarea {
-      &:active {
-        border-color: var(--secondary);
-      }
-
-      &:focus {
-        border-color: var(--secondary);
-      }
-    }
-  }
-
-  &[data-party='true'] {
-    a {
-      &:focus {
-        animation: textDecorationColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-          infinite;
-      }
-
-      &:hover {
-        animation: textDecorationColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-          infinite;
-      }
-
-      &[rel='noopener noreferrer'] {
-        &:focus {
-          animation: textDecorationColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-            infinite;
-          animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-        }
-
-        &:hover {
-          animation: textDecorationColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-            infinite;
-          animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-        }
-      }
-
-      &.footnote-ref {
-        &:focus {
-          &::before {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-
-          &::after {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-
-        &:hover {
-          &::before {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-
-          &::after {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-      }
-
-      &.footnote-backref {
-        &:focus {
-          animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-        }
-
-        &:focus-visible {
-          animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-        }
-
-        &:hover {
-          animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-        }
-      }
-
-      &.tags {
-        &:focus {
-          span {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-
-        &:focus-visible {
-          span {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-
-        &:hover {
-          span {
-            animation: colorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-      }
-
-      &.archive-link {
-        &:focus {
-          animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-            infinite;
-        }
-
-        &:hover {
-          animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-            infinite;
-        }
-      }
-
-      &[data-underline='true'] {
-        &:focus {
-          > span {
-            animation: backgroundColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-              infinite;
-          }
-        }
-
-        &:hover {
-          > span {
-            animation: backgroundColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-              infinite;
-          }
-        }
-      }
-
-      &[data-type='social'] {
-        &:focus {
-          svg {
-            animation: fillParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-
-        &:focus-visible {
-          svg {
-            animation: fillParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-
-        &:hover {
-          svg {
-            animation: fillParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          }
-        }
-      }
-    }
-
-    button {
-      &:disabled {
-        animation: backgroundColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-          infinite;
-      }
-
-      &:focus {
-        animation: backgroundColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-          infinite;
-      }
-
-      &:hover {
-        animation: backgroundColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1)
-          infinite;
-      }
-    }
-
-    input {
-      &:active {
-        animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-
-      &:focus {
-        animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-    }
-
-    textarea {
-      &:active {
-        animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-
-      &:focus {
-        animation: borderColorParty 200ms cubic-bezier(0.4, 0, 0.2, 1) infinite;
-      }
-    }
-  }
-}
-
 button[data-transparent='true'] {
   background-color: transparent !important;
 
@@ -997,14 +727,17 @@ a.footnote-backref {
   text-decoration: none !important;
 
   &:focus {
+    color: var(--primary);
     text-decoration: none !important;
   }
 
   &:focus-visible {
+    color: var(--primary);
     text-decoration: none !important;
   }
 
   &:hover {
+    color: var(--primary);
     text-decoration: none !important;
   }
 }
@@ -1196,6 +929,7 @@ a.footnote-backref {
 
   &:hover {
     border-color: var(--primary-transparent);
+    color: var(--background);
   }
 }
 
@@ -1547,7 +1281,8 @@ a.footnote-backref {
   font-size: 13px;
   color: var(--ink-muted);
   border-bottom: 1px solid var(--line);
-  padding-bottom: 24px;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .doc-footer {

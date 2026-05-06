@@ -1318,6 +1318,65 @@ div.noise {
 }
 
 /* =========================================================
+   TOC (right column)
+   ========================================================= */
+
+.toc-nav {
+  position: sticky;
+  top: 0;
+}
+
+.toc-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin: 0 0 12px;
+}
+
+.toc-col nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid var(--line-soft);
+}
+
+.toc-col nav ul li a {
+  display: block;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--ink-muted);
+  text-decoration: none;
+  border-left: 1.5px solid transparent;
+  margin-left: -1px;
+  transition: color var(--duration) ease, border-color var(--duration) ease;
+
+  &:hover {
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  &.active {
+    color: var(--primary);
+    font-weight: 500;
+    border-left-color: var(--primary);
+  }
+}
+
+.toc-col nav ul ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li a {
+    padding-left: 24px;
+    font-size: 12.5px;
+  }
+}
+
+/* =========================================================
    Sidebar navigation
    ========================================================= */
 

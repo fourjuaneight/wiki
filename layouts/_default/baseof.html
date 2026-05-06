@@ -4,14 +4,41 @@
   <body data-party="false">
     {{ partial "header.html" . }}
 
-    <main class="grid relative w-full">
-      {{ block "heading" . }}{{ end }}
-      <div
-        class="col-start-2 flex flex-col items-start justify-start row-start-2 w-full"
-      >
+    <div class="layout">
+      <aside class="sidebar-col" id="sidebar-col">
+        {{ block "sidebar" . }}{{ partial "sidebar.html" . }}{{ end }}
+      </aside>
+
+      <main class="main-col">
         {{ block "main" . }}{{ end }}
+      </main>
+
+      <aside class="toc-col" id="toc-col">
+        {{ block "toc" . }}{{ end }}
+      </aside>
+    </div>
+
+    <!-- Search modal -->
+    <div class="search-modal" id="search-modal" aria-hidden="true">
+      <div class="search-scrim" id="search-scrim"></div>
+      <div class="search-panel" role="dialog" aria-label="Search documentation">
+        <div class="search-input-row">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none">
+            <circle cx="6.5" cy="6.5" r="5" stroke="currentColor" stroke-width="1.5"/>
+            <line x1="10.5" y1="10.5" x2="14" y2="14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          <input type="text" id="search-input" class="search-input" placeholder="Search documentation…" autocomplete="off" />
+          <button class="search-esc" id="search-close">Esc</button>
+        </div>
+        <div class="search-results" id="search-results">
+          <p class="search-eyebrow">SUGGESTED</p>
+          <div id="search-results-list"></div>
+        </div>
       </div>
-    </main>
+    </div>
+
+    <!-- Drawer scrim (shared by sidebar + TOC drawers) -->
+    <div class="drawer-scrim" id="drawer-scrim"></div>
 
     {{ partial "footer.html" . }}
 
@@ -22,16 +49,19 @@
     {{ block "styles" . }}{{ end }}
     {{ block "scripts" . }}{{ end }}
 
-    {{/*  Transpiled scripts  */}}
-    {{ $opts := dict "minified" true "compact" true }}
-
+    {{/* Transpiled scripts */}}
     {{- $noiseTS := resources.Get "scripts/noise.ts" | babel -}}
     {{ $noise := slice $noiseTS | resources.Concat "noise.js" }}
 
     {{- $partyModeTS := resources.Get "scripts/party-mode.ts" | babel -}}
     {{ $partyMode := slice $partyModeTS | resources.Concat "party-mode.js" }}
 
-    {{ $scripts := slice $noise $partyMode | resources.Concat "scripts.js" | resources.Minify }}
+    {{- $themeTS := resources.Get "scripts/theme.ts" | babel -}}
+    {{- $searchTS := resources.Get "scripts/search.ts" | babel -}}
+    {{- $drawerTS := resources.Get "scripts/drawer.ts" | babel -}}
+    {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | babel -}}
+
+    {{ $scripts := slice $noise $partyMode $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
 
     {{- $noiseWWTS := resources.Get "scripts/noise.ww.ts" | babel -}}
     {{ $noiseWW := slice $noiseWWTS | resources.Concat "noise.ww.js" | resources.Minify }}

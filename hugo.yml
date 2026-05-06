@@ -25,6 +25,10 @@ markup:
     guessSyntax: false
     style: dracula
     tabWidth: 2
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
 
 mediaTypes:
   application/feed+json:

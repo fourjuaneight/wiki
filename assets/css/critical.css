@@ -182,36 +182,10 @@ samp {
   font-family: Dank Mono, monospace !important;
 }
 
-main,
-footer {
-  grid-template-columns: minmax(1rem, 1fr) minmax(18rem, 60rem) minmax(
-      1rem,
-      1fr
-    );
-}
-
-header {
-  grid-template-columns: 1rem auto 1rem;
-  grid-template-rows: 1rem repeat(2, min-content) 1rem;
-}
-
-header > nav > ul {
-  padding-bottom: 0.0625rem;
-}
-
-main {
-  grid-template-rows: repeat(2, min-content) auto 0.5rem;
-  min-height: calc(100vh - (var(--header-height) + var(--footer-height)));
-}
-
 @media screen and (max-width: 768px) {
   :root {
     --footer-height: calc(99.5px + 2rem);
   }
-}
-
-footer {
-  grid-template-rows: minmax(1rem, 1fr) min-content minmax(1rem, 1fr);
 }
 
 .footer > span {

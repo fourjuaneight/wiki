@@ -1,4 +1,29 @@
-<!-- Sidebar drawer (mobile) -->
+<!-- Desktop sidebar nav (visible in .sidebar-col on desktop) -->
+<nav class="sidebar-nav" aria-label="Documentation navigation">
+  {{ range .Site.Sections.ByTitle }}
+    {{ $section := . }}
+    <div class="nav-section">
+      <a href="{{ $section.RelPermalink }}"
+         class="nav-section-title{{ if eq $.RelPermalink $section.RelPermalink }} active{{ end }}">
+        {{ $section.Title }}
+      </a>
+      {{ if $section.RegularPages }}
+      <ul class="nav-list">
+        {{ range $section.RegularPages.ByTitle }}
+        <li>
+          <a href="{{ .RelPermalink }}"
+             class="nav-link{{ if eq $.RelPermalink .RelPermalink }} active{{ end }}">
+            {{ .Title }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  {{ end }}
+</nav>
+
+<!-- Mobile sidebar drawer (position: fixed, shown via JS on ≤720px) -->
 <div class="sidebar-drawer" id="sidebar-drawer">
   <button class="drawer-close icon-btn" id="sidebar-close" aria-label="Close navigation">
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none">

@@ -54,7 +54,7 @@ permalinks:
   tags: '/tags/:slug/'
 
 outputs:
-  home: ['html']
+  home: ['html', "manifest"]
   page: ['html']
   section: ['html']
 

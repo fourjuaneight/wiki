@@ -1,9 +1,9 @@
 {{ define "main" }}
   <h1
-    class="font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
+    class="page-heading page-heading--section"
     data-line="slim"
   >
-    Recent Entries
+    {{ .Section }}
   </h1>
   {{ range .Data.Pages }}
     {{ .Render "li"}}

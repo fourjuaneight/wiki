@@ -8,7 +8,7 @@ publishdir: dist
 metaDataFormat: yaml
 disableKinds: ['taxonomyTerm']
 footnoteReturnLinkContents: ↩
-summarylength: 40
+summaryLength: 10
 enableEmoji: true
 canonifyURLs: true
 ignoreErrors: ['error-remote-getjson']

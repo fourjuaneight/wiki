@@ -21,24 +21,26 @@
 }
 
 :root {
-  /* colors */
+  /* palette */
   --background: #ffffff;
   --background-dark: #dddddd;
   --foreground: #333333;
+  --meta: #595959;
+  --primary: #9333ea;
+  --secondary: #0a799d;
+  --tertiary: #597480;
+  --selection: #bdecfb;
   --gradient: linear-gradient(
     hsl(20, 4%, 96%),
     hsl(22, 6%, 94%),
     hsl(24, 6%, 92%),
     hsl(26, 8%, 90%)
   );
-  --meta: #595959;
-  --primary: #9333ea;
-  --primary-transparent: rgba(146, 51, 234, 0.5);
-  --selection: #bdecfb;
-  --secondary: #0a799d;
-  --secondary-transparent: rgba(10, 120, 157, 0.5);
-  --tertiary: #597480;
-  --tertiary-transparent: rgba(89, 116, 128, 0.5);
+  /* derived — auto-update when primitives change */
+  --primary-transparent: color-mix(in srgb, var(--primary) 50%, transparent);
+  --secondary-transparent: color-mix(in srgb, var(--secondary) 50%, transparent);
+  --tertiary-transparent: color-mix(in srgb, var(--tertiary) 50%, transparent);
+  --active-bg: color-mix(in srgb, var(--primary) 8%, transparent);
   /* role tokens */
   --bg: hsl(22, 6%, 94%);
   --surface: var(--background);
@@ -48,18 +50,18 @@
   --line: var(--background-dark);
   --line-soft: hsl(20, 4%, 92%);
   --hover: hsl(20, 4%, 96%);
-  --active-bg: rgba(146, 51, 234, 0.08);
   /* sizing */
   --radius: 4px;
   --sidebar-w: 260px;
   --toc-w: 240px;
   --header-h: 52px;
-  /* values */
+  /* animation */
   --duration: 208ms;
+  --transition: cubic-bezier(0.155, 0.64, 0.24, 1);
+  /* layout */
   --footer-height: calc(63.5px + 2rem);
   --header-height: calc(67.5px + 2rem);
   --max-vw: 100vw;
-  --transition: cubic-bezier(0.155, 0.64, 0.24, 1);
   /* glitch */
   --red: #ff8080;
   --green: #80ff80;
@@ -68,29 +70,27 @@
 
 /* Dark palette — explicit toggle */
 [data-theme="dark"] {
+  /* palette */
   --background: #333333;
   --background-dark: #1a1a1a;
   --foreground: #f5f4f2;
+  --meta: #c2c2c2;
+  --primary: #c390f3;
+  --secondary: #bdecfb;
+  --tertiary: #546d78;
   --gradient: linear-gradient(
     hsl(20, 4%, 18%),
     hsl(22, 6%, 16%),
     hsl(24, 6%, 14%),
     hsl(26, 8%, 12%)
   );
-  --meta: #c2c2c2;
-  --primary: #c390f3;
-  --primary-transparent: rgba(195, 144, 243, 0.45);
-  --selection: #bdecfb;
-  --secondary: #bdecfb;
-  --secondary-transparent: rgba(189, 236, 251, 0.4);
-  --tertiary: #546d78;
-  --tertiary-transparent: rgba(84, 109, 120, 0.5);
-  /* role token overrides */
+  /* derived — higher alpha in dark */
+  --active-bg: color-mix(in srgb, var(--primary) 14%, transparent);
+  /* role tokens */
   --bg: hsl(20, 4%, 22%);
   --line: hsl(20, 4%, 26%);
-  --line-soft: hsl(20, 4%, 22%);
-  --hover: hsl(20, 4%, 26%);
-  --active-bg: rgba(195, 144, 243, 0.14);
+  --line-soft: var(--bg);
+  --hover: var(--line);
   /* glitch */
   --red: #ff0000;
   --green: #00ff00;
@@ -100,28 +100,28 @@
 /* Dark palette — system preference fallback (no JS / no explicit choice) */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    /* palette */
     --background: #333333;
     --background-dark: #1a1a1a;
     --foreground: #f5f4f2;
+    --meta: #c2c2c2;
+    --primary: #c390f3;
+    --secondary: #bdecfb;
+    --tertiary: #546d78;
     --gradient: linear-gradient(
       hsl(20, 4%, 18%),
       hsl(22, 6%, 16%),
       hsl(24, 6%, 14%),
       hsl(26, 8%, 12%)
     );
-    --meta: #c2c2c2;
-    --primary: #c390f3;
-    --primary-transparent: rgba(195, 144, 243, 0.45);
-    --selection: #bdecfb;
-    --secondary: #bdecfb;
-    --secondary-transparent: rgba(189, 236, 251, 0.4);
-    --tertiary: #546d78;
-    --tertiary-transparent: rgba(84, 109, 120, 0.5);
+    /* derived — higher alpha in dark */
+    --active-bg: color-mix(in srgb, var(--primary) 14%, transparent);
+    /* role tokens */
     --bg: hsl(20, 4%, 22%);
     --line: hsl(20, 4%, 26%);
-    --line-soft: hsl(20, 4%, 22%);
-    --hover: hsl(20, 4%, 26%);
-    --active-bg: rgba(195, 144, 243, 0.14);
+    --line-soft: var(--bg);
+    --hover: var(--line);
+    /* glitch */
     --red: #ff0000;
     --green: #00ff00;
     --blue: #0000ff;
@@ -188,7 +188,7 @@ samp {
   }
 }
 
-.footer > span {
+.page-footer > span {
   display: none;
 }
 

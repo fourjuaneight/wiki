@@ -122,8 +122,6 @@
 
   {{ partial "fonts-loading.html" . }}
 
-  {{ $tailwind := resources.Get "css/tw.css" }}
-  {{ $main := resources.Get "css/main.scss" | toCSS }}
-  {{ $styles := slice $tailwind $main | resources.Concat "styles.css" | resources.Minify }}
+  {{ $styles := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" />
 </head>

@@ -10,7 +10,7 @@
 {{/*  Render attributes  */}}
 {{ $isHidden := cond (ne .hidden nil) "true" "false" }}
 {{ $isSmall := cond (ne .small nil) "true" "false" }}
-{{ $maxWidth := cond (ne .small nil) "max-w-xxxxs" "max-w-xs" }}
+{{ $imgSize := cond (ne .small nil) "img-media__image--small" "img-media__image--regular" }}
 
 {{/*  Render conditionally by file type  */}}
 {{ if or (eq (index $svg 0) "svg") (eq (index $gif 0) "gif") }}
@@ -18,7 +18,7 @@
   <img
     src="{{ $simple.Permalink }}"
     alt="{{ .alt }}"
-    class="{{ with .iClasses }}{{ . }}{{ else }}mb-2 w-full{{ end }}"
+    class="{{ with .iClasses }}{{ . }}{{ else }}img-media__image img-media__image--inline{{ end }}"
     width="{{ .size }}"
     aria-hidden="{{ $isHidden }}"
     decoding="async"
@@ -28,13 +28,11 @@
   />
 {{ else }}
   {{ if ne .caption nil }}
-  <figure
-    class="bg-background-dark flex flex-col h-full items-center justify-start mx-auto my-6 p-2 rounded w-auto"
-  >
+  <figure class="img-figure">
   {{ end }}
   {{ $imgPrimary := resources.Get (print "/img/" $img) }}
   <picture
-    class="{{ with .pClasses }}{{ . }}{{ else }}img-wrap flex items-center justify-center{{ if eq .caption nil }} my-4{{ end }} w-full{{ end }}"
+    class="{{ with .pClasses }}{{ . }}{{ else }}img-media{{ if eq .caption nil }} img-media--standalone{{ end }}{{ end }}"
     {{ if ne .tabindex nil }}tabindex="{{ .tabindex }}"{{ end }}
   >
     {{ $webpPrimary := $imgPrimary.Resize (print .size "x webp drawing") }}
@@ -43,7 +41,7 @@
     <img
       src="{{ $imgResized.Permalink }}"
       alt="{{ .alt }}"
-      class="{{ with .iClasses }}{{ . }}{{ else }}{{ $maxWidth }} w-full{{ end }}"
+      class="{{ with .iClasses }}{{ . }}{{ else }}img-media__image {{ $imgSize }}{{ end }}"
       width="{{ $imgResized.Width }}"
       data-small="{{ $isSmall }}"
       aria-hidden="{{ $isHidden }}"
@@ -53,7 +51,7 @@
     />
   </picture>
   {{ with .caption }}
-    <figcaption class="max-w-lg mb-0 mt-2 text-center text-meta text-xs">{{ . }}</figcaption>
+    <figcaption class="img-figure__caption">{{ . }}</figcaption>
   {{ end }}
   {{ if ne .caption nil }}
   </figure>

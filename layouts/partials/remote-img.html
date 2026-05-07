@@ -1,7 +1,7 @@
 {{/*  Render attributes  */}}
 {{ $isHidden := cond (ne .hidden nil) "true" "false" }}
 {{ $isSmall := cond (ne .small nil) "true" "false" }}
-{{ $maxWidth := cond (ne .small nil) "max-w-xxxxs" "max-w-xs" }}
+{{ $imgSize := cond (ne .small nil) "img-media__image--small" "img-media__image--regular" }}
 {{ $cacheKey := print .src (now.Format "2006-01-02") }}
 {{/*  Conditional attributes  */}}
 {{ $alt := cond (ne .alt nil) .alt "" }}
@@ -22,7 +22,7 @@
 {{ $img := $source.Get "img" }}
 
 <picture
-  class="{{ with $pClasses }}{{ . }}{{ else }}img-wrap flex items-center justify-center my-4 w-full{{ end }}"
+  class="{{ with $pClasses }}{{ . }}{{ else }}img-media img-media--standalone{{ end }}"
   data-test="{{ $img }}"
 >
   {{ $webpPrimary := $img.Resize (print $size "x webp drawing") }}
@@ -31,7 +31,7 @@
   <img
     src="{{ $imgResized.Permalink }}"
     alt="{{ $alt }}"
-    class="{{ with $iClasses }}{{ . }}{{ else }}{{ $maxWidth }} w-full{{ end }}"
+    class="{{ with $iClasses }}{{ . }}{{ else }}img-media__image {{ $imgSize }}{{ end }}"
     width="{{ $imgResized.Width }}"
     data-small="{{ $isSmall }}"
     aria-hidden="{{ $isHidden }}"

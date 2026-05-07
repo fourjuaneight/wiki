@@ -6,7 +6,7 @@
   {{ $tagIsLong := gt $tagLength 8 }}
 
   <h1
-    class="font-bold font-mdNichrome mt-0 text-center text-8xl uppercase w-full"
+    class="page-heading page-heading--tag"
     data-line="slim"
     {{ if (and $tagIsWide $tagIsLong) }}
     style="--max-vw: 80vw;"
@@ -19,7 +19,7 @@
   {{ range .Pages }}
     {{ .Render "li" }}
   {{ end }}
-  <section class="footer mt-auto w-full">
+  <section class="page-footer page-footer--push">
     {{/*
       For whatever reason, the image will not render without rendering the data as plain text in the html. It is hidden via CSS, because apparently using a class name (Tailwind) also breaks it.
     */}}

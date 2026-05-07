@@ -1,22 +1,18 @@
 {{ $navLinks := sub (len .Site.Data.nav.footer) 1 }}
-<footer class="bg-background-dark border-0 border-solid border-t-under border-meta grid w-full">
-  <section
-    class="col-start-2 flex flex-wrap-reverse items-center justify-start row-start-2 w-full"
-  >
-    <ul
-      class="auto-cols-auto gap-x-1 grid grid-rows-1 items-center list-none ml-0 mr-auto my-0 pl-0 pr-4 py-0 xxs:gap-x-3"
-    >
-      <li class="m-0 row-start-1">
-        <p class="m-0 text-sm">
+<footer class="site-footer">
+  <section class="site-footer__section">
+    <ul class="site-footer__nav">
+      <li class="site-footer__item">
+        <p class="site-footer__text">
           &copy; 2023-{{ time.Now.Format "2006" }} {{ .Site.Title }}
         </p>
       </li>
-      <li class="m-0 row-start-1">
-        <p class="m-0 text-meta text-sm" aria-hidden="true">~</p>
+      <li class="site-footer__item">
+        <p class="site-footer__text site-footer__text--muted" aria-hidden="true">~</p>
       </li>
-      <li class="m-0 row-start-1">
+      <li class="site-footer__item">
         <a
-          class="no-underline text-sm"
+          class="site-footer__link"
           href="https://github.com/fourjuaneight/wiki"
           target="_blank"
           rel="noopener noreferrer"

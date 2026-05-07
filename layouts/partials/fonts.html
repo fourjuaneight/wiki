@@ -1,16 +1,4 @@
-{{ range os.ReadDir "static/fonts" }}
-  {{ $sub := .Name | findRE "(subset)" }}
-
-  {{ if ne $sub nil }}
-    {{ $isWoff2 := .Name | findRE "(woff2)" }}
-    {{ $type := cond (ne $isWoff2 nil) "woff2" "woff" }}
-
-    <link
-      rel="preload"
-      href="/fonts/{{ .Name }}"
-      as="font"
-      type="font/{{ $type }}"
-      crossorigin="anonymous"
-    />
-  {{ end }}
-{{ end }}
+<link rel="preload" href="/fonts/Nunito-Bold-subset.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Nunito-Bold-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Nunito-Regular-subset.woff" as="font" type="font/woff" crossorigin="anonymous">
+<link rel="preload" href="/fonts/Nunito-Regular-subset.woff2" as="font" type="font/woff2" crossorigin="anonymous">

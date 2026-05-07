@@ -1,24 +1,39 @@
-{{- range os.ReadDir "static/fonts" -}}
-  {{ $sub := .Name | findRE "(subset.woff2)" }}
-  {{ $weights := dict "Black" "900" "Bold" "700" "Dark" "500" "Regular" "400" "Italic" "400" }}
+@font-face {
+  font-family: Nunito;
+  src:
+    url(/fonts/Nunito-Bold-subset.woff2) format("woff2"),
+    url(/fonts/Nunito-Bold-subset.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
-  {{ if ne $sub nil }}
-    {{ $base := replace .Name ".woff2" "" }}
-    {{ $name := .Name | replaceRE "-.*" "" | replaceRE "_" " " }}
-    {{ $woff := print $base ".woff" }}
-    {{ $woff2 := print $base ".woff2" }}
-    {{ $weightName := .Name | replaceRE ".*-(.*)-sub.*" "$1" }}
-    {{ $weight := index $weights $weightName }}
-    {{ $isItalic := .Name | findRE "Italic" }}
-    {{ $style := cond (ne $isItalic nil) "italic" "normal" }}
+@font-face {
+  font-family: Nunito;
+  src:
+    url(/fonts/Nunito-Regular-subset.woff2) format("woff2"),
+    url(/fonts/Nunito-Regular-subset.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
-    @font-face {
-      font-family: {{ $name }};
-      src: url(/fonts/{{ $woff2 }}) format("woff2"),
-        url(/fonts/{{ $woff }}) format("woff");
-      font-weight: {{ $weight }};
-      font-style: {{ $style }};
-      font-display: swap;
-    }
-  {{ end }}
-{{- end -}}
+@font-face {
+  font-family: Dank Mono;
+  src:
+    url(/fonts/Dank_Mono-Regular.woff2) format("woff2"),
+    url(/fonts/Dank_Mono-Regular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Dank Mono;
+  src:
+    url(/fonts/Dank_Mono-Italic.woff2) format("woff2"),
+    url(/fonts/Dank_Mono-Italic.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

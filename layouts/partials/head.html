@@ -114,7 +114,7 @@
   {{ partial "fonts.html" . }}
 
   {{ $reset := resources.Get "css/reset.css" }}
-  {{ $fonts := resources.Get "css/fonts.css" | resources.ExecuteAsTemplate "fonts.css" . }}
+  {{ $fonts := resources.Get "css/fonts.css" }}
   {{ $critical := resources.Get "css/critical.css" }}
   {{ $aboveFold := slice $reset $fonts $critical | resources.Concat "css/atf.css" | resources.Minify }}
   {{ $rawCSS := $aboveFold.Content | safeCSS }}

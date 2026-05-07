@@ -5,17 +5,9 @@ const closeBtn = document.getElementById('search-close');
 const input = document.getElementById('search-input') as HTMLInputElement | null;
 const resultsList = document.getElementById('search-results-list');
 
-type PagefindResult = {
-  url: string;
-  meta: { title: string };
-  excerpt: string;
-};
+import type { search as PagefindSearch } from '/_pagefind/pagefind.js';
 
-type PagefindModule = {
-  search: (q: string) => Promise<{
-    results: Array<{ data: () => Promise<PagefindResult> }>;
-  }>;
-};
+type PagefindModule = { search: typeof PagefindSearch };
 
 let pagefind: PagefindModule | null = null;
 let searchVersion = 0;
@@ -33,8 +25,8 @@ async function loadPagefind(): Promise<void> {
   if (pagefind) return;
   try {
     pagefind = (await import('/_pagefind/pagefind.js')) as PagefindModule;
-  } catch (_) {
-    // not in production or not built yet
+  } catch (error) {
+    console.error('Failed to load Pagefind:', error);
   }
 }
 

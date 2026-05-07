@@ -5,8 +5,8 @@
   "scripts": {
     "build:chroma": "hugo gen chromastyles > assets/css/syntax.css",
     "build:fallback": "npm run build:prod || npm run build:prod",
-    "build:local": "hugo -e local -D --gc --minify --logLevel debug build",
-    "build:prod": "hugo -e production --gc --minify --logLevel error build",
+    "build:local": "hugo -e local -D --gc --minify --logLevel debug build && pagefind --site dist --output-path dist/_pagefind",
+    "build:prod": "hugo -e production --gc --minify --logLevel error build && pagefind --site dist --output-path dist/_pagefind",
     "clean:node": "rm -rf node_modules",
     "clean": "rm -rf dist",
     "dev": "hugo -e local -D --gc --minify --logLevel debug serve",
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/fourjuaneight/wiki#readme",
   "devDependencies": {
+    "pagefind": "^1.0.0",
     "@babel/cli": "^7.28.6",
     "@babel/core": "^7.29.0",
     "@babel/plugin-proposal-class-properties": "^7.18.6",

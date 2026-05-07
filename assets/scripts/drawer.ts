@@ -8,14 +8,14 @@ const tocDrawerClose = document.getElementById('toc-drawer-close');
 
 type DrawerType = 'sidebar' | 'toc';
 
-function openDrawer(type: DrawerType): void {
+const openDrawer = (type: DrawerType): void => {
   drawerScrim?.classList.add('active');
   document.body.classList.add('no-scroll');
   if (type === 'sidebar') sidebarDrawer?.classList.add('open');
   if (type === 'toc') tocDrawer?.classList.add('open');
 }
 
-function closeDrawer(type?: DrawerType): void {
+const closeDrawer = (type?: DrawerType): void => {
   if (!type || type === 'sidebar') sidebarDrawer?.classList.remove('open');
   if (!type || type === 'toc') tocDrawer?.classList.remove('open');
   const anyOpen =

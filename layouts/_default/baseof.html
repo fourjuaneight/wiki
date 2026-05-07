@@ -13,9 +13,11 @@
         {{ block "main" . }}{{ end }}
       </main>
 
+      {{ if ne .IsHome true }}
       <aside class="toc-col" id="toc-col">
         {{ block "toc" . }}{{ partial "toc.html" . }}{{ end }}
       </aside>
+      {{ end }}
     </div>
 
     <!-- Search modal -->

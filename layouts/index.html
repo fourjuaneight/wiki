@@ -3,6 +3,17 @@
     class="page-heading page-heading--grid"
     data-line="slim"
   >
-    Recent Posts
+    {{ .Title }}
   </h1>
+  <section class="content">{{ .Content }}</section>
+  <section class="sections">
+    <nav class="sections-grid">
+    {{ range .Sections.ByTitle }}
+      <a class="section-card" href="{{ .Permalink }}">
+        <span class="section-card-title">{{ .Title }}</span>
+        <span class="section-card-count">{{ len .RegularPages }} pages</span>
+      </a>
+    {{ end }}
+    </nav>
+  </section>
 {{ end }}

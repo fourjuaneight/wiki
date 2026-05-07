@@ -81,44 +81,44 @@ NIST SP 800-207 defines **Zero Trust** as "an evolving set of cybersecurity para
 
 NIST explicitly acknowledges the perimeter firewall's limitations in modern architectures: perimeter firewalls provide strong Internet gateways but "are less useful for detecting and blocking attacks from inside the network and cannot protect subjects outside of the enterprise perimeter — e.g., remote workers, cloud-based services, edge devices."[^rose2020] Zero Trust identifies three reference implementation models: Enhanced Identity Governance, microsegmentation (using host-based agents or software-defined networking to isolate workloads with per-service access controls), and Software-Defined Perimeters. Firewalls are not eliminated in Zero Trust — they are repositioned. Rather than serving as the primary trust boundary, they become one enforcement mechanism among many, applied at microsegment boundaries, cloud workload interfaces, and identity-verified access points. The convergence of FWaaS, ZTNA, CASB, and SWG into SASE architectures reflects this shift: the firewall function persists, but it is distributed, identity-aware, and cloud-delivered rather than confined to a hardware appliance at the network edge.
 
-[^barracuda2024]: Barracuda Networks. (2024, June 27). [*Securing your network: The crucial role of SSL inspection on firewalls*](https://blog.barracuda.com/2024/06/27/the-crucial-role-of-SSL-inspection-on-firewalls). Barracuda Networks Blog.
+[^barracuda2024]: Barracuda Networks. (2024, June 27). [Securing your network: The crucial role of SSL inspection on firewalls](https://blog.barracuda.com/2024/06/27/the-crucial-role-of-SSL-inspection-on-firewalls). Barracuda Networks Blog.
 
 [^bellovin1994]: Bellovin, S. M., & Cheswick, W. R. (1994). Network firewalls. *IEEE Communications Magazine, 32*(9), 50–57. https://doi.org/10.1109/35.312843
 
 [^bujlow2015]: Bujlow, T., Carela-Español, V., Solé-Pareta, J., & Barlet-Ros, P. (2015). A survey on web tracking: Mechanisms, implications, and defenses. *Proceedings of the IEEE, 105*(8), 1476–1510.
 
-[^checkpoint1994]: Check Point Software Technologies. (1994). [*Stateful inspection technology*](https://community.checkpoint.com/fyrhh23835/attachments/fyrhh23835/appliances-and-gaia/4996/1/Stateful_Inspection.pdf). Check Point.
+[^checkpoint1994]: Check Point Software Technologies. (1994). [Stateful inspection technology](https://community.checkpoint.com/fyrhh23835/attachments/fyrhh23835/appliances-and-gaia/4996/1/Stateful_Inspection.pdf). Check Point.
 
-[^checkpoint2025]: Check Point Software. (2025). [*6 main firewall threats and vulnerabilities, and how to mitigate them*](https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/6-main-firewall-threats-vulnerabilities-and-how-to-mitigate-them/). Check Point.
+[^checkpoint2025]: Check Point Software. (2025). [6 main firewall threats and vulnerabilities, and how to mitigate them](https://www.checkpoint.com/cyber-hub/network-security/what-is-firewall/6-main-firewall-threats-vulnerabilities-and-how-to-mitigate-them/). Check Point.
 
 [^cheswick1994]: Cheswick, W. R., & Bellovin, S. M. (1994). *Firewalls and internet security: Repelling the wily hacker*. Addison-Wesley.
 
-[^cloudflare2025]: Cloudflare. (2025). [*What is a firewall?*](https://www.cloudflare.com/learning/security/what-is-a-firewall/). Cloudflare.
+[^cloudflare2025]: Cloudflare. (2025). [What is a firewall?](https://www.cloudflare.com/learning/security/what-is-a-firewall/). Cloudflare.
 
-[^cloudflare2025cloud]: Cloudflare. (2025). [*What is a cloud firewall? What is firewall-as-a-service (FWaaS)?*](https://www.cloudflare.com/learning/cloud/what-is-a-cloud-firewall/). Cloudflare.
+[^cloudflare2025cloud]: Cloudflare. (2025). [What is a cloud firewall? What is firewall-as-a-service (FWaaS)?](https://www.cloudflare.com/learning/cloud/what-is-a-cloud-firewall/). Cloudflare.
 
-[^cloudflare2025ngfw]: Cloudflare. (2025). [*What is a next-generation firewall (NGFW)?*](https://www.cloudflare.com/learning/security/what-is-next-generation-firewall-ngfw/). Cloudflare.
+[^cloudflare2025ngfw]: Cloudflare. (2025). [What is a next-generation firewall (NGFW)?](https://www.cloudflare.com/learning/security/what-is-next-generation-firewall-ngfw/). Cloudflare.
 
-[^fortinet2024]: Fortinet. (2024). [*What is a firewall? Definition and types of firewall*](https://www.fortinet.com/resources/cyberglossary/firewall). Fortinet.
+[^fortinet2024]: Fortinet. (2024). [What is a firewall? Definition and types of firewall](https://www.fortinet.com/resources/cyberglossary/firewall). Fortinet.
 
-[^freed2000]: Freed, N. (2000). [*Behavior of and requirements for Internet firewalls* (RFC 2979)](https://www.rfc-editor.org/rfc/rfc2979). IETF.
+[^freed2000]: Freed, N. (2000). [Behavior of and requirements for Internet firewalls* (RFC 2979)](https://www.rfc-editor.org/rfc/rfc2979). IETF.
 
 [^hamed2006]: Hamed, H., Al-Shaer, E., & Marrero, W. (2006). Modeling and verification of IPSec and VPN security policies. *Proceedings of the 13th IEEE International Conference on Network Protocols (ICNP)*. https://doi.org/10.1109/ICNP.2005.25
 
-[^microsoft2025]: Microsoft. (2025). [*Azure Web Application Firewall on Azure Application Gateway*](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview). Microsoft Learn.
+[^microsoft2025]: Microsoft. (2025). [Azure Web Application Firewall on Azure Application Gateway](https://learn.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview). Microsoft Learn.
 
 [^mogul1989]: Mogul, J. C. (1989). Simple and flexible datagram access controls for Unix-based gateways. *USENIX Conference Proceedings*, 203–221.
 
-[^owasp2025]: OWASP Foundation. (2025). [*OWASP Top Ten*](https://owasp.org/www-project-top-ten/). OWASP.
+[^owasp2025]: OWASP Foundation. (2025). [OWASP Top Ten](https://owasp.org/www-project-top-ten/). OWASP.
 
-[^paloalto2025]: Palo Alto Networks. (2025). [*What is a next-generation firewall (NGFW)? A complete guide*](https://www.paloaltonetworks.com/cyberpedia/what-is-a-next-generation-firewall-ngfw). Palo Alto Networks.
+[^paloalto2025]: Palo Alto Networks. (2025). [What is a next-generation firewall (NGFW)? A complete guide](https://www.paloaltonetworks.com/cyberpedia/what-is-a-next-generation-firewall-ngfw). Palo Alto Networks.
 
-[^rose2020]: Rose, S., Borchert, O., Mitchell, S., & Connelly, S. (2020). [*Zero trust architecture* (NIST SP 800-207)](https://doi.org/10.6028/NIST.SP.800-207). National Institute of Standards and Technology.
+[^rose2020]: Rose, S., Borchert, O., Mitchell, S., & Connelly, S. (2020). [Zero trust architecture* (NIST SP 800-207)](https://doi.org/10.6028/NIST.SP.800-207). National Institute of Standards and Technology.
 
-[^scarfone2009]: Scarfone, K., & Hoffman, P. (2009). [*Guidelines on firewalls and firewall policy* (NIST SP 800-41 Rev. 1)](https://doi.org/10.6028/NIST.SP.800-41r1). National Institute of Standards and Technology.
+[^scarfone2009]: Scarfone, K., & Hoffman, P. (2009). [Guidelines on firewalls and firewall policy* (NIST SP 800-41 Rev. 1)](https://doi.org/10.6028/NIST.SP.800-41r1). National Institute of Standards and Technology.
 
 [^spafford1989]: Spafford, E. H. (1989). The Internet worm program: An analysis. *ACM SIGCOMM Computer Communication Review, 19*(1), 17–57. https://doi.org/10.1145/66093.66095
 
-[^srisuresh2001]: Srisuresh, P., & Egevang, K. (2001). [*Traditional IP network address translator (Traditional NAT)* (RFC 3022)](https://www.rfc-editor.org/rfc/rfc3022). IETF.
+[^srisuresh2001]: Srisuresh, P., & Egevang, K. (2001). [Traditional IP network address translator (Traditional NAT)* (RFC 3022)](https://www.rfc-editor.org/rfc/rfc3022). IETF.
 
-[^woodyatt2011]: Woodyatt, J. (2011). [*Recommended simple security capabilities in customer premises equipment (CPE) for providing residential IPv6 Internet service* (RFC 6092)](https://www.rfc-editor.org/rfc/rfc6092). IETF.
+[^woodyatt2011]: Woodyatt, J. (2011). [Recommended simple security capabilities in customer premises equipment (CPE) for providing residential IPv6 Internet service* (RFC 6092)](https://www.rfc-editor.org/rfc/rfc6092). IETF.

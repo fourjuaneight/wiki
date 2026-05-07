@@ -102,9 +102,9 @@ A forward-looking question in the field is whether LLMs can acquire **world mode
 - Prompt Engineering
 - AI Safety and Alignment
 
-[^ba2016]: Ba, J. L., Kiros, J. R., & Hinton, G. E. (2016). [*Layer normalization*](https://arxiv.org/abs/1607.06450). arXiv preprint.
+[^ba2016]: Ba, J. L., Kiros, J. R., & Hinton, G. E. (2016). [Layer normalization](https://arxiv.org/abs/1607.06450). arXiv preprint.
 [^bahdanau2015]: Bahdanau, D., Cho, K., & Bengio, Y. (2015). Neural machine translation by jointly learning to align and translate. *Proceedings of ICLR 2015*. https://arxiv.org/abs/1409.0473
-[^bai2022]: Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., & Kaplan, J. (2022). [*Constitutional AI: Harmlessness from AI feedback*](https://arxiv.org/abs/2212.08073). arXiv preprint.
+[^bai2022]: Bai, Y., Kadavath, S., Kundu, S., Askell, A., Kernion, J., Jones, A., & Kaplan, J. (2022). [Constitutional AI: Harmlessness from AI feedback](https://arxiv.org/abs/2212.08073). arXiv preprint.
 [^bender2021]: Bender, E. M., Gebru, T., McMillan-Major, A., & Mitchell, M. (2021). On the dangers of stochastic parrots: Can language models be too big? *Proceedings of FAccT 2021*, 610–623. https://doi.org/10.1145/3442188.3445922
 [^benderKoller2020]: Bender, E. M., & Koller, A. (2020). Climbing towards NLU: On meaning, form, and understanding in the age of data. *Proceedings of ACL 2020*, 5185–5198. https://doi.org/10.18653/v1/2020.acl-main.463
 [^blodgett2020]: Blodgett, S. L., Barocas, S., Daumé III, H., & Wallach, H. (2020). Language (Technology) is power: A critical survey of "bias" in NLP. *Proceedings of ACL 2020*, 5454–5476. https://doi.org/10.18653/v1/2020.acl-main.485
@@ -116,7 +116,7 @@ A forward-looking question in the field is whether LLMs can acquire **world mode
 [^hoffmann2022]: Hoffmann, J., Borgeaud, S., Mensch, A., Buchatskaya, E., Cai, T., Rutherford, E., & Sifre, L. (2022). Training compute-optimal large language models. *NeurIPS 2022*. https://arxiv.org/abs/2203.15556
 [^ji2023]: Ji, Z., Lee, N., Frieske, R., Yu, T., Su, D., Xu, Y., & Fung, P. (2023). Survey of hallucination in natural language generation. *ACM Computing Surveys, 55*(12), Article 248. https://doi.org/10.1145/3571730
 [^jury2024]: Jury, B., Lorusso, A., Leinonen, J., Denny, P., & Luxton-Reilly, A. (2024). Evaluating LLM-generated worked examples in an introductory programming course. *ACE 2024*, 77–86. https://doi.org/10.1145/3636243.3636252
-[^kaplan2020]: Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., & Amodei, D. (2020). [*Scaling laws for neural language models*](https://arxiv.org/abs/2001.08361). arXiv preprint.
+[^kaplan2020]: Kaplan, J., McCandlish, S., Henighan, T., Brown, T. B., Chess, B., Child, R., & Amodei, D. (2020). [Scaling laws for neural language models](https://arxiv.org/abs/2001.08361). arXiv preprint.
 [^kojima2022]: Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., & Iwasawa, Y. (2022). Large language models are zero-shot reasoners. *NeurIPS 2022*, 22199–22213. https://arxiv.org/abs/2205.11916
 [^lin2022]: Lin, S., Hilton, J., & Evans, O. (2022). TruthfulQA: Measuring how models mimic human falsehoods. *Proceedings of ACL 2022*, 3214–3252. https://doi.org/10.18653/v1/2022.acl-long.229
 [^mahowald2024]: Mahowald, K., Ivanova, A. A., Blank, I. A., Kanwisher, N., Tenenbaum, J. B., & Fedorenko, E. (2024). Dissociating language and thought in large language models. *Trends in Cognitive Sciences, 28*(6), 517–540. https://doi.org/10.1016/j.tics.2024.01.011
@@ -127,7 +127,7 @@ A forward-looking question in the field is whether LLMs can acquire **world mode
 [^nam2024]: Nam, D., Macvean, A., Hellendoorn, V., Vasilescu, B., & Myers, B. (2024). Using an LLM to help with code understanding. *ICSE 2024*. https://doi.org/10.1145/3597503.3639187
 [^ouyang2022]: Ouyang, L., Wu, J., Jiang, X., Almeida, D., Wainwright, C., Mishkin, P., & Lowe, R. (2022). Training language models to follow instructions with human feedback. *NeurIPS 2022*. https://arxiv.org/abs/2203.02155
 [^petroni2019]: Petroni, F., Rocktäschel, T., Riedel, S., Lewis, P., Bakhtin, A., Wu, Y., & Miller, A. H. (2019). Language models as knowledge bases? *Proceedings of EMNLP-IJCNLP 2019*, 2463–2473. https://doi.org/10.18653/v1/D19-1250
-[^radford2019]: Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). [*Language models are unsupervised multitask learners*](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf). OpenAI Technical Report.
+[^radford2019]: Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019). [Language models are unsupervised multitask learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf). OpenAI Technical Report.
 [^rafailov2023]: Rafailov, R., Sharma, A., Mitchell, E., Ermon, S., Manning, C. D., & Finn, C. (2023). Direct preference optimization: Your language model is secretly a reward model. *NeurIPS 2023*. https://arxiv.org/abs/2305.18290
 [^schaeffer2023]: Schaeffer, R., Miranda, B., & Koyejo, S. (2023). Are emergent abilities of large language models a mirage? *NeurIPS 2023* (Outstanding Paper). https://arxiv.org/abs/2304.15004
 [^su2024]: Su, J., Lu, Y., Pan, S., Murtadha, A., Wen, B., & Liu, Y. (2024). RoFormer: Enhanced transformer with rotary position embedding. *Neurocomputing*. https://doi.org/10.1016/j.neucom.2023.127063

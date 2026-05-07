@@ -98,19 +98,19 @@ Passkeys structurally eliminate three attack categories that TOTP and SMS-based 
 
 The **sign counter** provides a lightweight authenticator clone-detection mechanism: if the server observes a counter less than or equal to the stored value, it signals a possible duplication event. Because synced passkeys may not maintain consistent counters across devices, the signal is less reliable in that context and should be treated as advisory rather than definitive.[^w3c2021]
 
-[^apple-nd]: Apple. (n.d.). [*About the security of passkeys*](https://support.apple.com/en-us/102195). Apple Support.
-[^bitwarden2025]: Bitwarden. (2025). [*Security vendors join forces to make passkeys more portable for everyone*](https://bitwarden.com/blog/security-vendors-join-forces-to-make-passkeys-more-portable-for-everyone/). Bitwarden Blog.
-[^duo-nd]: Duo Security. (n.d.). [*Guide to Web Authentication*](https://webauthn.guide/). webauthn.guide.
-[^fidoalliance-nd-a]: FIDO Alliance. (n.d.-a). [*FIDO passkeys: Passwordless authentication*](https://fidoalliance.org/passkeys/). FIDO Alliance.
-[^fidoalliance-nd-b]: FIDO Alliance. (n.d.-b). [*FIDO user authentication specifications*](https://fidoalliance.org/specifications/). FIDO Alliance.
-[^fidoalliance-nd-c]: FIDO Alliance. (n.d.-c). [*FIDO Metadata Service (MDS) overview*](https://fidoalliance.org/metadata/). FIDO Alliance.
-[^fidoalliance2021]: FIDO Alliance. (2021, May 18). [*FIDO Metadata Service v3.0*](https://fidoalliance.org/specs/mds/fido-metadata-service-v3.0-ps-20210518.html). FIDO Alliance.
+[^apple-nd]: Apple. (n.d.). [About the security of passkeys](https://support.apple.com/en-us/102195). Apple Support.
+[^bitwarden2025]: Bitwarden. (2025). [Security vendors join forces to make passkeys more portable for everyone](https://bitwarden.com/blog/security-vendors-join-forces-to-make-passkeys-more-portable-for-everyone/). Bitwarden Blog.
+[^duo-nd]: Duo Security. (n.d.). [Guide to Web Authentication](https://webauthn.guide/). webauthn.guide.
+[^fidoalliance-nd-a]: FIDO Alliance. (n.d.-a). [FIDO passkeys: Passwordless authentication](https://fidoalliance.org/passkeys/). FIDO Alliance.
+[^fidoalliance-nd-b]: FIDO Alliance. (n.d.-b). [FIDO user authentication specifications](https://fidoalliance.org/specifications/). FIDO Alliance.
+[^fidoalliance-nd-c]: FIDO Alliance. (n.d.-c). [FIDO Metadata Service (MDS) overview](https://fidoalliance.org/metadata/). FIDO Alliance.
+[^fidoalliance2021]: FIDO Alliance. (2021, May 18). [FIDO Metadata Service v3.0](https://fidoalliance.org/specs/mds/fido-metadata-service-v3.0-ps-20210518.html). FIDO Alliance.
 [^fidoalliance2023]: FIDO Alliance. (2023). *Client to Authenticator Protocol (CTAP) 2.2*. FIDO Alliance. https://fidoalliance.org/specifications/
-[^google-nd-a]: Google. (n.d.-a). [*Security of passkeys in the Google Password Manager*](https://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html). Google Security Blog.
-[^google-nd-b]: Google. (n.d.-b). [*Passkeys developer guide for relying parties*](https://developers.google.com/identity/passkeys/developer-guides). Google for Developers.
-[^microsoft-nd-a]: Microsoft. (n.d.-a). [*Support for passkeys in Windows*](https://learn.microsoft.com/en-us/windows/security/identity-protection/passkeys/). Microsoft Learn.
-[^microsoft-nd-b]: Microsoft. (n.d.-b). [*Windows 11 expands passkey manager support*](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-11-expands-passkey-manager-support/4467572). Microsoft Community Hub.
+[^google-nd-a]: Google. (n.d.-a). [Security of passkeys in the Google Password Manager](https://security.googleblog.com/2022/10/SecurityofPasskeysintheGooglePasswordManager.html). Google Security Blog.
+[^google-nd-b]: Google. (n.d.-b). [Passkeys developer guide for relying parties](https://developers.google.com/identity/passkeys/developer-guides). Google for Developers.
+[^microsoft-nd-a]: Microsoft. (n.d.-a). [Support for passkeys in Windows](https://learn.microsoft.com/en-us/windows/security/identity-protection/passkeys/). Microsoft Learn.
+[^microsoft-nd-b]: Microsoft. (n.d.-b). [Windows 11 expands passkey manager support](https://techcommunity.microsoft.com/blog/windows-itpro-blog/windows-11-expands-passkey-manager-support/4467572). Microsoft Community Hub.
 [^nist2025]: National Institute of Standards and Technology. (2025). *Digital identity guidelines* (NIST SP 800-63-4). U.S. Department of Commerce. https://doi.org/10.6028/NIST.SP.800-63-4
-[^passkeysdev-nd]: FIDO Alliance. (n.d.). [*Passkey device support matrix*](https://passkeys.dev/device-support/). passkeys.dev.
-[^w3c2021]: World Wide Web Consortium. (2021). [*Web Authentication: An API for accessing public key credentials — Level 3*](https://www.w3.org/TR/webauthn-3/). W3C.
-[^yubico-nd-a]: Yubico. (n.d.-a). [*WebAuthn client registration*](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/WebAuthn_Client_Registration.html). Yubico Developer Documentation.
+[^passkeysdev-nd]: FIDO Alliance. (n.d.). [Passkey device support matrix](https://passkeys.dev/device-support/). passkeys.dev.
+[^w3c2021]: World Wide Web Consortium. (2021). [Web Authentication: An API for accessing public key credentials — Level 3](https://www.w3.org/TR/webauthn-3/). W3C.
+[^yubico-nd-a]: Yubico. (n.d.-a). [WebAuthn client registration](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/WebAuthn_Client_Registration.html). Yubico Developer Documentation.

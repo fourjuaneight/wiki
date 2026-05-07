@@ -72,56 +72,56 @@ The **InterPlanetary File System** (IPFS), created by Juan Benet at Protocol Lab
 
 **Filecoin**, IPFS’s incentive layer, now secures approximately 2.1 exbibytes of data, with the Filecoin Virtual Machine enabling smart contracts on the storage network. The broader Decentralized Physical Infrastructure Networks (DePIN) sector grew from a $5.2 billion market capitalization in 2024 to over $19 billion by late 2025, driven partly by AI workloads demanding distributed storage at scale.[^depin2026]
 
-[^bep3]: BitTorrent.org. (2008). [*BEP 3: The BitTorrent Protocol Specification*](https://www.bittorrent.org/beps/bep_0003.html). BitTorrent Enhancement Proposals.
+[^bep3]: BitTorrent.org. (2008). [BEP 3: The BitTorrent Protocol Specification](https://www.bittorrent.org/beps/bep_0003.html). BitTorrent Enhancement Proposals.
 
-[^bep5]: BitTorrent.org. (2008). [*BEP 5: DHT Protocol*](https://www.bittorrent.org/beps/bep_0005.html). BitTorrent Enhancement Proposals.
+[^bep5]: BitTorrent.org. (2008). [BEP 5: DHT Protocol](https://www.bittorrent.org/beps/bep_0005.html). BitTorrent Enhancement Proposals.
 
-[^bep9]: BitTorrent.org. (2008). [*BEP 9: Extension for Peers to Send Metadata Files*](https://www.bittorrent.org/beps/bep_0009.html). BitTorrent Enhancement Proposals.
+[^bep9]: BitTorrent.org. (2008). [BEP 9: Extension for Peers to Send Metadata Files](https://www.bittorrent.org/beps/bep_0009.html). BitTorrent Enhancement Proposals.
 
-[^bitWiki]: Wikipedia. (n.d.). [*BitTorrent*](https://en.wikipedia.org/wiki/BitTorrent). Wikimedia Foundation.
+[^bitWiki]: Wikipedia. (n.d.). [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent). Wikimedia Foundation.
 
-[^blizzardDownloader]: Wowpedia. (n.d.). [*Blizzard Downloader*](https://wowpedia.fandom.com/wiki/Blizzard_Downloader). Fandom.
+[^blizzardDownloader]: Wowpedia. (n.d.). [Blizzard Downloader](https://wowpedia.fandom.com/wiki/Blizzard_Downloader). Fandom.
 
 [^cohen2003]: Cohen, B. (2003). *Incentives build robustness in BitTorrent*. Workshop on Economics of Peer-to-Peer Systems.
 
 [^cohen2014]: Cohen, J. P., & Lo, H. Z. (2014). Academic Torrents: A community-maintained distributed repository. *Proceedings of the 2014 Annual Conference on Extreme Science and Engineering Discovery Environment (XSEDE ’14)*. ACM. https://doi.org/10.1145/2616498.2616528
 
-[^cohenTimeline]: Computer Timeline. (n.d.). [*Bram Cohen (BitTorrent)*](http://www.computer-timeline.com/timeline/bram-cohen/). Computer Timeline.
+[^cohenTimeline]: Computer Timeline. (n.d.). [Bram Cohen (BitTorrent)](http://www.computer-timeline.com/timeline/bram-cohen/). Computer Timeline.
 
-[^cohenWiki]: Wikipedia. (n.d.). [*Bram Cohen*](https://en.wikipedia.org/wiki/Bram_Cohen). Wikimedia Foundation.
+[^cohenWiki]: Wikipedia. (n.d.). [Bram Cohen](https://en.wikipedia.org/wiki/Bram_Cohen). Wikimedia Foundation.
 
 [^danaher2020]: Danaher, B., Smith, M. D., & Telang, R. (2020). The effect of piracy website blocking on consumer behavior. *MIS Quarterly, 44*(3). Carnegie Mellon University. https://www.cmu.edu/entertainment-analytics/documents/effectiveness-of-anti-piracy-efforts/uk-blocking-misq.pdf
 
-[^depin2026]: AdiPek. (2026). [*Web3 Storage War 2026: Filecoin, Arweave & DePIN Boom*](https://adipek.com/articles/the-web3-storage-war-is-here-why-decentralized-file-systems-are-suddenly-everywhere-in-2026). AdiPek.
+[^depin2026]: AdiPek. (2026). [Web3 Storage War 2026: Filecoin, Arweave & DePIN Boom](https://adipek.com/articles/the-web3-storage-war-is-here-why-decentralized-file-systems-are-suddenly-everywhere-in-2026). AdiPek.
 
-[^emuleWiki]: Wikipedia. (n.d.). [*eMule*](https://en.wikipedia.org/wiki/EMule). Wikimedia Foundation.
+[^emuleWiki]: Wikipedia. (n.d.). [eMule](https://en.wikipedia.org/wiki/EMule). Wikimedia Foundation.
 
-[^facebook2010]: TorrentFreak. (2010, June 25). [*Facebook uses BitTorrent, and they love it*](https://torrentfreak.com/facebook-uses-bittorrent-and-they-love-it-100625/). TorrentFreak.
+[^facebook2010]: TorrentFreak. (2010, June 25). [Facebook uses BitTorrent, and they love it](https://torrentfreak.com/facebook-uses-bittorrent-and-they-love-it-100625/). TorrentFreak.
 
-[^filecoinSpace]: Filecoin Foundation. (2024). [*Filecoin Foundation successfully deploys IPFS in space*](https://fil.org/blog/filecoin-foundation-successfully-deploys-interplanetary-file-system-ipfs-in-space). Filecoin Foundation.
+[^filecoinSpace]: Filecoin Foundation. (2024). [Filecoin Foundation successfully deploys IPFS in space](https://fil.org/blog/filecoin-foundation-successfully-deploys-interplanetary-file-system-ipfs-in-space). Filecoin Foundation.
 
-[^fossTorrents]: FOSS Torrents. (n.d.). [*Free open-source distribution torrents*](https://fosstorrents.com/distributions/). FOSS Torrents.
+[^fossTorrents]: FOSS Torrents. (n.d.). [Free open-source distribution torrents](https://fosstorrents.com/distributions/). FOSS Torrents.
 
 [^ipfsIEEE]: Benet, J., & Greco, N. (2020). The InterPlanetary File System and the Filecoin Network. *IEEE Conference Publication*. https://ieeexplore.ieee.org/document/9159174/
 
-[^katWiki]: Wikipedia. (n.d.). [*KickassTorrents*](https://en.wikipedia.org/wiki/KickassTorrents). Wikimedia Foundation.
+[^katWiki]: Wikipedia. (n.d.). [KickassTorrents](https://en.wikipedia.org/wiki/KickassTorrents). Wikimedia Foundation.
 
-[^kazaaLegal]: The Law Institute. (n.d.). [*The legal battles of P2P networks: From Napster to Kazaa*](https://thelaw.institute/commerce-and-cyberspace/legal-battles-p2p-networks-napster-kazaa/). TheLaw.Institute.
+[^kazaaLegal]: The Law Institute. (n.d.). [The legal battles of P2P networks: From Napster to Kazaa](https://thelaw.institute/commerce-and-cyberspace/legal-battles-p2p-networks-napster-kazaa/). TheLaw.Institute.
 
 [^langille2010]: Langille, M. G. I., & Eisen, J. A. (2010). BioTorrents: A file sharing service for scientific data. *PLoS ONE, 5*(4). https://doi.org/10.1371/journal.pone.0010071
 
-[^libtorrent2020]: Norberg, A. (2020, September). [*BitTorrent v2*](https://blog.libtorrent.org/2020/09/bittorrent-v2/). libtorrent blog.
+[^libtorrent2020]: Norberg, A. (2020, September). [BitTorrent v2](https://blog.libtorrent.org/2020/09/bittorrent-v2/). libtorrent blog.
 
 [^maymounkov2002]: Maymounkov, P., & Mazières, D. (2002). Kademlia: A peer-to-peer information system based on the XOR metric. *Proceedings of the 1st International Workshop on Peer-to-Peer Systems (IPTPS ’02)*, 53–65.
 
-[^microsoftDO]: Microsoft Learn. (n.d.). [*Optimize Windows update delivery*](https://learn.microsoft.com/en-us/windows/deployment/do/waas-optimize-windows-10-updates). Microsoft.
+[^microsoftDO]: Microsoft Learn. (n.d.). [Optimize Windows update delivery](https://learn.microsoft.com/en-us/windows/deployment/do/waas-optimize-windows-10-updates). Microsoft.
 
-[^napsterWiki]: Wikipedia. (n.d.). [*Napster*](https://en.wikipedia.org/wiki/Napster). Wikimedia Foundation.
+[^napsterWiki]: Wikipedia. (n.d.). [Napster](https://en.wikipedia.org/wiki/Napster). Wikimedia Foundation.
 
-[^parksAssoc]: VdoCipher. (n.d.). [*Streaming piracy statistics & fixes for pirate streaming services*](https://www.vdocipher.com/blog/streaming-piracy/). VdoCipher.
+[^parksAssoc]: VdoCipher. (n.d.). [Streaming piracy statistics & fixes for pirate streaming services](https://www.vdocipher.com/blog/streaming-piracy/). VdoCipher.
 
-[^tpbWiki]: Wikipedia. (n.d.). [*The Pirate Bay*](https://en.wikipedia.org/wiki/The_Pirate_Bay). Wikimedia Foundation.
+[^tpbWiki]: Wikipedia. (n.d.). [The Pirate Bay](https://en.wikipedia.org/wiki/The_Pirate_Bay). Wikimedia Foundation.
 
-[^twitterMurder]: Twitter Engineering. (2010, July 16). [*Murder: Fast datacenter code deploys using BitTorrent*](https://blog.twitter.com/engineering/en_us/a/2010/murder-fast-datacenter-code-deploys-using-bittorrent). Twitter Engineering Blog.
+[^twitterMurder]: Twitter Engineering. (2010, July 16). [Murder: Fast datacenter code deploys using BitTorrent](https://blog.twitter.com/engineering/en_us/a/2010/murder-fast-datacenter-code-deploys-using-bittorrent). Twitter Engineering Blog.
 
-[^webtorrentHandwiki]: HandWiki. (n.d.). [*Software: WebTorrent*](https://handwiki.org/wiki/Software:WebTorrent). HandWiki.
+[^webtorrentHandwiki]: HandWiki. (n.d.). [Software: WebTorrent](https://handwiki.org/wiki/Software:WebTorrent). HandWiki.

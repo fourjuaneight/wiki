@@ -91,7 +91,7 @@ A **converged deployment** collapses the controller function into the access swi
 
 **Cloud-managed deployments** move the control plane to a vendor-hosted platform, allowing administrators to configure, monitor, and troubleshoot APs across geographically dispersed sites from a single dashboard. The APs maintain a persistent outbound tunnel to the cloud service and apply configuration updates automatically.[^cisco]
 
-[^cisco]: Cisco. (n.d.). [*What is Wi-Fi?*](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi.html). Cisco.
-[^ieee2024]: IEEE Standards Association. (2024). [*IEEE 802.11-2024 — IEEE standard for information technology — Telecommunications and information exchange between systems — Local and metropolitan area networks — Specific requirements — Part 11: Wireless LAN medium access control (MAC) and physical layer (PHY) specifications*](https://standards.ieee.org/ieee/802.11/7028/). IEEE.
-[^watech]: Washington State Department of Enterprise Services. (n.d.). [*WiFi definition and meaning*](https://watech.wa.gov/wifi-definition-and-meaning). WaTech.
-[^wifialliance]: Wi-Fi Alliance. (n.d.). [*Discover Wi-Fi*](https://www.wi-fi.org/discover-wi-fi). Wi-Fi Alliance.
+[^cisco]: Cisco. (n.d.). [What is Wi-Fi?](https://www.cisco.com/site/us/en/learn/topics/networking/what-is-wi-fi.html). Cisco.
+[^ieee2024]: IEEE Standards Association. (2024). [IEEE 802.11-2024 — IEEE standard for information technology — Telecommunications and information exchange between systems — Local and metropolitan area networks — Specific requirements — Part 11: Wireless LAN medium access control (MAC) and physical layer (PHY) specifications](https://standards.ieee.org/ieee/802.11/7028/). IEEE.
+[^watech]: Washington State Department of Enterprise Services. (n.d.). [WiFi definition and meaning](https://watech.wa.gov/wifi-definition-and-meaning). WaTech.
+[^wifialliance]: Wi-Fi Alliance. (n.d.). [Discover Wi-Fi](https://www.wi-fi.org/discover-wi-fi). Wi-Fi Alliance.

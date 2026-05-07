@@ -125,12 +125,12 @@ Because the protocol draws no fundamental distinction between "client" and "serv
 
 WireGuard deliberately omits several features that more complex VPN stacks provide. There is no built-in key distribution, certificate authority integration, or PKI — keys must be exchanged out of band, much like SSH public keys.[^wireguard] The protocol uses UDP exclusively, which can be blocked by restrictive firewalls that only permit TCP on ports 80 and 443; there is no TCP fallback or obfuscation layer.[^canonical] The fixed cipher suite, while beneficial for simplicity and auditability, means the entire protocol version must be replaced if any single primitive is compromised.[^ionos] Finally, the server necessarily tracks each peer's most recent source IP address to support roaming, which has privacy implications in contexts where endpoint identity should remain hidden from the VPN gateway.
 
-[^canonical]: Canonical. (n.d.). [*WireGuard VPN*](https://ubuntu.com/server/docs/explanation/intro-to/wireguard-vpn/). Ubuntu Server Documentation.
+[^canonical]: Canonical. (n.d.). [WireGuard VPN](https://ubuntu.com/server/docs/explanation/intro-to/wireguard-vpn/). Ubuntu Server Documentation.
 [^donenfeld2017]: Donenfeld, J. A. (2017). WireGuard: Next generation kernel network tunnel. In *Proceedings of the
     Network and Distributed System Security Symposium (NDSS 2017)*. Internet Society.
     https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/wireguard-next-generation-kernel-network-tunnel/
-[^ionos]: IONOS. (2024). [*WireGuard VPN basics*](https://www.ionos.com/digitalguide/server/tools/wireguard-vpn-basics/). IONOS Digital Guide.
-[^wireguard]: WireGuard Project. (n.d.). [*WireGuard: Fast, modern, secure VPN tunnel*](https://www.wireguard.com/).
-[^wireguardperf]: WireGuard Project. (n.d.). [*Performance*](https://www.wireguard.com/performance/).
-[^wireguardprotocol]: WireGuard Project. (n.d.). [*Protocol & cryptography*](https://www.wireguard.com/protocol/).
-[^wireguardverification]: WireGuard Project. (n.d.). [*Formal verification*](https://www.wireguard.com/formal-verification/).
+[^ionos]: IONOS. (2024). [WireGuard VPN basics](https://www.ionos.com/digitalguide/server/tools/wireguard-vpn-basics/). IONOS Digital Guide.
+[^wireguard]: WireGuard Project. (n.d.). [WireGuard: Fast, modern, secure VPN tunnel](https://www.wireguard.com/).
+[^wireguardperf]: WireGuard Project. (n.d.). [Performance](https://www.wireguard.com/performance/).
+[^wireguardprotocol]: WireGuard Project. (n.d.). [Protocol & cryptography](https://www.wireguard.com/protocol/).
+[^wireguardverification]: WireGuard Project. (n.d.). [Formal verification](https://www.wireguard.com/formal-verification/).

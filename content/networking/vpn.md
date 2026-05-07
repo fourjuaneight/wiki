@@ -74,9 +74,9 @@ VPNs solve a specific problem — securing data in transit and masking network i
 
 Provider trustworthiness is another consideration. The VPN server operator can, in principle, observe all decrypted traffic. Less reputable providers — especially free services — may log browsing activity, inject advertisements, or sell user data, effectively shifting the surveillance point from the ISP to the VPN provider. Industry sources broadly recommend paid services with independently audited no-log policies, a kill switch that severs Internet access if the tunnel drops, and support for modern protocols with AES-256 or equivalent encryption.[^aws][^azure]
 
-[^aws]: Amazon Web Services. (n.d.). [*What is VPN?*](https://aws.amazon.com/what-is/vpn/)
+[^aws]: Amazon Web Services. (n.d.). [What is VPN?](https://aws.amazon.com/what-is/vpn/)
 [^barker2020]: Barker, E. B., Dang, Q. H., Frankel, S. E., Scarfone, K., & Wouters, P. (2020).
-    [*Guide to IPsec VPNs*](https://doi.org/10.6028/NIST.SP.800-77r1) (NIST Special Publication 800-77, Rev. 1).
+    [Guide to IPsec VPNs](https://doi.org/10.6028/NIST.SP.800-77r1) (NIST Special Publication 800-77, Rev. 1).
     National Institute of Standards and Technology.
-[^cisco]: Cisco. (n.d.). [*What is a virtual private network (VPN)?*](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html)
-[^azure]: Microsoft Azure. (n.d.). [*What is VPN?*](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-vpn)
+[^cisco]: Cisco. (n.d.). [What is a virtual private network (VPN)?](https://www.cisco.com/site/us/en/learn/topics/security/what-is-a-virtual-private-network-vpn.html)
+[^azure]: Microsoft Azure. (n.d.). [What is VPN?](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-vpn)

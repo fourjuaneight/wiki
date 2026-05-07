@@ -151,15 +151,14 @@ Also test after any significant infrastructure change.[^chandramouli2020]
 9. **Encrypt everything.** At rest and in transit. Store keys separately from backup media.
 10. **Document and review annually.** Backup plans rot as infrastructure changes.
 
-[^acronis2024]: Acronis. (2024). [*What is data deduplication?*](https://www.acronis.com/en-us/blog/posts/deduplication/). Acronis Blog.
-[^backblaze2024]: Backblaze. (2024). [*The 3-2-1 backup strategy*](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/). Backblaze Blog.
-[^chandramouli2020]: Chandramouli, R., & Pinhas, D. (2020). [*Security guidelines for storage infrastructure*](https://doi.org/10.6028/NIST.SP.800-209) (NIST SP 800-209). National Institute of Standards and Technology.
-[^google2024]: Google Cloud. (2024). [*Disaster recovery planning guide*](https://cloud.google.com/architecture/dr-scenarios-planning-guide). Google Cloud Architecture Center.
-[^mcbride2020]: McBride, T., Ekstrom, M., Lusty, L., Sexton, J., & Townsend, A. (2020). [*Data integrity: Recovering from ransomware and other destructive events*](https://csrc.nist.gov/pubs/sp/1800/11/final) (NIST SP 1800-11). National Institute of Standards and Technology.
-[^nakivo2024]: NAKIVO. (2024). [*Backup types explained: Full, incremental, differential, synthetic, and reverse incremental*](https://www.nakivo.com/blog/backup-types-explained/). NAKIVO Blog.
-[^swanson2010]: Swanson, M., Bowen, P., Phillips, A., Gallup, D., & Lynes, D. (2010). [*Contingency planning guide for federal information systems*](https://doi.org/10.6028/NIST.SP.800-34r1) (NIST SP 800-34 Rev. 1). National Institute of Standards and Technology.
-[^techtarget2024]: TechTarget. (2024). [*Incremental backup*](https://www.techtarget.com/searchdatabackup/definition/incremental-backup). SearchDataBackup.
-[^unitrends2024]: Unitrends. (2024). [*RPO and RTO: Understanding the difference*](https://www.unitrends.com/blog/rpo-rto). Unitrends Blog.
-[^veeam2024a]: Veeam. (2024). [*The 3-2-1 backup rule: Building a reliable data protection strategy*](https://www.veeam.com/blog/321-backup-rule.html). Veeam Blog.
-[^veeam2024b]: Veeam. (2024). [*Immutable backup: What it is and why you need it*](https://www.veeam.com/blog/immutable-backup.html). Veeam Blog.
- 
+[^acronis2024]: Acronis. (2024). [What is data deduplication?](https://www.acronis.com/en-us/blog/posts/deduplication/). Acronis Blog.
+[^backblaze2024]: Backblaze. (2024). [The 3-2-1 backup strategy](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/). Backblaze Blog.
+[^chandramouli2020]: Chandramouli, R., & Pinhas, D. (2020). [Security guidelines for storage infrastructure](https://doi.org/10.6028/NIST.SP.800-209) (NIST SP 800-209). National Institute of Standards and Technology.
+[^google2024]: Google Cloud. (2024). [Disaster recovery planning guide](https://cloud.google.com/architecture/dr-scenarios-planning-guide). Google Cloud Architecture Center.
+[^mcbride2020]: McBride, T., Ekstrom, M., Lusty, L., Sexton, J., & Townsend, A. (2020). [Data integrity: Recovering from ransomware and other destructive events](https://csrc.nist.gov/pubs/sp/1800/11/final) (NIST SP 1800-11). National Institute of Standards and Technology.
+[^nakivo2024]: NAKIVO. (2024). [Backup types explained: Full, incremental, differential, synthetic, and reverse incremental](https://www.nakivo.com/blog/backup-types-explained/). NAKIVO Blog.
+[^swanson2010]: Swanson, M., Bowen, P., Phillips, A., Gallup, D., & Lynes, D. (2010). [Contingency planning guide for federal information systems](https://doi.org/10.6028/NIST.SP.800-34r1) (NIST SP 800-34 Rev. 1). National Institute of Standards and Technology.
+[^techtarget2024]: TechTarget. (2024). [Incremental backup](https://www.techtarget.com/searchdatabackup/definition/incremental-backup). SearchDataBackup.
+[^unitrends2024]: Unitrends. (2024). [RPO and RTO: Understanding the difference](https://www.unitrends.com/blog/rpo-rto). Unitrends Blog.
+[^veeam2024a]: Veeam. (2024). [The 3-2-1 backup rule: Building a reliable data protection strategy](https://www.veeam.com/blog/321-backup-rule.html). Veeam Blog.
+[^veeam2024b]: Veeam. (2024). [Immutable backup: What it is and why you need it](https://www.veeam.com/blog/immutable-backup.html). Veeam Blog.

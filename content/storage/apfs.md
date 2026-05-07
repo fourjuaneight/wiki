@@ -298,6 +298,5 @@ Both filesystems use copy-on-write, but their design goals differ substantially:
 
 APFS is optimized for Apple's vertical integration — Flash storage, hardware encryption engines, and single-user devices. ZFS is designed for multi-disk server environments where data integrity across unreliable hardware is the primary concern.
 
-[^apple2018]: Apple Inc. (2018). [*Apple File System Guide*](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html). Apple Developer Documentation Archive.
-[^apple2020]: Apple Inc. (2020, June 22). [*Apple File System Reference*](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf).
- 
+[^apple2018]: Apple Inc. (2018). [Apple File System Guide](https://developer.apple.com/library/archive/documentation/FileManagement/Conceptual/APFS_Guide/Introduction/Introduction.html). Apple Developer Documentation Archive.
+[^apple2020]: Apple Inc. (2020, June 22). [Apple File System Reference](https://developer.apple.com/support/downloads/Apple-File-System-Reference.pdf).

@@ -198,31 +198,31 @@ The table below summarizes the key functional differences between the major shel
 | Config files | `/etc/profile`, `~/.profile` | `.bash_profile`, `.bashrc` | `.zshenv`, `.zshrc` | `~/.config/fish/` | `$PROFILE` |
 | POSIX compatible | Yes | Mostly | Mostly | No | No |
 
-[^augment_tmux]: Augment Code. (n.d.). [*tmux — Terminal Multiplexer*](https://www.augmentcode.com/open-source/tmux/tmux). Augment Code.
-[^baeldung_pipefail]: Baeldung. (n.d.). [*The exit status of piped processes*](https://www.baeldung.com/linux/exit-status-piped-processes). Baeldung on Linux.
-[^baeldung_shvsbash]: Baeldung. (n.d.). [*What's the difference between sh and Bash?*](https://www.baeldung.com/linux/sh-vs-bash). Baeldung on Linux.
-[^biriukov_pty]: Biriukov, V. (n.d.). [*Terminals and pseudoterminals*](https://biriukov.dev/docs/fd-pipe-session-terminal/4-terminals-and-pseudoterminals/). biriukov.dev.
-[^catonmat_redir]: Skalberg, P. (n.d.). [*Bash one-liners explained, Part III: All about redirections*](https://catonmat.net/bash-one-liners-explained-part-three). catonmat.net.
-[^dev_zshcompletion]: Fabre, G. (n.d.). [*A guide to the Zsh completion with examples*](https://dev.to/phantas0s/a-guide-to-the-zsh-completion-with-examples-2jhe). DEV Community.
-[^gnu_jobbuiltins]: Free Software Foundation. (2023). [*Job control builtins*](https://www.gnu.org/software/bash/manual/html_node/Job-Control-Builtins.html). *Bash Reference Manual*.
-[^gnu_paramexp]: Free Software Foundation. (2023). [*Shell parameter expansion*](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html). *Bash Reference Manual*.
-[^gnu_wordsplit]: Free Software Foundation. (2023). [*Word splitting*](https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html). *Bash Reference Manual*.
-[^harvard_shell2]: Harvard CS 61. (2018). [*Shell 2: Process creation and interprocess communication*](https://cs61.seas.harvard.edu/site/2018/Shell2/). Harvard University.
-[^hyperpolyglot_mux]: Hyperpolyglot. (n.d.). [*Terminal multiplexers: Screen, Tmux*](https://hyperpolyglot.org/multiplexers). hyperpolyglot.org.
-[^jvns_escapes]: Evans, J. (2025, March 7). [*Standards for ANSI escape codes*](https://jvns.ca/blog/2025/03/07/escape-code-standards/). jvns.ca.
-[^lam_linedisc]: Lam, J. (n.d.). [*Understanding the tty subsystem: Line discipline*](https://lambdalambda.ninja/blog/56/). lambdalambda.ninja.
-[^linux_termios]: Linux man pages. (n.d.). [*termios(3)*](https://linux.die.net/man/3/termios). linux.die.net.
-[^linux_tmux]: Linux man pages. (n.d.). [*tmux(1): Terminal multiplexer*](https://linux.die.net/man/1/tmux). linux.die.net.
-[^man7fork]: Linux man pages. (n.d.). [*fork(2)*](https://man7.org/linux/man-pages/man2/fork.2.html). man7.org.
-[^man7pty]: Linux man pages. (n.d.). [*pty(7)*](https://man7.org/linux/man-pages/man7/pty.7.html). man7.org.
-[^opengroup2018shell]: The Open Group. (2018). [*Shell command language*](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html). *The Open Group Base Specifications Issue 7, 2018 Edition* (IEEE Std 1003.1-2017).
-[^opengroup2018terminal]: The Open Group. (2018). [*General terminal interface*](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html). *The Open Group Base Specifications Issue 7, 2018 Edition* (IEEE Std 1003.1-2017).
-[^ramey2023bash]: Ramey, C. (2023). [*Bash Reference Manual*](https://www.gnu.org/software/bash/manual/bash.html). Free Software Foundation.
-[^refining_linux_glob]: Refining Linux. (n.d.). [*ZSH Gem #2: Extended globbing and expansion*](https://www.refining-linux.org/archives/37-ZSH-Gem-2-Extended-globbing-and-expansion.html). refining-linux.org.
-[^tldp_builtins]: Cooper, M. (n.d.). [*Chapter 15: Internal commands and builtins*](https://tldp.org/LDP/abs/html/internal.html). *Advanced Bash-Scripting Guide*. The Linux Documentation Project.
-[^tldp_pipes]: The Linux Documentation Project. (n.d.). [*Creating pipes in C*](https://tldp.org/LDP/lpg/node11.html). tldp.org.
-[^wikipedia_ansi]: Wikipedia contributors. (n.d.). [*ANSI escape code*](https://en.wikipedia.org/wiki/ANSI_escape_code). Wikipedia.
-[^wikipedia_builtin]: Wikipedia contributors. (n.d.). [*Shell builtin*](https://en.wikipedia.org/wiki/Shell_builtin). Wikipedia.
-[^wikipedia_nohup]: Wikipedia contributors. (n.d.). [*nohup*](https://en.wikipedia.org/wiki/Nohup). Wikipedia.
-[^wikipedia_terminfo]: Wikipedia contributors. (n.d.). [*Terminfo*](https://en.wikipedia.org/wiki/Terminfo). Wikipedia.
-[^zsh_startup]: Thornton, A. (2019, June). [*Moving to zsh, part 2: Configuration files*](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/). Scripting OS X.
+[^augment_tmux]: Augment Code. (n.d.). [tmux — Terminal Multiplexer](https://www.augmentcode.com/open-source/tmux/tmux). Augment Code.
+[^baeldung_pipefail]: Baeldung. (n.d.). [The exit status of piped processes](https://www.baeldung.com/linux/exit-status-piped-processes). Baeldung on Linux.
+[^baeldung_shvsbash]: Baeldung. (n.d.). [What's the difference between sh and Bash?](https://www.baeldung.com/linux/sh-vs-bash). Baeldung on Linux.
+[^biriukov_pty]: Biriukov, V. (n.d.). [Terminals and pseudoterminals](https://biriukov.dev/docs/fd-pipe-session-terminal/4-terminals-and-pseudoterminals/). biriukov.dev.
+[^catonmat_redir]: Skalberg, P. (n.d.). [Bash one-liners explained, Part III: All about redirections](https://catonmat.net/bash-one-liners-explained-part-three). catonmat.net.
+[^dev_zshcompletion]: Fabre, G. (n.d.). [A guide to the Zsh completion with examples](https://dev.to/phantas0s/a-guide-to-the-zsh-completion-with-examples-2jhe). DEV Community.
+[^gnu_jobbuiltins]: Free Software Foundation. (2023). [Job control builtins](https://www.gnu.org/software/bash/manual/html_node/Job-Control-Builtins.html). *Bash Reference Manual*.
+[^gnu_paramexp]: Free Software Foundation. (2023). [Shell parameter expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html). *Bash Reference Manual*.
+[^gnu_wordsplit]: Free Software Foundation. (2023). [Word splitting](https://www.gnu.org/software/bash/manual/html_node/Word-Splitting.html). *Bash Reference Manual*.
+[^harvard_shell2]: Harvard CS 61. (2018). [Shell 2: Process creation and interprocess communication](https://cs61.seas.harvard.edu/site/2018/Shell2/). Harvard University.
+[^hyperpolyglot_mux]: Hyperpolyglot. (n.d.). [Terminal multiplexers: Screen, Tmux](https://hyperpolyglot.org/multiplexers). hyperpolyglot.org.
+[^jvns_escapes]: Evans, J. (2025, March 7). [Standards for ANSI escape codes](https://jvns.ca/blog/2025/03/07/escape-code-standards/). jvns.ca.
+[^lam_linedisc]: Lam, J. (n.d.). [Understanding the tty subsystem: Line discipline](https://lambdalambda.ninja/blog/56/). lambdalambda.ninja.
+[^linux_termios]: Linux man pages. (n.d.). [termios(3)](https://linux.die.net/man/3/termios). linux.die.net.
+[^linux_tmux]: Linux man pages. (n.d.). [tmux(1): Terminal multiplexer](https://linux.die.net/man/1/tmux). linux.die.net.
+[^man7fork]: Linux man pages. (n.d.). [fork(2)](https://man7.org/linux/man-pages/man2/fork.2.html). man7.org.
+[^man7pty]: Linux man pages. (n.d.). [pty(7)](https://man7.org/linux/man-pages/man7/pty.7.html). man7.org.
+[^opengroup2018shell]: The Open Group. (2018). [Shell command language](https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html). *The Open Group Base Specifications Issue 7, 2018 Edition* (IEEE Std 1003.1-2017).
+[^opengroup2018terminal]: The Open Group. (2018). [General terminal interface](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap11.html). *The Open Group Base Specifications Issue 7, 2018 Edition* (IEEE Std 1003.1-2017).
+[^ramey2023bash]: Ramey, C. (2023). [Bash Reference Manual](https://www.gnu.org/software/bash/manual/bash.html). Free Software Foundation.
+[^refining_linux_glob]: Refining Linux. (n.d.). [ZSH Gem #2: Extended globbing and expansion](https://www.refining-linux.org/archives/37-ZSH-Gem-2-Extended-globbing-and-expansion.html). refining-linux.org.
+[^tldp_builtins]: Cooper, M. (n.d.). [Chapter 15: Internal commands and builtins](https://tldp.org/LDP/abs/html/internal.html). *Advanced Bash-Scripting Guide*. The Linux Documentation Project.
+[^tldp_pipes]: The Linux Documentation Project. (n.d.). [Creating pipes in C](https://tldp.org/LDP/lpg/node11.html). tldp.org.
+[^wikipedia_ansi]: Wikipedia contributors. (n.d.). [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code). Wikipedia.
+[^wikipedia_builtin]: Wikipedia contributors. (n.d.). [Shell builtin](https://en.wikipedia.org/wiki/Shell_builtin). Wikipedia.
+[^wikipedia_nohup]: Wikipedia contributors. (n.d.). [nohup](https://en.wikipedia.org/wiki/Nohup). Wikipedia.
+[^wikipedia_terminfo]: Wikipedia contributors. (n.d.). [Terminfo](https://en.wikipedia.org/wiki/Terminfo). Wikipedia.
+[^zsh_startup]: Thornton, A. (2019, June). [Moving to zsh, part 2: Configuration files](https://scriptingosx.com/2019/06/moving-to-zsh-part-2-configuration-files/). Scripting OS X.

@@ -172,7 +172,7 @@ There are **valid reasons to purchase better cables**: durability, flexible jack
 [^millsHawksford1989]: Mills, P. G., & Hawksford, M. J. (1989). Distortion reduction in moving-coil loudspeaker systems using current-drive technology. *Journal of the Audio Engineering Society*, *37*(3), 129–148.
 [^monteithFlowers1977]: Monteith, D. O., & Flowers, R. R. (1977). Transistors sound better than tubes. *Journal of the Audio Engineering Society*, *25*(3), 116–119.
 [^nielsen1997]: Nielsen, K. (1997). A review and comparison of pulse-width modulation (PWM) methods for analog and digital input switching power amplifiers [Convention paper]. *102nd AES Convention*, Munich.
-[^russell Nd]: Russell, R. (n.d.). [*Speaker wire: A history*](http://www.roger-russell.com/wire/wire.htm).
+[^russell Nd]: Russell, R. (n.d.). [Speaker wire: A history](http://www.roger-russell.com/wire/wire.htm).
 [^self2013]: Self, D. (2013). *Audio power amplifier design* (6th ed.). Focal Press.
 [^small1971]: Small, R. H. (1971). Constant-voltage crossover network design. *Journal of the Audio Engineering Society*, *19*(1), 12–19.
 [^toole2006]: Toole, F. E. (2006). Loudspeakers and rooms for sound reproduction — A scientific review. *Journal of the Audio Engineering Society*, *54*(6), 451–476.

@@ -50,7 +50,7 @@ IPTC fields are encoded via XMP (preferred) and/or the legacy binary IIM format.
 - **Platform Stripping**: Major platforms (Instagram, Facebook, X/Twitter) transcode uploaded images server-side, which strips embedded EXIF from the publicly served file. However, platforms may still *collect* location and device data at upload time for internal use before scrubbing it from the output — stripping from the public file does not mean the data was not harvested.
 - **Manual Stripping**: Many photographers strip EXIF before publishing online using ExifTool, OS-native tools, or export settings in Lightroom/Photoshop.
 
-[^cipa2026]: CIPA & JEITA. (2026, January). [*Exchangeable image file format for digital still cameras: Exif Version 3.1* (CIPA DC-008-Translation-2026)](https://www.cipa.jp/e/std/std-sec.html). Camera & Imaging Products Association.
-[^harvey]: Harvey, P. [*ExifTool by Phil Harvey*](https://exiftool.org/). ExifTool.
-[^iptc2025]: IPTC. (2025). [*IPTC Photo Metadata Standard 2025.1*](https://www.iptc.org/standards/photo-metadata/iptc-standard/). International Press Telecommunications Council.
-[^iso16684]: ISO. (2012). [*Extensible Metadata Platform (XMP)* (ISO 16684)](https://en.wikipedia.org/wiki/Extensible_Metadata_Platform). International Organization for Standardization.
+[^cipa2026]: CIPA & JEITA. (2026, January). [Exchangeable image file format for digital still cameras: Exif Version 3.1* (CIPA DC-008-Translation-2026)](https://www.cipa.jp/e/std/std-sec.html). Camera & Imaging Products Association.
+[^harvey]: Harvey, P. [ExifTool by Phil Harvey](https://exiftool.org/). ExifTool.
+[^iptc2025]: IPTC. (2025). [IPTC Photo Metadata Standard 2025.1](https://www.iptc.org/standards/photo-metadata/iptc-standard/). International Press Telecommunications Council.
+[^iso16684]: ISO. (2012). [Extensible Metadata Platform (XMP)* (ISO 16684)](https://en.wikipedia.org/wiki/Extensible_Metadata_Platform). International Organization for Standardization.

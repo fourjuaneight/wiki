@@ -214,7 +214,7 @@ A video **container** is a file format that houses one or more streams of video,
 - **Benefits:** Open, non-proprietary, royalty-free format developed by Google; based on the Matroska container structure. Supported by HTML5.[^loc-webm]
 
 [^akyazi2018]: Akyazi, P., & Ebrahimi, T. (2018). Comparison of compression efficiency between HEVC/H.265, VP9 and AV1 based on subjective quality assessments. *2018 Tenth International Conference on Quality of Multimedia Experience (QoMEX)*, 1–6. https://ieeexplore.ieee.org/document/8463294
-[^aom2019]: Alliance for Open Media. (2019). [*AV1 Bitstream & Decoding Process Specification v1.0.0-errata1*](https://aomediacodec.github.io/av1-spec/av1-spec.pdf). AOM.
+[^aom2019]: Alliance for Open Media. (2019). [AV1 Bitstream & Decoding Process Specification v1.0.0-errata1](https://aomediacodec.github.io/av1-spec/av1-spec.pdf). AOM.
 [^arib2015]: Association of Radio Industries and Businesses. (2015). *ARIB STD-B67: Essential parameter values for the extended image dynamic range television (EIDRTV) system for programme production*. ARIB.
 [^atsc2018]: Advanced Television Systems Committee. (2018). *ATSC A/52:2018: Digital audio compression (AC-3) (E-AC-3) standard*. ATSC.
 [^cta2015]: Consumer Technology Association. (2015). *CTA-861.3: HDR static metadata extensions*. CTA.
@@ -222,7 +222,7 @@ A video **container** is a file format that houses one or more streams of video,
 [^etsi-ts102-366]: European Telecommunications Standards Institute. (2017). *ETSI TS 102 366 V1.4.1: Digital audio compression (AC-3, Enhanced AC-3) standard*. ETSI.
 [^etsi-ts103-491]: European Telecommunications Standards Institute. (n.d.). *ETSI TS 103 491: DTS-UHD Audio Format*. ETSI.
 [^han2021]: Han, J., Li, B., Mukherjee, D., et al. (2021). A technical overview of AV1. *Proceedings of the IEEE, 109*(9), 1435–1462. https://doi.org/10.1109/JPROC.2021.3058technical
-[^ietf2024]: Internet Engineering Task Force. (2024). [*RFC 9559: Matroska Media Container Format Specification*](https://datatracker.ietf.org/doc/rfc9559/). IETF.
+[^ietf2024]: Internet Engineering Task Force. (2024). [RFC 9559: Matroska Media Container Format Specification](https://datatracker.ietf.org/doc/rfc9559/). IETF.
 [^iso-11172-2]: International Organization for Standardization. (1993). *ISO/IEC 11172-2: Coding of moving pictures and associated audio for digital storage media at up to about 1.5 Mbit/s — Part 2: Video*. ISO.
 [^iso-13818-1]: International Organization for Standardization. (2023). *ISO/IEC 13818-1: Generic coding of moving pictures and associated audio information — Part 1: Systems*. ISO.
 [^iso-13818-2]: International Organization for Standardization. (2013). *ISO/IEC 13818-2: Generic coding of moving pictures and associated audio information — Part 2: Video*. ISO.
@@ -237,22 +237,22 @@ A video **container** is a file format that houses one or more streams of video,
 [^itu-bt2100]: International Telecommunication Union. (2016). *Recommendation ITU-R BT.2100: Image parameter values for high dynamic range television for use in production and international programme exchange*. ITU.
 [^itu-h264]: International Telecommunication Union. (2017). *Recommendation ITU-T H.264: Advanced video coding for generic audiovisual services* (V12). ITU.
 [^itu-h265]: International Telecommunication Union. (2019). *Recommendation ITU-T H.265: High efficiency video coding* (V7). ITU.
-[^loc-aac]: Library of Congress. (2022). [*Advanced Audio Coding (MPEG-4)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml) (FDD fdd000114). Library of Congress.
-[^loc-ac3]: Library of Congress. (2011). [*AC-3 Compressed Audio (Dolby Digital), Revision A*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000209.shtml) (FDD fdd000209). Library of Congress.
-[^loc-av1]: Library of Congress. (n.d.). [*AV1 Video Encoding (AOMedia Video 1)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000541.shtml) (FDD fdd000541). Library of Congress.
-[^loc-avi]: Library of Congress. (2016). [*AVI (Audio Video Interleaved) File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000059.shtml) (FDD fdd000059). Library of Congress.
-[^loc-dts]: Library of Congress. (2011). [*Digital Theater Systems Audio Formats*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml) (FDD fdd000232). Library of Congress.
-[^loc-h264]: Library of Congress. (2011). [*MPEG-4, Advanced Video Coding (Part 10) (H.264)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000081.shtml) (FDD fdd000081). Library of Congress.
-[^loc-h265]: Library of Congress. (2020). [*High Efficiency Video Coding (HEVC) Family, H.265, MPEG-H Part 2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000530.shtml) (FDD fdd000530). Library of Congress.
-[^loc-mkv]: Library of Congress. (2025). [*Matroska Multimedia Container*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml) (FDD fdd000342). Library of Congress.
-[^loc-mov]: Library of Congress. (2024). [*QuickTime File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml) (FDD fdd000052). Library of Congress.
-[^loc-mp4]: Library of Congress. (2025). [*MPEG-4 File Format, Version 2*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml) (FDD fdd000155). Library of Congress.
-[^loc-mpeg2]: Library of Congress. (2011). [*MPEG-2 Video Encoding (H.262)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000028.shtml) (FDD fdd000028). Library of Congress.
-[^loc-mpeg4p2]: Library of Congress. (2011). [*MPEG-4, Visual Coding (Part 2)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000080.shtml) (FDD fdd000080). Library of Congress.
-[^loc-pcm]: Library of Congress. (n.d.). [*Linear Pulse Code Modulated Audio (LPCM)*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000011.shtml) (FDD fdd000011). Library of Congress.
-[^loc-prores]: Library of Congress. (2024). [*Apple ProRes 422 Codec Family*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000389.shtml) (FDD fdd000389). Library of Congress.
-[^loc-webm]: Library of Congress. (2023). [*WebM*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000518.shtml) (FDD fdd000518). Library of Congress.
-[^loc-wmv]: Library of Congress. (2023). [*WMV (Windows Media Video) File Format*](https://www.loc.gov/preservation/digital/formats/fdd/fdd000091.shtml) (FDD fdd000091). Library of Congress.
+[^loc-aac]: Library of Congress. (2022). [Advanced Audio Coding (MPEG-4)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000114.shtml) (FDD fdd000114). Library of Congress.
+[^loc-ac3]: Library of Congress. (2011). [AC-3 Compressed Audio (Dolby Digital), Revision A](https://www.loc.gov/preservation/digital/formats/fdd/fdd000209.shtml) (FDD fdd000209). Library of Congress.
+[^loc-av1]: Library of Congress. (n.d.). [AV1 Video Encoding (AOMedia Video 1)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000541.shtml) (FDD fdd000541). Library of Congress.
+[^loc-avi]: Library of Congress. (2016). [AVI (Audio Video Interleaved) File Format](https://www.loc.gov/preservation/digital/formats/fdd/fdd000059.shtml) (FDD fdd000059). Library of Congress.
+[^loc-dts]: Library of Congress. (2011). [Digital Theater Systems Audio Formats](https://www.loc.gov/preservation/digital/formats/fdd/fdd000232.shtml) (FDD fdd000232). Library of Congress.
+[^loc-h264]: Library of Congress. (2011). [MPEG-4, Advanced Video Coding (Part 10) (H.264)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000081.shtml) (FDD fdd000081). Library of Congress.
+[^loc-h265]: Library of Congress. (2020). [High Efficiency Video Coding (HEVC) Family, H.265, MPEG-H Part 2](https://www.loc.gov/preservation/digital/formats/fdd/fdd000530.shtml) (FDD fdd000530). Library of Congress.
+[^loc-mkv]: Library of Congress. (2025). [Matroska Multimedia Container](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml) (FDD fdd000342). Library of Congress.
+[^loc-mov]: Library of Congress. (2024). [QuickTime File Format](https://www.loc.gov/preservation/digital/formats/fdd/fdd000052.shtml) (FDD fdd000052). Library of Congress.
+[^loc-mp4]: Library of Congress. (2025). [MPEG-4 File Format, Version 2](https://www.loc.gov/preservation/digital/formats/fdd/fdd000155.shtml) (FDD fdd000155). Library of Congress.
+[^loc-mpeg2]: Library of Congress. (2011). [MPEG-2 Video Encoding (H.262)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000028.shtml) (FDD fdd000028). Library of Congress.
+[^loc-mpeg4p2]: Library of Congress. (2011). [MPEG-4, Visual Coding (Part 2)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000080.shtml) (FDD fdd000080). Library of Congress.
+[^loc-pcm]: Library of Congress. (n.d.). [Linear Pulse Code Modulated Audio (LPCM)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000011.shtml) (FDD fdd000011). Library of Congress.
+[^loc-prores]: Library of Congress. (2024). [Apple ProRes 422 Codec Family](https://www.loc.gov/preservation/digital/formats/fdd/fdd000389.shtml) (FDD fdd000389). Library of Congress.
+[^loc-webm]: Library of Congress. (2023). [WebM](https://www.loc.gov/preservation/digital/formats/fdd/fdd000518.shtml) (FDD fdd000518). Library of Congress.
+[^loc-wmv]: Library of Congress. (2023). [WMV (Windows Media Video) File Format](https://www.loc.gov/preservation/digital/formats/fdd/fdd000091.shtml) (FDD fdd000091). Library of Congress.
 [^poynton2012]: Poynton, C. (2012). *Digital video and HD: Algorithms and interfaces* (2nd ed.). Morgan Kaufmann.
 [^smpte-274m]: Society of Motion Picture and Television Engineers. (2008). *SMPTE 274M-2008: 1920 × 1080 image sample structure*. SMPTE.
 [^smpte-296m]: Society of Motion Picture and Television Engineers. (2001). *SMPTE 296M-2001: 1280 × 720 progressive image sample structure*. SMPTE.

@@ -124,20 +124,20 @@ GitHub, the dominant hosting platform, reported over 180 million registered deve
 
 Research into Git’s usability has documented a persistent tension between the simplicity of its internal model and the complexity of its user interface. A 2013 ACM paper proposed a redesign after concluding that “despite its widespread adoption, Git puzzles even experienced developers and is not regarded as easy to use.”[^derosso2013] A subsequent large-scale analysis of 80,370 Git-related Stack Overflow questions found that self-directed learning is the predominant way developers acquire Git knowledge, and that question volume has increased consistently year over year.[^ragkhitwetsagul2022]
 
-[^chacon2014]: Chacon, S., & Straub, B. (2014). [*Pro Git*](https://git-scm.com/book/en/v2) (2nd ed.). Apress.
+[^chacon2014]: Chacon, S., & Straub, B. (2014). [Pro Git](https://git-scm.com/book/en/v2) (2nd ed.). Apress.
 
-[^deployhq2025]: DeployHQ. (2025). [*Git 3.0: Release date, features, and what developers need to know*](https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release). DeployHQ Blog.
+[^deployhq2025]: DeployHQ. (2025). [Git 3.0: Release date, features, and what developers need to know](https://www.deployhq.com/blog/git-3-0-on-the-horizon-what-git-users-need-to-know-about-the-next-major-release). DeployHQ Blog.
 
 [^derosso2013]: de Rosso, S. P., & Jackson, D. (2013). What’s wrong with Git? A conceptual design analysis. *Proceedings of the 2013 ACM International Symposium on New Ideas, New Paradigms, and Reflections on Programming & Software*, 37–52. https://doi.acm.org/10.1145/2509578.2509584
 
-[^fortune2025]: Fortune Business Insights. (2025). [*Version control systems market*](https://www.fortunebusinessinsights.com/version-control-systems-market-111262). Fortune Business Insights.
+[^fortune2025]: Fortune Business Insights. (2025). [Version control systems market](https://www.fortunebusinessinsights.com/version-control-systems-market-111262). Fortune Business Insights.
 
-[^github2025]: GitHub. (2025). [*Octoverse 2025*](https://github.blog/news-insights/octoverse/octoverse-2024/). GitHub Blog.
+[^github2025]: GitHub. (2025). [Octoverse 2025](https://github.blog/news-insights/octoverse/octoverse-2024/). GitHub Blog.
 
-[^grandview2025]: Grand View Research. (2025). [*Version control system market size, share & trends analysis report*](https://www.grandviewresearch.com/industry-analysis/version-control-system-market). Grand View Research.
+[^grandview2025]: Grand View Research. (2025). [Version control system market size, share & trends analysis report](https://www.grandviewresearch.com/industry-analysis/version-control-system-market). Grand View Research.
 
 [^ragkhitwetsagul2022]: Ragkhitwetsagul, C., et al. (2022). Do developers really know how to use Git commands? *ACM Transactions on Software Engineering and Methodology*. https://doi.acm.org/10.1145/3494518
 
-[^rhodecode2025]: RhodeCode. (2025). [*Version control systems popularity in 2025*](https://rhodecode.com/blog/156/version-control-systems-popularity-in-2025). RhodeCode Blog.
+[^rhodecode2025]: RhodeCode. (2025). [Version control systems popularity in 2025](https://rhodecode.com/blog/156/version-control-systems-popularity-in-2025). RhodeCode Blog.
 
 [^wiki2026]: Wikipedia contributors. (2026). Git. In *Wikipedia*. https://en.wikipedia.org/wiki/Git

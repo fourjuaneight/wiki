@@ -102,6 +102,6 @@ Sony's **ED Beta** (Extended Definition Betamax), introduced in 1988, used metal
 
 [^bertram1994]: Bertram, H. N. (1994). *Theory of magnetic recording*. Cambridge University Press.
 [^iec1992]: IEC. (1992). *IEC 60774-1: Magnetic tape cassette video recording and reproducing systems — Part 1: VHS system* (1st ed.). International Electrotechnical Commission.
-[^ieee2006]: IEEE. (2006). [*Milestones: Development of VHS, a world standard for home video recording, 1976*](https://web.archive.org/web/20230819212517/https://ethw.org/Milestones:Development_of_VHS,_a_World_Standard_for_Home_Video_Recording,_1976). Engineering and Technology History Wiki.
+[^ieee2006]: IEEE. (2006). [Milestones: Development of VHS, a world standard for home video recording, 1976](https://web.archive.org/web/20230819212517/https://ethw.org/Milestones:Development_of_VHS,_a_World_Standard_for_Home_Video_Recording,_1976). Engineering and Technology History Wiki.
 [^lardner1987]: Lardner, J. (1987). *Fast forward: Hollywood, the Japanese, and the onslaught of the VCR*. W. W. Norton.
 [^watkinson1994]: Watkinson, J. (1994). *The art of digital video* (2nd ed.). Focal Press.

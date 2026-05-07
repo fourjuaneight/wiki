@@ -67,64 +67,11 @@ jobs:
           HUGO_ENV: production
         run: npm run build:prod
 
-      - name: Index Pagefind
-        run: npx pagefind --source "dist"
-
       - name: Upload Output
         uses: actions/upload-artifact@v4
         with:
           name: dist
           path: ./dist
-          overwrite: true
-
-  social:
-    name: Generate Social Images
-    runs-on: ubuntu-20.04
-    needs: build
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
-        with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
-
-      - name: Use Node v20
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.18.3
-
-      - name: Install serve
-        run: npm i -g serve@14.2.4
-
-      - name: Download Output
-        uses: actions/download-artifact@v4
-        with:
-          name: dist
-          # this is done to match the expected output directory
-          path: ~/work/wiki/wiki/dist
-
-      - name: Use Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: '^1.13.1'
-
-      - name: Install Go Rod Dependencies
-        run: sudo apt-get install -y libgbm-dev
-
-      - name: Install Script Dependencies
-        run: go mod download
-
-      - name: Build binary
-        run: go build scripts/postbuild.go
-
-      - name: Run Social Images Script
-        run: npm run post
-
-      - name: Upload Output
-        uses: actions/upload-artifact@v4
-        with:
-          name: dist
-          path: ~/work/wiki/wiki/dist
           overwrite: true
 
   deploy:
@@ -136,7 +83,7 @@ jobs:
       PROJECT_NAME: ${{secrets.PROJECT_NAME}}
       DIRECTORY: ${{secrets.DIRECTORY}}
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-    needs: [build, social]
+    needs: [build]
     steps:
       - name: Download Output
         uses: actions/download-artifact@v4

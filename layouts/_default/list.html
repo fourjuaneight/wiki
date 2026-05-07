@@ -5,7 +5,23 @@
   >
     {{ .Section }}
   </h1>
-  {{ range .Data.Pages }}
-    {{ .Render "li"}}
-  {{ end }}
+  <section class="sections">
+    <nav class="sections-grid sections-grid__list">
+    {{ range .Data.Pages }}
+      <a class="section-card" href="{{ .Permalink }}">
+        <span class="section-card-title">{{ .Title }}</span>
+        <ul class="section-card-tags">
+          {{ range $key, $tag := .Params.tags }}
+            <li class="section-card-tags__tag-item">
+              <p class="section-card-tags__tag" >
+                <span class="section-card-tags__tag-symbol" aria-hidden="true">#</span>
+                {{ $tag }}
+              </p>
+            </li>
+          {{ end }}
+        </ul>
+      </a>
+    {{ end }}
+    </nav>
+  </section>
 {{ end }}

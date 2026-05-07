@@ -342,12 +342,6 @@ footer p {
   margin-bottom: 1rem;
 }
 
-time::before {
-  color: var(--tertiary);
-  content: '\03C4';
-  margin-right: 0.25rem;
-}
-
 span.tag-comma {
   min-width: 0.23rem;
   width: 0.23rem;
@@ -952,19 +946,31 @@ a.footnote-backref:hover {
 }
 
 .doc-meta {
+  align-items: flex-start;
   border-bottom: var(--border);
   color: var(--ink-muted);
+  flex-direction: column;
   font-size: var(--font-sm);
+  justify-content: flex-start;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
 }
 
+.doc-meta__tags {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .doc-meta,
 .doc-meta__datetime {
-  align-items: center;
   display: flex;
   gap: 0.5rem;
+}
+
+.doc-meta__datetime {
+  align-items: center;
   justify-content: space-between;
+  white-space: nowrap;
 }
 
 .doc-footer {
@@ -1015,6 +1021,19 @@ a.footnote-backref:hover {
   border: none;
   text-decoration: none !important;
   word-wrap: break-word;
+}
+
+@media (min-width: 640px) {
+  .doc-meta {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .doc-meta__tags {
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
 
 /* =========================================================
@@ -1263,62 +1282,70 @@ a.footnote-backref:hover {
    Post meta
    ========================================================= */
 
-.post-meta {
+.section-card-tags {
   align-items: center;
-  display: flex;
   justify-content: space-between;
-  margin-bottom: 0.75rem;
-  width: 100%;
 }
 
-.post-meta__time {
+.section-card-time {
   color: var(--meta);
   white-space: nowrap;
 }
 
 .doc-meta__tags,
-.post-meta__tags {
-  align-items: center;
+.section-card-tags {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  gap: 0.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
+.section-card-tags {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section-card-tags__tag-item,
 .post-meta__tag-item {
   margin: 0;
 }
 
+.section-card-tags__tag,
 .post-meta__tag {
   color: var(--meta);
-  margin: 0 0 0 0.5rem;
+  margin: 0;
   text-decoration: none;
   white-space: nowrap;
 }
 
+.section-card-tags__tag:visited,
 .post-meta__tag:visited {
   color: var(--meta);
 }
 
+.section-card-tags__tag:focus,
+.section-card-tags__tag:focus-visible,
 .post-meta__tag:focus,
 .post-meta__tag:focus-visible {
   text-decoration: underline;
 }
 
+.section-card-tags__tag:hover,
 .post-meta__tag:hover {
   text-decoration: none;
 }
 
+.section-card-tags__tag-symbol,
 .post-meta__tag-symbol {
   color: var(--tertiary);
-  margin-right: 0.25rem;
 }
 
 .post-meta__tag:focus .post-meta__tag-symbol,
 .post-meta__tag:focus-visible .post-meta__tag-symbol,
-.post-meta__tag:hover .post-meta__tag-symbol {
+.post-meta__tag:hover .post-meta__tag-symbol{
   color: var(--primary);
 }
 
@@ -1378,22 +1405,44 @@ a.footnote-backref:hover {
    List item
    ========================================================= */
 
+.sections-grid.sections-grid__list {
+  grid-template-columns: auto;
+}
+
+.section-list {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
 .list-item {
+  padding: 0 !important;
   position: relative;
   width: 100%;
 }
 
-.list-item__title {
-  margin-right: auto;
+.list-item__link {
+  padding: 1rem 1.25rem;
 }
 
-.list-item__link {
-  text-decoration: none;
+.list-item__link,
+.list-item__link .list-item__title {
+  text-decoration: none !important;
 }
 
 .list-item__link:focus,
 .list-item__link:hover {
   text-decoration: underline;
+}
+
+.list-item__title,
+.list-item .section-card-tags {
+  margin: 0;
+  padding: 0;
 }
 
 /* =========================================================
@@ -1474,7 +1523,8 @@ a.footnote-backref:hover {
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
 }
 
-.section-card {
+.section-card,
+.list-item {
   background: var(--surface);
   border: var(--border);
   border-radius: var(--radius);
@@ -1486,7 +1536,10 @@ a.footnote-backref:hover {
   transition: background var(--duration) ease, border-color var(--duration) ease;
 }
 
-.section-card:hover {
+.section-card:focus,
+.section-card:hover,
+.list-item:focus,
+.list-item:hover {
   background: var(--hover);
   border-color: var(--primary-transparent);
   text-decoration: none;

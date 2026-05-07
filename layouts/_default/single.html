@@ -17,7 +17,12 @@
     <h1>{{ .Title }}</h1>
     <section class="doc-meta">
       <div class="doc-meta__datetime">
-        <span class="doc-meta__date">{{ .Date.Format "January 2, 2006" }}</span>
+        <time
+            class="doc-meta__date"
+            datetime='{{ .Date.Format "2006-01-02" }}'
+        >
+          {{ .Date.Format "January 2, 2006" }}
+        </time>
         {{ with .ReadingTime }}· <span class="doc-meta__read-time">{{ . }} min read</span>{{ end }}
       </div>
       <ul class="doc-meta__tags">

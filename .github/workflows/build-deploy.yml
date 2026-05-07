@@ -48,9 +48,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Install Dart Sass Embedded
-        run: sudo snap install dart-sass-embedded
-
       - name: Use Go
         uses: actions/setup-go@v5
         with:

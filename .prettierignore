@@ -4,7 +4,6 @@
 .gatsby-context.js
 .lock-wscript
 .netlify
-.sass-cache/
 *.log
 *.pid
 *.seed

@@ -35,7 +35,7 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" > /etc/apk/repositorie
   && rm -rf /var/cache/* \
   && mkdir /var/cache/apk
 
-# Install glibc: This is required for HUGO-extended (including SASS) to work.
+# Install glibc: Required for Hugo extended to work on Alpine.
 RUN wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://alpine-pkgs.sgerrand.com/sgerrand.rsa.pub \
   && wget "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/$GLIBC_VER/glibc-$GLIBC_VER.apk" \
   && apk --no-cache add "glibc-$GLIBC_VER.apk" \

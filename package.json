@@ -10,7 +10,7 @@
     "clean:node": "rm -rf node_modules",
     "clean": "rm -rf dist",
     "dev": "hugo -e local -D --gc --minify --logLevel debug serve",
-    "format": "prettier --write \"assets/**/*.{ts,js,css,scss}\"",
+    "format": "prettier --write \"assets/**/*.{ts,js,css}\"",
     "lint": "eslint --fix --no-error-on-unmatched-pattern \"assets/**/*.{ts,js}\"",
     "serve": "serve -l 2323 dist",
     "start": "npm run dev",
@@ -71,7 +71,7 @@
     ]
   },
   "lint-staged": {
-    "*.+(ts|css|scss)": [
+    "*.+(ts|css)": [
       "npm run format"
     ],
     "*.ts": [

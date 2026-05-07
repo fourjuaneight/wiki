@@ -1,4 +1,4 @@
-{{ define "heading" }}
+{{ define "main" }}
   {{ $tagName := .Name | replaceRE "-" " " }}
   {{ $tagSplit := $tagName | countwords }}
   {{ $tagLength := cond (eq $tagSplit 1) ($tagName | len) 0 }}
@@ -6,24 +6,28 @@
   {{ $tagIsLong := gt $tagLength 8 }}
 
   <h1
-    class="page-heading page-heading--tag"
+    class="page-heading page-heading--section"
     data-line="slim"
-    {{ if (and $tagIsWide $tagIsLong) }}
-    style="--max-vw: 80vw;"
-    {{ end }}
   >
     {{ $tagName }}
   </h1>
-{{ end }}
-{{ define "main" }}
-  {{ range .Pages }}
-    {{ .Render "li" }}
-  {{ end }}
-  <section class="page-footer page-footer--push">
-    {{/*
-      For whatever reason, the image will not render without rendering the data as plain text in the html. It is hidden via CSS, because apparently using a class name (Tailwind) also breaks it.
-    */}}
-    <span>{{ $.Site.Data.illustrations.tags }}</span>
-    {{ partial "img.html" (dict "src" $.Site.Data.illustrations.tags.img "alt" $.Site.Data.illustrations.tags.alt "size" "1024") }}
+  <section class="sections">
+    <nav class="sections-grid sections-grid__list">
+    {{ range .Data.Pages }}
+      <a class="section-card" href="{{ .Permalink }}">
+        <span class="section-card-title">{{ .Title }}</span>
+        <ul class="section-card-tags">
+          {{ range $key, $tag := .Params.tags }}
+            <li class="section-card-tags__tag-item">
+              <p class="section-card-tags__tag" >
+                <span class="section-card-tags__tag-symbol" aria-hidden="true">#</span>
+                {{ $tag }}
+              </p>
+            </li>
+          {{ end }}
+        </ul>
+      </a>
+    {{ end }}
+    </nav>
   </section>
 {{ end }}

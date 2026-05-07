@@ -57,5 +57,7 @@
     {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | js.Build $jsOpts -}}
 
     {{ $scripts := slice $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
+
+    <script src="{{ $scripts.RelPermalink }}" type="text/javascript" defer></script>
   </body>
 </html>

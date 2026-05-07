@@ -14,7 +14,7 @@
       </main>
 
       <aside class="toc-col" id="toc-col">
-        {{ block "toc" . }}{{ end }}
+        {{ block "toc" . }}{{ partial "toc.html" . }}{{ end }}
       </aside>
     </div>
 
@@ -36,6 +36,9 @@
         </div>
       </div>
     </div>
+
+    {{ partial "sidebar-drawer.html" . }}
+    {{ partial "toc-drawer.html" . }}
 
     <!-- Drawer scrim (shared by sidebar + TOC drawers) -->
     <div class="drawer-scrim" id="drawer-scrim"></div>

@@ -699,14 +699,16 @@ a.footnote-backref:hover {
   text-transform: uppercase;
 }
 
-.toc-col nav > ul {
+.toc-col nav > ul,
+.toc-drawer nav > ul {
   border-left: 0.0625rem solid var(--line-soft);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.toc-col nav ul li a {
+.toc-col nav ul li a,
+.toc-drawer nav ul li a {
   border-left: 0.09375rem solid transparent;
   color: var(--ink-muted);
   display: block;
@@ -718,24 +720,31 @@ a.footnote-backref:hover {
   transition: color var(--duration) ease, border-color var(--duration) ease;
 }
 
-.toc-col nav ul li a:hover {
+.toc-col nav ul li a:focus,
+.toc-col nav ul li a:hover,
+.toc-drawer nav ul li a:focus,
+.toc-drawer nav ul li a:hover {
+  background-color: var(--hover);
   color: var(--ink);
   text-decoration: none;
 }
 
-.toc-col nav ul li a.active {
+.toc-col nav ul li a.active,
+.toc-drawer nav ul li a.active {
   border-left-color: var(--primary);
   color: var(--primary);
   font-weight: 500;
 }
 
-.toc-col nav ul ul {
+.toc-col nav ul ul,
+.toc-drawer nav ul ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.toc-col nav ul ul li a {
+.toc-col nav ul ul li a,
+.toc-drawer nav ul ul li a {
   font-size: 0.78125rem;
   padding-left: 1.5rem;
 }
@@ -795,6 +804,7 @@ a.footnote-backref:hover {
   transition: background var(--duration) ease, color var(--duration) ease;
 }
 
+.nav-link:focus,
 .nav-link:hover {
   background: var(--hover);
   color: var(--ink);
@@ -875,6 +885,7 @@ a.footnote-backref:hover {
   text-decoration: none;
 }
 
+.doc .content a:focus,
 .doc .content a:hover {
   border-bottom-color: var(--primary-transparent);
   color: var(--primary);
@@ -968,6 +979,7 @@ a.footnote-backref:hover {
   transition: background var(--duration) ease;
 }
 
+.doc-nav-card:focus,
 .doc-nav-card:hover {
   background: var(--hover);
   text-decoration: none;

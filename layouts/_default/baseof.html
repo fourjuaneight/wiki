@@ -52,11 +52,10 @@
     {{/* Transpiled scripts — esbuild (built-in, no external Babel process) */}}
     {{- $jsOpts := dict "format" "iife" -}}
 
-    {{- $themeTS := resources.Get "scripts/theme.ts" | js.Build $jsOpts -}}
     {{- $searchTS := resources.Get "scripts/search.ts" | js.Build $jsOpts -}}
     {{- $drawerTS := resources.Get "scripts/drawer.ts" | js.Build $jsOpts -}}
     {{- $tocSpyTS := resources.Get "scripts/toc-spy.ts" | js.Build $jsOpts -}}
 
-    {{ $scripts := slice $themeTS $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
+    {{ $scripts := slice $searchTS $drawerTS $tocSpyTS | resources.Concat "scripts.js" | resources.Minify }}
   </body>
 </html>

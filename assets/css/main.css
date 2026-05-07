@@ -104,10 +104,8 @@ p {
 
 li code,
 p code {
-  background-color: #1a1a1a !important;
-  color: var(--secondary);
-  font-size: 0.95rem;
-  padding: 0.25rem;
+  background-color: var(--code-bg) !important;
+  color: var(--code-text);
 }
 
 h1 {
@@ -404,7 +402,7 @@ div.highlight {
 }
 
 div.highlight pre {
-  background-color: #1a1a1a !important;
+  background-color: var(--code-bg) !important;
   overflow-x: auto;
   padding: 0.75rem;
 }
@@ -558,6 +556,7 @@ a.footnote-backref:hover {
   display: flex;
   gap: 0.75rem;
   height: 100%;
+  justify-content: space-between;
   margin: 0 auto;
   max-width: 90rem;
   padding: 0 1.5rem;
@@ -660,6 +659,7 @@ a.footnote-backref:hover {
   width: 2rem;
 }
 
+.icon-btn:focus,
 .icon-btn:hover {
   background: var(--hover);
   color: var(--primary);
@@ -697,32 +697,6 @@ a.footnote-backref:hover {
 
   .search-kbd {
     display: none;
-  }
-}
-
-.icon-moon {
-  display: block;
-}
-
-.icon-sun {
-  display: none;
-}
-
-[data-theme="dark"] .icon-moon {
-  display: none;
-}
-
-[data-theme="dark"] .icon-sun {
-  display: block;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .icon-moon {
-    display: none;
-  }
-
-  :root:not([data-theme="light"]) .icon-sun {
-    display: block;
   }
 }
 
@@ -926,9 +900,7 @@ a.footnote-backref:hover {
 }
 
 .doc code {
-  background: var(--line-soft);
   border-radius: 0.1875rem;
-  color: var(--secondary);
   font-size: var(--font-sm);
   padding: 0.0625rem 0.3125rem;
 }

@@ -9,7 +9,7 @@
   --foreground: #333333;
   --meta: #595959;
   --primary: #9333ea;
-  --secondary: #0a799d;
+  --secondary: #096786;
   --tertiary: #597480;
   --selection: #bdecfb;
   --gradient: linear-gradient(
@@ -32,6 +32,8 @@
   --line: var(--background-dark);
   --line-soft: hsl(20, 4%, 92%);
   --hover: hsl(20, 4%, 96%);
+  --code-bg: var(--foreground);
+  --code-text: var(--background-dark);
   /* typography */
   --font-xs: 0.6875rem;
   --font-sm: 0.8125rem;
@@ -54,38 +56,9 @@
   --blue: #8080ff;
 }
 
-/* Dark palette — explicit toggle */
-[data-theme="dark"] {
-  /* palette */
-  --background: #333333;
-  --background-dark: #1a1a1a;
-  --foreground: #f5f4f2;
-  --meta: #c2c2c2;
-  --primary: #c390f3;
-  --secondary: #bdecfb;
-  --tertiary: #546d78;
-  --gradient: linear-gradient(
-    hsl(20, 4%, 18%),
-    hsl(22, 6%, 16%),
-    hsl(24, 6%, 14%),
-    hsl(26, 8%, 12%)
-  );
-  /* derived — higher alpha in dark */
-  --active-bg: color-mix(in srgb, var(--primary) 14%, transparent);
-  /* role tokens */
-  --bg: hsl(20, 4%, 22%);
-  --line: hsl(20, 4%, 26%);
-  --line-soft: var(--bg);
-  --hover: var(--line);
-  /* glitch */
-  --red: #ff0000;
-  --green: #00ff00;
-  --blue: #0000ff;
-}
-
 /* Dark palette — system preference fallback (no JS / no explicit choice) */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  :root {
     /* palette */
     --background: #333333;
     --background-dark: #1a1a1a;
@@ -107,6 +80,8 @@
     --line: hsl(20, 4%, 26%);
     --line-soft: var(--bg);
     --hover: var(--line);
+    --code-bg: var(--background-dark);
+    --code-text: var(--secondary);
     /* glitch */
     --red: #ff0000;
     --green: #00ff00;

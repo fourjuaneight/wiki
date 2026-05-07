@@ -4,15 +4,8 @@ a {
   text-decoration-color: var(--secondary);
 }
 
-a:visited {
-  color: var(--foreground);
-  text-decoration: underline;
-  text-decoration-color: var(--secondary);
-}
-
 a:focus,
 a:hover {
-  color: var(--foreground);
   outline: none;
   text-decoration-color: var(--primary);
 }
@@ -51,22 +44,22 @@ a.footnote-ref {
   text-decoration: none;
 }
 
-a.footnote-ref::before {
+a.footnote-ref::before,
+a.footnote-ref::after {
   color: var(--secondary);
+}
+
+a.footnote-ref::before {
   content: '[';
 }
 
 a.footnote-ref::after {
-  color: var(--secondary);
   content: ']';
 }
 
 a.footnote-ref:focus::before,
-a.footnote-ref:hover::before {
-  color: var(--primary);
-}
-
 a.footnote-ref:focus::after,
+a.footnote-ref:hover::before,
 a.footnote-ref:hover::after {
   color: var(--primary);
 }
@@ -88,18 +81,15 @@ blockquote {
   border-left: 0.1875rem solid var(--primary);
   font-style: italic;
   margin: 0 0 0.75rem;
-  margin-top: 0;
   padding-left: 1.3125rem;
 }
 
 li {
   margin: 0 0 0.75rem;
-  margin-top: 0;
 }
 
 p {
   margin: 0 0 0.75rem;
-  margin-top: 0;
 }
 
 li code,
@@ -113,8 +103,7 @@ h1 {
   font-size: 2.25rem;
   font-weight: 900;
   line-height: 1.1666666;
-  margin: 0.75rem 0 2.625rem;
-  margin-top: 0;
+  margin: 0 0 2.625rem;
 }
 
 h2 {
@@ -155,13 +144,7 @@ button {
 }
 
 button:disabled {
-  background-color: var(--secondary);
   cursor: not-allowed;
-}
-
-button:focus,
-button:hover {
-  background-color: var(--secondary);
 }
 
 button.img-btn,
@@ -186,26 +169,39 @@ img {
   object-position: center;
 }
 
-input {
+input,
+textarea {
   appearance: none;
   border: 0.09375rem dashed transparent;
   font-size: 1rem;
-  height: 2.25rem;
   outline: none;
   padding: 0.25rem;
   transition: border-color var(--duration) ease;
 }
 
+input {
+  height: 2.25rem;
+}
+
+textarea {
+  height: 6.75rem;
+  resize: none;
+}
+
 input:active,
-input:focus {
+input:focus,
+textarea:active,
+textarea:focus {
   border-color: var(--secondary);
 }
 
-input:required:invalid {
+input:required:invalid,
+textarea:required:invalid {
   border-color: var(--meta);
 }
 
-input:required:valid {
+input:required:valid,
+textarea:required:valid {
   border-color: var(--secondary);
 }
 
@@ -216,36 +212,12 @@ div.img-wrap {
 }
 
 sup {
-  margin: 0 0 0 0.125rem;
+  margin-left: 0.125rem;
   vertical-align: 0.1875rem;
 }
 
 sup a {
   text-decoration: none !important;
-}
-
-textarea {
-  appearance: none;
-  border: 0.09375rem dashed transparent;
-  font-size: 1rem;
-  height: 6.75rem;
-  outline: none;
-  padding: 0.25rem;
-  resize: none;
-  transition: border-color var(--duration) ease;
-}
-
-textarea:active,
-textarea:focus {
-  border-color: var(--secondary);
-}
-
-textarea:required:invalid {
-  border-color: var(--meta);
-}
-
-textarea:required:valid {
-  border-color: var(--secondary);
 }
 
 label {
@@ -277,32 +249,17 @@ footer p {
   width: 1rem;
 }
 
-#search .pagefind-ui__search-input,
-#search .pagefind-ui__search-clear {
-  color: var(--background);
-}
-
-#search .pagefind-ui__search-input,
-#search .pagefind-ui__search-clear,
-#search .pagefind-ui__button {
-  border-radius: 0;
-}
-
-#search .pagefind-ui__search-input,
-#search .pagefind-ui__button {
+#search .pagefind-ui__search-input {
   border-color: var(--foreground);
+  border-radius: 0;
+  color: var(--background);
+  height: 2.25rem;
+  outline: none;
 }
 
 #search .pagefind-ui__search-input:focus,
-#search .pagefind-ui__search-input:hover,
-#search .pagefind-ui__button:focus,
-#search .pagefind-ui__button:hover {
+#search .pagefind-ui__search-input:hover {
   border-color: var(--primary);
-}
-
-#search .pagefind-ui__search-input {
-  height: 2.25rem;
-  outline: none;
 }
 
 #search .pagefind-ui__search-input::placeholder {
@@ -310,6 +267,8 @@ footer p {
 }
 
 #search .pagefind-ui__search-clear {
+  border-radius: 0;
+  color: var(--background);
   height: 2rem;
   padding: 0 0.75rem;
   right: 0;
@@ -319,6 +278,16 @@ footer p {
 #search .pagefind-ui__search-clear:focus,
 #search .pagefind-ui__search-clear:hover {
   background-color: var(--primary);
+}
+
+#search .pagefind-ui__button {
+  border-color: var(--foreground);
+  border-radius: 0;
+}
+
+#search .pagefind-ui__button:focus,
+#search .pagefind-ui__button:hover {
+  border-color: var(--primary);
 }
 
 #search .pagefind-ui__message {
@@ -343,7 +312,6 @@ footer p {
 }
 
 span.tag-comma {
-  min-width: 0.23rem;
   width: 0.23rem;
 }
 
@@ -444,25 +412,25 @@ a.footnote-backref:hover {
   text-decoration: none !important;
 }
 
-@media screen and (max-width: 31.25rem) {
+@media (max-width: 31.25rem) {
   footer nav a:nth-of-type(1) {
     margin-left: -0.25rem;
   }
 }
 
-@media screen and (max-width: 40rem) {
+@media (max-width: 40rem) {
   figure picture img {
     width: 100%;
   }
 }
 
-@media screen and (min-width: 29.25rem) {
+@media (min-width: 29.25rem) {
   ul.taxonomy-list {
     --card-width: 14rem;
   }
 }
 
-@media screen and (min-width: 31.25rem) {
+@media (min-width: 31.25rem) {
   ul.taxonomy > li {
     justify-content: flex-start;
   }
@@ -595,25 +563,11 @@ a.footnote-backref:hover {
 
 .search-trigger {
   align-items: center;
-  background: var(--bg);
-  border: var(--border);
-  border-radius: var(--radius);
-  color: var(--ink-muted);
-  cursor: pointer;
   display: flex;
   font-size: 0.875rem;
-  gap: 0.5rem;
   height: 2rem;
-  margin: 0 0 0 auto;
-  padding: 0 0.75rem;
-  transition: border-color var(--duration) ease;
-  width: auto;
-}
-
-.search-trigger:focus,
-.search-trigger:hover {
-  border-color: var(--primary-transparent);
-  color: var(--background);
+  justify-content: center;
+  width: 2rem !important;
 }
 
 .header-actions {
@@ -949,8 +903,10 @@ a.footnote-backref:hover {
   align-items: flex-start;
   border-bottom: var(--border);
   color: var(--ink-muted);
+  display: flex;
   flex-direction: column;
   font-size: var(--font-sm);
+  gap: 0.5rem;
   justify-content: flex-start;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
@@ -961,14 +917,10 @@ a.footnote-backref:hover {
   justify-content: flex-start;
 }
 
-.doc-meta,
-.doc-meta__datetime {
-  display: flex;
-  gap: 0.5rem;
-}
-
 .doc-meta__datetime {
   align-items: center;
+  display: flex;
+  gap: 0.5rem;
   justify-content: space-between;
   white-space: nowrap;
 }
@@ -1100,7 +1052,8 @@ a.footnote-backref:hover {
   color: var(--ink-muted);
 }
 
-.search-esc {
+.search-esc,
+.search-trigger {
   background: var(--background);
   border: var(--border);
   border-radius: 0.1875rem;
@@ -1114,7 +1067,9 @@ a.footnote-backref:hover {
 }
 
 .search-esc:focus,
-.search-esc:hover {
+.search-esc:hover,
+.search-trigger:focus,
+.search-trigger:hover {
   background: var(--hover);
   color: var(--primary);
 }
@@ -1175,42 +1130,33 @@ a.footnote-backref:hover {
   display: block;
 }
 
-.sidebar-drawer {
+:is(.sidebar-drawer, .toc-drawer) {
   background: var(--surface);
-  border-right: var(--border);
   bottom: 0;
-  left: 0;
   overflow-y: auto;
-  padding: 3.5rem 1rem 3rem;
   position: fixed;
   top: 0;
-  transform: translateX(-100%);
   transition: transform 300ms ease;
   width: 17.5rem;
   z-index: 40;
 }
 
-.sidebar-drawer.open {
+:is(.sidebar-drawer, .toc-drawer).open {
   transform: translateX(0);
+}
+
+.sidebar-drawer {
+  border-right: var(--border);
+  left: 0;
+  padding: 3.5rem 1rem 3rem;
+  transform: translateX(-100%);
 }
 
 .toc-drawer {
-  background: var(--surface);
   border-left: var(--border);
-  bottom: 0;
-  overflow-y: auto;
   padding: 3.5rem 1.5rem 3rem;
-  position: fixed;
   right: 0;
-  top: 0;
   transform: translateX(100%);
-  transition: transform 300ms ease;
-  width: 17.5rem;
-  z-index: 40;
-}
-
-.toc-drawer.open {
-  transform: translateX(0);
 }
 
 .drawer-close {
@@ -1225,7 +1171,7 @@ a.footnote-backref:hover {
 
 .site-footer {
   background-color: var(--background-dark);
-  border-top: 3.55px solid var(--meta);
+  border-top: 0.222rem solid var(--meta);
   display: grid;
   width: 100%;
 }
@@ -1281,11 +1227,6 @@ a.footnote-backref:hover {
 /* =========================================================
    Post meta
    ========================================================= */
-
-.section-card-tags {
-  align-items: center;
-  justify-content: space-between;
-}
 
 .section-card-time {
   color: var(--meta);
@@ -1376,13 +1317,6 @@ a.footnote-backref:hover {
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
-}
-
-@media (min-width: 640px) {
-  .page-heading--grid {
-    font-size: 3rem;
-    line-height: 1;
-  }
 }
 
 .error-heading {

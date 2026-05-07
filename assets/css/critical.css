@@ -140,7 +140,8 @@ code,
 kbd,
 pre,
 samp,
-.search-esc {
+.search-esc,
+.search-trigger {
   font-family: Dank Mono, monospace !important;
 }
 

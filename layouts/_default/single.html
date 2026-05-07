@@ -15,10 +15,26 @@
 
   <article class="doc">
     <h1>{{ .Title }}</h1>
-    <div class="doc-meta">
-      Last updated {{ .Date.Format "January 2, 2006" }}
-      {{ with .ReadingTime }}· {{ . }} min read{{ end }}
-    </div>
+    <section class="doc-meta">
+      <div class="doc-meta__datetime">
+        <span class="doc-meta__date">{{ .Date.Format "January 2, 2006" }}</span>
+        {{ with .ReadingTime }}· <span class="doc-meta__read-time">{{ . }} min read</span>{{ end }}
+      </div>
+      <ul class="doc-meta__tags">
+        {{ range $key, $tag := .Params.tags }}
+          <li class="post-meta__tag-item">
+            <a
+              class="post-meta__tag"
+              href="/tags/{{ $tag }}"
+              itemprop="about"
+            >
+              <span class="post-meta__tag-symbol" aria-hidden="true">#</span>
+              {{ $tag }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </section>
 
     {{ if ne .Params.hero nil }}
       <section class="hero">
@@ -27,12 +43,6 @@
     {{ end }}
 
     <section class="content">{{ .Content }}</section>
-
-    {{ if ne .Params.footer nil }}
-      <section class="footer">
-        {{ partial "img.html" (dict "src" .Params.footer.img "alt" .Params.footer.alt "size" "1024") }}
-      </section>
-    {{ end }}
   </article>
 
   <nav class="doc-footer" aria-label="Page navigation">

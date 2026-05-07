@@ -959,6 +959,14 @@ a.footnote-backref:hover {
   padding-bottom: 0.5rem;
 }
 
+.doc-meta,
+.doc-meta__datetime {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-between;
+}
+
 .doc-footer {
   display: flex;
   gap: 1rem;
@@ -1268,6 +1276,7 @@ a.footnote-backref:hover {
   white-space: nowrap;
 }
 
+.doc-meta__tags,
 .post-meta__tags {
   align-items: center;
   display: flex;

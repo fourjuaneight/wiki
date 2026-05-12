@@ -3,10 +3,10 @@ title: "Almond Milk"
 draft: false
 ---
 
-**Servings:** 1.5 liters
-**Prep:** 8 hours
-**Cook:** 2 minutes
-**Total:** 8 hours
+- **Servings:** 1.5 liters
+- **Prep:** 8 hours
+- **Cook:** 2 minutes
+- **Total:** 8 hours
 
 ---
 
@@ -14,9 +14,9 @@ draft: false
 
 - **1.5 cups** raw almonds
 - **4 cups** cold water
+- **1/4 teaspoon** salt
 - **1/4 teaspoon** cinnamon
 - **1/4 teaspoon** vanilla
-- **1/4 teaspoon** salt
 - **2 tablespoons** agave syrup
 - **1 tablespoon** honey
 

@@ -8,8 +8,6 @@ draft: false
 - **Cook:** 2 minutes
 - **Total:** 8 hours
 
----
-
 ## Ingredients
 
 - **1.5 cups** raw almonds

@@ -3,12 +3,10 @@ title: "Sopa de Res"
 draft: false
 ---
 
-**Servings:** 4 cups
-**Prep:** 30 minutes
-**Cook:** 3.5 hours
-**Total:** 4 hours
-
----
+- **Servings:** 4 cups
+- **Prep:** 30 minutes
+- **Cook:** 3.5 hours
+- **Total:** 4 hours
 
 ## Ingredients
 

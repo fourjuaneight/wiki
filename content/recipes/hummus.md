@@ -3,12 +3,10 @@ title: "Hummus"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Prep:** 8.5 hours
-**Cook:** 1.5 hours
-**Total:** 10 hours
-
----
+- **Servings:** 2 cups
+- **Prep:** 8.5 hours
+- **Cook:** 1.5 hours
+- **Total:** 10 hours
 
 ## Ingredients
 

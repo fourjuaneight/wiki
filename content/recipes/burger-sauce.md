@@ -3,12 +3,10 @@ title: "Burger Sauce"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Prep:** 15 minutes
-**Cook:** 45 minutes
-**Total:** 1 hour
-
----
+- **Servings:** 2 cups
+- **Prep:** 15 minutes
+- **Cook:** 45 minutes
+- **Total:** 1 hour
 
 ## Ingredients
 

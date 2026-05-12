@@ -3,10 +3,8 @@ title: "Chili Cucumbers"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Prep:** 5 minutes
-
----
+- **Servings:** 2 cups
+- **Prep:** 5 minutes
 
 ## Ingredients
 

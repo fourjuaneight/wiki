@@ -16,6 +16,7 @@
   <article class="doc">
     <h1>{{ .Title }}</h1>
     <section class="doc-meta">
+      {{ if ne .Section "recipes" }}
       <div class="doc-meta__datetime">
         <time
             class="doc-meta__date"
@@ -25,6 +26,7 @@
         </time>
         {{ with .ReadingTime }}· <span class="doc-meta__read-time">{{ . }} min read</span>{{ end }}
       </div>
+      {{ end }}
       <ul class="doc-meta__tags">
         {{ range $key, $tag := .Params.tags }}
           <li class="post-meta__tag-item">

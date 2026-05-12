@@ -3,11 +3,9 @@ title: "Soy Scallion Noodles"
 draft: false
 ---
 
-**Servings:** 6 plates
-**Prep:** 10 minutes
-**Cook:** 15 minutes
-
----
+- **Servings:** 6 plates
+- **Prep:** 10 minutes
+- **Cook:** 15 minutes
 
 ## Ingredients
 

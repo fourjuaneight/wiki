@@ -3,12 +3,10 @@ title: "Karak Chai"
 draft: false
 ---
 
-**Servings:** 2 cup
-**Prep:** 2 minutes
-**Cook:** 5 minutes
-**Total:** 7 minutes
-
----
+- **Servings:** 2 cup
+- **Prep:** 2 minutes
+- **Cook:** 5 minutes
+- **Total:** 7 minutes
 
 ## Ingredients
 

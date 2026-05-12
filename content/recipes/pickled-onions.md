@@ -3,12 +3,10 @@ title: "Pickled Onions with Jalapeños and Carrots"
 draft: false
 ---
 
-**Servings:** 32
-**Prep:** 10 minutes
-**Cook:** 10 minutes
-**Total:** 20 minutes
-
----
+- **Servings:** 32
+- **Prep:** 10 minutes
+- **Cook:** 10 minutes
+- **Total:** 20 minutes
 
 ## Ingredients
 

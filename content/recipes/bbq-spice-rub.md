@@ -3,10 +3,8 @@ title: "BBQ Spice Rub"
 draft: false
 ---
 
-**Servings:** 4 cups
-**Prep:** 2 minutes
-
----
+- **Servings:** 4 cups
+- **Prep:** 2 minutes
 
 ## Ingredients
 

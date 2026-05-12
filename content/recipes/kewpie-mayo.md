@@ -3,10 +3,8 @@ title: "Kewpie Mayo"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Prep:** 15 minutes
-
----
+- **Servings:** 2 cups
+- **Prep:** 15 minutes
 
 ## Ingredients
 

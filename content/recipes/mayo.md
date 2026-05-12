@@ -3,10 +3,8 @@ title: "Mayo"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Total:** 5 minutes
-
----
+- **Servings:** 2 cups
+- **Total:** 5 minutes
 
 ## Ingredients
 

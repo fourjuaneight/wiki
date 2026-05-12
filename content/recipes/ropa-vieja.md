@@ -3,12 +3,10 @@ title: "Ropa Vieja"
 draft: false
 ---
 
-**Servings:** 6 plates
-**Prep:** 40 minutes
-**Cook:** 1.5 hours
-**Total:** 2 hours
-
----
+- **Servings:** 6 plates
+- **Prep:** 40 minutes
+- **Cook:** 1.5 hours
+- **Total:** 2 hours
 
 ## Ingredients
 

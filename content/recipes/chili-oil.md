@@ -3,12 +3,10 @@ title: "Chili Oil"
 draft: false
 ---
 
-**Servings:** 2 cups
-**Prep:** 10 minutes
-**Cook:** 2 hours
-**Total:** 2:10 hours
-
----
+- **Servings:** 2 cups
+- **Prep:** 10 minutes
+- **Cook:** 2 hours
+- **Total:** 2:10 hours
 
 ## Ingredients
 

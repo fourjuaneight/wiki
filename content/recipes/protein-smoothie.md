@@ -3,10 +3,8 @@ title: "Protein Smoothie"
 draft: false
 ---
 
-**Servings:** 3 cups
-**Prep:** 5 minutes
-
----
+- **Servings:** 3 cups
+- **Prep:** 5 minutes
 
 ## Ingredients
 

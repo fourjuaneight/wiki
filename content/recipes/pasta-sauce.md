@@ -3,12 +3,10 @@ title: "Pasta Sauce"
 draft: false
 ---
 
-**Servings:** 3.5 cups
-**Prep:** 15 minutes
-**Cook:** 1 hour
-**Total:** 1:15 hour
-
----
+- **Servings:** 3.5 cups
+- **Prep:** 15 minutes
+- **Cook:** 1 hour
+- **Total:** 1:15 hour
 
 ## Ingredients
 

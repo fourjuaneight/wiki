@@ -3,12 +3,10 @@ title: "Himalayan Ketchup"
 draft: false
 ---
 
-**Servings:** 3 cups
-**Prep:** 10 minutes
-**Cook:** 1 hour
-**Total:** 1:10 hours
-
----
+- **Servings:** 3 cups
+- **Prep:** 10 minutes
+- **Cook:** 1 hour
+- **Total:** 1:10 hours
 
 ## Ingredients
 

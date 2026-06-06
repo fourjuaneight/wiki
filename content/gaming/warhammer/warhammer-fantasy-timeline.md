@@ -1,4 +1,4 @@
------
+---
 title: "Warhammer Fantasy: A Chronological Timeline"
 date: 2026-06-04
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - ttrpg
   - timeline
------
+---
 
 **Warhammer Fantasy Battle** is the original Games Workshop tabletop setting, a world of grim sword-and-sorcery fantasy that ran from 1983 until its destruction and discontinuation in 2015. Its history is measured in the **Imperial Calendar** (IC), anchored to the founding of the Empire by Sigmar in year 1 IC, with earlier events given negative dates. This entry walks that history from the world's creation through to its apocalyptic end.
 

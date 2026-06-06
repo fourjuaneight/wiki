@@ -1,4 +1,4 @@
------
+---
 title: "Warhammer 40,000: A Chronological Timeline"
 date: 2026-06-04
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - ttrpg
   - timeline
------
+---
 
 **Warhammer 40,000** is Games Workshop's science-fantasy tabletop setting, depicting a galaxy consumed by perpetual war in the forty-first millennium. Its events are recorded in Imperial dating of the form `999.M41`, read as the year 40,999, where `M` denotes the millennium. This entry traces the setting's history from its deepest past — tens of millions of years before the present — through to its current era.
 

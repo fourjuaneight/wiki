@@ -1,4 +1,4 @@
------
+---
 title: "Warcraft Timeline: After the Dark Portal"
 date: 2026-06-05
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - mmorpg
   - timeline
------
+---
 
 This entry continues the **Warcraft** chronology from Year 0 — the opening of the **Dark Portal** — through the present day. Where the era before the portal is reconstructed largely from mythology and backstory, the era after it is dramatized directly: each major period corresponds to a Blizzard game, beginning with the *Warcraft* real-time strategy trilogy and continuing through *World of Warcraft* and its eleven expansions.[^timeline2026] The companion entry, *Warcraft Timeline: Before the Dark Portal*, covers everything prior to this point.[^wowpedia2026]
 

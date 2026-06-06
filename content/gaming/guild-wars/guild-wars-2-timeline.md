@@ -1,4 +1,4 @@
------
+---
 title: "Guild Wars 2: Story Timeline"
 date: 2026-06-06
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - mmorpg
   - timeline
------
+---
 
 **Guild Wars 2**, released in 2012, is set roughly two and a half centuries after the original game, in a Tyria where the **Elder Dragons** the first game only hinted at have woken in force. Its story is told through a persistent base game, recurring episodic releases called the **Living World**, and a series of expansions; together they carry a single continuous arc from the fall of the dragon Zhaitan to the close of the Elder Dragon era and beyond. This entry traces that arc chronologically, beginning with the gap between the two games and continuing through the sixth expansion.
 

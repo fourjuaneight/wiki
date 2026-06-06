@@ -1,4 +1,4 @@
------
+---
 title: "Warcraft Timeline: Before the Dark Portal"
 date: 2026-06-05
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - mmorpg
   - timeline
------
+---
 
 The **Warcraft** timeline measures recorded history against a single fixed point: the opening of the **Dark Portal**, the gateway that first carried the orcish Horde from Draenor to the world of **Azeroth**. Events before that moment are dated *Before the Dark Portal* (BDP) and events after it *After the Dark Portal* (ADP), the convention Blizzard's official sources use throughout the *Warcraft Chronicle* volumes and tie-in fiction.[^timeline2026] This entry covers the BDP span — from the birth of the cosmos to the eve of the First War — reconstructed from in-game lore, the strategy games, and the novels.[^wowpedia2026]
 

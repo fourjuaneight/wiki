@@ -1,4 +1,4 @@
------
+---
 title: "Guild Wars: Story Timeline"
 date: 2026-06-06
 draft: false
@@ -6,7 +6,7 @@ tags:
   - lore
   - mmorpg
   - timeline
------
+---
 
 **Guild Wars**, released in 2005, is the original entry in ArenaNet's franchise: three standalone campaigns, *Prophecies*, *Factions*, and *Nightfall*, followed by the expansion *Eye of the North*. Its story moves across the continent of Tyria and the distant lands of Cantha and Elona, and it establishes the mythological and political foundations that *Guild Wars 2* later builds on. This entry traces that story chronologically, from the world's mythic origins through the close of the original game's content around 1080 AE; the sequel's era is covered in a companion entry.
 

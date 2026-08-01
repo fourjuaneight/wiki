@@ -71,6 +71,7 @@ yarn-error.log
 # ESLint log file
 summary-eslint.log
 
+# Local configs
 .idea
 test.js
 api/utils/template.html
@@ -82,3 +83,7 @@ assets/js
 assets/*.js
 assets/img/diagrams
 social.jpeg
+
+# Agents
+.claude
+CLAUDE.md

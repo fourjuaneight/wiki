@@ -1,5 +1,5 @@
 # Use Alpine Linux as our base image so that we minimize the overall size our final container, and minimize the surface area of packages that could be out of date.
-FROM node:20.18.3-alpine as builder
+FROM node:22.22.3-alpine as builder
 
 # Config
 ENV GLIBC_VER=2.27-r0
@@ -63,7 +63,7 @@ COPY package*.json /app/
 RUN npm install
 
 # Get a clean image with binaries and the pre-built node modules
-FROM node:20.18.3-alpine
+FROM node:22.22.3-alpine
 COPY --from=builder /usr/local/bin/hugo /usr/local/bin/hugo
 COPY --from=builder /app/node_modules /app/node_modules
 

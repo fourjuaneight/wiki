@@ -765,6 +765,40 @@ a.footnote-backref:hover {
   font-weight: 500;
 }
 
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.nav-group-title {
+  border-radius: var(--radius);
+  color: var(--ink);
+  display: block;
+  font-size: 0.84375rem;
+  font-weight: 500;
+  line-height: 1.4;
+  padding: 0.3125rem 0.625rem 0.3125rem 0.875rem;
+  text-decoration: none;
+  transition: background var(--duration) ease, color var(--duration) ease;
+}
+
+.nav-group-title:focus,
+.nav-group-title:hover {
+  background: var(--hover);
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.nav-group-title.active {
+  background: var(--active-bg);
+  color: var(--primary);
+}
+
+.nav-group .nav-list {
+  margin-left: 0.875rem;
+}
+
 /* =========================================================
    Article / doc
    ========================================================= */

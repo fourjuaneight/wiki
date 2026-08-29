@@ -1,0 +1,32 @@
+{{/*
+  Renders the children of a section as a nav list, recursing into subsections.
+
+  Params:
+    section - the section page whose children should be rendered
+    current - the page currently being viewed, used for the active state
+*/}}
+{{ $section := .section }}
+{{ $current := .current }}
+
+{{ with $section.Pages.ByTitle }}
+  <ul class="nav-list">
+    {{ range . }}
+      {{ if .IsSection }}
+        <li class="nav-group">
+          <a href="{{ .RelPermalink }}"
+             class="nav-group-title{{ if eq $current.RelPermalink .RelPermalink }} active{{ end }}">
+            {{ .Title }}
+          </a>
+          {{ partial "sidebar-nav-list.html" (dict "section" . "current" $current) }}
+        </li>
+      {{ else }}
+        <li>
+          <a href="{{ .RelPermalink }}"
+             class="nav-link{{ if eq $current.RelPermalink .RelPermalink }} active{{ end }}">
+            {{ .Title }}
+          </a>
+        </li>
+      {{ end }}
+    {{ end }}
+  </ul>
+{{ end }}

@@ -9,13 +9,13 @@ tags:
   - retro
 ---
 
-The **PlayStation 2** is not two consoles. It is three hardware families across roughly twenty-one retail revisions, and the divisions that matter are not the ones printed on the box. Sony shipped the machine from March 2000 to 2013 — thirteen years, the longest production run of any home console — and re-engineered it continuously across that span: chips merged, ports removed, an entire co-processor replaced with software.
+The **PlayStation 2** is not two consoles. It is three hardware families across roughly twenty-one retail revisions, and the divisions that matter are not the ones printed on the box. Sony shipped the machine from March 2000 to 2013, thirteen years, the longest production run of any home console, and re-engineered it continuously across that span: chips merged, ports removed, an entire co-processor replaced with software.
 
 The popular framing splits the line into "Fat" and "Slim" by chassis. That split is real but shallow. It groups consoles with fundamentally different silicon together and separates consoles that are electrically near-identical. This entry reorganises the line by the three things that actually determine how a given unit behaves today: which PS1 execution architecture it carries, how its optical drive and MechaCon age, and what homebrew it will accept.
 
 ## Scope
 
-This entry is not a games compatibility list — per-title PS1 behaviour is tracked elsewhere and changes as homebrew drivers improve. It is not a repair manual; no disassembly steps, laser-pot values, or solder points appear here. It is not a collector price guide, because those figures decay faster than this entry will be revised. Non-retail hardware — the DTL-H debugging stations, DTL-T reference tools, and COH-H arcade boards, of which both Fat and Slim debug units exist — is named for completeness and otherwise out of scope.[^consolemodsb2026]
+This entry is not a games compatibility list; per-title PS1 behaviour is tracked elsewhere and changes as homebrew drivers improve. It is not a repair manual; no disassembly steps, laser-pot values, or solder points appear here. It is not a collector price guide, because those figures decay faster than this entry will be revised. Non-retail hardware, meaning the DTL-H debugging stations, DTL-T reference tools, and COH-H arcade boards, of which both Fat and Slim debug units exist, is named for completeness and otherwise out of scope.[^consolemodsb2026]
 
 ### The two divisions that matter
 
@@ -28,11 +28,11 @@ The two divisions do not align. SCPH-70000 is a Slim chassis carrying the Fat ge
 
 ## Architecture
 
-Backward compatibility was never emulation and was never fully native. It was a hardware CPU bolted to an emulated GPU — and Sony removed the hardware half in 2005.
+Backward compatibility was never emulation and was never fully native. It was a hardware CPU bolted to an emulated GPU, and Sony removed the hardware half in 2005.
 
 ### The PGIF arrangement
 
-Sony embedded the original PlayStation's MIPS R3000A-derived CPU, running at roughly 33.8 MHz, directly onto the PS2 motherboard. Under PS2 software this chip serves as the system's Input Output Processor, handling controllers, memory cards, and the optical drive. When a PS1 disc is inserted it resumes its original role and executes PS1 code natively — no instruction translation, no timing approximation.[^obsoletesony2026]
+Sony embedded the original PlayStation's MIPS R3000A-derived CPU, running at roughly 33.8 MHz, directly onto the PS2 motherboard. Under PS2 software this chip serves as the system's Input Output Processor, handling controllers, memory cards, and the optical drive. When a PS1 disc is inserted it resumes its original role and executes PS1 code natively, with no instruction translation and no timing approximation.[^obsoletesony2026]
 
 This arrangement covers every Fat model from SCPH-10000 through SCPH-50000, plus the first Slim revision, SCPH-70000. It produces the highest overall PS1 compatibility available on any PS2.
 
@@ -44,13 +44,13 @@ The PS1 GPU was not carried over. PS1 draw commands are intercepted and re-execu
 
 From SCPH-75000 onward the physical R3000A was removed and replaced with a software environment known as **DECKARD**, running on a PowerPC-based subsystem performing real-time instruction translation. The change reduced manufacturing cost and invalidated timing assumptions that a meaningful minority of PS1 titles relied on. Roughly ninety-five percent of the PS1 library still runs; the remaining five percent ranges from cosmetic glitching to hard freezes.[^obsoletesony2026]
 
-Known regressions on DECKARD hardware include *Chrono Cross* failing during the ending FMV sequence, *Crash Bash* freezing, frame pacing irregularities in *Spyro: Year of the Dragon*, audio glitching in *Resident Evil 3*, and *The X-Files Game* crashing during video playback. All five behave correctly on PGIF units. This is an illustrative sample rather than an exhaustive list — community regression tracking for DECKARD consoles remains incomplete.[^obsoletesony2026]
+Known regressions on DECKARD hardware include *Chrono Cross* failing during the ending FMV sequence, *Crash Bash* freezing, frame pacing irregularities in *Spyro: Year of the Dragon*, audio glitching in *Resident Evil 3*, and *The X-Files Game* crashing during video playback. All five behave correctly on PGIF units. This is an illustrative sample rather than an exhaustive list; community regression tracking for DECKARD consoles remains incomplete.[^obsoletesony2026]
 
 ### The MechaCon crash
 
 Independent of the PS1 architecture, a fault in the **MechaCon** drive controller first appears in the SCPH-39000 revision at very low frequency, then rises considerably in SCPH-50000, where the SYSCON chip was eliminated and its functions folded into a new MechaCon. Because the fault became conspicuous only on the 50000 series, it is widely and incorrectly believed to have originated there.[^consolemods2026]
 
-The same SCPH-50000 revision introduced MechaCon software patching via the encrypted EEPROM area — the mechanism the MechaPwn softmod exploits.[^consolemods2026]
+The same SCPH-50000 revision introduced MechaCon software patching via the encrypted EEPROM area, the mechanism the MechaPwn softmod exploits.[^consolemods2026]
 
 ### Silicon consolidation
 
@@ -58,7 +58,7 @@ Cost reduction drove a steady merge of discrete chips into single packages. SCPH
 
 ## Model taxonomy
 
-Ratings below are out of five and weigh optical drive service interval, thermal headroom, known controller faults, and documented failure clustering. They describe expected longevity of an average surviving unit in 2026 — not build quality when new, and not feature set. A 2024 survey of 127 active PS2 repair technicians found Fat units required laser servicing roughly once every 4.2 years against once every 1.3 years for Slims; that ratio anchors the scale.[^alibaba2026]
+Ratings below are out of five and weigh optical drive service interval, thermal headroom, known controller faults, and documented failure clustering. They describe expected longevity of an average surviving unit in 2026, not build quality when new, and not feature set. A 2024 survey of 127 active PS2 repair technicians found Fat units required laser servicing roughly once every 4.2 years against once every 1.3 years for Slims; that ratio anchors the scale.[^alibaba2026]
 
 ### Fat chassis, 2000–2004
 
@@ -69,20 +69,20 @@ Ratings below are out of five and weigh optical drive service interval, thermal 
 | SCPH-30000 | 2000–01 | WW | PGIF | First worldwide launch model. Expansion bay replaces PCMCIA. Multi-board PCB. Disc Read Error laser defect; subject of a class-action suit. | 2 / 5 |
 | SCPH-30000R / 35000 | 2001–02 | WW | PGIF | Heavy motherboard redesign, unified board, improved laser. Chassis screws reduced from ten to eight. | 4 / 5 |
 | SCPH-37000 | 2002 | JP | PGIF | Reduced power consumption. Exclusive semi-transparent Ocean Blue (L) and Zen Black (B) shells, never repeated. | 4 / 5 |
-| SCPH-39000 | 2002–03 | WW | PGIF | Worldwide equivalent of the 37000. Reputation as the most reliable revision is a myth propagated by modchip installers — it was simply the easiest to chip. First model susceptible to the MechaCon crash, at low frequency. | 4 / 5 |
+| SCPH-39000 | 2002–03 | WW | PGIF | Worldwide equivalent of the 37000. Reputation as the most reliable revision is a myth propagated by modchip installers; it was simply the easiest to chip. First model susceptible to the MechaCon crash, at low frequency. | 4 / 5 |
 | SCPH-50000 | 2003–04 | WW | PGIF | Final Fat revision. Adds IR receiver, 480p DVD output, DVD±R/RW support, quieter fans. Removes i.LINK and SYSCON. MechaCon crash frequency rises considerably. | 3 / 5 |
 
 ### Slim chassis, 2004–2013
 
 | Model | Year | Region | PS1 | Notes | Rating |
 |---|---|---|---|---|---|
-| SCPH-70000 | 2004–05 | WW | PGIF | First Slim. Roughly 75% smaller and lighter. Expansion bay removed, Ethernet added, external power brick. Early production PSUs recalled for overheating. Retains the physical PS1 CPU — the last model to do so. | 4 / 5 |
+| SCPH-70000 | 2004–05 | WW | PGIF | First Slim. Roughly 75% smaller and lighter. Expansion bay removed, Ethernet added, external power brick. Early production PSUs recalled for overheating. Retains the physical PS1 CPU, the last model to do so. | 4 / 5 |
 | SCPH-75000 | 2005–06 | WW | DECKARD | Physical R3000A removed; DECKARD substituted. HDD support fully dropped. New disc drive assembly. First model with documented PS1 regressions. | 3 / 5 |
 | SCPH-77000 | 2006–07 | WW | DECKARD | Unified EE and GS exclusively. Redesigned ASIC, updated BIOS and drivers. PS1 compatibility improved over the 75000 but still below PGIF. | 3 / 5 |
 | SCPH-79000 | 2007–08 | WW | DECKARD | EE, RDRAM, SPU2, and IOP merged into one ASIC. Reduced to 600 g. Highest documented failure rate of any PS2 revision. | 2 / 5 |
 | SCPH-90000 | 2007–13 | WW | DECKARD | Final revision; internal PSU restored. Elevated disc-laser failure rate. Units after Q3 2008 carry a patched BIOS closing the memory card exploit. Endpoint of cost reduction and the most software-reliant configuration. | 2 / 5 |
 
-Regional variation is encoded in the final digit of the model number — SCPH-90001 is North America, 90002 Australia. Parts are not interchangeable across regions and power supply voltages differ.[^wikipedia2025] The elevated disc-laser failure rate on the 90000 series is the most consistently reported hardware complaint across the Slim line.[^retrobroker]
+Regional variation is encoded in the final digit of the model number; SCPH-90001 is North America, 90002 Australia. Parts are not interchangeable across regions and power supply voltages differ.[^wikipedia2025] The elevated disc-laser failure rate on the 90000 series is the most consistently reported hardware complaint across the Slim line.[^retrobroker]
 
 ### Special and embedded variants
 
@@ -95,7 +95,7 @@ Regional variation is encoded in the final digit of the model number — SCPH-90
 
 ## Selection and triage
 
-Decide what the console is for before deciding which one to buy — the answer changes completely between a PS1 machine, a PS2 machine, and a homebrew platform.
+Decide what the console is for before deciding which one to buy; the answer changes completely between a PS1 machine, a PS2 machine, and a homebrew platform.
 
 | If the goal is | Buy | Because |
 |---|---|---|
@@ -142,7 +142,7 @@ Its feature set splits along the same PGIF and DECKARD line as the hardware itse
 | Automatic license and logo patching | No | Yes | DECKARD only. PGIF units receive a warning explaining the resulting black screen; booting still requires a modchip or disc swap. |
 | USB mass loading of PS1 images | No | Yes | DECKARD only, SCPH-75000 and later. Beta status. |
 
-A PGIF console gains the entire GPU-layer improvement set on top of hardware PS1 execution it already has — a strong unit made stronger, with no compromise traded away.[^dkwdrv] A DECKARD console gains the same GPU-layer set plus the loading and patching features, but cannot recover the timing accuracy lost when the R3000A was removed.[^aldostools2025] Neither driver closes the architectural gap; it narrows the visual one.
+A PGIF console gains the entire GPU-layer improvement set on top of hardware PS1 execution it already has, a strong unit made stronger, with no compromise traded away.[^dkwdrv] A DECKARD console gains the same GPU-layer set plus the loading and patching features, but cannot recover the timing accuracy lost when the R3000A was removed.[^aldostools2025] Neither driver closes the architectural gap; it narrows the visual one.
 
 Version numbers, release status, and DECKARD feature availability described here were current on 28 August 2026 and should be re-verified against the project repository before use.
 

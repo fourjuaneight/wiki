@@ -14,7 +14,7 @@ Unlike analog video, which records data continuously, **digital video** encodes 
 
 Digital video encoding is a complex process that involves converting raw video files into a digital format, compressing them to reduce file size, and ensuring that they can be played back on various devices and platforms. During the encoding process, video is compressed to consume less space. It's a lossy process, meaning some information is discarded, and the more compression applied, the more the quality may degrade. Various techniques are used to compress video content intelligently. These include image resizing (reducing resolution), interframe compression (removing redundant information between frames), chroma subsampling (discarding some color information), and altering frame rates.
 
-Chroma subsampling exploits the human visual system's lower sensitivity to color detail relative to brightness. In the dominant 4:2:0 scheme — used across MPEG-2, H.264, H.265, and AV1 — chrominance data is reduced by 75% compared to 4:4:4 with minimal perceptible quality loss.[^itu-bt601][^poynton2012] Interframe compression relies on three picture types — I-frames (full reference frames), P-frames (forward-predicted), and B-frames (bi-directionally predicted) — first formally defined in ISO/IEC 11172-2 (MPEG-1 Video, 1993) and refined through successive standards.[^iso-11172-2]
+Chroma subsampling exploits the human visual system's lower sensitivity to color detail relative to brightness. In the dominant 4:2:0 scheme, used across MPEG-2, H.264, H.265, and AV1, chrominance data is reduced by 75% compared to 4:4:4 with minimal perceptible quality loss.[^itu-bt601][^poynton2012] Interframe compression relies on three picture types, I-frames (full reference frames), P-frames (forward-predicted), and B-frames (bi-directionally predicted), first formally defined in ISO/IEC 11172-2 (MPEG-1 Video, 1993) and refined through successive standards.[^iso-11172-2]
 
 Standard frame rates include 24 fps (film), 25 fps (PAL/SECAM), 29.97/30 fps (NTSC), and 60 fps.[^itu-bt709] Frame rates up to 120 fps for UHD content are specified in SMPTE ST 2036-1:2014 and ITU-R BT.2020.[^smpte-st2036][^itu-bt2020]
 
@@ -82,7 +82,7 @@ Video **codecs** (compressor-decompressor) are algorithms used to compress (enco
 ### [Dolby Vision](https://professional.dolby.com/siteassets/pdfs/dolby-vision-whitepaper_an-introduction-to-dolby-vision_0916.pdf)
 
 - **Benefits:** Offers the best image quality per specification; supports 12-bit color depth and a theoretical maximum brightness of 10,000 nits. Uses dynamic metadata per SMPTE ST 2094-10.[^smpte-st2094-10]
-- **Drawbacks:** Current streaming implementations (Profiles 5, 8.1, 8.4) use 10-bit HEVC base layers; true 12-bit is available only via dual-layer encoding (Profile 7) on UHD Blu-ray. No consumer display currently reaches 10,000 nits — content is typically mastered at 1,000–4,000 nits. Licensing fees apply for manufacturers.
+- **Drawbacks:** Current streaming implementations (Profiles 5, 8.1, 8.4) use 10-bit HEVC base layers; true 12-bit is available only via dual-layer encoding (Profile 7) on UHD Blu-ray. No consumer display currently reaches 10,000 nits; content is typically mastered at 1,000–4,000 nits. Licensing fees apply for manufacturers.
 - **Popularity:** Widely supported and making a big push in the HDR market.
 - **Compatibility:** Requires licensing, but many companies are willing to pay for the superior quality.
 
@@ -175,7 +175,7 @@ A video **container** is a file format that houses one or more streams of video,
 
 - **Formats:** Commonly holds H.264 video and AAC audio; also supports H.265, AV1, and other codecs.
 - **Compression:** Lossy for both video and audio.
-- **Benefits:** Widely supported, good for streaming, and offers a balance between quality and file size. Based on the ISO Base Media File Format (ISO/IEC 14496-12), which was derived from Apple's QuickTime format — making MP4 and MOV structurally similar and often interchangeable at the container level.[^loc-mp4][^iso-14496-14]
+- **Benefits:** Widely supported, good for streaming, and offers a balance between quality and file size. Based on the ISO Base Media File Format (ISO/IEC 14496-12), which was derived from Apple's QuickTime format, making MP4 and MOV structurally similar and often interchangeable at the container level.[^loc-mp4][^iso-14496-14]
 
 ### 2. [MKV](https://www.loc.gov/preservation/digital/formats/fdd/fdd000342.shtml) (Matroska)
 

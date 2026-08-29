@@ -8,25 +8,25 @@ tags:
   - memory
 ---
 
-**Random access memory (RAM)** is a computer's primary working memory — the space where the processor keeps the instructions and data of running programs. Unlike secondary storage, RAM is directly addressable by load and store instructions, so the CPU can reach any location in roughly the same time regardless of its address. It is also **volatile**: all contents are lost when power is removed, which is the fundamental distinction between RAM and non-volatile storage like SSDs or flash.
+**Random access memory (RAM)** is a computer's primary working memory, the space where the processor keeps the instructions and data of running programs. Unlike secondary storage, RAM is directly addressable by load and store instructions, so the CPU can reach any location in roughly the same time regardless of its address. It is also **volatile**: all contents are lost when power is removed, which is the fundamental distinction between RAM and non-volatile storage like SSDs or flash.
 
 In a running system, RAM holds the OS kernel, active user processes, and the file-system buffer cache. Its capacity and bandwidth directly bound how many programs can run concurrently and how quickly large data sets can be processed.
 
 ## How DRAM cells work
 
-Virtually all main memory today is **dynamic RAM (DRAM)**, built from a **1-transistor / 1-capacitor (1T1C) cell**. Each bit is a tiny capacitor storing charge — roughly VDD for a logical 1, near ground for a 0. An NMOS access transistor connects the capacitor to a vertical **bit line** when the row's horizontal **word line** is asserted.
+Virtually all main memory today is **dynamic RAM (DRAM)**, built from a **1-transistor / 1-capacitor (1T1C) cell**. Each bit is a tiny capacitor storing charge, roughly VDD for a logical 1, near ground for a 0. An NMOS access transistor connects the capacitor to a vertical **bit line** when the row's horizontal **word line** is asserted.
 
 Reads are destructive: the bit line is precharged to VDD/2, then the word line raises and the capacitor shares its charge with the larger bit-line capacitance, deflecting it by a few tens of millivolts. A differential **sense amplifier** at the column's end detects and amplifies the deflection to a full logic level, then rewrites the cell. Because charge leaks through the access transistor's subthreshold current, every row must be periodically re-energised. JEDEC mandates a **refresh** cycle within 64 ms for DDR4 and 32 ms for DDR5 (halved again above 85 °C). In DDR5, a per-bank *REFsb* command allows other banks to keep serving traffic while one refreshes.[^jedec2020]
 
 ## DRAM vs. SRAM
 
-**Static RAM (SRAM)** stores a bit in a **6-transistor (6T) bistable latch** — two cross-coupled CMOS inverters, each node accessible through an access transistor. The latch is self-sustaining while power is applied; no refresh is needed and reads are non-destructive. SRAM access times are below 1 ns for L1 caches, roughly five to ten times faster than DRAM.
+**Static RAM (SRAM)** stores a bit in a **6-transistor (6T) bistable latch**, two cross-coupled CMOS inverters, each node accessible through an access transistor. The latch is self-sustaining while power is applied; no refresh is needed and reads are non-destructive. SRAM access times are below 1 ns for L1 caches, roughly five to ten times faster than DRAM.
 
 The trade-off is area: a 6T SRAM cell occupies roughly four to six times the footprint of a 1T1C DRAM cell at the same node. This makes SRAM uneconomical for gigabyte-scale arrays but ideal for CPU caches and small on-chip buffers. DRAM dominates main memory precisely because its extraordinary density keeps cost per gigabyte low.
 
 ## Array organisation and addressing
 
-A DRAM die is a hierarchy. At the bottom is the **cell**; above it is a **bank**, a 2-D array of rows and columns with one row of sense amplifiers — the **row buffer** — that can hold one open row. Banks are grouped into **bank groups** (DDR5: 8 groups × 4 banks = 32 banks per chip). A **rank** is a set of chips activated together to produce a full 64-bit (or 72-bit ECC) word. One or more ranks populate a **channel**, which is an independent port on the CPU's integrated memory controller.
+A DRAM die is a hierarchy. At the bottom is the **cell**; above it is a **bank**, a 2-D array of rows and columns with one row of sense amplifiers, the **row buffer**, that can hold one open row. Banks are grouped into **bank groups** (DDR5: 8 groups × 4 banks = 32 banks per chip). A **rank** is a set of chips activated together to produce a full 64-bit (or 72-bit ECC) word. One or more ranks populate a **channel**, which is an independent port on the CPU's integrated memory controller.
 
 Every access is a (channel, rank, bank-group, bank, row, column) lookup resolved by three commands: *ACTIVATE* opens a row into the row buffer; *READ/WRITE* targets a column within it; *PRECHARGE* closes the row. An access that hits the already-open row ("page hit") skips the activate step and is significantly faster than a row conflict, which must precharge and activate before the column command can issue.[^wiscsinclair2020]
 
@@ -44,11 +44,11 @@ The **integrated memory controller (IMC)**, located on the CPU die in all modern
 
 **Multi-channel** configurations multiply peak bandwidth: dual-channel doubles it (≈51.2 GB/s for DDR4-3200), quad-channel quadruples it, and server sockets reach 8–12 channels. DDR5's two 32-bit subchannels per DIMM mean even a single installed module already exposes two independent command paths to the IMC.[^memorysystems]
 
-Because DRAM's first-word latency (~100 CPU cycles) would stall a multi-GHz pipeline, every core sits behind a hierarchy of on-die **SRAM caches**: L1 (~32–64 KB, 3–5 cycles), L2 (256 KB–2 MB, 10–20 cycles), and a shared L3 (8 MB–96 MB+, 30–70 cycles). Only an L3 miss reaches the IMC and DRAM. The 64-byte **cache line** is the unit of transfer between RAM and cache — which is why DDR5's burst length of 16 beats across a 32-bit subchannel was chosen to preserve exactly that granularity.[^uvmcafiero]
+Because DRAM's first-word latency (~100 CPU cycles) would stall a multi-GHz pipeline, every core sits behind a hierarchy of on-die **SRAM caches**: L1 (~32–64 KB, 3–5 cycles), L2 (256 KB–2 MB, 10–20 cycles), and a shared L3 (8 MB–96 MB+, 30–70 cycles). Only an L3 miss reaches the IMC and DRAM. The 64-byte **cache line** is the unit of transfer between RAM and cache, which is why DDR5's burst length of 16 beats across a 32-bit subchannel was chosen to preserve exactly that granularity.[^uvmcafiero]
 
 ## Modules and form factors
 
-**DIMMs (Dual In-line Memory Modules)** are the standard physical package. The primary variants are full-size DIMMs (288 pins for DDR4/5) and **SO-DIMMs** (260/262 pins), used in laptops and mini-PCs. Module types include **UDIMMs** (unbuffered, lowest latency, client systems), **RDIMMs** (registered, buffered command bus, servers), and **LRDIMMs** (load-reduced, buffered data bus, highest density). A **rank** is the set of chips sharing a chip-select; dual-rank modules allow the controller to interleave commands — one rank precharging while the other is being read — improving effective bandwidth.[^atpelectronics]
+**DIMMs (Dual In-line Memory Modules)** are the standard physical package. The primary variants are full-size DIMMs (288 pins for DDR4/5) and **SO-DIMMs** (260/262 pins), used in laptops and mini-PCs. Module types include **UDIMMs** (unbuffered, lowest latency, client systems), **RDIMMs** (registered, buffered command bus, servers), and **LRDIMMs** (load-reduced, buffered data bus, highest density). A **rank** is the set of chips sharing a chip-select; dual-rank modules allow the controller to interleave commands, one rank precharging while the other is being read, improving effective bandwidth.[^atpelectronics]
 
 DDR5 raises the per-DIMM capacity ceiling to 512 GB (through 8-high die stacks and 32 Gb monolithic die). Every DIMM also contains an **SPD hub** EEPROM that advertises geometry, JEDEC timings, and optional XMP/EXPO overclock profiles to the BIOS at boot.
 
@@ -60,9 +60,9 @@ DDR5 raises the per-DIMM capacity ceiling to 512 GB (through 8-high die stacks a
 
 ## Virtual memory
 
-The OS prevents programs from addressing physical RAM directly, instead giving each process a private **virtual address space** mapped to physical frames through a **page table**. On x86-64, the page table is a four- or five-level radix tree; each leaf entry holds the physical frame number plus permission, dirty, and present bits. A **TLB (Translation Lookaside Buffer)** caches recent translations inside the MMU so that the common case — a TLB hit — resolves in a single cycle rather than requiring a multi-level tree walk.[^uicsbell]
+The OS prevents programs from addressing physical RAM directly, instead giving each process a private **virtual address space** mapped to physical frames through a **page table**. On x86-64, the page table is a four- or five-level radix tree; each leaf entry holds the physical frame number plus permission, dirty, and present bits. A **TLB (Translation Lookaside Buffer)** caches recent translations inside the MMU so that the common case, a TLB hit, resolves in a single cycle rather than requiring a multi-level tree walk.[^uicsbell]
 
-When a process accesses a virtual page whose *present* bit is cleared, the MMU raises a **page fault**. The OS handler allocates a physical frame (evicting another page if RAM is full), reads the page from its backing store — either a **swap partition** on disk or a memory-mapped file — updates the page-table entry, and restarts the faulting instruction. Sustained heavy paging (*thrashing*) is catastrophic for performance because accessing swap is orders of magnitude slower than DRAM.[^ucsdpaging]
+When a process accesses a virtual page whose *present* bit is cleared, the MMU raises a **page fault**. The OS handler allocates a physical frame (evicting another page if RAM is full), reads the page from its backing store, either a **swap partition** on disk or a memory-mapped file, updates the page-table entry, and restarts the faulting instruction. Sustained heavy paging (*thrashing*) is catastrophic for performance because accessing swap is orders of magnitude slower than DRAM.[^ucsdpaging]
 
 ## LPDDR
 

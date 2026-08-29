@@ -10,7 +10,7 @@ tags:
 
 The **deliberate learning protocol** is a personal system for acquiring and retaining material outside the reach of daily practice. It exists to solve a specific problem: practitioners who learn well by doing have no mechanism for material they never encounter in their work. Practice supplies both encoding and spaced review automatically; absent that, both must be reconstructed deliberately.
 
-This entry specifies the protocol, the evidence behind each component, and the discipline mechanics that keep it running. It assumes familiarity with the underlying research — see the entries on [personal knowledge management](../personal-knowledge-management/), [retrieval practice and spacing](../retrieval-practice-and-spacing/), and the [method of loci](../method-of-loci/).
+This entry specifies the protocol, the evidence behind each component, and the discipline mechanics that keep it running. It assumes familiarity with the underlying research; see the entries on [personal knowledge management](../personal-knowledge-management/), [retrieval practice and spacing](../retrieval-practice-and-spacing/), and the [method of loci](../method-of-loci/).
 
 ## Design premises
 
@@ -22,7 +22,7 @@ Writing in one's own words is generative encoding, not transcription. The Zettel
 
 Explaining aloud is retrieval plus elaboration in a single act. It forces recall without the source present and exposes gaps as they occur.
 
-The method of loci is effective for ordered material — medium to large effects across randomized trials[^twomey2021] [^ondrej2025] — but it is an encoding technique. It does not address forgetting, which requires spaced retrieval.[^dresler2017]
+The method of loci is effective for ordered material, with medium to large effects across randomized trials[^twomey2021] [^ondrej2025], but it is an encoding technique. It does not address forgetting, which requires spaced retrieval.[^dresler2017]
 
 The gap these premises leave is scheduled review. Capture, however well executed, sits in the low-utility tier of learning activities alongside summarization, highlighting, and rereading; only practice testing and distributed practice carry high-utility ratings.[^dunlosky2013] The protocol's core function is to force retrieval and spacing onto material that would otherwise be stored and abandoned.
 
@@ -30,7 +30,7 @@ The gap these premises leave is scheduled review. Capture, however well executed
 
 ### 1. Capture
 
-Learn the material hands-on wherever possible — build something small with it, run the command, break it deliberately. Then write a note in your own words. Never paste source text; the rewriting is the encoding step and pasting skips it.
+Learn the material hands-on wherever possible; build something small with it, run the command, break it deliberately. Then write a note in your own words. Never paste source text; the rewriting is the encoding step and pasting skips it.
 
 Immediately convert the note into a question. A note that states a fact supports rereading; a note that asks for it supports retrieval. Conversion happens at capture time, while context is fresh, because deferred conversion does not happen.
 
@@ -43,13 +43,13 @@ Q: How does the optimal spacing gap relate to the retention interval?
 A: It grows with it. Longer retention targets need wider gaps.
 ```
 
-Prompts must be atomic — one fact per prompt. Compound prompts fail partially, which corrupts the scheduling signal.
+Prompts must be atomic, one fact per prompt. Compound prompts fail partially, which corrupts the scheduling signal.
 
 ### 2. Retrieve on schedule
 
 Review due prompts daily. Attempt recall before revealing the answer; the attempt is the mechanism, and reading first converts a high-utility activity into re-exposure.[^roediger2006]
 
-Scheduling must be automated rather than decided in the moment. Learners systematically misjudge their own retention — restudy produces higher immediate recall and a stronger sense of fluency while yielding worse retention at every meaningful delay.[^roediger2006] The same miscalibration governs decisions about external aids generally.[^risko2016] Spaced-repetition software exists to remove this judgment.
+Scheduling must be automated rather than decided in the moment. Learners systematically misjudge their own retention; restudy produces higher immediate recall and a stronger sense of fluency while yielding worse retention at every meaningful delay.[^roediger2006] The same miscalibration governs decisions about external aids generally.[^risko2016] Spaced-repetition software exists to remove this judgment.
 
 Gaps follow the meta-analytic findings: minimum one day between passes, widening as the retention horizon extends.[^cepeda2006]
 
@@ -63,7 +63,7 @@ Gaps follow the meta-analytic findings: minimum one day between passes, widening
 
 ### 3. Explain aloud
 
-Once weekly, select one topic from the week and explain it aloud without notes — to a colleague, a recording, or an empty room. Explanation is retrieval performed at the level of connected reasoning rather than isolated facts, and the points where the explanation stalls identify exactly what to restudy.
+Once weekly, select one topic from the week and explain it aloud without notes, to a colleague, a recording, or an empty room. Explanation is retrieval performed at the level of connected reasoning rather than isolated facts, and the points where the explanation stalls identify exactly what to restudy.
 
 Where this produces something worth keeping, it becomes a draft. The obligation is the explanation, not the artifact.
 
@@ -92,19 +92,19 @@ Delete prompts that no longer serve and notes that never became prompts or build
 
 **Bind actions to existing triggers.** Specifying when, where, and how an action occurs improves follow-through where general intention does not.[^gollwitzer2009] "Review prompts after morning coffee, at the desk" is executable; "learn more consistently" is not.
 
-**Do not announce the goal.** Publicly stated identity-relevant intentions were enacted *less* intensely than private ones among highly committed individuals — the announcement itself partially discharges the motivation.[^gollwitzer2009] Run the reps quietly.
+**Do not announce the goal.** Publicly stated identity-relevant intentions were enacted *less* intensely than private ones among highly committed individuals; the announcement itself partially discharges the motivation.[^gollwitzer2009] Run the reps quietly.
 
 **Measure output, not accumulation.** Prompts answered, things built, explanations given. Vault size measures hoarding, not learning.
 
-**Expect the discomfort.** Retrieval produces lower immediate recall than rereading — 71% against 83% at five minutes in the canonical experiment — and feels correspondingly worse while producing far better retention at one week.[^roediger2006] The difficulty is the effect operating.
+**Expect the discomfort.** Retrieval produces lower immediate recall than rereading, 71% against 83% at five minutes in the canonical experiment, and feels correspondingly worse while producing far better retention at one week.[^roediger2006] The difficulty is the effect operating.
 
 ## Benchmarks and failure signals
 
-Two weeks in, recall on due prompts should reach roughly 80%. Below that, prompts are too large — split them into atomic units rather than extending review time.
+Two weeks in, recall on due prompts should reach roughly 80%. Below that, prompts are too large; split them into atomic units rather than extending review time.
 
 A palace should hold a twenty-item ordered list near-perfectly after two weeks of practice. Failure indicates insufficiently vivid or distinct images, or a route that is not over-learned enough to be automatic.
 
-Monthly, at least one artifact should exist that did not before — something built, written, or taught. Zero artifacts across a month indicates the system has drifted back into storage, which is the failure mode the protocol exists to prevent.
+Monthly, at least one artifact should exist that did not before, something built, written, or taught. Zero artifacts across a month indicates the system has drifted back into storage, which is the failure mode the protocol exists to prevent.
 
 [^bergman2016]: Bergman, O., & Whittaker, S. (2016). [*The science of managing our digital stuff*](https://mitpress.mit.edu/9780262035170/the-science-of-managing-our-digital-stuff/). MIT Press.
 [^cepeda2006]: Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin, 132*(3), 354–380. [https://doi.org/10.1037/0033-2909.132.3.354](https://doi.org/10.1037/0033-2909.132.3.354)

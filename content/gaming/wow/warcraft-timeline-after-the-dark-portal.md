@@ -8,7 +8,7 @@ tags:
   - timeline
 ---
 
-This entry continues the **Warcraft** chronology from Year 0 — the opening of the **Dark Portal** — through the present day. Where the era before the portal is reconstructed largely from mythology and backstory, the era after it is dramatized directly: each major period corresponds to a Blizzard game, beginning with the *Warcraft* real-time strategy trilogy and continuing through *World of Warcraft* and its eleven expansions.[^timeline2026] The companion entry, *Warcraft Timeline: Before the Dark Portal*, covers everything prior to this point.[^wowpedia2026]
+This entry continues the **Warcraft** chronology from Year 0, the opening of the **Dark Portal**, through the present day. Where the era before the portal is reconstructed largely from mythology and backstory, the era after it is dramatized directly: each major period corresponds to a Blizzard game, beginning with the *Warcraft* real-time strategy trilogy and continuing through *World of Warcraft* and its eleven expansions.[^timeline2026] The companion entry, *Warcraft Timeline: Before the Dark Portal*, covers everything prior to this point.[^wowpedia2026]
 
 Dates are given as years After the Dark Portal (ADP) where the sources fix them, and as real-world release years once the live game's internal dating grows loose.
 
@@ -30,7 +30,7 @@ Around Years 7–8, the orcs not killed in the war were confined to internment c
 
 ### The birth of the Lich King
 
-Fleeing through the rifts, Ner'zhul was captured by Kil'jaeden, stripped of his body, and twisted into the **Lich King** — a disembodied will bound within a block of ice in distant Northrend and tasked with raising an undead army, the Scourge, to prepare Azeroth for the Legion's return.[^timeline2026]
+Fleeing through the rifts, Ner'zhul was captured by Kil'jaeden, stripped of his body, and twisted into the **Lich King**, a disembodied will bound within a block of ice in distant Northrend and tasked with raising an undead army, the Scourge, to prepare Azeroth for the Legion's return.[^timeline2026]
 
 ## The rising darkness
 
@@ -46,7 +46,7 @@ Prince **Arthas** Menethil, sent to stem the plague, descended into atrocity at 
 
 ### The Battle of Mount Hyjal
 
-The orcs, night elves, and humans set aside their enmity to make a final stand at **Mount Hyjal**. Channeling the energies of the World Tree and an army of wisps, the defenders destroyed Archimonde and halted the Legion's invasion — a victory that laid the groundwork for the uneasy coexistence of the modern factions.[^timeline2026]
+The orcs, night elves, and humans set aside their enmity to make a final stand at **Mount Hyjal**. Channeling the energies of the World Tree and an army of wisps, the defenders destroyed Archimonde and halted the Legion's invasion, a victory that laid the groundwork for the uneasy coexistence of the modern factions.[^timeline2026]
 
 ## Rise of the Lich King
 
@@ -82,7 +82,7 @@ The campaign culminated in the assault on Icecrown Citadel, where Arthas was fin
 
 ## Legion
 
-*Legion* (2016) staged the Burning Legion's largest and most desperate invasion, centered on the Broken Isles, the night-elven city of Suramar, and the Tomb of Sargeras, before carrying the fight to the Legion's homeworld of Argus. Its defining event came when Sargeras, defeated, drove a colossal sword into Azeroth itself — a wound that began bleeding the potent substance Azerite and set the stage for the next conflict.[^timeline2026]
+*Legion* (2016) staged the Burning Legion's largest and most desperate invasion, centered on the Broken Isles, the night-elven city of Suramar, and the Tomb of Sargeras, before carrying the fight to the Legion's homeworld of Argus. Its defining event came when Sargeras, defeated, drove a colossal sword into Azeroth itself, a wound that began bleeding the potent substance Azerite and set the stage for the next conflict.[^timeline2026]
 
 ## Battle for Azeroth
 
@@ -90,11 +90,11 @@ The campaign culminated in the assault on Icecrown Citadel, where Arthas was fin
 
 ## Shadowlands
 
-*Shadowlands* (2020) followed the heroes of Azeroth beyond death into the realms of the afterlife — Bastion, Maldraxxus, Revendreth, Ardenweald, and the prison-realm of the Maw. The expansion revealed the architect behind much of the saga's suffering in **the Jailer**, Zovaal, and tied the franchise's cosmology back to its mythological origins.[^timeline2026]
+*Shadowlands* (2020) followed the heroes of Azeroth beyond death into the realms of the afterlife, namely Bastion, Maldraxxus, Revendreth, Ardenweald, and the prison-realm of the Maw. The expansion revealed the architect behind much of the saga's suffering in **the Jailer**, Zovaal, and tied the franchise's cosmology back to its mythological origins.[^timeline2026]
 
 ## Dragonflight
 
-*Dragonflight* (2022) returned to the newly awakened Dragon Isles, restoring the diminished Dragon Aspects and confronting the Primalist followers of the ancient Incarnates — the same conflict, echoed across twenty thousand years, that the *War of the Scaleborn* backstory had set in motion. The expansion marked a deliberate return to grounded, world-focused storytelling.[^timeline2026]
+*Dragonflight* (2022) returned to the newly awakened Dragon Isles, restoring the diminished Dragon Aspects and confronting the Primalist followers of the ancient Incarnates, the same conflict, echoed across twenty thousand years, that the *War of the Scaleborn* backstory had set in motion. The expansion marked a deliberate return to grounded, world-focused storytelling.[^timeline2026]
 
 ## The Worldsoul Saga
 

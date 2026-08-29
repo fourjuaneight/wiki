@@ -9,7 +9,7 @@ tags:
   - tv
 ---
 
-**Star Wars**, launched with a single film in 1977, has since grown into a franchise whose installments arrived in almost the reverse of their story order. This entry traces the story chronologically across a deliberately limited scope: the **prequel trilogy**, *Star Wars: The Clone Wars* — both the 2008 theatrical film and the seven-season series — *Andor*, *Rogue One: A Star Wars Story*, and the **original trilogy**. It runs from the invasion of Naboo to the Battle of Endor, a span of thirty-six in-world years covering the fall of the Republic, the consolidation of the Empire, and its defeat. The sequel trilogy, *Star Wars Rebels*, *The Bad Batch*, *Solo*, *Maul – Shadow Lord*, and the Disney+ live-action shows fall outside it.
+**Star Wars**, launched with a single film in 1977, has since grown into a franchise whose installments arrived in almost the reverse of their story order. This entry traces the story chronologically across a deliberately limited scope: the **prequel trilogy**, *Star Wars: The Clone Wars*, both the 2008 theatrical film and the seven-season series, *Andor*, *Rogue One: A Star Wars Story*, and the **original trilogy**. It runs from the invasion of Naboo to the Battle of Endor, a span of thirty-six in-world years covering the fall of the Republic, the consolidation of the Empire, and its defeat. The sequel trilogy, *Star Wars Rebels*, *The Bad Batch*, *Solo*, *Maul – Shadow Lord*, and the Disney+ live-action shows fall outside it.
 
 In-world dates use the **BBY/ABY** convention, the franchise standard: years Before or After the **Battle of Yavin**, the destruction of the first Death Star that ends *A New Hope*. A year given in parentheses refers to the real-world release rather than the in-fiction setting. Note that BBY/ABY is a reference-work convention rather than a calendar the characters use, so most dates outside the films' own dialogue come from published guides and are approximate.[^superherohype2025]
 
@@ -17,21 +17,21 @@ Story order and release order diverge sharply across this material. The original
 
 ## The invasion of Naboo (32 BBY)
 
-*The Phantom Menace* (1999) opens on a trade blockade of Naboo that conceals a Sith plot. The immediate crisis — a Trade Federation occupation, a queen smuggled off-world, a battle over a droid control ship — resolves inside the film. Its lasting consequences are political and personal.
+*The Phantom Menace* (1999) opens on a trade blockade of Naboo that conceals a Sith plot. The immediate crisis, a Trade Federation occupation, a queen smuggled off-world, a battle over a droid control ship, resolves inside the film. Its lasting consequences are political and personal.
 
-Politically, the blockade lets Senator Palpatine engineer a no-confidence vote against Chancellor Valorum and take the office himself, the first move in a plan that pays off thirteen years later. Personally, Qui-Gon Jinn finds a nine-year-old **Anakin Skywalker** enslaved on Tatooine, believes him to be the prophesied Chosen One, and extracts a deathbed promise from Obi-Wan Kenobi to train him — over the Jedi Council's explicit objection that the boy is too old and too afraid. The film also establishes that the Sith have survived in secret and operate in pairs, which is the fact the Jedi spend the next three decades failing to act on.
+Politically, the blockade lets Senator Palpatine engineer a no-confidence vote against Chancellor Valorum and take the office himself, the first move in a plan that pays off thirteen years later. Personally, Qui-Gon Jinn finds a nine-year-old **Anakin Skywalker** enslaved on Tatooine, believes him to be the prophesied Chosen One, and extracts a deathbed promise from Obi-Wan Kenobi to train him, over the Jedi Council's explicit objection that the boy is too old and too afraid. The film also establishes that the Sith have survived in secret and operate in pairs, which is the fact the Jedi spend the next three decades failing to act on.
 
 ## The Separatist crisis and the First Battle of Geonosis (22 BBY)
 
-*Attack of the Clones* (2002) picks up a decade later. Count Dooku — a former Jedi Master, secretly Darth Tyranus — is pulling thousands of systems out of the Republic into a Confederacy of Independent Systems. Investigating an assassination attempt on Senator Padmé Amidala, Obi-Wan finds an army of clone troopers on Kamino, commissioned in the Republic's name a decade earlier by a Jedi who had been dead for years.
+*Attack of the Clones* (2002) picks up a decade later. Count Dooku, a former Jedi Master, secretly Darth Tyranus, is pulling thousands of systems out of the Republic into a Confederacy of Independent Systems. Investigating an assassination attempt on Senator Padmé Amidala, Obi-Wan finds an army of clone troopers on Kamino, commissioned in the Republic's name a decade earlier by a Jedi who had been dead for years.
 
-The film ends on Geonosis. A Jedi rescue party is overwhelmed in the execution arena, the newly delivered clone army arrives to save them, and the resulting battle begins the **Clone Wars**.[^wookieepediaTCW] Yoda's closing line — that the war has begun — is the starting gun for the animated series. Two quieter events matter as much: Anakin slaughters a Tusken camp in revenge for his mother's death, and he and Padmé marry in secret.
+The film ends on Geonosis. A Jedi rescue party is overwhelmed in the execution arena, the newly delivered clone army arrives to save them, and the resulting battle begins the **Clone Wars**.[^wookieepediaTCW] Yoda's closing line, that the war has begun, is the starting gun for the animated series. Two quieter events matter as much: Anakin slaughters a Tusken camp in revenge for his mother's death, and he and Padmé marry in secret.
 
 ## The Clone Wars (22–19 BBY)
 
 *Star Wars: The Clone Wars* occupies the gap between Episodes II and III, and it is by some distance the densest stretch of this timeline. Wookieepedia places the series across 22 BBY to 19 BBY.[^wookieepediaTCW]
 
-The 2008 theatrical film functions as the series pilot — it was assembled from four completed episodes, including the one introducing **Ahsoka Tano** as Anakin's Padawan.[^wikipediaTCW] Because the show was produced non-linearly and episodes were routinely held back between seasons, broadcast order does not track story order; Lucasfilm eventually published an official chronological episode order to resolve this.[^wikipediaTCW] The practical consequence is that seasons do not map onto in-world years at all — 20 BBY alone draws on seasons three, four, and five.[^glazebrook2026] The subsections below follow the years, not the seasons.
+The 2008 theatrical film functions as the series pilot; it was assembled from four completed episodes, including the one introducing **Ahsoka Tano** as Anakin's Padawan.[^wikipediaTCW] Because the show was produced non-linearly and episodes were routinely held back between seasons, broadcast order does not track story order; Lucasfilm eventually published an official chronological episode order to resolve this.[^wikipediaTCW] The practical consequence is that seasons do not map onto in-world years at all; 20 BBY alone draws on seasons three, four, and five.[^glazebrook2026] The subsections below follow the years, not the seasons.
 
 ### Year one (22 BBY)
 
@@ -39,7 +39,7 @@ Chronologically the series opens not with the pilot film but with two later-aire
 
 ### Year two (21 BBY)
 
-The second year begins with "Blue Shadow Virus" (1x17), in which a Separatist-backed scientist attempts to weaponize an extinct plague on Naboo.[^glazebrook2026] The year covers the liberation of Ryloth, the Zillo Beast on Malastare, the Second Battle of Geonosis, and the return of a young Boba Fett — now under Aurra Sing — hunting Mace Windu in revenge for his father's death on Geonosis.
+The second year begins with "Blue Shadow Virus" (1x17), in which a Separatist-backed scientist attempts to weaponize an extinct plague on Naboo.[^glazebrook2026] The year covers the liberation of Ryloth, the Zillo Beast on Malastare, the Second Battle of Geonosis, and the return of a young Boba Fett, now under Aurra Sing, hunting Mace Windu in revenge for his father's death on Geonosis.
 
 Its most consequential thread is Mandalore. Duchess Satine Kryze, a pacifist ruler and Obi-Wan's former attachment, is introduced alongside **Death Watch**, the splinter terrorist group secretly allied with the Separatists. The year ends with "Senate Murders" (2x15).[^glazebrook2026]
 
@@ -47,23 +47,23 @@ Its most consequential thread is Mandalore. Duchess Satine Kryze, a pacifist rul
 
 The longest stretch: forty-five episodes running from "Nightsisters" (3x12) to "Point of No Return" (5x13), and the point at which the series turns markedly darker.[^glazebrook2026] Dooku's attempt to kill his apprentice Asajj Ventress drives her back to the Nightsisters of Dathomir, which introduces that Force tradition to canon and ends with the revelation that **Maul** survived *The Phantom Menace*.
 
-This year also holds the Mortis arc — a symbolic confrontation with the Chosen One prophecy — the assault on the Citadel, where Anakin and a young Wilhuff Tarkin first meet, and Ahsoka's abduction by Trandoshan hunters alongside a young Chewbacca. On Onderon, Anakin trains **Saw Gerrera** in insurgent warfare, seeding a character who reappears twenty in-world years later in *Rogue One*.[^glazebrook2026]
+This year also holds the Mortis arc, a symbolic confrontation with the Chosen One prophecy, the assault on the Citadel, where Anakin and a young Wilhuff Tarkin first meet, and Ahsoka's abduction by Trandoshan hunters alongside a young Chewbacca. On Onderon, Anakin trains **Saw Gerrera** in insurgent warfare, seeding a character who reappears twenty in-world years later in *Rogue One*.[^glazebrook2026]
 
 ### Year four, to Order 66 (19 BBY)
 
 Thirty installments run from "Revival" (5x01) to "Old Friends Not Forgotten" (7x09).[^glazebrook2026] Maul takes his brother as an apprentice and assembles the Shadow Collective around Death Watch, seizes Mandalore, kills Satine in front of Obi-Wan, and is defeated and imprisoned by Sidious personally.
 
-Two developments matter most for what follows. Ahsoka is framed for a bombing at the Jedi Temple, expelled, tried, and exonerated — and then refuses to rejoin the Order, walking away from the Jedi entirely. Separately, the clone trooper Fives discovers the **inhibitor chips** implanted in every clone's brain and pre-programmed with Order 66; he is killed before he can expose Palpatine's design.[^glazebrook2026] Season six, released as *The Lost Missions*, carries this thread alongside Yoda's Force-vision quest, in which he learns to persist after death — the mechanism that keeps the Jedi line alive across the original trilogy.[^glazebrook2026]
+Two developments matter most for what follows. Ahsoka is framed for a bombing at the Jedi Temple, expelled, tried, and exonerated, and then refuses to rejoin the Order, walking away from the Jedi entirely. Separately, the clone trooper Fives discovers the **inhibitor chips** implanted in every clone's brain and pre-programmed with Order 66; he is killed before he can expose Palpatine's design.[^glazebrook2026] Season six, released as *The Lost Missions*, carries this thread alongside Yoda's Force-vision quest, in which he learns to persist after death, the mechanism that keeps the Jedi line alive across the original trilogy.[^glazebrook2026]
 
 ### The Siege of Mandalore (19 BBY)
 
-Season seven's closing four-part arc was written to run parallel to *Revenge of the Sith*.[^wikipediaSiege] Ahsoka and Captain Rex lead a Republic force to retake Mandalore from Maul while, elsewhere, the Republic collapses. The arc's first episode, "Old Friends Not Forgotten," shows Anakin and Obi-Wan diverting to rescue Palpatine from Grievous — which is the opening scene of *Revenge of the Sith*, viewed from the other side.
+Season seven's closing four-part arc was written to run parallel to *Revenge of the Sith*.[^wikipediaSiege] Ahsoka and Captain Rex lead a Republic force to retake Mandalore from Maul while, elsewhere, the Republic collapses. The arc's first episode, "Old Friends Not Forgotten," shows Anakin and Obi-Wan diverting to rescue Palpatine from Grievous, which is the opening scene of *Revenge of the Sith*, viewed from the other side.
 
 Order 66 reaches Ahsoka mid-mission. Rex, whose chip she manages to remove, helps her escape; the two fake their deaths and part.[^glazebrook2026] The series closes on Darth Vader walking the wreckage of their ship years later and recovering Ahsoka's discarded lightsaber.
 
 ## The fall of the Republic (19 BBY)
 
-*Revenge of the Sith* (2005) resolves the war and the trilogy at once. Palpatine reveals himself to Anakin as Darth Sidious; Mace Windu's attempt to arrest him gives Anakin the moment of choice the whole prequel trilogy has built toward, and he chooses wrongly. Order 66 executes across the galaxy simultaneously, the clone troopers turning on their Jedi commanders. Anakin becomes **Darth Vader**, the Republic is reconstituted as the Galactic Empire to a standing ovation in the Senate, and Padmé dies giving birth to twins who are hidden separately — Leia on Alderaan, Luke on Tatooine.
+*Revenge of the Sith* (2005) resolves the war and the trilogy at once. Palpatine reveals himself to Anakin as Darth Sidious; Mace Windu's attempt to arrest him gives Anakin the moment of choice the whole prequel trilogy has built toward, and he chooses wrongly. Order 66 executes across the galaxy simultaneously, the clone troopers turning on their Jedi commanders. Anakin becomes **Darth Vader**, the Republic is reconstituted as the Galactic Empire to a standing ovation in the Senate, and Padmé dies giving birth to twins who are hidden separately, Leia on Alderaan and Luke on Tatooine.
 
 The film interlocks tightly with *The Clone Wars* by design: its opening rescue is the same event that pulls Anakin and Obi-Wan away from the Siege of Mandalore, and Order 66 lands on both stories at the same instant.[^wikipediaSiege]
 
@@ -77,33 +77,33 @@ The season moves in four three-episode arcs: Cassian kills two corporate securit
 
 *Andor* season two (2025) covers four years in four three-episode arcs, each jumping roughly a year: 4 BBY, 3 BBY, 2 BBY, and 1 BBY.[^mercuri2025] The opening episode is titled "One Year Later" and confirms the 4 BBY placement outright.[^roark2025]
 
-**4 BBY.** Cassian steals an experimental TIE prototype. An Imperial planning meeting establishes that the Empire wants Ghorman's mineral deposits for the Death Star's reactor lenses, with Orson Krennic running the project — the first time this timeline's two halves visibly converge.[^comicbook2025] Mon Mothma's daughter is married on Chandrila, and Mothma's position grows less tenable.
+**4 BBY.** Cassian steals an experimental TIE prototype. An Imperial planning meeting establishes that the Empire wants Ghorman's mineral deposits for the Death Star's reactor lenses, with Orson Krennic running the project, the first time this timeline's two halves visibly converge.[^comicbook2025] Mon Mothma's daughter is married on Chandrila, and Mothma's position grows less tenable.
 
 **3 BBY.** The occupation of Ghorman tightens and a local resistance forms. The episode "Ever Been to Ghorman?" dates itself explicitly to this year.[^wookieepediaEscape]
 
-**2 BBY.** The **Ghorman Massacre**: Imperial forces fire on a staged protest in Ghorman Plaza. Mon Mothma responds by denouncing Palpatine on the Senate floor as the author of a genocide, then flees the building with Cassian's help — the defection that makes her the Rebel Alliance's public leader.[^slashfilm2025]
+**2 BBY.** The **Ghorman Massacre**: Imperial forces fire on a staged protest in Ghorman Plaza. Mon Mothma responds by denouncing Palpatine on the Senate floor as the author of a genocide, then flees the building with Cassian's help, the defection that makes her the Rebel Alliance's public leader.[^slashfilm2025]
 
 **1 BBY.** The Alliance consolidates while Luthen's network unravels. The season ends days before *Rogue One* begins, with the Death Star's existence confirmed and the intelligence route to Jyn Erso's father in place.
 
 ## The theft of the Death Star plans (0 BBY)
 
-*Rogue One* (2016) dramatizes the single sentence of *A New Hope*'s opening crawl about rebel spies stealing the Death Star plans.[^starwars2016] Jyn Erso is recovered from an Imperial labor camp because the Alliance wants access to Saw Gerrera, who raised her, and through him to her father Galen — the engineer conscripted to build the weapon, who has deliberately designed a flaw into it.
+*Rogue One* (2016) dramatizes the single sentence of *A New Hope*'s opening crawl about rebel spies stealing the Death Star plans.[^starwars2016] Jyn Erso is recovered from an Imperial labor camp because the Alliance wants access to Saw Gerrera, who raised her, and through him to her father Galen, the engineer conscripted to build the weapon, who has deliberately designed a flaw into it.
 
 When the Alliance council deadlocks rather than act on unverifiable intelligence, Jyn, Cassian, and a volunteer squad go to Scarif without authorization. Every member of the ground team dies; the plans are transmitted off-planet and reach Princess Leia's ship in the film's final minutes. Some reference works date the run-up to 1 BBY rather than 0 BBY, so this boundary is soft.[^wookieepediaEscape]
 
 ## The Battle of Yavin (0 BBY)
 
-*A New Hope* (1977) begins minutes after *Rogue One* ends, with Leia's ship boarded above Tatooine.[^wikipediaOT] The droids carrying the plans reach Luke Skywalker; Obi-Wan Kenobi, living as a hermit, gives Luke his father's lightsaber and a heavily edited account of how he died. The Empire destroys Alderaan to demonstrate the station's power, Obi-Wan dies aboard the Death Star at Vader's hand, and the Alliance exploits Galen Erso's designed flaw to destroy it — the **Battle of Yavin**, the event the entire dating system is anchored to.
+*A New Hope* (1977) begins minutes after *Rogue One* ends, with Leia's ship boarded above Tatooine.[^wikipediaOT] The droids carrying the plans reach Luke Skywalker; Obi-Wan Kenobi, living as a hermit, gives Luke his father's lightsaber and a heavily edited account of how he died. The Empire destroys Alderaan to demonstrate the station's power, Obi-Wan dies aboard the Death Star at Vader's hand, and the Alliance exploits Galen Erso's designed flaw to destroy it, the **Battle of Yavin**, the event the entire dating system is anchored to.
 
 ## Hoth, Dagobah, and Bespin (3 ABY)
 
-*The Empire Strikes Back* (1980) is set roughly three years later.[^indypl] The Empire locates and overruns the Alliance base on Hoth. Luke trains with **Yoda** on Dagobah and abandons the training early — against explicit warning — to rescue his friends. Han Solo is frozen in carbonite on Bespin and handed to Boba Fett for delivery to Jabba the Hutt. Vader tells Luke he is his father, which retroactively converts the prequel trilogy from backstory into the setup for this scene, and Luke loses his hand and nearly his life. Nothing is resolved; this is the one film in the set that ends in defeat.
+*The Empire Strikes Back* (1980) is set roughly three years later.[^indypl] The Empire locates and overruns the Alliance base on Hoth. Luke trains with **Yoda** on Dagobah and abandons the training early, against explicit warning, to rescue his friends. Han Solo is frozen in carbonite on Bespin and handed to Boba Fett for delivery to Jabba the Hutt. Vader tells Luke he is his father, which retroactively converts the prequel trilogy from backstory into the setup for this scene, and Luke loses his hand and nearly his life. Nothing is resolved; this is the one film in the set that ends in defeat.
 
 ## Endor and the fall of the Empire (4 ABY)
 
 *Return of the Jedi* (1983) opens with the rescue of Han from Jabba's palace on Tatooine and closes on the forest moon of Endor.[^indypl] Yoda dies, confirming Vader's claim and revealing that Leia is Luke's twin. The Alliance attacks a second Death Star under construction, which turns out to be an operational trap.
 
-Luke surrenders himself, refuses to kill his father, and is nearly killed by the Emperor for it; Vader intervenes, kills Palpatine, and dies redeemed. The station is destroyed and the Empire's command structure collapses with it. The Skywalker story that began with a nine-year-old on Tatooine in 32 BBY ends here, thirty-six in-world years later — and, in real-world terms, twenty-two years before the film that started it.
+Luke surrenders himself, refuses to kill his father, and is nearly killed by the Emperor for it; Vader intervenes, kills Palpatine, and dies redeemed. The station is destroyed and the Empire's command structure collapses with it. The Skywalker story that began with a nine-year-old on Tatooine in 32 BBY ends here, thirty-six in-world years later, and, in real-world terms, twenty-two years before the film that started it.
 
 ## Where the dates are soft
 

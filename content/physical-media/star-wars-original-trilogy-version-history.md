@@ -9,23 +9,23 @@ tags:
   - restoration
 ---
 
-There is no single **original** *Star Wars* in official circulation. Between 1977 and 2019, George Lucas revised Episodes IV–VI at least six times — adding computer-generated shots, replacing performances and musical numbers, altering dialogue, and in one much-argued case reversing who shoots first in a cantina. Each revision superseded the last on home video, and the unaltered theatrical cuts were withdrawn. This entry documents that revision history film by film, the **Special Edition** controversy that made it contentious, the two major fan restoration projects that grew out of it, and Disney's announced 2027 return to the 1977 cut.
+There is no single **original** *Star Wars* in official circulation. Between 1977 and 2019, George Lucas revised Episodes IV–VI at least six times, adding computer-generated shots, replacing performances and musical numbers, altering dialogue, and in one much-argued case reversing who shoots first in a cantina. Each revision superseded the last on home video, and the unaltered theatrical cuts were withdrawn. This entry documents that revision history film by film, the **Special Edition** controversy that made it contentious, the two major fan restoration projects that grew out of it, and Disney's announced 2027 return to the 1977 cut.
 
-Scope is the original trilogy only; the prequel and sequel trilogies have their own separate revision histories. The entry documents changes that distinguish one release from the previous one, not every catalogued edit — *Return of the Jedi* alone has drawn dozens.
+Scope is the original trilogy only; the prequel and sequel trilogies have their own separate revision histories. The entry documents changes that distinguish one release from the previous one, not every catalogued edit; *Return of the Jedi* alone has drawn dozens.
 
 ## The theatrical releases (1977–1983)
 
-*Star Wars* opened in May 1977 with no episode number in its opening crawl. Lucasfilm corrected four effects shots and reformatted the closing credits for wide-release prints, which makes even the 1977 material non-uniform.[^gizmodo2025] The 1981 theatrical re-release added the subtitle "Episode IV: A NEW HOPE" to the crawl and capitalized the word "Rebel" — the first substantive change to the film's text.[^wookieepediaChanges]
+*Star Wars* opened in May 1977 with no episode number in its opening crawl. Lucasfilm corrected four effects shots and reformatted the closing credits for wide-release prints, which makes even the 1977 material non-uniform.[^gizmodo2025] The 1981 theatrical re-release added the subtitle "Episode IV: A NEW HOPE" to the crawl and capitalized the word "Rebel", the first substantive change to the film's text.[^wookieepediaChanges]
 
 *The Empire Strikes Back* (1980) and *Return of the Jedi* (1983) followed unmodified, though the former's 70mm and 35mm prints differ in small audio and visual respects: the Emperor's hologram does not fade in on one, and a Lando line is cut from some prints.[^screenrant2019] *Return of the Jedi* remained unaltered until 1997.[^screenrant2019]
 
-The 1993 *Definitive Collection* LaserDisc issued a new audio mix combining elements of all three original tracks.[^gizmodo2025] This master matters more than its format suggests, because it became the basis for every later attempt — official and unofficial — to present the original cuts.
+The 1993 *Definitive Collection* LaserDisc issued a new audio mix combining elements of all three original tracks.[^gizmodo2025] This master matters more than its format suggests, because it became the basis for every later attempt, official and unofficial, to present the original cuts.
 
 ## The Special Editions (1997)
 
 For the trilogy's twentieth anniversary Lucas returned to all three films, adding CGI creatures, restored deleted material, and new establishing shots. The stated motive was partly technical: the Special Editions doubled as a proving ground for visual-effects techniques Lucasfilm intended to use on the forthcoming prequel trilogy.[^comicbook2026]
 
-The changes are unevenly distributed. *A New Hope* gained new CGI creatures on Tatooine and a restored Jabba the Hutt scene.[^comicbook2026] *The Empire Strikes Back* received the subtlest treatment — roughly thirty interior Cloud City shots gained new windows opening onto a CGI exterior cityscape.[^comicbook2026] *Return of the Jedi* got the heaviest: the Jabba's-palace number "Lapti Nek" was replaced with the new "Jedi Rocks," the Sarlacc pit was redone with CGI, the Ewok celebration song "Yub Nub" was replaced by a new John Williams score, and the studio logos were updated.[^cbr2023][^farrington2016]
+The changes are unevenly distributed. *A New Hope* gained new CGI creatures on Tatooine and a restored Jabba the Hutt scene.[^comicbook2026] *The Empire Strikes Back* received the subtlest treatment, with roughly thirty interior Cloud City shots gained new windows opening onto a CGI exterior cityscape.[^comicbook2026] *Return of the Jedi* got the heaviest: the Jabba's-palace number "Lapti Nek" was replaced with the new "Jedi Rocks," the Sarlacc pit was redone with CGI, the Ewok celebration song "Yub Nub" was replaced by a new John Williams score, and the studio logos were updated.[^cbr2023][^farrington2016]
 
 ### The Greedo revision
 
@@ -41,19 +41,19 @@ Each subsequent home-video generation carried further edits.
 
 The 2004 DVD release aimed at continuity with the prequels, which were by then complete. *A New Hope* received further digital work on Jabba.[^screenrant2019] In *The Empire Strikes Back*, Ian McDiarmid was inserted as the Emperor, replacing Clive Revill's voice performance and Marjorie Eaton's masked appearance.[^screenrant2019] In *Return of the Jedi*, Anakin Skywalker's eyebrows were digitally removed so that Hayden Christensen's Force-ghost appearance would match *Revenge of the Sith*, and the victory celebration was extended to further worlds including Naboo and Coruscant's Jedi Temple and Senate.[^farrington2016][^screenrant2022] This release also carries lightsaber-color errors and a magenta color cast.
 
-The 2011 Blu-ray *Complete Saga* added audio changes — Obi-Wan's krayt dragon call in *A New Hope* was replaced[^gizmodo2025] — and gave Vader two spoken "No!"s before he throws the Emperor down the shaft in *Return of the Jedi*, a line imported from *Revenge of the Sith*.[^cbr2023]
+The 2011 Blu-ray *Complete Saga* added audio changes, since Obi-Wan's krayt dragon call in *A New Hope* was replaced[^gizmodo2025], and gave Vader two spoken "No!"s before he throws the Emperor down the shaft in *Return of the Jedi*, a line imported from *Revenge of the Sith*.[^cbr2023]
 
 The 2019 4K Ultra HD and Disney+ releases continued the pattern with further minor edits, including the added Greedo line.[^scifi2025]
 
 ## The 2006 bonus discs
 
-The one official release of the pre-1997 cuts came in 2006, as a bonus disc packaged with that year's DVDs. It removed the "Episode IV" subtitle and restored the original starfield, but it was mastered from the 1993 LaserDisc rather than from the original negatives — a standard-definition, non-anamorphic transfer of a thirteen-year-old video master, not a restoration.[^wookieepediaChanges] It went out of print.
+The one official release of the pre-1997 cuts came in 2006, as a bonus disc packaged with that year's DVDs. It removed the "Episode IV" subtitle and restored the original starfield, but it was mastered from the 1993 LaserDisc rather than from the original negatives, a standard-definition, non-anamorphic transfer of a thirteen-year-old video master, not a restoration.[^wookieepediaChanges] It went out of print.
 
 Lucasfilm's position for years afterward was that a true restoration of the theatrical cuts was not commercially viable, and Lucas argued publicly against releasing them.[^bleedingfool2026] That gap between demand and supply is what the fan projects below exist to fill.
 
 ## Fan restorations
 
-Two unofficial projects rebuilt the pre-1997 cuts by different technical routes. Neither is sold, and neither has drawn legal action from Lucasfilm or Disney — though that has been documented specifically for the Despecialized Edition rather than for both.[^hosie2015]
+Two unofficial projects rebuilt the pre-1997 cuts by different technical routes. Neither is sold, and neither has drawn legal action from Lucasfilm or Disney, though that has been documented specifically for the Despecialized Edition rather than for both.[^hosie2015]
 
 ### Project 4K77
 
@@ -61,17 +61,17 @@ Project 4K77 aims to restore the 1977 cut of *A New Hope* in native 4K from film
 
 ### Harmy's Despecialized Edition
 
-Petr "Harmy" Harmáček, a Czech fan, began the Despecialized Edition in 2010 in the conviction that the alterations amounted to cultural vandalism.[^harmyWiki] The approach is the inverse of 4K77's: rather than scanning film, it reconstructs the original cuts by compositing existing digital sources — principally the 2011 Blu-ray, supplemented by the 1993 LaserDisc and the 2006 DVD bonus material — shot by shot, with frame-by-frame color correction and rotoscoping.[^harmyWiki] Harmáček worked with a team of eight other fans and taught himself the necessary tools during the project.[^harmyWiki] He asks that the files be shared only among people who own the official releases.[^hosie2015]
+Petr "Harmy" Harmáček, a Czech fan, began the Despecialized Edition in 2010 in the conviction that the alterations amounted to cultural vandalism.[^harmyWiki] The approach is the inverse of 4K77's: rather than scanning film, it reconstructs the original cuts by compositing existing digital sources, principally the 2011 Blu-ray, supplemented by the 1993 LaserDisc and the 2006 DVD bonus material, shot by shot, with frame-by-frame color correction and rotoscoping.[^harmyWiki] Harmáček worked with a team of eight other fans and taught himself the necessary tools during the project.[^harmyWiki] He asks that the files be shared only among people who own the official releases.[^hosie2015]
 
 The two produce visibly different results. 4K77 looks more filmic but carries a green-yellow cast from print aging; the Despecialized Edition is more uniform in some respects but varies shot to shot, since it starts from already-processed transfers.[^htf2026]
 
 ## The 2027 theatrical return
 
-In 2026 Disney announced that the unaltered 1977 version will screen theatrically on 19 February 2027, the film's fiftieth anniversary — with Han shooting first and none of the added CGI.[^bleedingfool2026] This reverses a position Lucas had defended for years.[^bleedingfool2026]
+In 2026 Disney announced that the unaltered 1977 version will screen theatrically on 19 February 2027, the film's fiftieth anniversary, with Han shooting first and none of the added CGI.[^bleedingfool2026] This reverses a position Lucas had defended for years.[^bleedingfool2026]
 
 ## Version reference
 
-### Episode IV — A New Hope
+### Episode IV - A New Hope
 
 | Year | Version | Distinguishing change |
 |---|---|---|
@@ -86,7 +86,7 @@ In 2026 Disney announced that the unaltered 1977 version will screen theatricall
 | 2019 | 4K UHD / Disney+ | New line added to Greedo scene[^scifi2025] |
 | 2027 | Unaltered 1977 cut (planned) | True original returns theatrically[^bleedingfool2026] |
 
-### Episode V — The Empire Strikes Back
+### Episode V - The Empire Strikes Back
 
 | Year | Version | Distinguishing change |
 |---|---|---|
@@ -97,7 +97,7 @@ In 2026 Disney announced that the unaltered 1977 version will screen theatricall
 | 2011 | Complete Saga (Blu-ray) | Further minor audio and visual edits |
 | 2019 | 4K UHD / Disney+ | Further minor edits |
 
-### Episode VI — Return of the Jedi
+### Episode VI - Return of the Jedi
 
 | Year | Version | Distinguishing change |
 |---|---|---|
@@ -114,7 +114,7 @@ In 2026 Disney announced that the unaltered 1977 version will screen theatricall
 | Goal | 1977 cut of *A New Hope* in native 4K[^project4k77] | All three 1977–1983 cuts in HD[^harmyWiki] |
 | Main source | Single 1977 35mm Technicolor print[^project4k77] | 2011 Blu-ray, plus 1993 LaserDisc and 2006 DVD[^harmyWiki] |
 | Method | 4K film scan and digital cleanup[^project4k77] | Frame-by-frame compositing, color correction, rotoscoping[^harmyWiki] |
-| Team | Team Negative 1 — fans, not professionals[^project4k77] | Harmáček and eight collaborators[^harmyWiki] |
+| Team | Team Negative 1, fans, not professionals[^project4k77] | Harmáček and eight collaborators[^harmyWiki] |
 | Started | Follows an earlier scan, The Silver Screen Edition | 2010[^harmyWiki] |
 | Look | Filmic; green-yellow cast from print aging[^htf2026] | Varies shot to shot; starts from processed transfers[^htf2026] |
 

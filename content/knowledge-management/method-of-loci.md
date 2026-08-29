@@ -14,41 +14,41 @@ This entry covers what the technique does, why it works, what the evidence suppo
 
 ## Origin
 
-The technique is attributed to the Greek poet Simonides of Ceos (5th century BCE), who reportedly identified crushed banquet victims by recalling where each had sat. Roman rhetoric codified it — the *Rhetorica ad Herennium* (~80 BCE), Cicero's *De Oratore*, and Quintilian's *Institutio Oratoria* all treat it as standard training for orators delivering long speeches from memory. The historical lineage is brief context; the scientific case stands on modern evidence.
+The technique is attributed to the Greek poet Simonides of Ceos (5th century BCE), who reportedly identified crushed banquet victims by recalling where each had sat. Roman rhetoric codified it; the *Rhetorica ad Herennium* (~80 BCE), Cicero's *De Oratore*, and Quintilian's *Institutio Oratoria* all treat it as standard training for orators delivering long speeches from memory. The historical lineage is brief context; the scientific case stands on modern evidence.
 
 ## What works
 
 ### Effect sizes
 
-A meta-analysis of 13 randomized controlled trials found a medium overall effect of MoL training on recall (Hedges' g = 0.65, 95% CI [0.45, 0.85]), robust to publication-bias adjustments.[^twomey2021] A subsequent systematic review and meta-analysis reported a large effect for immediate serial recall against rehearsal controls (d = 0.88, 95% CI [0.47, 1.25]).[^ondrej2025] Both reviews grade the underlying evidence low quality — small samples, university convenience populations, weak randomization reporting — so the direction is well-supported while the magnitudes carry uncertainty.
+A meta-analysis of 13 randomized controlled trials found a medium overall effect of MoL training on recall (Hedges' g = 0.65, 95% CI [0.45, 0.85]), robust to publication-bias adjustments.[^twomey2021] A subsequent systematic review and meta-analysis reported a large effect for immediate serial recall against rehearsal controls (d = 0.88, 95% CI [0.47, 1.25]).[^ondrej2025] Both reviews grade the underlying evidence low quality, citing small samples, university convenience populations, and weak randomization reporting, so the direction is well-supported while the magnitudes carry uncertainty.
 
 ### Training studies
 
-The strongest single demonstration randomized mnemonics-naïve adults to six weeks of daily MoL training (~30 minutes/day), an active working-memory-training control, or no training.[^dresler2017] The MoL group more than doubled free recall — from an average of 26 to 62 words out of 72 — against gains of 11 and 7 words in the control arms, and the improvement persisted at four months only in the MoL group. A follow-up with the same paradigm found MoL training specifically increased *durable* memories (recalled at both 20 minutes and 24 hours) and reduced forgetting, while working-memory training produced no significant memory gain.[^wagner2021]
+The strongest single demonstration randomized mnemonics-naïve adults to six weeks of daily MoL training (~30 minutes/day), an active working-memory-training control, or no training.[^dresler2017] The MoL group more than doubled free recall, from an average of 26 to 62 words out of 72, against gains of 11 and 7 words in the control arms, and the improvement persisted at four months only in the MoL group. A follow-up with the same paradigm found MoL training specifically increased *durable* memories (recalled at both 20 minutes and 24 hours) and reduced forgetting, while working-memory training produced no significant memory gain.[^wagner2021]
 
 ### Expert evidence
 
-A study of ten superior memorizers, including eight World Memory Championship competitors, found nine of ten used the method of loci.[^maguire2003] They showed no advantage in verbal IQ or matrix reasoning over matched controls and no structural brain differences — superior memory was an acquired strategy, not innate endowment.
+A study of ten superior memorizers, including eight World Memory Championship competitors, found nine of ten used the method of loci.[^maguire2003] They showed no advantage in verbal IQ or matrix reasoning over matched controls and no structural brain differences; superior memory was an acquired strategy, not innate endowment.
 
 ### Where it fails
 
-Gains are material-specific and do not transfer. The technique suits discrete, ordered material — word lists, speeches, digits, card decks — and requires several seconds of encoding per item, making it too slow for rapid-presentation span tasks.[^ondrej2025] The canonical case study of digit-span training (subject SF, span 7 to 79 over two years) collapsed to baseline when the material switched from digits to letters.[^ericsson1980] No study shows transfer to fluid intelligence, general working memory, or untrained domains.
+Gains are material-specific and do not transfer. The technique suits discrete, ordered material, such as word lists, speeches, digits, and card decks, and requires several seconds of encoding per item, making it too slow for rapid-presentation span tasks.[^ondrej2025] The canonical case study of digit-span training (subject SF, span 7 to 79 over two years) collapsed to baseline when the material switched from digits to letters.[^ericsson1980] No study shows transfer to fluid intelligence, general working memory, or untrained domains.
 
 ## Why it works
 
 ### Spatial memory as substrate
 
-The hippocampus contains **place cells** that fire at specific locations, and the entorhinal cortex contains **grid cells** forming a hexagonal coordinate system — the discoveries recognized by the 2014 Nobel Prize in Physiology or Medicine.[^okeefe1978] This spatial machinery is evolutionarily ancient and also underpins episodic memory. MoL routes arbitrary information through the brain's most powerful indexing system: instead of storing a weak abstract list, the learner stores a strong spatial-episodic trace.
+The hippocampus contains **place cells** that fire at specific locations, and the entorhinal cortex contains **grid cells** forming a hexagonal coordinate system, the discoveries recognized by the 2014 Nobel Prize in Physiology or Medicine.[^okeefe1978] This spatial machinery is evolutionarily ancient and also underpins episodic memory. MoL routes arbitrary information through the brain's most powerful indexing system: instead of storing a weak abstract list, the learner stores a strong spatial-episodic trace.
 
 ### Dual coding
 
-Pictures are remembered roughly twice as well as words, an advantage attributed to encoding in both a verbal and an imaginal system.[^nelson1976] MoL exploits both channels plus spatial context. The precise mechanism remains contested — recent work argues distinctiveness rather than dual coding explains the picture-superiority effect — but the effect itself is robust.
+Pictures are remembered roughly twice as well as words, an advantage attributed to encoding in both a verbal and an imaginal system.[^nelson1976] MoL exploits both channels plus spatial context. The precise mechanism remains contested, since recent work argues distinctiveness rather than dual coding explains the picture-superiority effect, but the effect itself is robust.
 
 ### Neuroimaging convergence
 
-Superior memorizers preferentially engage left medial/superior parietal cortex, bilateral retrosplenial cortex, and right posterior hippocampus during encoding, regardless of material.[^maguire2003] Six weeks of MoL training shifts novices' resting-state brain connectivity toward the memory-athlete pattern, with the shift correlating with performance gains.[^dresler2017] Trained participants and athletes alike show activation *decreases* in lateral prefrontal, parahippocampal, and retrosplenial cortices during the task — interpreted as neural efficiency rather than greater effort.[^wagner2021]
+Superior memorizers preferentially engage left medial/superior parietal cortex, bilateral retrosplenial cortex, and right posterior hippocampus during encoding, regardless of material.[^maguire2003] Six weeks of MoL training shifts novices' resting-state brain connectivity toward the memory-athlete pattern, with the shift correlating with performance gains.[^dresler2017] Trained participants and athletes alike show activation *decreases* in lateral prefrontal, parahippocampal, and retrosplenial cortices during the task, interpreted as neural efficiency rather than greater effort.[^wagner2021]
 
-The adjacent London taxi-driver literature — enlarged posterior hippocampi from acquiring "the Knowledge"[^maguire2000] and longitudinal structural change in qualifying trainees[^woollett2011] — demonstrates spatial-memory plasticity but is navigation research, not MoL. Memory athletes show no such structural enlargement; MoL expertise reshapes function, not gross anatomy.[^maguire2003]
+The adjacent London taxi-driver literature, covering enlarged posterior hippocampi from acquiring "the Knowledge"[^maguire2000] and longitudinal structural change in qualifying trainees[^woollett2011], demonstrates spatial-memory plasticity but is navigation research, not MoL. Memory athletes show no such structural enlargement; MoL expertise reshapes function, not gross anatomy.[^maguire2003]
 
 ## Clinical scope
 
@@ -58,11 +58,11 @@ Mnemonic strategy training built on MoL principles improves trained-task perform
 
 ### Build the palace
 
-Choose a place known thoroughly — home, commute, workplace. Fix an ordered route through it with 10–20 distinct stops (loci): front door, hallway, kitchen counter, and so on. The route must be over-learned; hesitation at recall time means the palace itself is competing for the effort the images need.
+Choose a place known thoroughly, such as home, commute, or workplace. Fix an ordered route through it with 10–20 distinct stops (loci): front door, hallway, kitchen counter, and so on. The route must be over-learned; hesitation at recall time means the palace itself is competing for the effort the images need.
 
 ### Encode items as images
 
-Convert each item into a concrete, vivid, preferably exaggerated or absurd image, and place it at a locus with interaction — the image should *do something* to the location. Encoding takes several seconds per item; this is the technique's fixed cost and the reason it fails under time pressure.[^ondrej2025]
+Convert each item into a concrete, vivid, preferably exaggerated or absurd image, and place it at a locus with interaction; the image should *do something* to the location. Encoding takes several seconds per item; this is the technique's fixed cost and the reason it fails under time pressure.[^ondrej2025]
 
 ```text
 Grocery list, apartment route:
@@ -75,7 +75,7 @@ Grocery list, apartment route:
 
 ### Recall by walking
 
-Mentally traverse the route in order. Each locus cues its image; each image decodes to its item. A skipped locus is a visible gap — the route provides both order and an error check.
+Mentally traverse the route in order. Each locus cues its image; each image decodes to its item. A skipped locus is a visible gap; the route provides both order and an error check.
 
 ### Reuse and interference
 
@@ -83,11 +83,11 @@ The same palace reused too quickly for new material produces collisions between 
 
 ### Pair with spaced retrieval
 
-MoL solves encoding; it does not solve forgetting. The trained gains that persisted at four months came from a regimen of daily *practice* — repeated retrieval — not from single exposure.[^dresler2017] Walking the palace on a spaced schedule is retrieval practice applied to the structure, and durable retention depends on it.
+MoL solves encoding; it does not solve forgetting. The trained gains that persisted at four months came from a regimen of daily *practice*, repeated retrieval, not from single exposure.[^dresler2017] Walking the palace on a spaced schedule is retrieval practice applied to the structure, and durable retention depends on it.
 
 ### Expectations
 
-Appropriate uses: ordered lists, speeches, vocabulary, exam facts such as anatomy or pharmacology sequences. Inappropriate expectations: raising IQ, improving working memory broadly, preventing dementia, or transferring to unpracticed material — the evidence contradicts all four.[^ondrej2025] [^rebok2014]
+Appropriate uses: ordered lists, speeches, vocabulary, exam facts such as anatomy or pharmacology sequences. Inappropriate expectations: raising IQ, improving working memory broadly, preventing dementia, or transferring to unpracticed material; the evidence contradicts all four.[^ondrej2025] [^rebok2014]
 
 [^dresler2017]: Dresler, M., Shirer, W. R., Konrad, B. N., Müller, N. C. J., Wagner, I. C., Fernández, G., Czisch, M., & Greicius, M. D. (2017). Mnemonic training reshapes brain networks to support superior memory. *Neuron, 93*(5), 1227–1235.e6. [https://doi.org/10.1016/j.neuron.2017.02.003](https://doi.org/10.1016/j.neuron.2017.02.003)
 [^ericsson1980]: Ericsson, K. A., Chase, W. G., & Faloon, S. (1980). Acquisition of a memory skill. *Science, 208*(4448), 1181–1182. [https://doi.org/10.1126/science.7375930](https://doi.org/10.1126/science.7375930)

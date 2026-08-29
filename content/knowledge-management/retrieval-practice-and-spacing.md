@@ -8,7 +8,7 @@ tags:
   - memory
 ---
 
-**Retrieval practice** is the act of pulling information out of memory without consulting the source — answering a question, reciting, self-testing. **Distributed practice** (spacing) is the separation of study episodes across time rather than massing them into one session. They are the two learning techniques with the strongest empirical support in cognitive and educational psychology,[^dunlosky2013] and they compound: spacing is what makes each retrieval attempt effortful enough to strengthen memory.
+**Retrieval practice** is the act of pulling information out of memory without consulting the source, whether answering a question, reciting, or self-testing. **Distributed practice** (spacing) is the separation of study episodes across time rather than massing them into one session. They are the two learning techniques with the strongest empirical support in cognitive and educational psychology,[^dunlosky2013] and they compound: spacing is what makes each retrieval attempt effortful enough to strengthen memory.
 
 This entry covers the evidence for both, the mechanism behind them, the metacognitive trap that keeps people from using them, and practical implementations.
 
@@ -23,7 +23,7 @@ The canonical demonstration compared repeated restudy against repeated testing o
 | 5 minutes | 83% | 71% |
 | 1 week | 40% | 61% |
 
-The crossover is the finding. Restudy wins immediately and loses at any delay that matters; proportional forgetting across the week ran roughly 52–56% for restudy against 13–14% for repeated testing. Testing is not assessment of learning — it *is* learning.
+The crossover is the finding. Restudy wins immediately and loses at any delay that matters; proportional forgetting across the week ran roughly 52–56% for restudy against 13–14% for repeated testing. Testing is not assessment of learning; it *is* learning.
 
 ### The spacing effect
 
@@ -31,7 +31,7 @@ A meta-analysis covering 839 assessments across 317 experiments in 184 articles 
 
 ### The utility ranking
 
-A review of ten common learning techniques rated each for generalizability across materials, learners, and criterion tasks.[^dunlosky2013] Practice testing and distributed practice received the only high-utility ratings. Summarization, highlighting, rereading, the keyword mnemonic, and imagery for text were rated low-utility — a list that closely matches what most note-taking and capture workflows consist of.
+A review of ten common learning techniques rated each for generalizability across materials, learners, and criterion tasks.[^dunlosky2013] Practice testing and distributed practice received the only high-utility ratings. Summarization, highlighting, rereading, the keyword mnemonic, and imagery for text were rated low-utility, a list that closely matches what most note-taking and capture workflows consist of.
 
 ## Mechanism
 
@@ -43,7 +43,7 @@ The two techniques inherit their credibility from the broader note-taking litera
 
 Learners systematically misjudge these techniques. Restudy produces higher immediate recall and a stronger feeling of fluency, so it *feels* more effective at the moment of study while producing worse retention at every delay.[^roediger2006] The same miscalibration appears in cognitive-offloading research: the decision to rely on an external aid is driven by self-assessment that is frequently wrong, and performance drops when the aid is removed.[^risko2016]
 
-The practical consequence: the feeling of knowing cannot be trusted to schedule review. The schedule must be externalized and automated. Research on implementation intentions supports this — specifying when, where, and how an action happens improves follow-through where general intention does not.[^gollwitzer2009]
+The practical consequence: the feeling of knowing cannot be trusted to schedule review. The schedule must be externalized and automated. Research on implementation intentions supports this, since specifying when, where, and how an action happens improves follow-through where general intention does not.[^gollwitzer2009]
 
 ## Implementation
 
@@ -74,15 +74,15 @@ The attempt is the mechanism. Reading the answer before attempting recall conver
 
 ### Automate the schedule
 
-Spaced-repetition systems (Anki, or spaced-repetition plugins inside note-taking applications) exist to remove the scheduling judgment that metacognition gets wrong. The tool's job is narrow: surface the prompt at the right interval and record the outcome. Prompt quality remains the user's job — atomic, one fact per prompt, phrased as a question.
+Spaced-repetition systems (Anki, or spaced-repetition plugins inside note-taking applications) exist to remove the scheduling judgment that metacognition gets wrong. The tool's job is narrow: surface the prompt at the right interval and record the outcome. Prompt quality remains the user's job, meaning atomic, one fact per prompt, phrased as a question.
 
 ### Expect discomfort
 
-Retrieval produces lower immediate recall than rereading — 71% against 83% at five minutes[^roediger2006] — and feels correspondingly worse. The difficulty is the effect operating, not a signal to switch methods.
+Retrieval produces lower immediate recall than rereading, 71% against 83% at five minutes[^roediger2006], and feels correspondingly worse. The difficulty is the effect operating, not a signal to switch methods.
 
 ## Scope and limits
 
-The evidence base is strongest for factual and conceptual recall of studied material over delays of days to months.[^cepeda2006] [^roediger2006] The techniques do not substitute for initial comprehension — a prompt cannot retrieve what was never understood — and the high-utility ratings describe durable retention, not skill acquisition or creative synthesis, which the reviewed literature does not directly measure.[^dunlosky2013] Within a note system, retrieval and spacing are the components with evidence behind them; a recent randomized comparison of note-taking formats found no significant differences between formats themselves, with motivation predicting retention.[^yildirim2026]
+The evidence base is strongest for factual and conceptual recall of studied material over delays of days to months.[^cepeda2006] [^roediger2006] The techniques do not substitute for initial comprehension, since a prompt cannot retrieve what was never understood, and the high-utility ratings describe durable retention, not skill acquisition or creative synthesis, which the reviewed literature does not directly measure.[^dunlosky2013] Within a note system, retrieval and spacing are the components with evidence behind them; a recent randomized comparison of note-taking formats found no significant differences between formats themselves, with motivation predicting retention.[^yildirim2026]
 
 [^cepeda2006]: Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. *Psychological Bulletin, 132*(3), 354–380. [https://doi.org/10.1037/0033-2909.132.3.354](https://doi.org/10.1037/0033-2909.132.3.354)
 [^divesta1972]: Di Vesta, F. J., & Gray, S. G. (1972). Listening and note taking. *Journal of Educational Psychology, 63*(1), 8–14. [https://doi.org/10.1037/h0032243](https://doi.org/10.1037/h0032243)

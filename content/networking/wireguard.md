@@ -8,7 +8,7 @@ tags:
   - security
 ---
 
-**WireGuard** is a free, open-source VPN protocol and software implementation that creates encrypted point-to-point tunnels at Layer 3 of the network stack. It was designed by Jason A. Donenfeld and first presented at the Network and Distributed System Security Symposium in 2017, with the explicit goal of replacing both IPsec and user-space VPN solutions like OpenVPN through a radically smaller codebase, modern cryptography, and kernel-level performance.[^donenfeld2017] The entire Linux kernel implementation is roughly 4,000 lines of code — small enough, its author argues, to be comprehensively audited by a single person — compared to 100,000–600,000 lines for competing implementations.[^ionos] Since March 2020, WireGuard has shipped in the mainline Linux kernel (version 5.6 onward) and is also available on Windows, macOS, BSD, iOS, and Android.[^wireguard]
+**WireGuard** is a free, open-source VPN protocol and software implementation that creates encrypted point-to-point tunnels at Layer 3 of the network stack. It was designed by Jason A. Donenfeld and first presented at the Network and Distributed System Security Symposium in 2017, with the explicit goal of replacing both IPsec and user-space VPN solutions like OpenVPN through a radically smaller codebase, modern cryptography, and kernel-level performance.[^donenfeld2017] The entire Linux kernel implementation is roughly 4,000 lines of code, small enough, its author argues, to be comprehensively audited by a single person, compared to 100,000–600,000 lines for competing implementations.[^ionos] Since March 2020, WireGuard has shipped in the mainline Linux kernel (version 5.6 onward) and is also available on Windows, macOS, BSD, iOS, and Android.[^wireguard]
 
 Rather than negotiating cryptographic parameters at connection time the way IPsec and OpenVPN do (an approach known as *cipher agility*), WireGuard bundles its cryptographic functions into a single versioned suite. If a vulnerability is discovered in any primitive, the entire protocol version is replaced rather than individual components being swapped. This keeps the handshake logic simple and eliminates a large class of downgrade attacks.[^ionos]
 
@@ -29,13 +29,13 @@ WireGuard's fixed set of primitives is drawn from well-studied, high-speed const
 | Hashtable keying | SipHash24 | Internal data-structure key generation |
 | Cookie encryption | XChaCha20-Poly1305 | Encrypts DoS-mitigation cookies |
 
-An optional **pre-shared key** (PSK) can be mixed into the handshake alongside the Curve25519 exchange. Because the PSK is a symmetric secret, it provides a hedge against a future quantum computer capable of breaking elliptic-curve Diffie–Hellman — a lightweight form of post-quantum resistance.[^wireguardprotocol]
+An optional **pre-shared key** (PSK) can be mixed into the handshake alongside the Curve25519 exchange. Because the PSK is a symmetric secret, it provides a hedge against a future quantum computer capable of breaking elliptic-curve Diffie–Hellman, a lightweight form of post-quantum resistance.[^wireguardprotocol]
 
 ## How WireGuard works
 
 ### Interface model
 
-WireGuard operates by creating virtual network interfaces — `wg0`, `wg1`, and so on — that behave like any other interface such as `eth0`. Standard system tools (`ip address`, `ip route`) handle addressing and routing, while WireGuard-specific attributes (keys, peers, listening ports) are managed through the `wg` utility or its higher-level wrapper `wg-quick`.[^canonical][^wireguard] All encrypted traffic is transported over UDP; there is no persistent connection and no TCP fallback.[^canonical]
+WireGuard operates by creating virtual network interfaces, `wg0`, `wg1`, and so on, that behave like any other interface such as `eth0`. Standard system tools (`ip address`, `ip route`) handle addressing and routing, while WireGuard-specific attributes (keys, peers, listening ports) are managed through the `wg` utility or its higher-level wrapper `wg-quick`.[^canonical][^wireguard] All encrypted traffic is transported over UDP; there is no persistent connection and no TCP fallback.[^canonical]
 
 ### Cryptokey routing
 
@@ -53,7 +53,7 @@ WireGuard uses a **1-RTT (single round-trip) handshake** built on the Noise IK p
 1. **Initiation.** The initiator generates an ephemeral Curve25519 key pair, performs two Diffie–Hellman operations (ephemeral-to-static and static-to-static) against the responder's known public key, and sends a message containing its encrypted static public key and an encrypted TAI64N timestamp. The timestamp prevents replay: the server tracks the greatest timestamp seen per peer and discards anything older.
 2. **Response.** The responder generates its own ephemeral key pair, performs three DH operations (ephemeral-to-ephemeral, ephemeral-to-static, and a PSK mixing step), and returns an AEAD-encrypted empty payload that serves as key confirmation.
 
-After both messages complete, each side derives a pair of symmetric transport keys from the final chaining key using HKDF. All intermediate cryptographic state — chaining keys, ephemeral private keys, hash accumulators — is then zeroed from memory. Sessions are automatically rekeyed every few minutes, ensuring **perfect forward secrecy**: compromise of a long-term key does not reveal past session traffic.[^wireguardprotocol]
+After both messages complete, each side derives a pair of symmetric transport keys from the final chaining key using HKDF. All intermediate cryptographic state, including chaining keys, ephemeral private keys, and hash accumulators, is then zeroed from memory. Sessions are automatically rekeyed every few minutes, ensuring **perfect forward secrecy**: compromise of a long-term key does not reveal past session traffic.[^wireguardprotocol]
 
 ### Transport and replay protection
 
@@ -61,11 +61,11 @@ Data packets carry a receiver index, a 64-bit counter used as the AEAD nonce, an
 
 ### Roaming
 
-Both sides of a WireGuard tunnel can change IP addresses seamlessly. A client starts with a configured initial endpoint for the server. The server, in turn, discovers and updates client endpoints dynamically by recording the source address of each correctly authenticated packet. Both sides always send to the most recently verified endpoint, so a mobile device that moves from Wi-Fi to cellular — or between networks entirely — continues to communicate without re-establishing the tunnel.[^canonical][^ionos]
+Both sides of a WireGuard tunnel can change IP addresses seamlessly. A client starts with a configured initial endpoint for the server. The server, in turn, discovers and updates client endpoints dynamically by recording the source address of each correctly authenticated packet. Both sides always send to the most recently verified endpoint, so a mobile device that moves from Wi-Fi to cellular, or between networks entirely, continues to communicate without re-establishing the tunnel.[^canonical][^ionos]
 
 ### Silence and stealth
 
-WireGuard is not a chatty protocol. When no data is being exchanged, it transmits nothing — no keepalives, no heartbeats, no negotiation chatter. This conserves battery life on mobile devices and, from a network perspective, makes an idle WireGuard endpoint effectively invisible. The server does not respond at all to packets from unauthorized sources; it simply drops them without reply.[^wireguard][^ionos]
+WireGuard is not a chatty protocol. When no data is being exchanged, it transmits nothing, with no keepalives, no heartbeats, and no negotiation chatter. This conserves battery life on mobile devices and, from a network perspective, makes an idle WireGuard endpoint effectively invisible. The server does not respond at all to packets from unauthorized sources; it simply drops them without reply.[^wireguard][^ionos]
 
 ## DoS mitigation
 
@@ -73,7 +73,7 @@ Because the first handshake message requires knowledge of the responder's public
 
 ## Formal verification
 
-WireGuard has been formally verified through multiple independent efforts — an unusual level of scrutiny for a VPN protocol:[^wireguardverification]
+WireGuard has been formally verified through multiple independent efforts, an unusual level of scrutiny for a VPN protocol:[^wireguardverification]
 
 - **Tamarin prover** (symbolic model, by Donenfeld and Milner) verified correctness, strong key agreement, forward secrecy, identity hiding, and resistance to key-compromise impersonation and unknown key-share attacks.
 - **CryptoVerif** (computational proof in the ACCE model, by Lipp) produced a mechanized proof of the entire protocol including transport messages, covering message secrecy, mutual authentication, and replay resistance.
@@ -94,7 +94,7 @@ Benchmarks on Intel Core i7 hardware with gigabit Ethernet (Linux 4.6.1) illustr
 
 WireGuard achieved near line-rate throughput with CPU capacity to spare, while all three competitors were CPU-bottlenecked at lower speeds. The project notes that these benchmarks are older and that both WireGuard and IPsec have since improved; WireGuard retains threading advantages, while OpenVPN remains substantially slower.[^wireguardperf]
 
-Two structural properties explain the gap. First, WireGuard runs inside the kernel, avoiding the context switches that penalize user-space VPNs like OpenVPN. Second, its cryptographic primitives — particularly ChaCha20 and Poly1305 — are engineered for high throughput on commodity hardware without requiring dedicated instruction sets like AES-NI.[^wireguard]
+Two structural properties explain the gap. First, WireGuard runs inside the kernel, avoiding the context switches that penalize user-space VPNs like OpenVPN. Second, its cryptographic primitives, particularly ChaCha20 and Poly1305, are engineered for high throughput on commodity hardware without requiring dedicated instruction sets like AES-NI.[^wireguard]
 
 ## Comparison with IPsec and OpenVPN
 
@@ -114,7 +114,7 @@ Two structural properties explain the gap. First, WireGuard runs inside the kern
 
 WireGuard's peer-to-peer model supports several common arrangements:[^canonical]
 
-- **Peer-to-site.** A single device tunnels into a remote network — the typical "road warrior" setup for remote workers.
+- **Peer-to-site.** A single device tunnels into a remote network, the typical "road warrior" setup for remote workers.
 - **Site-to-site.** Two entire networks are bridged, with a WireGuard endpoint at each location forwarding traffic for the local subnet.
 - **Default gateway.** All traffic from a device is routed through the tunnel by setting `AllowedIPs = 0.0.0.0/0, ::/0`, making the remote endpoint the device's Internet exit point.
 - **Mesh.** Multiple peers connect directly to one another, each listing every other peer in its configuration.
@@ -123,7 +123,7 @@ Because the protocol draws no fundamental distinction between "client" and "serv
 
 ## Limitations
 
-WireGuard deliberately omits several features that more complex VPN stacks provide. There is no built-in key distribution, certificate authority integration, or PKI — keys must be exchanged out of band, much like SSH public keys.[^wireguard] The protocol uses UDP exclusively, which can be blocked by restrictive firewalls that only permit TCP on ports 80 and 443; there is no TCP fallback or obfuscation layer.[^canonical] The fixed cipher suite, while beneficial for simplicity and auditability, means the entire protocol version must be replaced if any single primitive is compromised.[^ionos] Finally, the server necessarily tracks each peer's most recent source IP address to support roaming, which has privacy implications in contexts where endpoint identity should remain hidden from the VPN gateway.
+WireGuard deliberately omits several features that more complex VPN stacks provide. There is no built-in key distribution, certificate authority integration, or PKI; keys must be exchanged out of band, much like SSH public keys.[^wireguard] The protocol uses UDP exclusively, which can be blocked by restrictive firewalls that only permit TCP on ports 80 and 443; there is no TCP fallback or obfuscation layer.[^canonical] The fixed cipher suite, while beneficial for simplicity and auditability, means the entire protocol version must be replaced if any single primitive is compromised.[^ionos] Finally, the server necessarily tracks each peer's most recent source IP address to support roaming, which has privacy implications in contexts where endpoint identity should remain hidden from the VPN gateway.
 
 [^canonical]: Canonical. (n.d.). [WireGuard VPN](https://ubuntu.com/server/docs/explanation/intro-to/wireguard-vpn/). Ubuntu Server Documentation.
 [^donenfeld2017]: Donenfeld, J. A. (2017). WireGuard: Next generation kernel network tunnel. In *Proceedings of the

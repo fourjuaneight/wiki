@@ -45,7 +45,7 @@ Patch 7.5, released on 28 April 2026, is the first half of a two-part conclusion
 
 ## Evercold: the Fourth (patch 8.0, announced for January 2027)
 
-The sixth expansion was revealed at the Anaheim Fan Festival in April 2026 and detailed further at Berlin in July. **Evercold** takes the Warrior of Light to the **Fourth**, a reflection of Hydaelyn that has fallen to ruin and is being swallowed by advancing ice, with its survivors having fled the frozen surface for cities in the sky. Confirmed elements include a level cap of 110, two new jobs — the first revealed as **Bastion**, a tank fighting with paired greatshields — the locations Naglfar and Hringhorni, and an alliance raid crossing over with *Neon Genesis Evangelion*.[^rpgamer2026] The expansion is scheduled for January 2027, and Square Enix positions it as the formal start of the Godless Realms Saga.[^squareenix2026]
+The sixth expansion was revealed at the Anaheim Fan Festival in April 2026 and detailed further at Berlin in July. **Evercold** takes the Warrior of Light to the **Fourth**, a reflection of Hydaelyn that has fallen to ruin and is being swallowed by advancing ice, with its survivors having fled the frozen surface for cities in the sky. Confirmed elements include a level cap of 110, two new jobs, the first revealed as **Bastion**, a tank fighting with paired greatshields, the locations Naglfar and Hringhorni, and an alliance raid crossing over with *Neon Genesis Evangelion*.[^rpgamer2026] The expansion is scheduled for January 2027, and Square Enix positions it as the formal start of the Godless Realms Saga.[^squareenix2026]
 
 ## Patch reference table
 

@@ -9,13 +9,13 @@ tags:
   - video
 ---
 
-**Ripping** is the process of extracting audio or video content from a physical medium — such as a CD, DVD, or Blu-ray disc — and saving it as a digital file on a computer. This allows users to create digital copies for personal use, archiving, or playback on devices that do not support the original format. However, the legality of ripping varies significantly by jurisdiction and media type. In the United States, ripping video from commercial discs occupies a legally contested space, owing in large part to digital rights management (DRM) protections and the anti-circumvention provisions of the Digital Millennium Copyright Act.[^uscopyright2018]
+**Ripping** is the process of extracting audio or video content from a physical medium, such as a CD, DVD, or Blu-ray disc, and saving it as a digital file on a computer. This allows users to create digital copies for personal use, archiving, or playback on devices that do not support the original format. However, the legality of ripping varies significantly by jurisdiction and media type. In the United States, ripping video from commercial discs occupies a legally contested space, owing in large part to digital rights management (DRM) protections and the anti-circumvention provisions of the Digital Millennium Copyright Act.[^uscopyright2018]
 
 ## DRM and Disc Encryption
 
 Most commercial DVDs and Blu-ray discs are protected by encryption systems designed to prevent unauthorized access and copying. DVDs use the **Content Scramble System (CSS)**, a DRM scheme developed jointly by electronics manufacturers and motion picture studios in 1996. Blu-ray discs use the more robust **Advanced Access Content System (AACS)**. These systems ensure that disc content can only be played on licensed, authorized hardware and software.[^umich2024]
 
-Because ripping inherently requires bypassing these protections, it falls under scrutiny of laws governing DRM circumvention — regardless of the user's intent.
+Because ripping inherently requires bypassing these protections, it falls under scrutiny of laws governing DRM circumvention, regardless of the user's intent.
 
 ## Software and Format Options
 
@@ -23,7 +23,7 @@ Ripping software typically includes an encoder to compress source media and opti
 
 ### Popular Software
 
-- **[MakeMKV](https://www.makemkv.com/)**: Focuses on Blu-ray and DVD content, preserving most of the disc's structure — including audio tracks, subtitles, and chapter markers — without re-encoding or quality loss.
+- **[MakeMKV](https://www.makemkv.com/)**: Focuses on Blu-ray and DVD content, preserving most of the disc's structure, including audio tracks, subtitles, and chapter markers, without re-encoding or quality loss.
 - **[HandBrake](https://handbrake.fr/)**: An open-source tool offering extensive format and compression options across multiple platforms. HandBrake has been cited in legal and technical discussions as an example of software capable of bypassing CSS protections.[^devx2023]
 - **[DVDFab](https://www.dvdfab.cn/)**: A comprehensive commercial tool supporting multiple formats and including built-in decryption capabilities.
 
@@ -37,17 +37,17 @@ Ripping software typically includes an encoder to compress source media and opti
 
 ### United States
 
-The legal landscape for video ripping in the United States is governed primarily by **Section 1201 of the Digital Millennium Copyright Act (DMCA)**, enacted in 1998. Section 1201(a)(1)(A) prohibits any person from circumventing a technological protection measure that "effectively controls access" to a copyrighted work (17 U.S.C. § 1201). This means that bypassing CSS on a DVD or AACS on a Blu-ray disc — even to make a personal backup copy — is potentially unlawful, irrespective of the user's intent.[^cornellnd]
+The legal landscape for video ripping in the United States is governed primarily by **Section 1201 of the Digital Millennium Copyright Act (DMCA)**, enacted in 1998. Section 1201(a)(1)(A) prohibits any person from circumventing a technological protection measure that "effectively controls access" to a copyrighted work (17 U.S.C. § 1201). This means that bypassing CSS on a DVD or AACS on a Blu-ray disc, even to make a personal backup copy, is potentially unlawful, irrespective of the user's intent.[^cornellnd]
 
 Critically, fair use is not a defense against a Section 1201 violation. As Texas A&M University Libraries notes, even if a use would otherwise qualify as fair use under copyright law, it will still be prohibited by the DMCA if it involves breaking a digital lock without an applicable exemption.[^tamund] The Electronic Frontier Foundation (EFF) has documented extensively how this dynamic has led to unintended consequences, including chilling effects on legitimate research and consumer use.[^eff2013]
 
 #### Key Court Case: *Universal City Studios, Inc. v. Corley* (2001)
 
-The landmark case *Universal City Studios, Inc. v. Corley*, 273 F.3d 429 (2d Cir. 2001), was the first circuit-level judicial test of the DMCA's anti-circumvention provisions. Eight major motion picture studios sued Eric Corley, publisher of *2600: The Hacker Quarterly*, for posting and linking to **DeCSS** — a program written by Norwegian teenager Jon Johansen that circumvented CSS to decrypt DVD content. The U.S. Court of Appeals for the Second Circuit upheld a permanent injunction against Corley, affirming that distributing circumvention tools violated the DMCA's anti-trafficking provisions. The court also rejected Corley's fair use and First Amendment defenses, ruling that the functional nature of the DeCSS code outweighed its expressive qualities.[^corley2001]
+The landmark case *Universal City Studios, Inc. v. Corley*, 273 F.3d 429 (2d Cir. 2001), was the first circuit-level judicial test of the DMCA's anti-circumvention provisions. Eight major motion picture studios sued Eric Corley, publisher of *2600: The Hacker Quarterly*, for posting and linking to **DeCSS**, a program written by Norwegian teenager Jon Johansen that circumvented CSS to decrypt DVD content. The U.S. Court of Appeals for the Second Circuit upheld a permanent injunction against Corley, affirming that distributing circumvention tools violated the DMCA's anti-trafficking provisions. The court also rejected Corley's fair use and First Amendment defenses, ruling that the functional nature of the DeCSS code outweighed its expressive qualities.[^corley2001]
 
 #### DMCA Exemptions
 
-To balance the broad prohibition against circumvention with legitimate uses, the DMCA directs the Librarian of Congress — on recommendation of the Register of Copyrights — to review and grant temporary exemptions every three years. The most recent set of exemptions was issued in 2024. These exemptions permit circumvention for narrow, defined purposes, such as allowing educators and students to extract short clips from DVDs or Blu-rays for criticism, commentary, or media literacy instruction in educational settings. However, different rules apply depending on the institution type, media format, and software used.[^umich2024][^tamund]
+To balance the broad prohibition against circumvention with legitimate uses, the DMCA directs the Librarian of Congress, on recommendation of the Register of Copyrights, to review and grant temporary exemptions every three years. The most recent set of exemptions was issued in 2024. These exemptions permit circumvention for narrow, defined purposes, such as allowing educators and students to extract short clips from DVDs or Blu-rays for criticism, commentary, or media literacy instruction in educational settings. However, different rules apply depending on the institution type, media format, and software used.[^umich2024][^tamund]
 
 Importantly, no current exemption exists for general personal ripping of commercial Blu-ray discs, and the motion picture industry continues to maintain that such ripping is unlawful.[^eff2013]
 
@@ -60,7 +60,7 @@ Legal treatment of personal video ripping varies internationally. In the Europea
 - Always consult local laws before ripping commercial media, particularly DVDs and Blu-rays with DRM protections.
 - Avoid distributing or sharing ripped media, as this is likely to constitute copyright infringement regardless of jurisdiction.
 - If ripping for educational or critical purposes in the U.S., review the most current DMCA Section 1201 exemptions issued by the Librarian of Congress to determine whether your use qualifies.
-- Consider digital storage solutions — such as network-attached storage (NAS) or cloud services — for organization and device accessibility.
+- Consider digital storage solutions, such as network-attached storage (NAS) or cloud services, for organization and device accessibility.
 
 ## Post-Ripping Options
 

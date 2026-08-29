@@ -11,7 +11,7 @@ tags:
   - weird-fiction
 ---
 
-**Redacted Weird** is a strain of **epistemic horror**: fiction in which a secret bureau catalogues what the mind cannot hold. The name does two jobs. *Redacted* carries the secret agency, the black-bar look, the classified file, and the central dread — the truth exists, but it is withheld or erased. *Weird* puts the genre in the line that runs from Lovecraft to the New Weird.
+**Redacted Weird** is a strain of **epistemic horror**: fiction in which a secret bureau catalogues what the mind cannot hold. The name does two jobs. *Redacted* carries the secret agency, the black-bar look, the classified file, and the central dread, that the truth exists but is withheld or erased. *Weird* puts the genre in the line that runs from Lovecraft to the New Weird.
 
 The genre is not about monsters. It is about unreliable knowing. A monster is optional. Broken memory, broken perception, and a broken record are mandatory. This entry holds the genre definition, the qualifying themes, the axes, the canon, the search method, and the current tally. It is the reference half of a pair; the companion skill runs the live research and applies the rating floor. It is also the first entry in a three-part dossier series: [Lovecraftian Horror]({{< relref "lovecraftian-horror.md" >}}) covers cosmicism, and [Folk Horror]({{< relref "folk-horror.md" >}}) covers persistence.
 
@@ -30,11 +30,11 @@ Different names put the accent in different places. Use the one that fits the re
 
 Four nearby genres overlap but do not match. *New Weird* is close, but too broad: it has no bureaucracy axis and no memory axis. *SCP-core* names the Control and Antimemetics branch correctly, but it is fandom slang and it excludes the pre-2008 ancestors. *Cosmic horror* shares the dread but has no institution and no investigation. The *conspiracy thriller* shares the secret but has no cosmic scale and no epistemic rot.
 
-The test is subtraction. Remove the agency — does the work still function? Remove the memory damage — does it still function? If the answer is yes both times, the work is not in this genre.
+The test is subtraction. Remove the agency; does the work still function? Remove the memory damage; does it still function? If the answer is yes both times, the work is not in this genre.
 
 ## Seven core themes
 
-A work needs three or more themes to qualify. Four or more is a strong fit. Two is a stretch, and you must say so. One is a miss — cut it.
+A work needs three or more themes to qualify. Four or more is a strong fit. Two is a stretch, and you must say so. One is a miss; cut it.
 
 1. **Secret bureau vs the unexplained.** A hidden institution has the anomalous as its job. Requisition forms and the abyss share a desk. Seen in the FBI X-Files division, the Twin Peaks Blue Rose, the Federal Bureau of Control, Southern Reach, the Antimemetics Division, the Checquy, and the Laundry.
 2. **Memory and perception under attack.** This is the engine. How do you fight an enemy that you cannot perceive, record, or remember? Antimemes eat their own traces. Amnesia, wiped abductees, and possession overwrite the witness. The truth exists, but nobody can hold it. Seen in *There Is No Antimemetics Division*,[^qntm2025] *The Raw Shark Texts*,[^hall2007] *Recursion*,[^crouch2019] *The Rook*,[^omalley2012] and the Hiss in *Control*.
@@ -46,7 +46,7 @@ A work needs three or more themes to qualify. Four or more is a strong fit. Two 
 
 ## Five axes
 
-The axes are subflavors. Use them to aim a request. Most strong works straddle two or three — name which ones.
+The axes are subflavors. Use them to aim a request. Most strong works straddle two or three; name which ones.
 
 | Axis | What it is | Exemplars | Trigger words |
 |---|---|---|---|
@@ -58,7 +58,7 @@ The axes are subflavors. Use them to aim a request. Most strong works straddle t
 
 ## Canon anchors
 
-These works are the spine. They are calibration points, not recommendations — all of them are already consumed.
+These works are the spine. They are calibration points, not recommendations; all of them are already consumed.
 
 | Work | Medium | Year | Axis | Role |
 |---|---|---|---|---|
@@ -74,16 +74,16 @@ These works are the spine. They are calibration points, not recommendations — 
 
 These works are linked by genealogy, not by resemblance. The lineage matters because it tells you which direction to search.
 
-*Twin Peaks* (1990) directly shaped *The X-Files*; Carter cited it, and both use FBI agents, the Pacific Northwest, and wrongness. Vince Gilligan cut his teeth writing for *The X-Files*, and later advised the Coogler reboot. Remedy's house style is described industry-wide as Lynch directing *The X-Files*, which is not an accident. The SCP Foundation — the birthplace of *There Is No Antimemetics Division* — shaped the paranatural-object bureaucracy of *Control*.[^scpfoundation] Upstream of all of it sit *Roadside Picnic* (1972),[^strugatsky1972] *House of Leaves* (2000),[^danielewski2000] Kafka, Borges, and Lovecraft.
+*Twin Peaks* (1990) directly shaped *The X-Files*; Carter cited it, and both use FBI agents, the Pacific Northwest, and wrongness. Vince Gilligan cut his teeth writing for *The X-Files*, and later advised the Coogler reboot. Remedy's house style is described industry-wide as Lynch directing *The X-Files*, which is not an accident. The SCP Foundation, the birthplace of *There Is No Antimemetics Division*, shaped the paranatural-object bureaucracy of *Control*.[^scpfoundation] Upstream of all of it sit *Roadside Picnic* (1972),[^strugatsky1972] *House of Leaves* (2000),[^danielewski2000] Kafka, Borges, and Lovecraft.
 
 Use the lineage to pick a search branch.
 
 | User loves | Search branch |
 |---|---|
-| Remedy games (Control, Alan Wake) | SCP branch — containment, catalogued objects, agency bureaucracy |
-| Twin Peaks | Lynch branch — surreal, dream-logic, small-town rot |
-| Southern Reach | Expedition/agency branch — field teams, zones, institutional decay |
-| Antimemetics | Memory branch — cognition as battlefield, unreliable record |
+| Remedy games (Control, Alan Wake) | SCP branch, covering containment, catalogued objects, agency bureaucracy |
+| Twin Peaks | Lynch branch, covering surreal, dream-logic, small-town rot |
+| Southern Reach | Expedition/agency branch, covering field teams, zones, institutional decay |
+| Antimemetics | Memory branch, covering cognition as battlefield, unreliable record |
 
 ## Search method
 
@@ -93,14 +93,14 @@ The procedure is repeatable. Follow it in order.
 2. **Generate candidates.** Pull from the vetted pool first. If the pool is thin, search the unexplored territory below. Cross-medium is acceptable unless the user locks a medium.
 3. **Research live, always.** Never recommend from memory. Scores drift, new editions change aggregates, and reputations age. Query patterns that work: `<title> Goodreads rating reviews`, `<title> Metacritic critic reception`, and `<title> retrospective how it aged`.
 4. **Apply the floor.** The default floor is 3.5/5, or 70/100, or 70% of critics. Drop anything below it, and do not mention the drop. A user-set floor overrides the default.
-5. **Score the fit.** Count the core themes hit. Three or more is in. Two is a stretch — flag it. One is out. This step is what stops recommendations from drifting into generic horror or generic science fiction, which is the main failure mode.
+5. **Score the fit.** Count the core themes hit. Three or more is in. Two is a stretch; flag it. One is out. This step is what stops recommendations from drifting into generic horror or generic science fiction, which is the main failure mode.
 6. **Check the tally.** Recommend nothing that is already consumed or in progress.
 
-Four failure modes recur. **Generic drift** is a recommendation that is horror but has no agency and no epistemic damage — cut it. **Vibe-matching** is a recommendation that feels similar but hits one theme; name the themes, and if you cannot, cut it. **Stale scores** come from recommending out of memory instead of searching first, every time. **Padding** is what happens when nothing clears the floor and weak fits get added anyway; say that the pool came up short instead.
+Four failure modes recur. **Generic drift** is a recommendation that is horror but has no agency and no epistemic damage; cut it. **Vibe-matching** is a recommendation that feels similar but hits one theme; name the themes, and if you cannot, cut it. **Stale scores** come from recommending out of memory instead of searching first, every time. **Padding** is what happens when nothing clears the floor and weak fits get added anyway; say that the pool came up short instead.
 
 ## Vetted pool
 
-These works are already researched and already cleared the 3.5/5 floor. They are starting points — re-verify the current ratings before you recommend them.
+These works are already researched and already cleared the 3.5/5 floor. They are starting points; re-verify the current ratings before you recommend them.
 
 | Title | Creator | Year | Score | Awards | Axis / fit |
 |---|---|---|---|---|---|
@@ -113,7 +113,7 @@ These works are already researched and already cleared the 3.5/5 floor. They are
 
 ### Roots, not neighbors
 
-These are upstream sources. Recommend them as ancestry and flag them as such — never as "more like X."
+These are upstream sources. Recommend them as ancestry and flag them as such, never as "more like X."
 
 | Work | Creator | Year | What it seeded |
 |---|---|---|---|

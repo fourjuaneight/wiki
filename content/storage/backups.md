@@ -8,15 +8,15 @@ tags:
   - storage
 ---
 
-A **backup** is an independent copy of data stored separately from the primary system, created for restoration following data loss, corruption, or system failure. The goal is not duplication — it is recoverability under adverse conditions. A backup that cannot be restored is not a backup.[^swanson2010]
+A **backup** is an independent copy of data stored separately from the primary system, created for restoration following data loss, corruption, or system failure. The goal is not duplication; it is recoverability under adverse conditions. A backup that cannot be restored is not a backup.[^swanson2010]
 
 ## Recovery objectives
 
 Two questions determine everything else about a backup strategy:
 
-**How much data can you lose?** This is the Recovery Point Objective (RPO) — the maximum acceptable gap between your last backup and the failure event. RPO directly sets backup frequency: a 15-minute RPO demands backups at least every 15 minutes.[^swanson2010]
+**How much data can you lose?** This is the Recovery Point Objective (RPO), the maximum acceptable gap between your last backup and the failure event. RPO directly sets backup frequency: a 15-minute RPO demands backups at least every 15 minutes.[^swanson2010]
 
-**How long can you be down?** This is the Recovery Time Objective (RTO) — the maximum acceptable outage duration. RTO determines what recovery infrastructure you need. Restoring from tape might take days; a hot standby fails over in seconds.[^swanson2010]
+**How long can you be down?** This is the Recovery Time Objective (RTO), the maximum acceptable outage duration. RTO determines what recovery infrastructure you need. Restoring from tape might take days; a hot standby fails over in seconds.[^swanson2010]
 
 | Tier | RTO | Example |
 |------|-----|---------|
@@ -30,17 +30,17 @@ Tighter objectives cost exponentially more.[^google2024][^unitrends2024]
 
 ### Full
 
-Copies the entire dataset. Slowest to create, fastest to restore — no other artifacts needed. Typically run weekly or less frequently as a baseline for other types.[^nakivo2024]
+Copies the entire dataset. Slowest to create, fastest to restore; no other artifacts are needed. Typically run weekly or less frequently as a baseline for other types.[^nakivo2024]
 
 ### Incremental
 
-Captures only changes since the *most recent backup of any type*. Smallest files, fastest backup window. The tradeoff: restore requires the full backup plus every incremental in sequence — one corrupted link breaks the chain.[^nakivo2024][^techtarget2024]
+Captures only changes since the *most recent backup of any type*. Smallest files, fastest backup window. The tradeoff: restore requires the full backup plus every incremental in sequence; one corrupted link breaks the chain.[^nakivo2024][^techtarget2024]
 
 Change tracking granularity matters:
 
-- **File-level** — any modified file is copied whole. Simple but wasteful for large files with small changes.
-- **Block-level** — only changed storage blocks are captured. Changed Block Tracking (CBT) in hypervisors makes this efficient.
-- **Byte-level** — captures individual changed bytes. Minimal size, highest CPU cost.
+- **File-level** - any modified file is copied whole. Simple but wasteful for large files with small changes.
+- **Block-level** - only changed storage blocks are captured. Changed Block Tracking (CBT) in hypervisors makes this efficient.
+- **Byte-level** - captures individual changed bytes. Minimal size, highest CPU cost.
 
 ### Differential
 
@@ -48,11 +48,11 @@ Captures all changes since the *last full backup*. Each differential is cumulati
 
 ### Modern variants
 
-All three solve the same problem — eliminating recurring full backup windows:
+All three solve the same problem, eliminating recurring full backup windows:
 
-- **Synthetic full** — the backup server merges incrementals into a new full backup without touching the source system.
-- **Reverse incremental** — injects changes into the existing full image, keeping latest state always restore-ready as a complete image.
-- **Forever-incremental** — one initial full, then only incrementals forever, relying on synthetic merges for restore points.[^nakivo2024]
+- **Synthetic full** - the backup server merges incrementals into a new full backup without touching the source system.
+- **Reverse incremental** - injects changes into the existing full image, keeping latest state always restore-ready as a complete image.
+- **Forever-incremental** - one initial full, then only incrementals forever, relying on synthetic merges for restore points.[^nakivo2024]
 
 ### Continuous Data Protection (CDP)
 
@@ -66,7 +66,7 @@ The minimum viable backup strategy:[^veeam2024a][^backblaze2024]
 - **2** different device types or failure domains
 - **1** copy offsite (geographically separate)
 
-"Two different media" originally meant disk and tape. Today it means two independent failure domains — local NAS plus cloud object storage, or two different cloud providers.[^backblaze2024]
+"Two different media" originally meant disk and tape. Today it means two independent failure domains, such as local NAS plus cloud object storage, or two different cloud providers.[^backblaze2024]
 
 ### 3-2-1-1-0
 
@@ -77,14 +77,14 @@ The modern extension for ransomware resilience:[^veeam2024a]
 
 ## Immutable backups
 
-Immutability enforces Write-Once, Read-Many (WORM): backup data cannot be modified, deleted, or encrypted for a defined retention period — even by administrators with root access.[^veeam2024b]
+Immutability enforces Write-Once, Read-Many (WORM): backup data cannot be modified, deleted, or encrypted for a defined retention period, even by administrators with root access.[^veeam2024b]
 
 Implementation options:
 
-- **Object Lock (S3/Azure Blob)** — immutability at the storage API level. No API call can delete or overwrite locked objects during the retention window, including from the account root user.
-- **Hardened Linux repository** — XFS filesystem with extended file attributes preventing deletion. No SSH daemon; accepts connections only from the backup server on a dedicated port.
-- **Appliance-based WORM** — purpose-built appliances (HPE StoreOnce, ExaGrid, Pure FlashBlade) with firmware-level retention locks requiring dual authorization to modify.
-- **WORM tape** — LTO hardware physically prevents overwrite of data on WORM-designated cartridges.
+- **Object Lock (S3/Azure Blob)** - immutability at the storage API level. No API call can delete or overwrite locked objects during the retention window, including from the account root user.
+- **Hardened Linux repository** - XFS filesystem with extended file attributes preventing deletion. No SSH daemon; accepts connections only from the backup server on a dedicated port.
+- **Appliance-based WORM** - purpose-built appliances (HPE StoreOnce, ExaGrid, Pure FlashBlade) with firmware-level retention locks requiring dual authorization to modify.
+- **WORM tape** - LTO hardware physically prevents overwrite of data on WORM-designated cartridges.
 
 Ransomware operators specifically target backup infrastructure. If backups are writable from the production network, a compromised admin account can destroy them before deploying the payload. Immutability decouples backup integrity from credential compromise.[^veeam2024b][^mcbride2020]
 
@@ -92,16 +92,16 @@ Ransomware operators specifically target backup infrastructure. If backups are w
 
 An air gap isolates backup copies from production systems so that no network-based attack can reach them:[^chandramouli2020]
 
-**Physical air gap** — media (tape, removable disk) disconnected from all networks after write completes. Inaccessible to any network-attached attacker by definition.
+**Physical air gap**. Media (tape, removable disk) disconnected from all networks after write completes. Inaccessible to any network-attached attacker by definition.
 
-**Logical air gap** — storage exists on a network but is unreachable from production through architectural controls: separate authentication domains, data diodes (unidirectional connections), or systems that connect only during backup windows and disconnect afterward.
+**Logical air gap**. Storage exists on a network but is unreachable from production through architectural controls: separate authentication domains, data diodes (unidirectional connections), or systems that connect only during backup windows and disconnect afterward.
 
 For cyber-attack recovery, NIST SP 800-209 recommends copies that:[^chandramouli2020]
 
 - Reside on physically separated infrastructure or separate cloud accounts
 - Are managed from systems separated from production
 - Use full baseline copies (not incrementals alone, which depend on a potentially compromised baseline)
-- Are never mounted or mapped to a host — restored by push to an isolated staging environment
+- Are never mounted or mapped to a host, restored by push to an isolated staging environment
 - Use immutable storage with retention locking
 
 ## Storage efficiency
@@ -112,7 +112,7 @@ For cyber-attack recovery, NIST SP 800-209 recommends copies that:[^chandramouli
 2. Each chunk is fingerprinted with a cryptographic hash (SHA-256).
 3. New chunks matching an existing hash store only a pointer; unique chunks are written and indexed.
 
-This can happen *source-side* (before network transit — saves bandwidth) or *target-side* (after arrival — saves storage). Hashes compare pre-compression data, so different compression levels don't defeat dedup.[^acronis2024]
+This can happen *source-side* (before network transit, saving bandwidth) or *target-side* (after arrival, saving storage). Hashes compare pre-compression data, so different compression levels don't defeat dedup.[^acronis2024]
 
 **Compression** (LZ4/zstd/gzip) reduces the size of each unique block after deduplication. The two are complementary.
 
@@ -120,11 +120,11 @@ This can happen *source-side* (before network transit — saves bandwidth) or *t
 
 An untested backup is an assumption. Verification must cover:[^veeam2024a][^chandramouli2020]
 
-- **Integrity** — data passes checksum verification, not corrupted.
-- **Completeness** — includes all dependencies: databases, certificates, encryption keys, configs, ACLs, DNS records, build environments.
-- **Bootability** — system images produce a functional running system.
-- **RTO compliance** — restore finishes within required time under realistic conditions.
-- **Application consistency** — databases start with transactionally consistent data.
+- **Integrity** - data passes checksum verification, not corrupted.
+- **Completeness** - includes all dependencies: databases, certificates, encryption keys, configs, ACLs, DNS records, build environments.
+- **Bootability** - system images produce a functional running system.
+- **RTO compliance** - restore finishes within required time under realistic conditions.
+- **Application consistency** - databases start with transactionally consistent data.
 
 Automated verification ("recovery assurance") spins up backed-up VMs in an isolated sandbox, runs health checks, and reports pass/fail without human intervention.[^veeam2024a]
 
@@ -142,7 +142,7 @@ Also test after any significant infrastructure change.[^chandramouli2020]
 
 1. **Define RPO/RTO first.** Everything else follows from how much loss and downtime you can accept.
 2. **Follow 3-2-1-1-0 minimum.** Three copies, two device types, one offsite, one immutable, zero unverified restores.
-3. **Make at least one copy immutable.** Object Lock, hardened repo, or WORM tape — pick what fits your stack.
+3. **Make at least one copy immutable.** Object Lock, hardened repo, or WORM tape; pick what fits your stack.
 4. **Air-gap your cyber-recovery copy.** Physically or logically isolated from production credentials and networks.
 5. **Use incremental + synthetic full.** Balances backup speed with restore reliability without recurring full backup windows.
 6. **Enable deduplication and compression.** Dramatically reduces storage cost with no downside for most workloads.

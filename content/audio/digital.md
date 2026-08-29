@@ -12,15 +12,15 @@ tags:
 
 ## How compression works
 
-**Lossy compression** works by discarding audio information the human auditory system is least likely to perceive. This relies on a *psychoacoustic model* — a mathematical representation of how the ear processes sound. Two key phenomena are exploited: *simultaneous masking* (a loud tone at one frequency can make softer tones at nearby frequencies inaudible) and *temporal masking* (loud sounds briefly suppress perception of quieter sounds immediately before and after them). By identifying and discarding these "masked" components, codecs like MP3 and AAC can achieve dramatic reductions in file size with minimal perceived quality loss.[^johnston1988][^painterSpanias2000]
+**Lossy compression** works by discarding audio information the human auditory system is least likely to perceive. This relies on a *psychoacoustic model*, a mathematical representation of how the ear processes sound. Two key phenomena are exploited: *simultaneous masking* (a loud tone at one frequency can make softer tones at nearby frequencies inaudible) and *temporal masking* (loud sounds briefly suppress perception of quieter sounds immediately before and after them). By identifying and discarding these "masked" components, codecs like MP3 and AAC can achieve dramatic reductions in file size with minimal perceived quality loss.[^johnston1988][^painterSpanias2000]
 
-**Lossless compression** discards no information whatsoever. Instead, it exploits *statistical redundancy* in the audio signal. Formats like FLAC use a multi-stage pipeline: the audio is divided into blocks, a linear predictor models each block's waveform, and the small *residual* errors between the prediction and the actual signal are encoded using Rice entropy coding — a scheme that efficiently represents the Laplacian-distributed residuals with very few bits. The decoded output is mathematically identical to the original, which can be verified via a stored MD5 checksum.[^vanBeurden2024][^xiphFlac]
+**Lossless compression** discards no information whatsoever. Instead, it exploits *statistical redundancy* in the audio signal. Formats like FLAC use a multi-stage pipeline: the audio is divided into blocks, a linear predictor models each block's waveform, and the small *residual* errors between the prediction and the actual signal are encoded using Rice entropy coding, a scheme that efficiently represents the Laplacian-distributed residuals with very few bits. The decoded output is mathematically identical to the original, which can be verified via a stored MD5 checksum.[^vanBeurden2024][^xiphFlac]
 
 ## Sampling rate and bit depth
 
 Two parameters define the resolution of any digital audio signal, both grounded in information theory.
 
-**Sampling rate** is the number of times per second the amplitude of an audio signal is measured. Shannon's[^shannon1949] sampling theorem establishes that a band-limited signal can be perfectly reconstructed provided the sampling rate is at least twice the highest frequency present. CD audio's standard rate of 44.1 kHz therefore captures frequencies up to 22.05 kHz — just above the ~20 kHz upper limit of typical human hearing. Higher rates (88.2 kHz, 96 kHz, 192 kHz) are used in professional and archival contexts.
+**Sampling rate** is the number of times per second the amplitude of an audio signal is measured. Shannon's[^shannon1949] sampling theorem establishes that a band-limited signal can be perfectly reconstructed provided the sampling rate is at least twice the highest frequency present. CD audio's standard rate of 44.1 kHz therefore captures frequencies up to 22.05 kHz, just above the ~20 kHz upper limit of typical human hearing. Higher rates (88.2 kHz, 96 kHz, 192 kHz) are used in professional and archival contexts.
 
 **Bit depth** determines the number of discrete amplitude levels available at each sample, directly controlling dynamic range. The standard formula for ideal N-bit PCM is approximately DR (dB) ≈ 6.02 × N + 1.76 dB, yielding roughly 96 dB for 16-bit and 144 dB for 24-bit audio. The International Association of Sound and Audiovisual Archives (IASA) recommends a minimum of 24-bit/48 kHz for archival captures of analogue source material.[^iasaNd]
 
@@ -57,7 +57,7 @@ Lossless audio file formats preserve every bit of the original recording. They a
 
 ## Perceptual differences
 
-For most casual listeners, a well-encoded lossy file at 256–320 kbps is indistinguishable from a lossless one under normal listening conditions. Meyer & Moran[^meyerMoran2007] conducted a year-long double-blind ABX study with professional engineers and audiophiles and found that CD-standard 16-bit/44.1 kHz processing was undetectable on high-end playback systems. A subsequent meta-analysis by Reiss[^reiss2016], however, found a "small but statistically significant ability" to discriminate high-resolution content — an effect that increased substantially with listener training. The practical implication is that the difference is real but requires trained ears, controlled conditions, and revealing source material to detect reliably.
+For most casual listeners, a well-encoded lossy file at 256–320 kbps is indistinguishable from a lossless one under normal listening conditions. Meyer & Moran[^meyerMoran2007] conducted a year-long double-blind ABX study with professional engineers and audiophiles and found that CD-standard 16-bit/44.1 kHz processing was undetectable on high-end playback systems. A subsequent meta-analysis by Reiss[^reiss2016], however, found a "small but statistically significant ability" to discriminate high-resolution content, an effect that increased substantially with listener training. The practical implication is that the difference is real but requires trained ears, controlled conditions, and revealing source material to detect reliably.
 
 ## Streaming services
 
@@ -74,7 +74,7 @@ Note: Tidal dropped support for MQA in July 2024 and now delivers lossless conte
 
 ## Bluetooth
 
-Regardless of the source file's quality, all standard Bluetooth audio codecs — including SBC, AAC, aptX, aptX HD, and LDAC — are lossy. LDAC at its maximum 990 kbps setting is the closest to transparent, but is still technically lossy.[^bluetoothSig2020] Qualcomm's [aptX Lossless](https://www.aptx.com/aptx-adaptive) claims true lossless CD-quality transmission over Bluetooth but requires compatible Qualcomm chipsets on both the transmitting and receiving device, and falls back to lossy compression under poor radio conditions. It is not widely available.
+Regardless of the source file's quality, all standard Bluetooth audio codecs, including SBC, AAC, aptX, aptX HD, and LDAC, are lossy. LDAC at its maximum 990 kbps setting is the closest to transparent, but is still technically lossy.[^bluetoothSig2020] Qualcomm's [aptX Lossless](https://www.aptx.com/aptx-adaptive) claims true lossless CD-quality transmission over Bluetooth but requires compatible Qualcomm chipsets on both the transmitting and receiving device, and falls back to lossy compression under poor radio conditions. It is not widely available.
 
 ## AirPlay
 

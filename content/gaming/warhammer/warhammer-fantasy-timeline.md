@@ -16,7 +16,7 @@ A game **edition** is a real-world publication period, not an in-world era. The 
 
 The earliest age of the Old World belongs to the **Old Ones**, an enigmatic and god-like race who arrived from the stars, terraformed the world of Mallus to suit their designs, and built two great **Polar Warp Gates** at the poles to traverse the void.[^whfantasytimeline] They are credited with raising the world's intelligent races, chief among them the **Slann**, the mage-priests of the Lizardmen, whom they tasked with maintaining the planet's geomantic order. The Old Ones also shaped the early Elves and Dwarfs and, by most accounts, guided the development of the other peoples who would later populate the world.
 
-Because the Slann kept the longest continuous records of any race, the naming of these primordial ages is conventionally attributed to them. This was a period of order and design rather than history in the usual sense — a world being deliberately made ready for a purpose its makers never lived to explain.
+Because the Slann kept the longest continuous records of any race, the naming of these primordial ages is conventionally attributed to them. This was a period of order and design rather than history in the usual sense, a world being deliberately made ready for a purpose its makers never lived to explain.
 
 ## The Great Catastrophe
 
@@ -28,7 +28,7 @@ The consequences were permanent. The collapse formed Morrslieb, the Chaos moon, 
 
 In the long recovery that followed, the **Elves** of Ulthuan and the **Dwarfs** of the Worlds Edge Mountains rose to become the great powers of the world.[^whfantasytimeline] The Elves built a maritime empire and, under their first and greatest king Aenarion, beat back the daemonic hordes; the Dwarfs delved an unbroken chain of mountain holds and forged an age of craftsmanship unmatched before or since. For a time the two peoples traded and prospered together in what later chroniclers regarded as a golden age.
 
-That age ended in the **Sundering**, a ruinous Elven civil war between the followers of the Phoenix King and those of Malekith, who sought the throne for himself. Defeated, Malekith and his followers — the Dark Elves, or Druchii — were driven across the ocean to the frozen land of Naggaroth, from which they have waged a war of vengeance against their kin ever since. The Sundering broke the Elves into rival nations and ended any possibility of a united elder-race front against the encroaching dark.
+That age ended in the **Sundering**, a ruinous Elven civil war between the followers of the Phoenix King and those of Malekith, who sought the throne for himself. Defeated, Malekith and his followers, the Dark Elves, or Druchii, were driven across the ocean to the frozen land of Naggaroth, from which they have waged a war of vengeance against their kin ever since. The Sundering broke the Elves into rival nations and ended any possibility of a united elder-race front against the encroaching dark.
 
 ## Nehekhara and the Rise of Nagash
 
@@ -46,13 +46,13 @@ The war's outcome reshaped the Old World. The Elves abandoned their colonies and
 
 That race was Mankind. Around the close of the negative-dated era, scattered and warring human tribes of the central Old World were united by **Sigmar**, a chieftain's son who, after rescuing a Dwarf king and earning the gift of the rune-hammer Ghal Maraz, forged an alliance with the Dwarfs and broke a massive greenskin invasion at the Battle of Black Fire Pass.[^whfantasytimeline] His coronation marks year 1 IC and the founding of the **Empire**, the human nation that anchors the setting.
 
-Sigmar ruled for fifty years, then laid down his crown and travelled east, never to be seen again; in time he was worshipped as a god, and the cult of Sigmar became the Empire's dominant faith. The Empire he left behind would spend the next two and a half thousand years defending the same ground against the same enemies — Chaos from the north, greenskins and Skaven from below, and the restless dead.
+Sigmar ruled for fifty years, then laid down his crown and travelled east, never to be seen again; in time he was worshipped as a god, and the cult of Sigmar became the Empire's dominant faith. The Empire he left behind would spend the next two and a half thousand years defending the same ground against the same enemies, namely Chaos from the north, greenskins and Skaven from below, and the restless dead.
 
 ## The Empire Besieged
 
 Imperial history is a chronicle of near-collapse and recovery rather than steady progress. The line of emperors fractured repeatedly, most severely during the Age of the Three Emperors, when rival claimants split the realm for centuries and the office of Emperor lost much of its authority. Plague, including a catastrophic outbreak engineered and exploited by the Skaven, depopulated whole provinces, and the Vampire Counts of Sylvania raised armies of the dead that more than once threatened the Empire's survival.[^whfantasytimeline]
 
-These trials matter because they explain the Empire's condition at the setting's "present." It is not an ascendant power but a battered, fractious confederation of provinces held together by faith, mutual threat, and the occasional exceptional leader. The recurring pattern — fragmentation followed by a unifier who buys another reprieve — is the rhythm of Imperial history right up to its final chapter.
+These trials matter because they explain the Empire's condition at the setting's "present." It is not an ascendant power but a battered, fractious confederation of provinces held together by faith, mutual threat, and the occasional exceptional leader. The recurring pattern, fragmentation followed by a unifier who buys another reprieve, is the rhythm of Imperial history right up to its final chapter.
 
 ## The Great War Against Chaos
 
@@ -68,7 +68,7 @@ The Storm of Chaos was originally presented as a canonical worldwide campaign, b
 
 ## The End Times
 
-The **End Times**, set between 2519 and 2528 IC and published in 2014–2015, are the apocalypse the setting had always promised.[^endtimes] Archaon returned at the head of a final, overwhelming Chaos onslaught; Nagash rose once more; and one by one the great powers of the world — the Empire, the Elf kingdoms, the Dwarf holds, the Lizardmen — were broken. The defenders' efforts only delayed the inevitable.
+The **End Times**, set between 2519 and 2528 IC and published in 2014–2015, are the apocalypse the setting had always promised.[^endtimes] Archaon returned at the head of a final, overwhelming Chaos onslaught; Nagash rose once more; and one by one the great powers of the world, among them the Empire, the Elf kingdoms, the Dwarf holds, and the Lizardmen, were broken. The defenders' efforts only delayed the inevitable.
 
 In the end the world of Mallus was destroyed outright, its surviving souls and fragments carried into a new cosmology. This concluded Warhammer Fantasy Battle as a setting; Games Workshop discontinued it in 2015 and replaced it with Age of Sigmar, set in the wholly new Mortal Realms rather than the Old World. The End Times are therefore both the climax of the Fantasy timeline and its terminus.
 

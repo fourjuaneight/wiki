@@ -9,9 +9,9 @@ tags:
   - security
 ---
 
-**File Transfer Protocol** (FTP) is a TCP/IP application-layer protocol for transferring files between a client and a server over a network. First defined in 1971 for ARPANET and formalized in RFC 959 in 1985, it remains one of the oldest internet protocols still in active use[^postelReynolds1985]. What distinguishes FTP architecturally from nearly every other application-layer protocol is its use of two separate TCP connections — one persistent channel for commands and one ephemeral channel for data — a design that proved elegant for its era but created lasting complications once firewalls and network address translation became ubiquitous.
+**File Transfer Protocol** (FTP) is a TCP/IP application-layer protocol for transferring files between a client and a server over a network. First defined in 1971 for ARPANET and formalized in RFC 959 in 1985, it remains one of the oldest internet protocols still in active use[^postelReynolds1985]. What distinguishes FTP architecturally from nearly every other application-layer protocol is its use of two separate TCP connections, one persistent channel for commands and one ephemeral channel for data, a design that proved elegant for its era but created lasting complications once firewalls and network address translation became ubiquitous.
 
-FTP's plaintext transmission of credentials and file contents, an acceptable trade-off on a small trusted network of academic hosts, became a structural liability as the internet scaled. Two secure successors address this gap from different directions: **FTPS** layers TLS encryption onto the existing FTP architecture, while **SFTP** (SSH File Transfer Protocol) replaces it entirely with a single encrypted channel built on SSH. Understanding how plain FTP works — its dual-channel model, its command and reply system, and why active mode breaks behind NAT — is prerequisite to understanding why those successors are designed the way they are.
+FTP's plaintext transmission of credentials and file contents, an acceptable trade-off on a small trusted network of academic hosts, became a structural liability as the internet scaled. Two secure successors address this gap from different directions: **FTPS** layers TLS encryption onto the existing FTP architecture, while **SFTP** (SSH File Transfer Protocol) replaces it entirely with a single encrypted channel built on SSH. Understanding how plain FTP works, its dual-channel model, its command and reply system, and why active mode breaks behind NAT, is prerequisite to understanding why those successors are designed the way they are.
 
 ## History and standardization
 
@@ -21,7 +21,7 @@ The canonical specification, **RFC 959**, was published in October 1985 by Poste
 
 ## Dual-channel architecture
 
-FTP's most defining characteristic is its use of two independent TCP connections, which Kurose and Ross describe as sending control information "out of band" relative to the data stream — a contrast with HTTP, which multiplexes commands and responses over a single connection[^kuroseRoss2017].
+FTP's most defining characteristic is its use of two independent TCP connections, which Kurose and Ross describe as sending control information "out of band" relative to the data stream, a contrast with HTTP, which multiplexes commands and responses over a single connection[^kuroseRoss2017].
 
 The **control connection** is opened by the client to the server's port 21 and remains alive for the full duration of the session. It carries FTP commands from client to server and numeric reply codes from server to client, formatted using the Telnet protocol specification. Because it stays open, the client can navigate directories, rename files, or check transfer status at any point without coordinating with an active data transfer.
 
@@ -31,7 +31,7 @@ FTP is a **stateful protocol**. Unlike HTTP, which treats each request independe
 
 ## Active and passive mode
 
-The mechanism by which the data connection is established — and the reason it became a persistent source of operational difficulty — is the distinction between active and passive mode.
+The mechanism by which the data connection is established, and the reason it became a persistent source of operational difficulty, is the distinction between active and passive mode.
 
 ### Active mode
 
@@ -43,7 +43,7 @@ This works cleanly when both endpoints have public, routable IP addresses. In mo
 
 Passive mode inverts the initiation responsibility. The client sends `PASV` (no arguments), and the server responds with reply code 227 and its own IP address plus an ephemeral listening port in the same six-octet format. The client then opens the data connection *to* that address and port. Because both the control and data connections are now initiated outbound from the client, they pass cleanly through client-side firewalls and NAT devices[^postelReynolds1985].
 
-RFC 2428 introduced the **Extended Passive Mode** command `EPSV` specifically for IPv6 compatibility[^rfc2428]. The `EPSV` response includes only a port number — not an IP address — and instructs the client to reuse the same IP address as the control connection. This avoids both the address-format limitations of the original `PASV` and the NAT translation issues that arise when a server reports its private IP in the `PASV` response.
+RFC 2428 introduced the **Extended Passive Mode** command `EPSV` specifically for IPv6 compatibility[^rfc2428]. The `EPSV` response includes only a port number, not an IP address, and instructs the client to reuse the same IP address as the control connection. This avoids both the address-format limitations of the original `PASV` and the NAT translation issues that arise when a server reports its private IP in the `PASV` response.
 
 The trade-off is that passive mode shifts the firewall burden to the server side: administrators must open a range of high-numbered ports to accept incoming data connections, and that range must be explicitly configured so that `PASV` responses advertise a reachable port.
 
@@ -53,7 +53,7 @@ RFC 959 defines more than 30 commands, divided into three functional groups[^pos
 
 **Access control commands** manage the session lifecycle and navigation: `USER` and `PASS` perform credential exchange, `CWD` and `CDUP` navigate the directory tree, and `QUIT` terminates the session cleanly.
 
-**Transfer parameter commands** configure how data will be moved. `PORT` and `PASV` set up the data connection as described above. `TYPE` selects the data representation — `A` for ASCII text (with line-ending translation), `I` for image/binary (raw bytes, no translation), and `E` for EBCDIC. `MODE` selects the transmission mode: stream (default, continuous byte stream), block (structured with headers), or compressed (run-length encoded). `STRU` sets the file structure to file, record, or page.
+**Transfer parameter commands** configure how data will be moved. `PORT` and `PASV` set up the data connection as described above. `TYPE` selects the data representation, with `A` for ASCII text (with line-ending translation), `I` for image/binary (raw bytes, no translation), and `E` for EBCDIC. `MODE` selects the transmission mode: stream (default, continuous byte stream), block (structured with headers), or compressed (run-length encoded). `STRU` sets the file structure to file, record, or page.
 
 **Service commands** perform file operations: `RETR` downloads a file, `STOR` uploads one, `APPE` appends to an existing file, `DELE` deletes a file, `MKD` and `RMD` create and remove directories, `PWD` reports the current directory, and `LIST` sends a directory listing over the data connection. RFC 959 specifies a minimum conforming implementation that must support at least `USER`, `QUIT`, `PORT`, `TYPE`, `MODE`, `STRU`, `RETR`, `STOR`, and `NOOP`[^postelReynolds1985].
 
@@ -96,7 +96,7 @@ The FTP login sequence is a two-step challenge-response: the client sends `USER 
 
 ## Security weaknesses
 
-FTP's security problems are architectural, not incidental — the protocol was designed before network security was a design consideration, and RFC 959's stated goals (file sharing, remote computer use, heterogeneous filesystem abstraction, reliable transfer) make no mention of confidentiality or integrity[^postelReynolds1985]. The consequences are severe and well-documented in RFC 2577[^allmanOstermann1999].
+FTP's security problems are architectural, not incidental; the protocol was designed before network security was a design consideration, and RFC 959's stated goals (file sharing, remote computer use, heterogeneous filesystem abstraction, reliable transfer) make no mention of confidentiality or integrity[^postelReynolds1985]. The consequences are severe and well-documented in RFC 2577[^allmanOstermann1999].
 
 The most fundamental vulnerability is **plaintext transmission**: usernames, passwords, and all transferred file data cross the network as readable text, fully visible to any observer with access to the path between client and server[^allmanOstermann1999][^dropbox2024][^fortinet].
 
@@ -112,11 +112,11 @@ Beyond passive eavesdropping, three structural attacks are worth noting:
 
 **FTPS** (FTP Secure) wraps FTP's existing protocol in TLS, preserving the dual-channel architecture and command vocabulary while encrypting both the control and data connections. The IETF-standardized form is *Explicit FTPS* (RFC 4217): the client opens a normal FTP connection on port 21 and then issues `AUTH TLS` to negotiate encryption before transmitting credentials[^fordHutchinson2005]. An older, non-standardized form called *Implicit FTPS* dedicates port 990 to mandatory TLS from the first byte of the connection.
 
-FTPS supports X.509 certificate-based server authentication and optional mutual authentication via client certificates. Its principal limitation is that TLS encryption defeats the firewall ALGs (application-layer gateways) that inspect FTP control-channel traffic to dynamically open passive data ports — because the commands are now encrypted, the ALG cannot read them. Organizations using FTPS must therefore configure passive port ranges explicitly on both server firewalls and load balancers[^fordHutchinson2005].
+FTPS supports X.509 certificate-based server authentication and optional mutual authentication via client certificates. Its principal limitation is that TLS encryption defeats the firewall ALGs (application-layer gateways) that inspect FTP control-channel traffic to dynamically open passive data ports; because the commands are now encrypted, the ALG cannot read them. Organizations using FTPS must therefore configure passive port ranges explicitly on both server firewalls and load balancers[^fordHutchinson2005].
 
 ### SFTP
 
-**SFTP** (SSH File Transfer Protocol) is not FTP tunneled over SSH. It is an independent protocol designed from scratch as an SSH subsystem, running over a *single encrypted connection on port 22*[^ylonenLonvick2006]. The dual-channel complexity of FTP is absent: commands, authentication, and data travel over the same SSH session. Authentication uses SSH mechanisms — public/private key pairs, encrypted passwords, or keyboard-interactive methods — and encryption is non-negotiable rather than opt-in. SFTP also supports remote file attribute manipulation and symbolic link operations that plain FTP lacks.
+**SFTP** (SSH File Transfer Protocol) is not FTP tunneled over SSH. It is an independent protocol designed from scratch as an SSH subsystem, running over a *single encrypted connection on port 22*[^ylonenLonvick2006]. The dual-channel complexity of FTP is absent: commands, authentication, and data travel over the same SSH session. Authentication uses SSH mechanisms, whether public/private key pairs, encrypted passwords, or keyboard-interactive methods, and encryption is non-negotiable rather than opt-in. SFTP also supports remote file attribute manipulation and symbolic link operations that plain FTP lacks.
 
 Notably, the SFTP specification never advanced beyond IETF Internet Draft status and was never published as a formal RFC, yet it has become the de facto standard for secure file transfer, implemented universally in tools like OpenSSH, WinSCP, and FileZilla[^dropbox2024].
 
@@ -133,9 +133,9 @@ The choice between FTPS and SFTP is largely contextual. FTPS integrates naturall
 
 ## Current status
 
-No major web browser supports plain FTP as of 2026. Chrome removed it in version 88 (January 2021), Firefox in version 90 (July 2021), and Edge followed Chromium's lead. The removals reflected both negligible usage — Firefox telemetry showed under 0.32% of active users ever accessing an FTP URL — and the impossibility of retrofitting FTP with browser-grade security guarantees[^dropbox2024].
+No major web browser supports plain FTP as of 2026. Chrome removed it in version 88 (January 2021), Firefox in version 90 (July 2021), and Edge followed Chromium's lead. The removals reflected both negligible usage, since Firefox telemetry showed under 0.32% of active users ever accessing an FTP URL, and the impossibility of retrofitting FTP with browser-grade security guarantees[^dropbox2024].
 
-FTP nonetheless persists in legacy systems across healthcare, finance, manufacturing, and government, where migration costs remain high and workflows were built around FTP decades ago. Web hosting providers continue to offer it alongside SFTP for site file management[^domantasG2025]. The broader file-transfer solution market — encompassing SFTP, FTPS, and managed file transfer platforms — was valued at approximately $0.55 billion in 2024 and is projected to reach $1.32 billion by 2033, though this growth is driven by secure variants and automation platforms rather than plain FTP[^businessResearchInsights2025].
+FTP nonetheless persists in legacy systems across healthcare, finance, manufacturing, and government, where migration costs remain high and workflows were built around FTP decades ago. Web hosting providers continue to offer it alongside SFTP for site file management[^domantasG2025]. The broader file-transfer solution market, encompassing SFTP, FTPS, and managed file transfer platforms, was valued at approximately $0.55 billion in 2024 and is projected to reach $1.32 billion by 2033, though this growth is driven by secure variants and automation platforms rather than plain FTP[^businessResearchInsights2025].
 
 Regulatory pressure accelerates the transition away from unencrypted FTP. Compliance frameworks including PCI DSS, HIPAA, and NIST SP 800-171 prohibit the unencrypted transmission of sensitive data, effectively ruling out plain FTP for any regulated use case.
 

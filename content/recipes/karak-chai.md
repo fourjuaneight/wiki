@@ -10,14 +10,14 @@ draft: false
 
 ## Ingredients
 
-- **1/2 teaspoon** cardamom
+- **2.5ml** cardamom
 - **3** whole cloves
 - **2** cinnamon stick
-- **3/4 teaspoon** ginger
-- **3 tablespoons** agave syrup
-- **6 tablespoons** evaporated milk
-- **2 cups** water
-- **6 tea bags** assam
+- **1ml** ginger
+- **45ml** agave syrup
+- **100ml** evaporated milk
+- **400ml** water
+- **13g** assam black tea
 
 ## Instructions
 

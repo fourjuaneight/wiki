@@ -15,9 +15,10 @@ draft: false
 - **2** cinnamon stick
 - **1ml** ginger
 - **45ml** agave syrup
-- **100ml** evaporated milk
+- **200ml** evaporated milk
+- **20ml** condensed milk
 - **400ml** water
-- **13g** assam black tea
+- **10g** assam black tea
 
 ## Instructions
 

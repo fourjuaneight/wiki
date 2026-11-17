@@ -17,6 +17,7 @@ draft: false
 - **1/3 cup** maple syrup
 - **1/4 teaspoon** cinnamon
 - **1/4 teaspoon** nutmeg
+- **1 tablespoons spoon** cocoa powder
 
 ## Instructions
 
